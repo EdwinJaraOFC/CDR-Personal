@@ -21,7 +21,7 @@ Observa que la solicitud cambió para reflejar el modo EXEC privilegiado.
 
 ### Examina la configuración actual del switch.
 Ingresa el comando show running-config.<br>
-Switch# show running-config<br><br>
+Switch# show running-config<br>
 
 Responde las siguientes preguntas:<br>
 
