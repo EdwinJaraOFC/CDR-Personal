@@ -47,6 +47,7 @@ Responde las siguientes preguntas:<br>
 ## Paso 2: Crea una configuración básica del switch
 ### Asigna un nombre a un switch.
 Para configurar los parámetros de un switch, quizá deba pasar por diversos modos de configuración. Observa cómo cambia la petición de entrada mientras navega por el switch.<br>
+
 Switch# configure terminal<br>
 Switch(config)# hostname S1<br>
 S1(config)# exit<br>
@@ -58,6 +59,7 @@ S1#<br>
 
 ### Proporciona acceso seguro a la línea de consola.
 Para proporcionar un acceso seguro a la línea de la consola, acceda al modo config-line y establezca la contraseña de consola en cesar.<br>
+
 S1# configure terminal<br>
 Enter configuration commands, one per line. End with CNTL/Z.<br>
 S1(config)# line console 0<br>
@@ -76,6 +78,7 @@ S1#<br>
 
 ### Verifica que el acceso a la consola sea seguro.
 Salimos del modo privilegiado para verificar que la contraseña del puerto de consola esté vigente.<br>
+
 S1# exit<br>
 Switch con0 is now available<br>
 Press RETURN to get started.<br>
@@ -89,6 +92,7 @@ S1><br>
 
 ### Proporciona un acceso seguro al modo privilegiado.
 Establece la contraseña de enable en jeka. Esta contraseña protege el acceso al modo privilegiado.<br>
+
 S1> enable<br>
 S1# configure terminal<br>
 S1(config)# enable password jeka<br>
@@ -118,6 +122,7 @@ Ten en cuenta que la consola y las contraseñas de activación están en texto p
 
 ### Configura una contraseña encriptada para proporcionar un acceso seguro al modo privilegiado.
 La contraseña de enable se debe reemplazar por una nueva contraseña secreta encriptada mediante el comando enable secret. Configura la contraseña de enable secret como itsasecret.<br>
+
 S1# config t<br>
 S1(config)# enable secret itsasecret<br>
 S1(config)# exit<br>
@@ -132,7 +137,9 @@ S1#<br>
 ### Verifica si la contraseña de enable secret se agregó al archivo de configuración.
 Introduce el comando show running-config nuevamente para verificar si la nueva contraseña de enable secret está configurada.<br>
 Nota: Puedes abreviar show running-config como<br>
+
 S1# show run<br>
+
 **¿Qué se muestra como contraseña de enable secret?**
 - $1$mERr$ILwq/b7kc.7X/ejA4Aosn0
 
@@ -159,6 +166,7 @@ Las contraseñas se mostrarán en forma cifrada debido a que el comando de confi
 ## Paso 3: Configure un aviso de MOTD
 ### Configura un aviso de mensaje del día (MOTD).
 El conjunto de comandos de Cisco IOS incluye una característica que permite configurar los mensajes que cualquier persona puede ver cuando inicia sesión en el switch. Estos mensajes se denominan “mensajes del día” o “avisos de MOTD”. Coloca el texto del mensaje en citas o utilizando un delimitador diferente a cualquier carácter que aparece en la cadena de MOTD.<br>
+
 S1# config t<br>
 S1(config)# banner motd "This is a secure system. Authorized Access Only!<br>
 S1(config)# exit<br>
