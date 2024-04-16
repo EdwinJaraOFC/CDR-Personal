@@ -152,6 +152,7 @@ S1# show run<br>
 
 ### Encripta las contraseñas de consola y de enable
 Como notó en el paso anterior, la contraseña enable secret estaba encriptada, pero las contraseñas enable y console todavía estaban en texto plano. Ahora encriptamos estas contraseñas de texto no cifrado con el comando service password-encryption.<br>
+
 S1# config t<br>
 S1(config)# service password-encryption<br>
 S1(config)# exit<br>
