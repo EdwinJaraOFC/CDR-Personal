@@ -15,7 +15,9 @@ Switch> enable
 Switch#
 Observa que la solicitud cambió para reflejar el modo EXEC privilegiado.
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/24614990-7837-4ef0-afab-32c05d799d33)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/24614990-7837-4ef0-afab-32c05d799d33">
+</p>
 
 ### Examina la configuración actual del switch.
 Ingresa el comando show running-config.
@@ -32,7 +34,9 @@ d) ¿Qué comando muestra el contenido actual de la memoria de acceso aleatorio 
 e) ¿Por qué el switch responde con "startup-config no está presente"?
 - Porque no hemos almacenado nada aún.
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/12bd29aa-a9fb-48be-9ed1-e45c66b05dbd)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/12bd29aa-a9fb-48be-9ed1-e45c66b05dbd">
+</p>
 
 ## Paso 2: Crea una configuración básica del switch
 ### Asigna un nombre a un switch.
@@ -42,7 +46,9 @@ Switch(config)# hostname S1
 S1(config)# exit
 S1#
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/953dafc5-74b2-4322-b42b-44665950e1a3)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/953dafc5-74b2-4322-b42b-44665950e1a3">
+</p>
 
 ### Proporciona acceso seguro a la línea de consola.
 Para proporcionar un acceso seguro a la línea de la consola, acceda al modo config-line y establezca la contraseña de consola en cesar.
@@ -56,7 +62,9 @@ S1(config)# exit
 %SYS-5-CONFIG_I: Configured from console by console
 S1#
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fa1c849e-dda8-412c-99cf-e183a5a9f13a)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fa1c849e-dda8-412c-99cf-e183a5a9f13a">
+</p>
 
 **¿Por qué se requiere el comando login?** Porque sin el login la contraseña no funciona.
 
@@ -69,7 +77,9 @@ User Access Verification
 Password:
 S1>
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cd165060-6e63-419b-aa0a-5ee094a573c0)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cd165060-6e63-419b-aa0a-5ee094a573c0">
+</p>
 
 ### Proporciona un acceso seguro al modo privilegiado.
 Establece la contraseña de enable en jeka. Esta contraseña protege el acceso al modo privilegiado.
@@ -80,7 +90,9 @@ S1(config)# exit
 %SYS-5-CONFIG_I: Configured from console by console
 S1#
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/46cf0678-2767-4890-9843-9ac9ec710193)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/46cf0678-2767-4890-9843-9ac9ec710193">
+</p>
 
 ### Verifica que el acceso al modo privilegiado sea seguro.
 1. Introduce el comando exit nuevamente para cerrar la sesión del switch.
@@ -94,7 +106,9 @@ Password:
 S1# show running-config
 Ten en cuenta que la consola y las contraseñas de activación están en texto plano. Esto podría suponer un riesgo para la seguridad si alguien está mirando por encima de su hombro u obtiene acceso a los archivos de configuración almacenados en una ubicación de copia de seguridad. 
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4957d964-bd5d-4a50-802e-b83b98245af3)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4957d964-bd5d-4a50-802e-b83b98245af3">
+</p>
 
 ### Configura una contraseña encriptada para proporcionar un acceso seguro al modo privilegiado.
 La contraseña de enable se debe reemplazar por una nueva contraseña secreta encriptada mediante el comando enable secret. Configura la contraseña de enable secret como itsasecret.
@@ -105,7 +119,9 @@ S1#
 
 **Nota:** La contraseña de enable secret sobrescribe la contraseña de enable password. Si ambos están configurados en el switch, debes ingresar la contraseña enable secret para ingresar al modo EXEC privilegiado. 
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/197a3630-058a-4739-9d03-4c6d643840e6)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/197a3630-058a-4739-9d03-4c6d643840e6">
+</p>
 
 ### Verifica si la contraseña de enable secret se agregó al archivo de configuración.
 Introduce el comando show running-config nuevamente para verificar si la nueva contraseña de enable secret está configurada.
@@ -116,7 +132,9 @@ $1$mERr$ILwq/b7kc.7X/ejA4Aosn0
 **¿Por qué la contraseña de enable secret se ve diferente de lo que se configuró?**
 Porque la contraseña está encriptada.
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b46c0eb5-4ce1-4a20-aea7-ac4f161adb26)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b46c0eb5-4ce1-4a20-aea7-ac4f161adb26">
+</p>
 
 ### Encripta las contraseñas de consola y de enable
 Como notó en el paso anterior, la contraseña enable secret estaba encriptada, pero las contraseñas enable y console todavía estaban en texto plano. Ahora encriptamos estas contraseñas de texto no cifrado con el comando service password-encryption.
@@ -124,7 +142,9 @@ S1# config t
 S1(config)# service password-encryption
 S1(config)# exit
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b8e033d4-819d-42af-8419-7fc24be685d4)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b8e033d4-819d-42af-8419-7fc24be685d4">
+</p>
 
 **Si configuras más contraseñas en el switch, ¿se mostrarán como texto no cifrado o en forma cifrada en el archivo de configuración? Explica.**
 Las contraseñas se mostrarán en forma cifrada debido a que el comando de configuración se ejecuta solo una vez y automáticamente encripta todas las contraseñas ingresadas.
@@ -138,7 +158,9 @@ S1(config)# exit
 %SYS-5-CONFIG_I: Configured from console by console
 S1#
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b5be9353-a147-40fc-abd0-ff68c032e7f6)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b5be9353-a147-40fc-abd0-ff68c032e7f6">
+</p>
 
 **¿Cuándo se muestra este aviso?**
 - Se muestra cuando quieres ingresar o iniciar sesión.
@@ -153,7 +175,9 @@ S1# copy running-config startup-config Destination filename [startup-config]?[En
 Building configuration…
 [OK]
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/77cdb4b5-a3a4-4680-8ce6-acbe609d633f)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/77cdb4b5-a3a4-4680-8ce6-acbe609d633f">
+</p>
 
 **¿Cuál es la versión abreviada más corta del comando copy running-config startup-config? Examine el archivo de configuración de inicio.¿Qué comando muestra el contenido de la NVRAM.**
 - La versión abreviada más corta del comando copy running-config es cop r st.
@@ -174,6 +198,10 @@ Configura el S2 con los siguientes parámetros:
 7. Guarda el archivo de configuración para evitar perderlo si el switch se apaga.
 8. Cierra la ventana de configuración para S2.
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9e73b9f6-be06-4824-85d6-ad2e6198b141)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9e73b9f6-be06-4824-85d6-ad2e6198b141">
+</p>
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4d1a7c57-dff3-4a5f-9e32-1336c1d6222f)
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4d1a7c57-dff3-4a5f-9e32-1336c1d6222f">
+</p>
