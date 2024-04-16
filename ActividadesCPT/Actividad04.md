@@ -106,7 +106,7 @@ S1#<br>
 
 ### Verifica que el acceso al modo privilegiado sea seguro.
 1. Introduce el comando exit nuevamente para cerrar la sesión del switch.
-2. Presiona ; a continuación, se le pedirá que introduzca una contraseña:
+2. Presiona Enter; a continuación, se le pedirá que introduzca una contraseña:
 User Access Verification
 Password:
 3. La primera contraseña es la contraseña de consola que configuró para line con 0. Introduzca esta contraseña para volver al modo EXEC del usuario.
