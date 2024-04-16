@@ -1,3 +1,12 @@
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Actividad 2: Implementación de una conectividad básica</h1>
+</p>
+
+## Tabla de direccionamiento
+
+![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/221dd40d-eb2a-4ea4-b5db-2210989b9c47)
+
 # 1 Realiza un configuracion basica de S1 y S2.
 ##  Colocar la contraseña de consola (checha)
 ![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297438/2e6868c2-a0dc-4ab6-ac34-3fb7bf36aa5f)
