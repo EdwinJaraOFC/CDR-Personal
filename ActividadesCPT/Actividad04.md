@@ -23,14 +23,19 @@ Observa que la solicitud cambió para reflejar el modo EXEC privilegiado.
 Ingresa el comando show running-config.
 Switch# show running-config
 Responde las siguientes preguntas:<br>
+
 a) ¿Cuántas interfaces Fast Ethernet tiene el switch?
 - 24 interfaces Fast Ethernet<br>
+
 b) ¿Cuántas interfaces Gigabit Ethernet tiene el switch?
 - 2 interfaces Gigabit Ethernet<br>
+
 c) ¿Cuál es el rango de valores que se muestra para las líneas vty?
 - De 0 a 15<br>
+
 d) ¿Qué comando muestra el contenido actual de la memoria de acceso aleatorio no volátil (NVRAM)? show star
 - show startup-config<br>
+
 e) ¿Por qué el switch responde con "startup-config no está presente"?
 - Porque no hemos almacenado nada aún.
 
