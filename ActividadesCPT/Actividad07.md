@@ -63,9 +63,7 @@ En la columna Capas de salida , haga clic en Capa 7 .
 
 - **¿Cuál es el destino? ¿Valor IP para la Capa 3 en la columna Capas de salida?** <br> En la Capa 3 el destino es 192.168.1.254
 
-- **¿Qué información se muestra en la Capa 2 en la columna Capas de salida?** <br> Nos muestra la **MAC de origen: 0060.47CA.4DEE** y la **MAC de destino: 0001.96A9.401D**.
-
-El encabezado Ethernet II de capa 2 y las direcciones MAC entrantes y salientes.
+- **¿Qué información se muestra en la Capa 2 en la columna Capas de salida?** <br> Nos muestra el encabezado Ethernet II de capa 2, la **MAC de origen: 0060.47CA.4DEE** y la **MAC de destino: 0001.96A9.401D**.
 
 c. Haz clic en la ficha de Detalles de la PDU saliente.
 La información que se indica debajo de Detalles de PDU refleja las capas dentro del modelo
