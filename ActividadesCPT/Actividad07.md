@@ -27,6 +27,7 @@ a. Haz clic en Cliente web en el panel del extremo izquierdo.
 b. Haz clic en la ficha Escritorio y luego en el ícono Navegador web para abrirlo.
 
 c. En el campo de dirección URL, introduce www.osi.local y haga clic en Ir.
+
   Debido a que el tiempo en el modo de simulación se desencadena por eventos, debes usar el botón Capturar/avanzar para mostrar los eventos de red. El botón de captura hacia adelante se encuentra en el lado izquierdo de la banda azul que está debajo de la ventana de topología. De los tres botones, es el de la derecha.
 
 d. Haz clic en Capturar/Avanzar cuatro veces. Deberías haber cuatro eventos en la Lista de eventos.
