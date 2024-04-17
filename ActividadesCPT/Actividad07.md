@@ -62,6 +62,7 @@ TCP/IP.
 </p>
 
 <p align="justify">
+  
 **Nota:** La información que se indica en la sección Ethernet II proporciona información aún más detallada que la que se indica en capa 2 en la ficha Modelo OSI. Los detalles de la PDU saliente proporcionan información más descriptiva y detallada. Los valores de MAC DE DEST. y de MAC DE ORIGEN en la sección Ethernet II de Detalles de PDU aparecen en la ficha Modelo OSI, en capa 2, pero no se los identifica como tales.
 
 - **¿Cuál es la información frecuente que se indica en la sección IP de detalles de PDU comparada con la información que se indica en la ficha Modelo OSI? ¿Con qué capa se relaciona?**
