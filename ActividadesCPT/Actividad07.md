@@ -9,14 +9,14 @@
 En la esquina inferior derecha de la interfaz de Packet Tracer, hay fichas que permiten alternar entre el modo Tiempo real y Simulación. El Packet Tracer siempre comienza en modo en tiempo real, donde los protocolos de red operan con temporizaciones realistas. Sin embargo, una función eficaz de Packet Tracer permite al usuario “detener el tiempo” conmutando al modo de simulación. En el modo de simulación, los paquetes se muestran como sobres animados, el tiempo es desencadenado por eventos y el usuario puede revisar los eventos de red.
 </p>
 
-1. Haz clic en el ícono del modo de Simulación para cambiar del modo de Tiempo real al
+a. Haz clic en el ícono del modo de Simulación para cambiar del modo de Tiempo real al
 modo de Simulación.
 
-2. Selecciona HTTP en Filtros de lista de eventos.
+b. Selecciona HTTP en Filtros de lista de eventos.
 
-2.1. Es posible que HTTP ya sea el único evento visible. Si es necesario, haz clic en el botón Editar filtros en la parte inferior del panel de simulación para mostrar los eventos visibles disponibles. Alterna la casilla de verificación Mostrar todo/ninguno y observa cómo las casillas de verificación se desactivan y se activan, o viceversa, según el estado actual.
+1. Es posible que HTTP ya sea el único evento visible. Si es necesario, haz clic en el botón Editar filtros en la parte inferior del panel de simulación para mostrar los eventos visibles disponibles. Alterna la casilla de verificación Mostrar todo/ninguno y observa cómo las casillas de verificación se desactivan y se activan, o viceversa, según el estado actual.
    
-2.2. Haz clic en la casilla de verificación Mostrar todo/ninguno hasta que se desactiven todas las casillas y luego selecciona HTTP. Haz clic en la X situada en la esquina superior derecha de la ventana para cerrar la ventana Editar filtros. Los eventos visibles ahora deben mostrar sólo HTTP.
+2. Haz clic en la casilla de verificación Mostrar todo/ninguno hasta que se desactiven todas las casillas y luego selecciona HTTP. Haz clic en la X situada en la esquina superior derecha de la ventana para cerrar la ventana Editar filtros. Los eventos visibles ahora deben mostrar sólo HTTP.
 
 ### Genera tráfico web (HTTP).
 Actualmente, el panel de simulación está vacío. En la parte superior de Lista de eventos dentro
