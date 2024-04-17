@@ -57,8 +57,8 @@ En la columna Capas de salida , haga clic en Capa 7 .
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3b349986-f113-45ea-8825-c7e0492640ec">
 </p>
 
-- **¿Qué información se indica en los pasos numerados directamente debajo de los cuadros
-Capas de entrada y Capas de salida?**
+- **¿Qué información se indica en los pasos numerados directamente debajo de los cuadros Capas de entrada y Capas de salida?**
+"El cliente HTTP envía una solicitud HTTP al servidor."
 
 - **¿Cuál es el valor del puerto Dst para la capa 4 en la columna Capas de salida?**
 
