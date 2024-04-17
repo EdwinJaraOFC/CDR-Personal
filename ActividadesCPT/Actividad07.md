@@ -28,7 +28,7 @@ b. Haz clic en la ficha Escritorio y luego en el ícono Navegador web para abrir
 
 c. En el campo de dirección URL, introduce www.osi.local y haga clic en Ir.
 
-  Debido a que el tiempo en el modo de simulación se desencadena por eventos, debes usar el botón Capturar/avanzar para mostrar los eventos de red. El botón de captura hacia adelante se encuentra en el lado izquierdo de la banda azul que está debajo de la ventana de topología. De los tres botones, es el de la derecha.
+Debido a que el tiempo en el modo de simulación se desencadena por eventos, debes usar el botón Capturar/avanzar para mostrar los eventos de red. El botón de captura hacia adelante se encuentra en el lado izquierdo de la banda azul que está debajo de la ventana de topología. De los tres botones, es el de la derecha.
 
 d. Haz clic en Capturar/Avanzar cuatro veces. Deberías haber cuatro eventos en la Lista de eventos.
 
@@ -36,50 +36,42 @@ d. Haz clic en Capturar/Avanzar cuatro veces. Deberías haber cuatro eventos en 
 </p>
 
 ### Explora el contenido del paquete HTTP
-a. Haz clic en el primer cuadro coloreado debajo de la columna Lista de eventos >
-Información. Quizá sea necesario expandir el panel de simulación o usar la barra de
-desplazamiento que se encuentra directamente debajo de la lista de eventos.
-Se muestra la ventana Información de PDU en dispositivo: cliente web. En esta ventana,
-solo hay dos fichas, (Modelo OSI y Detalles de PDU saliente), debido a que este es el inicio
-de la transmisión. A medida que se analizan más eventos, se muestran tres fichas, ya que se
-agrega la ficha Detalles de PDU entrante. Cuando un evento es el último evento de la
-transmisión de tráfico, solo se muestran las fichas Modelo OSI y Detalles de PDU entrante.
+
+<p align="justify">
+a. Haz clic en el primer cuadro coloreado debajo de la columna Lista de eventos > Información. Quizá sea necesario expandir el panel de simulación o usar la barra de desplazamiento que se encuentra directamente debajo de la lista de eventos.
+
+Se muestra la ventana Información de PDU en dispositivo: cliente web. En esta ventana, solo hay dos fichas, (Modelo OSI y Detalles de PDU saliente), debido a que este es el inicio de la transmisión. A medida que se analizan más eventos, se muestran tres fichas, ya que se agrega la ficha Detalles de PDU entrante. Cuando un evento es el último evento de la transmisión de tráfico, solo se muestran las fichas Modelo OSI y Detalles de PDU entrante.
+
 b. Asegúrate de que esté seleccionada la ficha Modelo OSI.
 En la columna Capas de salida , haga clic en Capa 7 .
-Preguntas:
-¿Qué información se indica en los pasos numerados directamente debajo de los cuadros
-Capas de entrada y Capas de salida?
-Escriba sus respuestas aquí.
-¿Cuál es el valor del puerto Dst para la capa 4 en la columna Capas de salida?
-Escriba sus respuestas aquí.
-¿Cuál es el destino? ¿ Valor IP para la Capa 3 en la columna Capas de salida ?
-Escriba sus respuestas aquí.
-¿Qué información se muestra en la Capa 2 en la columna Capas de salida?
-Escriba sus respuestas aquí.
+
+- **¿Qué información se indica en los pasos numerados directamente debajo de los cuadros
+Capas de entrada y Capas de salida?**
+
+- **¿Cuál es el valor del puerto Dst para la capa 4 en la columna Capas de salida?**
+
+- **¿Cuál es el destino? ¿ Valor IP para la Capa 3 en la columna Capas de salida?**
+
+- **¿Qué información se muestra en la Capa 2 en la columna Capas de salida?**
+
 El encabezado Ethernet II de capa 2 y las direcciones MAC entrantes y salientes.
+
 c. Haz clic en la ficha de Detalles de la PDU saliente.
 La información que se indica debajo de Detalles de PDU refleja las capas dentro del modelo
 TCP/IP.
+</p>
 
-Nota: La información que se indica en la sección Ethernet II proporciona información
-aún más detallada que la que se indica en capa 2 en la ficha Modelo OSI. Los detalles
-de la PDU saliente proporcionan información más descriptiva y detallada. Los valores de
-MAC DE DEST. y de MAC DE ORIGEN en la sección Ethernet II de Detalles de PDU
-aparecen en la ficha Modelo OSI, en capa 2, pero no se los identifica como tales.
-Preguntas:
-¿Cuál es la información frecuente que se indica en la sección IP de detalles de PDU
-comparada con la información que se indica en la ficha Modelo OSI? ¿Con qué capa se
-relaciona?
-Escriba sus respuestas aquí.
-¿Cuál es la información frecuente que se indica en la sección IP de Detalles de PDU
-comparada con la información que se indica en la ficha Modelo OSI?
-Escriba sus respuestas aquí.
-¿Cuál es el host que se indica en la sección HTTP de Detalles de PDU? ¿Con qué capa se
-relacionaría esta información en la ficha Modelo OSI?
-Escriba sus respuestas aquí.
-d. Haz clic en el primer cuadro coloreado debajo de la columna Lista de eventos >Tipo. Solo la
-capa 1 está activa (sin atenuar). El dispositivo mueve el frame desde el búfer y la coloca en
-la red.
+<p align="justify">
+**Nota:** La información que se indica en la sección Ethernet II proporciona información aún más detallada que la que se indica en capa 2 en la ficha Modelo OSI. Los detalles de la PDU saliente proporcionan información más descriptiva y detallada. Los valores de MAC DE DEST. y de MAC DE ORIGEN en la sección Ethernet II de Detalles de PDU aparecen en la ficha Modelo OSI, en capa 2, pero no se los identifica como tales.
+
+- **¿Cuál es la información frecuente que se indica en la sección IP de detalles de PDU comparada con la información que se indica en la ficha Modelo OSI? ¿Con qué capa se relaciona?**
+
+- **¿Cuál es la información frecuente que se indica en la sección IP de Detalles de PDU comparada con la información que se indica en la ficha Modelo OSI?**
+
+- **¿Cuál es el host que se indica en la sección HTTP de Detalles de PDU? ¿Con qué capa se relacionaría esta información en la ficha Modelo OSI?**
+
+d. Haz clic en el primer cuadro coloreado debajo de la columna Lista de eventos >Tipo. Solo la capa 1 está activa (sin atenuar). El dispositivo mueve el frame desde el búfer y la coloca en la red.
+
 e. Avanza al siguiente cuadro Tipo de HTTP dentro de la lista de eventos y haz clic en el
 cuadro coloreado. Esta ventana contiene las columnas Capas de entrada y Capas de
 salida. Observa la dirección de la flecha que está directamente debajo de la columna Capas
@@ -89,9 +81,12 @@ En la parte superior de la columna, la flecha apunta hacia la derecha. Esto indi
 servidor ahora envía la información de regreso al cliente. Compara la información que se
 muestra en la columna Capas de entrada con la de la columna Capas de salida: ¿cuáles
 son las diferencias principales?
+
 f. Haz clic en la ficha Inbound PDU Details (Detalles de PDU entrante). Revisa los detalles de
 la PDU.
+
 g. Haz clic en el último cuadro coloreado de la columna Información.Explica los resultados.
+</p>
 
 ## Paso 2: Mostrar elementos de la suite de protocolos TCP/IP
 ### Ver eventos adicionales
