@@ -91,52 +91,46 @@ g. Haz clic en el último cuadro coloreado de la columna Información.Explica lo
 
 ## Paso 2: Mostrar elementos de la suite de protocolos TCP/IP
 ### Ver eventos adicionales
+
+<p align="justify">
 a. Cierra todas las ventanas de información de PDU abiertas.
+
 b. En la sección Filtros de lista de eventos > Eventos visibles, haga clic en Mostrar todo.
-Pregunta:
-¿Qué tipos de eventos adicionales se muestran?
-Estas entradas adicionales cumplen diversas funciones dentro de la suite TCP/IP. El
-Protocolo de resolución de direcciones (ARP) solicita direcciones MAC para los hosts de
-destino. El protocolo DNS es responsable de convertir un nombre (por ejemplo,
-www.osi.local) a una dirección IP. Los eventos de TCP adicionales son responsables de la
-conexión, del acuerdo de los parámetros de comunicación y de la desconexión de las
-sesiones de comunicación entre los dispositivos.
-c. Haz clic en el primer evento de DNS en la columna Información. Examina las fichas Modelo
-OSI y Detalles de PDU, y observa el proceso de encapsulamiento. Al observar la ficha
-Modelo OSI con el cuadro capa 7 resaltado, se incluye una descripción de lo que ocurre, inmediatamente debajo de las Capas de entrada y las Capas de salida: (“1. The DNS client
-sends a DNS query to the DNS server.” [“El cliente DNS envía una consulta DNS al servidor
-DNS”]). Esta información es muy útil para ayudarte a comprender qué ocurre durante el
-proceso de comunicación.
+
+- **¿Qué tipos de eventos adicionales se muestran?**
+
+Estas entradas adicionales cumplen diversas funciones dentro de la suite TCP/IP. El Protocolo de resolución de direcciones (ARP) solicita direcciones MAC para los hosts de destino. El protocolo DNS es responsable de convertir un nombre (por ejemplo, www.osi.local) a una dirección IP. Los eventos de TCP adicionales son responsables de la conexión, del acuerdo de los parámetros de comunicación y de la desconexión de las sesiones de comunicación entre los dispositivos.
+
+c. Haz clic en el primer evento de DNS en la columna Información. Examina las fichas Modelo OSI y Detalles de PDU, y observa el proceso de encapsulamiento. Al observar la ficha Modelo OSI con el cuadro capa 7 resaltado, se incluye una descripción de lo que ocurre, inmediatamente debajo de las Capas de entrada y las Capas de salida: (“1. The DNS client sends a DNS query to the DNS server.” [“El cliente DNS envía una consulta DNS al servidor DNS”]). Esta información es muy útil para ayudarte a comprender qué ocurre durante el proceso de comunicación.
+
 d. Haz clic en la ficha de Detalles de la PDU saliente.
-Pregunta:
-¿Qué información se indica en NOMBRE: en la sección CONSULTA DNS?
+
+- **¿Qué información se indica en NOMBRE: en la sección CONSULTA DNS?**
+
 e. Haz clic en el último cuadro coloreado Información de DNS en la lista de eventos.
-Preguntas:
-¿En qué dispositivo se capturó la PDU?
-Escriba sus respuestas aquí.
-¿Cuál es el valor que se indica junto a DIRECCIÓN: en la sección RESPUESTA DE DNS de
-Detalles de la PDU entrante?
+
+- **¿En qué dispositivo se capturó la PDU?**
+
+- **¿Cuál es el valor que se indica junto a DIRECCIÓN: en la sección RESPUESTA DE DNS de Detalles de la PDU entrante?**
+
 f. Busca el primer evento de HTTP en la lista y haga clic en el cuadro coloreado del evento de
 TCP que le sigue inmediatamente a este evento. Resalte capa 4 en la ficha Modelo OSI.
-Pregunta:
-En la lista numerada que está directamente debajo de Capas de entrada y Capas de salida,
-¿cuál es la información que se muestra en los elementos 4 y 5?. El protocolo TCP administra
-la conexión y la desconexión del canal de comunicaciones, además de tener otras
-responsabilidades. Este evento específico muestra que SE ESTABLECIÓ el canal de
-comunicaciones.
+
+- En la lista numerada que está directamente debajo de Capas de entrada y Capas de salida, **¿cuál es la información que se muestra en los elementos 4 y 5?**. El protocolo TCP administra la conexión y la desconexión del canal de comunicaciones, además de tener otras responsabilidades. Este evento específico muestra que SE ESTABLECIÓ el canal de comunicaciones.
+
 g. Haz clic en el último evento de TCP. Resalte capa 4 en la ficha Modelo OSI. Examine los
 pasos que se indican directamente a continuación de Capas de entrada y Capas de salida.
-Pregunta:
-¿Cuál es el propósito de este evento, según la información proporcionada en el último
-elemento de la lista (debe ser el elemento 4)?
+
+- **¿Cuál es el propósito de este evento, según la información proporcionada en el último
+elemento de la lista (debe ser el elemento 4)?**
+</p>
 
 ## Preguntas
-En esta simulación, se proporcionó un ejemplo de una sesión web entre un cliente y un servidor
-en una red de área local (LAN). El cliente realiza solicitudes de servicios específicos que se
-ejecutan en el servidor. Se debe configurar el servidor para que escuche puertos específicos y
-detecte una solicitud de cliente. (Sugerencia: observe la capa 4 en la ficha Modelo OSI para
-obtener información del puerto).
-Sobre la base de la información que se analizó durante la captura de Packet Tracer, ¿qué
-número de puerto escucha el servidor web para detectar la solicitud web?
-Escriba sus respuestas aquí.
-¿Qué puerto escucha el servidor web para detectar una solicitud de DNS?
+
+<p align="justify">
+En esta simulación, se proporcionó un ejemplo de una sesión web entre un cliente y un servidor en una red de área local (LAN). El cliente realiza solicitudes de servicios específicos que se ejecutan en el servidor. Se debe configurar el servidor para que escuche puertos específicos y detecte una solicitud de cliente. (Sugerencia: observe la capa 4 en la ficha Modelo OSI para obtener información del puerto).
+
+- **Sobre la base de la información que se analizó durante la captura de Packet Tracer, ¿qué número de puerto escucha el servidor web para detectar la solicitud web?**
+
+- **¿Qué puerto escucha el servidor web para detectar una solicitud de DNS?**
+</p>
