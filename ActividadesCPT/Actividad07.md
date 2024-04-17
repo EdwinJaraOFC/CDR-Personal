@@ -57,14 +57,13 @@ En la columna Capas de salida , haga clic en Capa 7 .
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3b349986-f113-45ea-8825-c7e0492640ec">
 </p>
 
-- **¿Qué información se indica en los pasos numerados directamente debajo de los cuadros Capas de entrada y Capas de salida?**
-"El cliente HTTP envía una solicitud HTTP al servidor."
+- **¿Qué información se indica en los pasos numerados directamente debajo de los cuadros Capas de entrada y Capas de salida?** <br>"El cliente HTTP envía una solicitud HTTP al servidor."
 
-- **¿Cuál es el valor del puerto Dst para la capa 4 en la columna Capas de salida?**
+- **¿Cuál es el valor del puerto Dst para la capa 4 en la columna Capas de salida?** <br>Dst Port: 80
 
-- **¿Cuál es el destino? ¿ Valor IP para la Capa 3 en la columna Capas de salida?**
+- **¿Cuál es el destino? ¿Valor IP para la Capa 3 en la columna Capas de salida?** <br> En la Capa 3 el destino es 192.168.1.254
 
-- **¿Qué información se muestra en la Capa 2 en la columna Capas de salida?**
+- **¿Qué información se muestra en la Capa 2 en la columna Capas de salida?** <br> Nos muestra la **MAC de origen: 0060.47CA.4DEE** y la **MAC de destino: 0001.96A9.401D**.
 
 El encabezado Ethernet II de capa 2 y las direcciones MAC entrantes y salientes.
 
