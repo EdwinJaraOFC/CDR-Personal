@@ -54,7 +54,7 @@ b. Asegúrate de que esté seleccionada la ficha Modelo OSI.
 En la columna Capas de salida , haga clic en Capa 7 .
 
 <p align="center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/33a4308e-63bb-4637-b6a3-7efa2e1871f4">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3b349986-f113-45ea-8825-c7e0492640ec">
 </p>
 
 - **¿Qué información se indica en los pasos numerados directamente debajo de los cuadros
