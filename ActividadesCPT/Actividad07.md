@@ -39,6 +39,10 @@ d. Haz clic en Capturar/Avanzar cuatro veces. Deberías haber cuatro eventos en 
 **Observa la página del navegador web del cliente web. ¿Cambió algo?**
 </p>
 
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ca642b61-0ed1-4ba7-bfed-bf2c3b9f7fbb">
+</p>
+
 ### Explora el contenido del paquete HTTP
 
 <p align="justify">
