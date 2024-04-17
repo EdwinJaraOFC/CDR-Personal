@@ -8,8 +8,7 @@
 <p align="justify">
 En la esquina inferior derecha de la interfaz de Packet Tracer, hay fichas que permiten alternar entre el modo Tiempo real y Simulación. El Packet Tracer siempre comienza en modo en tiempo real, donde los protocolos de red operan con temporizaciones realistas. Sin embargo, una función eficaz de Packet Tracer permite al usuario “detener el tiempo” conmutando al modo de simulación. En el modo de simulación, los paquetes se muestran como sobres animados, el tiempo es desencadenado por eventos y el usuario puede revisar los eventos de red.
 
-a. Haz clic en el ícono del modo de Simulación para cambiar del modo de Tiempo real al
-modo de Simulación.
+a. Haz clic en el ícono del modo de Simulación para cambiar del modo de Tiempo real al modo de Simulación.
 
 b. Selecciona HTTP en Filtros de lista de eventos.
 
@@ -19,23 +18,20 @@ b. Selecciona HTTP en Filtros de lista de eventos.
 </p>
 
 ### Genera tráfico web (HTTP).
-Actualmente, el panel de simulación está vacío. En la parte superior de Lista de eventos dentro
-del panel de simulación, se indican cinco columnas. A medida que se genera y se revisa el
-tráfico, aparecen los eventos en la lista.
-Nota: el servidor web y el cliente web se muestran en el panel de la izquierda. Se puede ajustar
-el tamaño de los paneles manteniendo el mouse junto a la barra de desplazamiento y arrastrando
-a la izquierda o a la derecha cuando aparece la flecha de dos puntas.
+
+<p align="justify">
+Actualmente, el panel de simulación está vacío. En la parte superior de Lista de eventos dentro del panel de simulación, se indican cinco columnas. A medida que se genera y se revisa el tráfico, aparecen los eventos en la lista.
+
 a. Haz clic en Cliente web en el panel del extremo izquierdo.
+
 b. Haz clic en la ficha Escritorio y luego en el ícono Navegador web para abrirlo.
-c. En el campo de dirección URL, introduce www.osi.local y haga clic en Ir.
-Debido a que el tiempo en el modo de simulación se desencadena por eventos, debes usar
-el botón Capturar/avanzar para mostrar los eventos de red. El botón de captura hacia
-adelante se encuentra en el lado izquierdo de la banda azul que está debajo de la ventana de
-topología. De los tres botones, es el de la derecha.
-d. Haz clic en Capturar/Avanzar cuatro veces. Deberías haber cuatro eventos en la Lista de
-eventos.
-Pregunta:
-Observa la página del navegador web del cliente web. ¿Cambió algo?
+
+c. En el campo de dirección URL, introduce www.osi.local y haga clic en Ir.<br>Debido a que el tiempo en el modo de simulación se desencadena por eventos, debes usar el botón Capturar/avanzar para mostrar los eventos de red. El botón de captura hacia adelante se encuentra en el lado izquierdo de la banda azul que está debajo de la ventana de topología. De los tres botones, es el de la derecha.
+
+d. Haz clic en Capturar/Avanzar cuatro veces. Deberías haber cuatro eventos en la Lista de eventos.
+
+**Observa la página del navegador web del cliente web. ¿Cambió algo?**
+</p>
 
 ### Explora el contenido del paquete HTTP
 a. Haz clic en el primer cuadro coloreado debajo de la columna Lista de eventos >
