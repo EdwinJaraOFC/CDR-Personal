@@ -17,6 +17,10 @@ b. Selecciona HTTP en Filtros de lista de eventos.
 2. Haz clic en la casilla de verificación Mostrar todo/ninguno hasta que se desactiven todas las casillas y luego selecciona HTTP. Haz clic en la X situada en la esquina superior derecha de la ventana para cerrar la ventana Editar filtros. Los eventos visibles ahora deben mostrar sólo HTTP.
 </p>
 
+<p align="center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/08b1bc32-5a32-444a-a172-f3045f26509f">
+</p>
+
 ### Genera tráfico web (HTTP).
 
 <p align="justify">
