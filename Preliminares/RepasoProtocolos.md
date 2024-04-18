@@ -10,7 +10,7 @@
 | Un método de comunicación acordado | ¿Solo enviamos texto? ¿Enviamos y recibimos fotos? ¿Y los emoticones y emoji? | El protocolo debe proporcionar la flexibilidad necesaria para permitir el intercambio de diferentes tipos de mensajes sin una restricción predefinida sobre su contenido específico. |
 | Idioma y gramática común | ¿Usamos acrónimos? ¿Es aceptable el argot? ¿Cuál es el idioma materno de los participantes? | El protocolo no está obligado a que el emisor y receptor mantengan el mismo idioma o gramática. |
 | Velocidad y momento de entrega | ¿Qué determina con qué velocidad llega el mensaje al destinatario? ¿Con qué velocidad esperamos recibir una respuesta? | La velocidad de la entrega dependerá de la cantidad de solicitudes que se compartan a través del servidor. |
-| Requisitos de confirmación o acuse de recibo | ¿Cómo sabe que se recibió el mensaje? ¿Cómo sabe que la conversación terminó? | Es necesaria la notificación de recepción de mensajes una vez la solicitud de mensaje haya sido recibida por el emisor, la conversación no termina ya que siempre se mantiene abierta la conversación entre el emisor y el receptor. |
+| Requisitos de confirmación o acuse de recibo | ¿Cómo sabe que se recibió el mensaje? ¿Cómo sabe que la conversación terminó? | Un sistema automatizado que genere una notificación de recepción una vez que el mensaje haya sido procesado por el servidor del destinatario. |
 
 **Preguntas**
 
