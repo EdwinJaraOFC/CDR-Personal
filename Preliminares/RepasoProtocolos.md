@@ -1,0 +1,29 @@
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Actividad: Repaso de protocolos</h1>
+</p>
+
+
+|Requisito del protocolo|¿Qué significa esto?|¿Cómo se implementa en su protocolo?|
+|--|--|--|
+| Un emisor y un receptor identificados | ¿Cómo sabe de quién es el mensaje de texto? ¿Cómo sabe la persona en el otro extremo que usted recibió el mensaje? ¿Va dirigido a una persona o a un grupo? | En mensajería de texto, el emisor y el receptor generalmente se identifican por el número de teléfono, el nombre de usuario o el apodo. Los mensajes de texto se pueden enviar a un grupo predefinido o a grupos nuevos que se crean según la necesidad. |
+| Un método de comunicación acordado | ¿Solo enviamos texto? ¿Enviamos y recibimos fotos? ¿Y los emoticones y emoji? | Para la mensajería de texto el emisor y receptor no acuerdan qué tipo de mensaje van a enviar, la elección de cada mensaje es independiente del emisor y receptor. |
+| Idioma y gramática común | ¿Usamos acrónimos? ¿Es aceptable el argot? ¿Cuál es el idioma materno de los participantes? | El protocolo no está obligado a que el emisor y receptor mantengan el mismo idioma o gramática. |
+| Velocidad y momento de entrega | ¿Qué determina con qué velocidad llega el mensaje al destinatario? ¿Con qué velocidad esperamos recibir una respuesta? | La velocidad de la entrega dependerá de la cantidad de solicitudes que se compartan a través del servidor. |
+| Requisitos de confirmación o acuse de recibo | ¿Cómo sabe que se recibió el mensaje? ¿Cómo sabe que la conversación terminó? | Es necesaria la notificación de recepción de mensajes una vez la solicitud de mensaje haya sido recibida por el emisor, la conversación no termina ya que siempre se mantiene abierta la conversación entre el emisor y el receptor. |
+
+**Preguntas**
+
+1. Ahora que anotaste los protocolos que usan el enviar y leer mensajes de texto, ¿crees que estos
+protocolos serían los mismos si estuviera escribiendo a amigos que si estuviera escribiendo a
+sus padres o profesores?
+- Los protocolos utilizados al enviar y recibir mensajes de texto tienden a seguir estándares, independientemente del destinatario.
+
+2. ¿Cuáles crees que serían las consecuencias si no hubiera estándares de protocolo acordados
+para los diferentes métodos de comunicación?
+- Si los estándares de protocolo no estuvieran establecidos para los distintos métodos de comunicación, se generaría una situación en la que la comunicación no sería clara ni confiable, además de tener riesgos de seguridad, como el robo de información.
+
+3. Comparte las reglas de protocolo con tus compañeros de equipo. ¿Hay diferencias entre tus
+protocolos y los de ellos? Si es así, ¿podrían estas diferencias producir malentendidos de los
+mensajes?
+- Sí, hay ciertas diferencias entre nuestras reglas de protocolos. Considero que estás diferencias sí pueden producir malentendidos en los mensajes.
