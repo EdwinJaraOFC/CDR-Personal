@@ -17,7 +17,7 @@ Es un programa que abre una ventana y te permite interactuar con el shell.
 ### Iniciando en la terminal
 #### Probando el teclado
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ca0e116a-6519-49b6-8dc4-dbf5703aad3a)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d8f9f7e1-720d-400a-a7f7-c72671315ee4)
 
 ### Navegación
 #### Organización del sistema de archivos
@@ -30,16 +30,16 @@ Una diferencia importante entre Windows y los sistemas operativos tipo Unix, com
 #### pwd
 El directorio en el que nos encontramos se llama directorio de trabajo. Para ver el nombre del directorio de trabajo, usamos el comando pwd.
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2ff7ab5c-4947-410c-898b-d0ddd05f3b38)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8144620e-4374-455a-8770-719659c796fc)
 
 Cuando iniciamos sesión por primera vez en nuestro sistema Linux, el directorio de trabajo se configura en nuestro directorio de inicio. Aquí es donde guardamos nuestros archivos.
 
 Para enumerar los archivos en el directorio de trabajo, usamos el comando ls.
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/95eb5c73-fee2-442f-8852-40b0eba5fe7e)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/18a152f4-6b29-4f81-a449-1dd78e10dd12)
 
 #### cd
 Para cambiar el directorio de trabajo (donde estamos parados en el laberinto) usamos el comando cd. Para hacer esto, escribimos cd seguido de la ruta del directorio de trabajo deseado.
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e066585a-8fd2-42e4-b2ab-10c55bd176ad)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/583031f5-9e27-4c8a-b948-7e639572d063)
 
