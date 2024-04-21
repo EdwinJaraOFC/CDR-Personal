@@ -34,12 +34,61 @@ El directorio en el que nos encontramos se llama directorio de trabajo. Para ver
 
 Cuando iniciamos sesión por primera vez en nuestro sistema Linux, el directorio de trabajo se configura en nuestro directorio de inicio. Aquí es donde guardamos nuestros archivos.
 
-Para enumerar los archivos en el directorio de trabajo, usamos el comando ls.
-
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/18a152f4-6b29-4f81-a449-1dd78e10dd12)
-
 #### cd
 Para cambiar el directorio de trabajo (donde estamos parados en el laberinto) usamos el comando cd. Para hacer esto, escribimos cd seguido de la ruta del directorio de trabajo deseado.
 
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/583031f5-9e27-4c8a-b948-7e639572d063)
 
+#### ls
+Para enumerar los archivos en el directorio de trabajo, usamos el comando ls.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/18a152f4-6b29-4f81-a449-1dd78e10dd12)
+
+### Mirando alrededor
+#### ls -l
+Si usamos el -l opción con ls, obtendrá un archivo que enumera que contiene una gran cantidad de información sobre los archivos ser listado.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a37e64da-abb2-434d-a537-fd2f3849adb7)
+
+### Manipulando archivos
+#### mkdir
+Se utiliza el comando para crear directorios.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1e613b19-cadf-43bf-a69d-2f4114bc2745)
+
+#### rm
+El comando elimina archivos y directorios.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/07408ef4-8d7a-46e9-bd38-483b65aed659)
+
+### Trabajando con comandos
+#### help
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f653b49b-a1a0-4d40-98f4-22e86fdb65b4)
+
+### Redirección de Entrada/Salida
+#### Salida Estándar
+Para redirigir la salida estándar a un archivo, el carácter ">" se usa así:
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c4150af6-7495-418d-a39d-d107e00ee11b)
+
+Tener los nuevos resultados adjunto al archivo en su lugar, usamos ">>" como este:
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3ff43007-084d-43a9-b5c5-37f4cf86f0bd)
+
+#### Entrada Estándar
+Para redirigir la entrada estándar desde un archivo en lugar del teclado, el personaje "<" se usa así:
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7d5258f2-3eb5-438e-9220-931d8dec2ebd)
+
+Podríamos redirigir la salida estándar a otro archivo como este:
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d7e304f6-fae8-4f7e-b6b8-481739c24fb3)
+
+### Expansión
+Con la expansión, escribimos algo y se expande a otra cosa antes de que el caparazón actúe sobre ello. Para demostrar lo que queremos decir con esto, echemos un vistazo al comando echo.
+
+#### echo
+Imprime sus argumentos de texto en la salida estándar:
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c208bd3e-c570-4a15-ba18-70d529c1e4fb)
