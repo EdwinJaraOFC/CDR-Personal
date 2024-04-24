@@ -44,17 +44,17 @@ Cuando iniciamos sesión por primera vez en nuestro sistema Linux, el directorio
 Para cambiar el directorio de trabajo (donde estamos parados en el laberinto) usamos el comando cd. Para hacer esto, escribimos cd seguido de la ruta del directorio de trabajo deseado.
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/583031f5-9e27-4c8a-b948-7e639572d063">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/38d657d6-62c0-43e9-bc9a-bd9c3dde2c0f">
 </p>
 
+### Mirando alrededor
 #### ls
 Para enumerar los archivos en el directorio de trabajo, usamos el comando ls.
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/18a152f4-6b29-4f81-a449-1dd78e10dd12">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d0db67be-8596-4eac-a2ff-f7e683bfab01">
 </p>
 
-### Mirando alrededor
 #### ls -l
 Si usamos el -l opción con ls, obtendrá un archivo que enumera que contiene una gran cantidad de información sobre los archivos ser listado.
 
