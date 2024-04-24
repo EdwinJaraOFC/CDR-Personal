@@ -109,13 +109,6 @@ Se utiliza el comando para crear directorios.
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1e613b19-cadf-43bf-a69d-2f4114bc2745">
 </p>
 
-#### rm
-El comando elimina archivos y directorios.
-
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/07408ef4-8d7a-46e9-bd38-483b65aed659">
-</p>
-
 ### Trabajando con comandos
 #### help
 
