@@ -18,7 +18,7 @@ Es un programa que abre una ventana y te permite interactuar con el shell.
 #### Probando el teclado
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d8f9f7e1-720d-400a-a7f7-c72671315ee4">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ed713ad5-c821-40e6-aab5-8458a9810080">
 </p>
 
 ### Navegación
