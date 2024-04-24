@@ -123,8 +123,16 @@ Se utiliza el comando para crear directorios.
 #### type
 Muestra el tipo de comando que ejecutará el shell, dado un nombre de comando particular.
 
+<p align= "center">
+  <img src="">
+</p>
+
 #### which
 Determinar la ubicación exacta de un ejecutable determinado
+
+<p align= "center">
+  <img src="">
+</p>
 
 #### help
 Función de ayuda incorporada
@@ -133,8 +141,19 @@ Función de ayuda incorporada
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f653b49b-a1a0-4d40-98f4-22e86fdb65b4">
 </p>
 
+#### --help
+Muestra una descripción de la sintaxis y las opciones admitidas del comando.
+
+<p align= "center">
+  <img src="">
+</p>
+
 #### man
 Proporcionaa una documentación formal denominada manual o página de manual.
+
+<p align= "center">
+  <img src="">
+</p>
 
 ### Redirección de Entrada/Salida
 #### Salida Estándar
@@ -163,12 +182,155 @@ Podríamos redirigir la salida estándar a otro archivo como este:
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d7e304f6-fae8-4f7e-b6b8-481739c24fb3">
 </p>
 
-### Expansión
-Con la expansión, escribimos algo y se expande a otra cosa antes de que el caparazón actúe sobre ello. Para demostrar lo que queremos decir con esto, echemos un vistazo al comando echo.
+#### Pipelines
+Con las pipelines, la salida estándar de un comando se introduce en la entrada estándar de otro.
 
-#### echo
-Imprime sus argumentos de texto en la salida estándar:
+<p align= "center">
+  <img src="">
+</p>
+
+### Expansión
+Con la expansión, escribimos algo y se expande a otra cosa antes de que el caparazón actúe sobre ello. Para demostrar lo que queremos decir con esto, echemos un vistazo al comando echo: Imprime sus argumentos de texto en la salida estándar.
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c208bd3e-c570-4a15-ba18-70d529c1e4fb">
+</p>
+
+#### Expansión de nombre de ruta
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Expansión de tilde
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Expansión aritmética
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Expansión de llaves
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Expansión de parámetros
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Sustitución de comando
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Quoting
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Doble comillas
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Comillas simples
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Caracteres que escapan
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Más trucos de barra invertida
+
+<p align= "center">
+  <img src="">
+</p>
+
+### Permisos
+#### Permisos de archivos
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### chmod
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Permisos de directorio
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Convertirse en el superusuario por un corto tiempo
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Cambiar la propiedad del archivo
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Cambiar la propiedad del grupo
+
+<p align= "center">
+  <img src="">
+</p>
+
+### Control de Trabajo
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Un ejemplo práctico
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Poner un programa en segundo plano
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Listado de procesos en ejecución
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Matar un proceso
+
+<p align= "center">
+  <img src="">
+</p>
+
+#### Un poco más sobre "matar"
+
+<p align= "center">
+  <img src="">
 </p>
