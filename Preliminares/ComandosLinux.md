@@ -190,31 +190,41 @@ Con las pipelines, la salida estándar de un comando se introduce en la entrada 
 </p>
 
 ### Expansión
-Con la expansión, escribimos algo y se expande a otra cosa antes de que el caparazón actúe sobre ello. Para demostrar lo que queremos decir con esto, echemos un vistazo al comando echo: Imprime sus argumentos de texto en la salida estándar.
+Con la expansión, escribimos algo y se expande a otra cosa antes de que el caparazón actúe sobre ello. Para demostrar lo que queremos decir con esto, echemos un vistazo al comando **echo:** Imprime sus argumentos de texto en la salida estándar.
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c208bd3e-c570-4a15-ba18-70d529c1e4fb">
 </p>
 
 #### Expansión de nombre de ruta
+Mecanismo por el cual funcionan los comodines
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Expansión de tilde
+El carácter de tilde (“~”) tiene un significado especial, cuando se usa al principio de una palabra, se expande al nombre del directorio de inicio del usuario designado o, si no se nombra ningún usuario, al directorio de inicio del usuario actual.
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Expansión aritmética
+Permite realizar aritmética mediante expansión. Esto nos permite usar el símbolo del shell como calculadora. Tiene la forma "*$((expression))*".
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Expansión de llaves
+Podemos crear múltiples cadenas de texto a partir de un patrón que contenga llaves.
+
+<p align= "center">
+  <img src="">
+</p>
+
+Los patrones que se van a expandir entre llaves pueden contener una parte inicial llamada preámbulo y una parte final llamada posdata. La expresión de llave en sí puede contener una lista de cadenas separadas por comas o un rango de números enteros o caracteres individuales. Es posible que el patrón no contenga espacios en blanco incrustados.
 
 <p align= "center">
   <img src="">
