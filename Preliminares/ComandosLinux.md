@@ -85,6 +85,23 @@ Determina qué tipo de datos contiene un archivo.
 </p>
 
 ### Manipulando archivos
+#### cp
+Copia archivos y directorios. En su forma más simple, copia un único archivo.
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/bf3cceb7-4520-4493-9d95-c8c24aefb059)
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ecac9ba0-6ea4-4a9c-9866-e65187ec8adc)
+
+#### mv
+Mueve o cambia el nombre de archivos y directorios según cómo se utilice.
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/dcd7f385-5c90-4a95-9579-1b66533e7e76)
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/010bd20c-1122-4972-8f2b-3c92e7aea3ca)
+
+#### rm
+Elimina archivos y directorios.
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ce7401aa-4715-4131-90b0-1225bfb40bd9)
+
 #### mkdir
 Se utiliza el comando para crear directorios.
 
