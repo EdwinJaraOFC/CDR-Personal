@@ -108,11 +108,21 @@ Se utiliza el comando para crear directorios.
 ![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d4e98e5c-b074-4386-af03-2e7619516dc6)
 
 ### Trabajando con comandos
+#### type
+Muestra el tipo de comando que ejecutará el shell, dado un nombre de comando particular.
+
+#### which
+Determinar la ubicación exacta de un ejecutable determinado
+
 #### help
+Función de ayuda incorporada
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f653b49b-a1a0-4d40-98f4-22e86fdb65b4">
 </p>
+
+#### man
+Proporcionaa una documentación formal denominada manual o página de manual.
 
 ### Redirección de Entrada/Salida
 #### Salida Estándar
