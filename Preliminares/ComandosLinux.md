@@ -32,7 +32,7 @@ Al igual que Windows, los archivos en un sistema Linux están organizados en lo 
 Una diferencia importante entre Windows y los sistemas operativos tipo Unix, como Linux, es que Linux no emplea el concepto de letras de unidad. Mientras que las letras de las unidades de Windows dividen el sistema de archivos en una serie de árboles diferentes (uno para cada dispositivo), Linux siempre tiene un único árbol. Diferentes dispositivos de almacenamiento pueden ser diferentes ramas del árbol, pero siempre hay un solo árbol.
 
 #### pwd
-El directorio en el que nos encontramos se llama directorio de trabajo. Para ver el nombre del directorio de trabajo, usamos el comando pwd.
+Ver el nombre del directorio de trabajo.
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c6183c61-4452-4973-ab68-9502270c9bd4">
@@ -41,7 +41,7 @@ El directorio en el que nos encontramos se llama directorio de trabajo. Para ver
 Cuando iniciamos sesión por primera vez en nuestro sistema Linux, el directorio de trabajo se configura en nuestro directorio de inicio. Aquí es donde guardamos nuestros archivos.
 
 #### cd
-Para cambiar el directorio de trabajo (donde estamos parados en el laberinto) usamos el comando cd. Para hacer esto, escribimos cd seguido de la ruta del directorio de trabajo deseado.
+Cambiar el directorio de trabajo.
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/38d657d6-62c0-43e9-bc9a-bd9c3dde2c0f">
@@ -49,17 +49,39 @@ Para cambiar el directorio de trabajo (donde estamos parados en el laberinto) us
 
 ### Mirando alrededor
 #### ls
-Para enumerar los archivos en el directorio de trabajo, usamos el comando ls.
+Lista los archivos en el directorio de trabajo.
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d0db67be-8596-4eac-a2ff-f7e683bfab01">
 </p>
 
+#### ls /bin
+Enumera los archivos en el directorio /bin (o cualquier otro directorio que deseemos especificar)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/37f4f58c-eef8-4cde-85a8-f32950097e52">
+</p>
+
 #### ls -l
-Si usamos el -l opción con ls, obtendrá un archivo que enumera que contiene una gran cantidad de información sobre los archivos ser listado.
+Enumera los archivos en el directorio de trabajo en formato largo
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a37e64da-abb2-434d-a537-fd2f3849adb7">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/755f8247-5292-4629-9173-9d57b025c88e">
+</p>
+
+#### less
+Permite visualizar archivos de texto.
+
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c20e7025-ced3-4c2a-9414-d24ce3d596f0">
+</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e95d7b44-54b2-4b2b-a4ed-4ae3cb450ab3">
+</p>
+
+#### file
+Determina qué tipo de datos contiene un archivo.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/525ef421-bcf6-4317-a145-eb034cd8c219">
 </p>
 
 ### Manipulando archivos
