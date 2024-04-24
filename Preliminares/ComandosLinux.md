@@ -326,24 +326,29 @@ La propiedad del grupo de un archivo o directorio se puede cambiar con chgrp.
 
 ### Control de Trabajo
 #### Poner un programa en segundo plano
+Para hacernos la vida un poco más fácil, vamos a iniciar nuevamente el programa xload, pero esta vez lo pondremos en segundo plano para que vuelva a aparecer el mensaje. Para ello ejecutamos xload así:
+
+<p align= "center">
+  <img src="">
+</p>
+
+En este caso, el mensaje volvió porque el proceso se puso en segundo plano.
+
+Ahora imagina que nos olvidamos de usar el símbolo "&" para poner el programa en segundo plano. Aún hay esperanza. Podemos escribir Ctrl-z y el proceso quedará suspendido. Esto lo podemos comprobar viendo que la ventana del programa está congelada. El proceso todavía existe, pero está inactivo. Para reanudar el proceso en segundo plano, escriba el comando bg (abreviatura de fondo). Aquí hay un ejemplo:
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Listado de procesos en ejecución
+Ahora que tenemos un proceso en segundo plano, sería útil mostrar una lista de los procesos que hemos iniciado. Para hacer esto, podemos usar el comando jobs o el comando ps más poderoso.
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Matar un proceso
-
-<p align= "center">
-  <img src="">
-</p>
-
-#### Un poco más sobre "matar"
+Supongamos que tenemos un programa que deja de responder; ¿Cómo nos deshacemos de él? Usamos el comando matar, por supuesto. Probemos esto en xload. Primero, necesitamos identificar el proceso que queremos eliminar. Podemos usar jobs o ps para hacer esto. Si usamos trabajos, obtendremos un número de trabajo. Con ps, se nos proporciona una identificación de proceso (PID). Lo haremos de ambas maneras:
 
 <p align= "center">
   <img src="">
