@@ -35,7 +35,7 @@ Una diferencia importante entre Windows y los sistemas operativos tipo Unix, com
 El directorio en el que nos encontramos se llama directorio de trabajo. Para ver el nombre del directorio de trabajo, usamos el comando pwd.
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8144620e-4374-455a-8770-719659c796fc">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c6183c61-4452-4973-ab68-9502270c9bd4">
 </p>
 
 Cuando iniciamos sesión por primera vez en nuestro sistema Linux, el directorio de trabajo se configura en nuestro directorio de inicio. Aquí es donde guardamos nuestros archivos.
