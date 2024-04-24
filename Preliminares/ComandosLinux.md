@@ -231,42 +231,42 @@ Los patrones que se van a expandir entre llaves pueden contener una parte inicia
 </p>
 
 #### Expansión de parámetros
+Es una característica que es más útil en scripts de shell que directamente en la línea de comando. Muchas de sus capacidades tienen que ver con la capacidad del sistema para almacenar pequeños fragmentos de datos y darle un nombre a cada fragmento.
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Sustitución de comando
+Nos permite utilizar la salida de un comando como una expansión
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Quoting
+El shell proporciona un mecanismo llamado *quoting* para suprimir selectivamente expansiones no deseadas.
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Doble comillas
+Si colocamos texto entre comillas dobles, todos los caracteres especiales utilizados por el shell pierden su significado especial y se tratan como caracteres comunes. Las excepciones son “$”, “\” (barra invertida) y “`” (comillas invertidas). Esto significa que se suprimen la división de palabras, la expansión de nombres de rutas, la expansión de tildes y la expansión de llaves, pero aún se llevan a cabo la expansión de parámetros, la expansión aritmética y la sustitución de comandos.
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Comillas simples
+Cuando necesitamos suprimir todas las expansiones, utilizamos comillas simples.
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Caracteres que escapan
-
-<p align= "center">
-  <img src="">
-</p>
-
-#### Más trucos de barra invertida
+A veces sólo queremos citar un solo carácter. Para hacer esto, podemos anteponer un carácter con una barra invertida, que en este contexto se llama carácter de escape. A menudo esto se hace entre comillas dobles para evitar selectivamente una expansión.
 
 <p align= "center">
   <img src="">
@@ -274,53 +274,57 @@ Los patrones que se van a expandir entre llaves pueden contener una parte inicia
 
 ### Permisos
 #### Permisos de archivos
+En un sistema Linux, a cada archivo y directorio se le asignan derechos de acceso para el propietario del archivo, los miembros de un grupo de usuarios relacionados y todos los demás. Se pueden asignar derechos para leer un archivo, escribir un archivo y ejecutar un archivo (es decir, ejecutar el archivo como un programa).
+
+Para ver la configuración de permisos de un archivo, podemos usar el comando ls.
 
 <p align= "center">
   <img src="">
 </p>
 
 #### chmod
-
-<p align= "center">
-  <img src="">
-</p>
-
-#### Permisos de directorio
+Se utiliza para cambiar los permisos de un archivo o directorio. Para usarlo especificamos la configuración de permisos deseada y el archivo o archivos que deseamos modificar. Hay dos formas de especificar los permisos. Nos centraremos en uno de ellos, llamado método de notación octal.
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Convertirse en el superusuario por un corto tiempo
+A menudo es necesario convertirse en superusuario para realizar importantes tareas de administración del sistema, pero como sabemos, no debemos permanecer conectados como superusuario. En la mayoría de las distribuciones, existe un programa que puede brindarle acceso temporal a los privilegios de superusuario. Este programa se llama su (abreviatura de usuario sustituto) y puede usarse en aquellos casos en los que necesitas ser superusuario para una pequeña cantidad de tareas. Para convertirse en superusuario, simplemente escriba el comando su. Se le solicitará la contraseña de superusuario.
+
+<p align= "center">
+  <img src="">
+</p>
+
+En la mayoría de las distribuciones modernas, se utiliza un método alternativo. En lugar de utilizar su, estos sistemas emplean el comando sudo. Con sudo, a uno o más usuarios se les otorgan privilegios de superusuario según sea necesario. Para ejecutar un comando como superusuario, el comando deseado simplemente va precedido del comando sudo. Después de ingresar el comando, se le solicita al usuario su propia contraseña en lugar de la del superusuario.
+
+<p align= "center">
+  <img src="">
+</p>
+
+De hecho, las distribuciones modernas ni siquiera establecen la contraseña de la cuenta raíz, lo que hace imposible iniciar sesión como usuario raíz. Todavía es posible un shell raíz con sudo usando la opción "-i"
 
 <p align= "center">
   <img src="">
 </p>
 
 #### Cambiar la propiedad del archivo
+Podemos cambiar el propietario de un archivo usando el comando chown.
 
 <p align= "center">
   <img src="">
 </p>
 
+Tenga en cuenta que para cambiar el propietario de un archivo, debemos tener privilegios de superusuario. Para hacer esto, nuestro ejemplo empleó el comando sudo para ejecutar chown. chown funciona de la misma manera en directorios que en archivos.
+
 #### Cambiar la propiedad del grupo
+La propiedad del grupo de un archivo o directorio se puede cambiar con chgrp.
 
 <p align= "center">
   <img src="">
 </p>
 
 ### Control de Trabajo
-
-<p align= "center">
-  <img src="">
-</p>
-
-#### Un ejemplo práctico
-
-<p align= "center">
-  <img src="">
-</p>
-
 #### Poner un programa en segundo plano
 
 <p align= "center">
