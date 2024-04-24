@@ -105,9 +105,7 @@ Elimina archivos y directorios.
 #### mkdir
 Se utiliza el comando para crear directorios.
 
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1e613b19-cadf-43bf-a69d-2f4114bc2745">
-</p>
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d4e98e5c-b074-4386-af03-2e7619516dc6)
 
 ### Trabajando con comandos
 #### help
