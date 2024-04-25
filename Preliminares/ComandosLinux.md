@@ -9,7 +9,9 @@ Linux, como sistema operativo de tipo Unix, se utiliza ampliamente en servidores
 
 ## LinuxCommand.org
 ### Qué es el Shell?
+<p align="justify">
 Es un programa que toma comandos del teclado y se los da al sistema operativo para que los ejecute. Era la única interfaz de usuario disponible en un sistema tipo Unix como Linux. Hoy en día, tenemos interfaces gráficas de usuario (GUI) además de interfaces de línea de comandos (CLI), como el shell.
+</p>
 
 ### Qué es un terminal?
 Es un programa que abre una ventana y te permite interactuar con el shell.
@@ -23,13 +25,17 @@ Es un programa que abre una ventana y te permite interactuar con el shell.
 
 ### Navegación
 #### Organización del sistema de archivos
+<p align="justify">
 Al igual que Windows, los archivos en un sistema Linux están organizados en lo que se llama una estructura de directorios jerárquica. Esto significa que están organizados en un patrón de directorios en forma de árbol (llamados carpetas en otros sistemas), que pueden contener archivos y subdirectorios. El primer directorio del sistema de archivos se llama directorio raíz. El directorio raíz contiene archivos y subdirectorios, que contienen más archivos y subdirectorios, y así sucesivamente.
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b3cb7e4c-b7ad-49bb-ae82-05a15584ff09">
 </p>
 
+<p align="justify">
 Una diferencia importante entre Windows y los sistemas operativos tipo Unix, como Linux, es que Linux no emplea el concepto de letras de unidad. Mientras que las letras de las unidades de Windows dividen el sistema de archivos en una serie de árboles diferentes (uno para cada dispositivo), Linux siempre tiene un único árbol. Diferentes dispositivos de almacenamiento pueden ser diferentes ramas del árbol, pero siempre hay un solo árbol.
+</p>
 
 #### pwd
 Ver el nombre del directorio de trabajo.
@@ -38,7 +44,9 @@ Ver el nombre del directorio de trabajo.
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c6183c61-4452-4973-ab68-9502270c9bd4">
 </p>
 
+<p align="justify">
 Cuando iniciamos sesión por primera vez en nuestro sistema Linux, el directorio de trabajo se configura en nuestro directorio de inicio. Aquí es donde guardamos nuestros archivos.
+</p>
 
 #### cd
 Cambiar el directorio de trabajo.
@@ -59,13 +67,13 @@ Lista los archivos en el directorio de trabajo.
 </p>
 
 #### ls /bin
-Enumera los archivos en el directorio /bin (o cualquier otro directorio que deseemos especificar)
+Enumera los archivos en el directorio /bin (o cualquier otro directorio que deseemos especificar).
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/37f4f58c-eef8-4cde-85a8-f32950097e52">
 </p>
 
 #### ls -l
-Enumera los archivos en el directorio de trabajo en formato largo
+Enumera los archivos en el directorio de trabajo en formato largo.
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/755f8247-5292-4629-9173-9d57b025c88e">
@@ -131,14 +139,14 @@ Muestra el tipo de comando que ejecutará el shell, dado un nombre de comando pa
 </p>
 
 #### which
-Determinar la ubicación exacta de un ejecutable determinado
+Determina la ubicación exacta de un ejecutable determinado.
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e1914d9f-2078-44dd-aa48-bef8e7044d2d">
 </p>
 
 #### help
-Función de ayuda incorporada
+Función de ayuda incorporada.
 
 #### --help
 Muestra una descripción de la sintaxis y las opciones admitidas del comando.
@@ -195,7 +203,9 @@ Con las pipelines, la salida estándar de un comando se introduce en la entrada 
 </p>
 
 ### Expansión
+<p align="justify">
 Con la expansión, escribimos algo y se expande a otra cosa antes de que el caparazón actúe sobre ello. Para demostrar lo que queremos decir con esto, echemos un vistazo al comando **echo:** Imprime sus argumentos de texto en la salida estándar.
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/00caf455-2760-49fa-a5f6-5f684463f5a4">
@@ -209,7 +219,9 @@ Mecanismo por el cual funcionan los comodines
 </p>
 
 #### Expansión de tilde
+<p align="justify">
 El carácter de tilde (“~”) tiene un significado especial, cuando se usa al principio de una palabra, se expande al nombre del directorio de inicio del usuario designado o, si no se nombra ningún usuario, al directorio de inicio del usuario actual.
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d1683c9a-048b-4e28-8c91-d5706f89e57b">
@@ -229,10 +241,14 @@ Podemos crear múltiples cadenas de texto a partir de un patrón que contenga ll
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ce253c07-d8f9-4acb-9a4e-d14e221bbddb">
 </p>
 
+<p align="justify">
 Los patrones que se van a expandir entre llaves pueden contener una parte inicial llamada preámbulo y una parte final llamada posdata. La expresión de llave en sí puede contener una lista de cadenas separadas por comas o un rango de números enteros o caracteres individuales. Es posible que el patrón no contenga espacios en blanco incrustados.
+</p>
 
 #### Expansión de parámetros
+<p align="justify">
 Es una característica que es más útil en scripts de shell que directamente en la línea de comando. Muchas de sus capacidades tienen que ver con la capacidad del sistema para almacenar pequeños fragmentos de datos y darle un nombre a cada fragmento.
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5655ace3-20f5-48c0-bba4-e2d3dfb65f84">
@@ -253,7 +269,9 @@ El shell proporciona un mecanismo llamado *quoting* para suprimir selectivamente
 </p>
 
 #### Doble comillas
+<p align="justify">
 Si colocamos texto entre comillas dobles, todos los caracteres especiales utilizados por el shell pierden su significado especial y se tratan como caracteres comunes. Las excepciones son “$”, “\” (barra invertida) y “`” (comillas invertidas). Esto significa que se suprimen la división de palabras, la expansión de nombres de rutas, la expansión de tildes y la expansión de llaves, pero aún se llevan a cabo la expansión de parámetros, la expansión aritmética y la sustitución de comandos.
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3a3ee5f0-086f-4fc5-a523-55dd7be52cad">
@@ -267,7 +285,9 @@ Cuando necesitamos suprimir todas las expansiones, utilizamos comillas simples.
 </p>
 
 #### Caracteres que escapan
+<p align="justify">
 A veces sólo queremos citar un solo carácter. Para hacer esto, podemos anteponer un carácter con una barra invertida, que en este contexto se llama carácter de escape. A menudo esto se hace entre comillas dobles para evitar selectivamente una expansión.
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/59feaa8a-89fa-420a-8410-82decbacae0a">
@@ -275,17 +295,20 @@ A veces sólo queremos citar un solo carácter. Para hacer esto, podemos antepon
 
 ### Permisos
 #### Permisos de archivos
+<p align="justify">
 En un sistema Linux, a cada archivo y directorio se le asignan derechos de acceso para el propietario del archivo, los miembros de un grupo de usuarios relacionados y todos los demás. Se pueden asignar derechos para leer un archivo, escribir un archivo y ejecutar un archivo (es decir, ejecutar el archivo como un programa).
+</p>
 
 Para ver la configuración de permisos de un archivo, podemos usar el comando ls.
-
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e176f546-ecc1-4b1c-851c-101c7818ea15">
 </p>
 
 ### Control de Trabajo
 #### Poner un programa en segundo plano
+<p align="justify">
 Para hacernos la vida un poco más fácil, vamos a iniciar nuevamente el programa xload, pero esta vez lo pondremos en segundo plano para que vuelva a aparecer el mensaje. Para ello ejecutamos xload así:
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f8743b16-15f4-45f8-b4fd-59256fbdaa17">
@@ -293,21 +316,27 @@ Para hacernos la vida un poco más fácil, vamos a iniciar nuevamente el program
 
 En este caso, el mensaje volvió porque el proceso se puso en segundo plano.
 
+<p align="justify">
 Ahora imagina que nos olvidamos de usar el símbolo "&" para poner el programa en segundo plano. Aún hay esperanza. Podemos escribir Ctrl-z y el proceso quedará suspendido. Esto lo podemos comprobar viendo que la ventana del programa está congelada. El proceso todavía existe, pero está inactivo. Para reanudar el proceso en segundo plano, escriba el comando bg (abreviatura de fondo). Aquí hay un ejemplo:
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a10ec6f4-2a05-42e2-bb7d-4511059bef08">
 </p>
 
 #### Listado de procesos en ejecución
+<p align="justify">
 Ahora que tenemos un proceso en segundo plano, sería útil mostrar una lista de los procesos que hemos iniciado. Para hacer esto, podemos usar el comando jobs o el comando ps más poderoso.
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/18cda6b3-ca18-4470-849f-27f605fabf48">
 </p>
 
 #### Matar un proceso
+<p align="justify">
 Supongamos que tenemos un programa que deja de responder; ¿Cómo nos deshacemos de él? Usamos el comando matar, por supuesto. Probemos esto en xload. Primero, necesitamos identificar el proceso que queremos eliminar. Podemos usar jobs o ps para hacer esto. Si usamos trabajos, obtendremos un número de trabajo. Con ps, se nos proporciona una identificación de proceso (PID). Lo haremos de ambas maneras:
+</p>
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f502322e-1a43-4d4a-9b0b-c7e5aebe1c57">
