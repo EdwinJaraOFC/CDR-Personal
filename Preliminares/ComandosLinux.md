@@ -47,6 +47,8 @@ Cambiar el directorio de trabajo.
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/38d657d6-62c0-43e9-bc9a-bd9c3dde2c0f">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/07e549a4-451d-4da1-8ab6-35977785af1d)
+
 ### Mirando alrededor
 #### ls
 Lista los archivos en el directorio de trabajo.
