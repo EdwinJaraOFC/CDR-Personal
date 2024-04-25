@@ -129,12 +129,16 @@ Muestra el tipo de comando que ejecutará el shell, dado un nombre de comando pa
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f2a5bb08-2688-4b98-a769-fdb803594a1c)
+
 #### which
 Determinar la ubicación exacta de un ejecutable determinado
 
 <p align= "center">
   <img src="">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e1914d9f-2078-44dd-aa48-bef8e7044d2d)
 
 #### help
 Función de ayuda incorporada
@@ -150,12 +154,17 @@ Muestra una descripción de la sintaxis y las opciones admitidas del comando.
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/beabd71e-31f8-40fb-be03-f709b632742f)
+
 #### man
 Proporcionaa una documentación formal denominada manual o página de manual.
 
 <p align= "center">
   <img src="">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/31cee8e1-747d-4beb-8d8c-de4b91d62c46)
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a9f713d2-bc1f-4a84-8c31-f8798517e444)
 
 ### Redirección de Entrada/Salida
 #### Salida Estándar
@@ -165,11 +174,15 @@ Para redirigir la salida estándar a un archivo, el carácter ">" se usa así:
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c4150af6-7495-418d-a39d-d107e00ee11b">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/158d1649-e14e-4469-a824-028cdf9a1027)
+
 Tener los nuevos resultados adjunto al archivo en su lugar, usamos ">>" como este:
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3ff43007-084d-43a9-b5c5-37f4cf86f0bd">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/214d1b45-74e9-46da-a35d-43aa8f84ffc7)
 
 #### Entrada Estándar
 Para redirigir la entrada estándar desde un archivo en lugar del teclado, el personaje "<" se usa así:
@@ -178,11 +191,15 @@ Para redirigir la entrada estándar desde un archivo en lugar del teclado, el pe
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7d5258f2-3eb5-438e-9220-931d8dec2ebd">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a9736a81-32c1-4e25-a533-336b84fb4f86)
+
 Podríamos redirigir la salida estándar a otro archivo como este:
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d7e304f6-fae8-4f7e-b6b8-481739c24fb3">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/26cc638c-ef85-444b-9b9a-2a7e0818705a)
 
 #### Pipelines
 Con las pipelines, la salida estándar de un comando se introduce en la entrada estándar de otro.
@@ -191,12 +208,17 @@ Con las pipelines, la salida estándar de un comando se introduce en la entrada 
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/aa3be459-f20d-4e00-adaf-7875472858f4)
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/45caa345-94ce-423d-add0-d2ce89c69ce9)
+
 ### Expansión
 Con la expansión, escribimos algo y se expande a otra cosa antes de que el caparazón actúe sobre ello. Para demostrar lo que queremos decir con esto, echemos un vistazo al comando **echo:** Imprime sus argumentos de texto en la salida estándar.
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c208bd3e-c570-4a15-ba18-70d529c1e4fb">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/00caf455-2760-49fa-a5f6-5f684463f5a4)
 
 #### Expansión de nombre de ruta
 Mecanismo por el cual funcionan los comodines
@@ -205,12 +227,16 @@ Mecanismo por el cual funcionan los comodines
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2aec919b-5806-477a-9c69-62b318e0c77b)
+
 #### Expansión de tilde
 El carácter de tilde (“~”) tiene un significado especial, cuando se usa al principio de una palabra, se expande al nombre del directorio de inicio del usuario designado o, si no se nombra ningún usuario, al directorio de inicio del usuario actual.
 
 <p align= "center">
   <img src="">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d1683c9a-048b-4e28-8c91-d5706f89e57b)
 
 #### Expansión aritmética
 Permite realizar aritmética mediante expansión. Esto nos permite usar el símbolo del shell como calculadora. Tiene la forma "*$((expression))*".
@@ -219,6 +245,8 @@ Permite realizar aritmética mediante expansión. Esto nos permite usar el símb
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d09cd407-adbf-4c4b-9f7d-22d7e5c6527e)
+
 #### Expansión de llaves
 Podemos crear múltiples cadenas de texto a partir de un patrón que contenga llaves.
 
@@ -226,11 +254,9 @@ Podemos crear múltiples cadenas de texto a partir de un patrón que contenga ll
   <img src="">
 </p>
 
-Los patrones que se van a expandir entre llaves pueden contener una parte inicial llamada preámbulo y una parte final llamada posdata. La expresión de llave en sí puede contener una lista de cadenas separadas por comas o un rango de números enteros o caracteres individuales. Es posible que el patrón no contenga espacios en blanco incrustados.
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ce253c07-d8f9-4acb-9a4e-d14e221bbddb)
 
-<p align= "center">
-  <img src="">
-</p>
+Los patrones que se van a expandir entre llaves pueden contener una parte inicial llamada preámbulo y una parte final llamada posdata. La expresión de llave en sí puede contener una lista de cadenas separadas por comas o un rango de números enteros o caracteres individuales. Es posible que el patrón no contenga espacios en blanco incrustados.
 
 #### Expansión de parámetros
 Es una característica que es más útil en scripts de shell que directamente en la línea de comando. Muchas de sus capacidades tienen que ver con la capacidad del sistema para almacenar pequeños fragmentos de datos y darle un nombre a cada fragmento.
@@ -239,12 +265,16 @@ Es una característica que es más útil en scripts de shell que directamente en
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5655ace3-20f5-48c0-bba4-e2d3dfb65f84)
+
 #### Sustitución de comando
 Nos permite utilizar la salida de un comando como una expansión
 
 <p align= "center">
   <img src="">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/be992420-6115-4861-a8ac-87827cdefd24)
 
 #### Quoting
 El shell proporciona un mecanismo llamado *quoting* para suprimir selectivamente expansiones no deseadas.
@@ -253,12 +283,16 @@ El shell proporciona un mecanismo llamado *quoting* para suprimir selectivamente
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f048299e-4275-4733-be28-5a5fd34ed358)
+
 #### Doble comillas
 Si colocamos texto entre comillas dobles, todos los caracteres especiales utilizados por el shell pierden su significado especial y se tratan como caracteres comunes. Las excepciones son “$”, “\” (barra invertida) y “`” (comillas invertidas). Esto significa que se suprimen la división de palabras, la expansión de nombres de rutas, la expansión de tildes y la expansión de llaves, pero aún se llevan a cabo la expansión de parámetros, la expansión aritmética y la sustitución de comandos.
 
 <p align= "center">
   <img src="">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3a3ee5f0-086f-4fc5-a523-55dd7be52cad)
 
 #### Comillas simples
 Cuando necesitamos suprimir todas las expansiones, utilizamos comillas simples.
@@ -267,12 +301,16 @@ Cuando necesitamos suprimir todas las expansiones, utilizamos comillas simples.
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e9567e6d-180a-4c89-bff6-83e896f989a4)
+
 #### Caracteres que escapan
 A veces sólo queremos citar un solo carácter. Para hacer esto, podemos anteponer un carácter con una barra invertida, que en este contexto se llama carácter de escape. A menudo esto se hace entre comillas dobles para evitar selectivamente una expansión.
 
 <p align= "center">
   <img src="">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/59feaa8a-89fa-420a-8410-82decbacae0a)
 
 ### Permisos
 #### Permisos de archivos
@@ -284,47 +322,7 @@ Para ver la configuración de permisos de un archivo, podemos usar el comando ls
   <img src="">
 </p>
 
-#### chmod
-Se utiliza para cambiar los permisos de un archivo o directorio. Para usarlo especificamos la configuración de permisos deseada y el archivo o archivos que deseamos modificar. Hay dos formas de especificar los permisos. Nos centraremos en uno de ellos, llamado método de notación octal.
-
-<p align= "center">
-  <img src="">
-</p>
-
-#### Convertirse en el superusuario por un corto tiempo
-A menudo es necesario convertirse en superusuario para realizar importantes tareas de administración del sistema, pero como sabemos, no debemos permanecer conectados como superusuario. En la mayoría de las distribuciones, existe un programa que puede brindarle acceso temporal a los privilegios de superusuario. Este programa se llama su (abreviatura de usuario sustituto) y puede usarse en aquellos casos en los que necesitas ser superusuario para una pequeña cantidad de tareas. Para convertirse en superusuario, simplemente escriba el comando su. Se le solicitará la contraseña de superusuario.
-
-<p align= "center">
-  <img src="">
-</p>
-
-En la mayoría de las distribuciones modernas, se utiliza un método alternativo. En lugar de utilizar su, estos sistemas emplean el comando sudo. Con sudo, a uno o más usuarios se les otorgan privilegios de superusuario según sea necesario. Para ejecutar un comando como superusuario, el comando deseado simplemente va precedido del comando sudo. Después de ingresar el comando, se le solicita al usuario su propia contraseña en lugar de la del superusuario.
-
-<p align= "center">
-  <img src="">
-</p>
-
-De hecho, las distribuciones modernas ni siquiera establecen la contraseña de la cuenta raíz, lo que hace imposible iniciar sesión como usuario raíz. Todavía es posible un shell raíz con sudo usando la opción "-i"
-
-<p align= "center">
-  <img src="">
-</p>
-
-#### Cambiar la propiedad del archivo
-Podemos cambiar el propietario de un archivo usando el comando chown.
-
-<p align= "center">
-  <img src="">
-</p>
-
-Tenga en cuenta que para cambiar el propietario de un archivo, debemos tener privilegios de superusuario. Para hacer esto, nuestro ejemplo empleó el comando sudo para ejecutar chown. chown funciona de la misma manera en directorios que en archivos.
-
-#### Cambiar la propiedad del grupo
-La propiedad del grupo de un archivo o directorio se puede cambiar con chgrp.
-
-<p align= "center">
-  <img src="">
-</p>
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e176f546-ecc1-4b1c-851c-101c7818ea15)
 
 ### Control de Trabajo
 #### Poner un programa en segundo plano
@@ -334,6 +332,8 @@ Para hacernos la vida un poco más fácil, vamos a iniciar nuevamente el program
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f8743b16-15f4-45f8-b4fd-59256fbdaa17)
+
 En este caso, el mensaje volvió porque el proceso se puso en segundo plano.
 
 Ahora imagina que nos olvidamos de usar el símbolo "&" para poner el programa en segundo plano. Aún hay esperanza. Podemos escribir Ctrl-z y el proceso quedará suspendido. Esto lo podemos comprobar viendo que la ventana del programa está congelada. El proceso todavía existe, pero está inactivo. Para reanudar el proceso en segundo plano, escriba el comando bg (abreviatura de fondo). Aquí hay un ejemplo:
@@ -342,6 +342,8 @@ Ahora imagina que nos olvidamos de usar el símbolo "&" para poner el programa e
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a10ec6f4-2a05-42e2-bb7d-4511059bef08)
+
 #### Listado de procesos en ejecución
 Ahora que tenemos un proceso en segundo plano, sería útil mostrar una lista de los procesos que hemos iniciado. Para hacer esto, podemos usar el comando jobs o el comando ps más poderoso.
 
@@ -349,9 +351,13 @@ Ahora que tenemos un proceso en segundo plano, sería útil mostrar una lista de
   <img src="">
 </p>
 
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/18cda6b3-ca18-4470-849f-27f605fabf48)
+
 #### Matar un proceso
 Supongamos que tenemos un programa que deja de responder; ¿Cómo nos deshacemos de él? Usamos el comando matar, por supuesto. Probemos esto en xload. Primero, necesitamos identificar el proceso que queremos eliminar. Podemos usar jobs o ps para hacer esto. Si usamos trabajos, obtendremos un número de trabajo. Con ps, se nos proporciona una identificación de proceso (PID). Lo haremos de ambas maneras:
 
 <p align= "center">
   <img src="">
 </p>
+
+![imagen](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f502322e-1a43-4d4a-9b0b-c7e5aebe1c57)
