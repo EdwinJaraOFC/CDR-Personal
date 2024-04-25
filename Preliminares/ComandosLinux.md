@@ -140,10 +140,6 @@ Determinar la ubicación exacta de un ejecutable determinado
 #### help
 Función de ayuda incorporada
 
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f653b49b-a1a0-4d40-98f4-22e86fdb65b4">
-</p>
-
 #### --help
 Muestra una descripción de la sintaxis y las opciones admitidas del comando.
 
@@ -166,17 +162,11 @@ Proporcionaa una documentación formal denominada manual o página de manual.
 Para redirigir la salida estándar a un archivo, el carácter ">" se usa así:
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c4150af6-7495-418d-a39d-d107e00ee11b">
-</p>
-<p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/158d1649-e14e-4469-a824-028cdf9a1027">
 </p>
 
 Tener los nuevos resultados adjunto al archivo en su lugar, usamos ">>" como este:
 
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3ff43007-084d-43a9-b5c5-37f4cf86f0bd">
-</p>
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/214d1b45-74e9-46da-a35d-43aa8f84ffc7">
 </p>
@@ -185,17 +175,11 @@ Tener los nuevos resultados adjunto al archivo en su lugar, usamos ">>" como est
 Para redirigir la entrada estándar desde un archivo en lugar del teclado, el personaje "<" se usa así:
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7d5258f2-3eb5-438e-9220-931d8dec2ebd">
-</p>
-<p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a9736a81-32c1-4e25-a533-336b84fb4f86">
 </p>
 
 Podríamos redirigir la salida estándar a otro archivo como este:
 
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d7e304f6-fae8-4f7e-b6b8-481739c24fb3">
-</p>
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/26cc638c-ef85-444b-9b9a-2a7e0818705a">
 </p>
@@ -213,9 +197,6 @@ Con las pipelines, la salida estándar de un comando se introduce en la entrada 
 ### Expansión
 Con la expansión, escribimos algo y se expande a otra cosa antes de que el caparazón actúe sobre ello. Para demostrar lo que queremos decir con esto, echemos un vistazo al comando **echo:** Imprime sus argumentos de texto en la salida estándar.
 
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c208bd3e-c570-4a15-ba18-70d529c1e4fb">
-</p>
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/00caf455-2760-49fa-a5f6-5f684463f5a4">
 </p>
