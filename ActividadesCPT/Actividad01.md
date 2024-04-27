@@ -36,5 +36,5 @@
 
 <div align="center"; style="display: flex; justify-content: space-between;">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/36a03460-f419-4d66-aaf0-f5db797fbaf0" width="510px">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ddb474f0-2486-4d3b-9d06-1979c6edffef" width="490px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ddb474f0-2486-4d3b-9d06-1979c6edffef" width="488px">
 </div>
