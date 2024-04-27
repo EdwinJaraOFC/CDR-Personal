@@ -27,14 +27,14 @@
 2. En la ventana de comandos de packet tracer, verifique la configuración de la PC mediante el comando ipconfig /all.
 
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cc8c24e7-76cd-4475-92f2-ce675635f3ab">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/24319b4a-fa2f-4a47-a0a6-3a694219498a">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cc8c24e7-76cd-4475-92f2-ce675635f3ab" width="420px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/24319b4a-fa2f-4a47-a0a6-3a694219498a" width="420px">
 </div>
 
 3. Escriba ping 192.168.1.11 y presione Intro. **¿Fueron correctos los resultados del ping?** <br>- Sí, se enviaron y recibieron los paquetes de manera correcta.
 4. Repite los pasos anteriores para PC-B **¿Fueron correctos los resultados del ping?** <br>- Sí, igualmente, se recibieron los mensajes en un tiempo adecuado.
 
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a03215fa-77fb-4156-a139-a908e42998b0">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/75730581-42d7-4f7f-a8c2-3ef5f4f5ca2d">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a03215fa-77fb-4156-a139-a908e42998b0" width="420px">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/75730581-42d7-4f7f-a8c2-3ef5f4f5ca2d" width="420px">
 </div>
