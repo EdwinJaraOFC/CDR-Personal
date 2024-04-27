@@ -27,8 +27,8 @@
 2. En la ventana de comandos de packet tracer, verifique la configuración de la PC mediante el comando ipconfig /all.
 
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cc8c24e7-76cd-4475-92f2-ce675635f3ab" width="450px">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/24319b4a-fa2f-4a47-a0a6-3a694219498a" width="450px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cc8c24e7-76cd-4475-92f2-ce675635f3ab" width="500px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/24319b4a-fa2f-4a47-a0a6-3a694219498a" width="500px">
 </div>
 
 3. Escriba ping 192.168.1.11 y presione Intro. **¿Fueron correctos los resultados del ping?** <br>- Sí, se enviaron y recibieron los paquetes de manera correcta.
