@@ -35,6 +35,6 @@
 4. Repite los pasos anteriores para PC-B **¿Fueron correctos los resultados del ping?** <br>- Sí, igualmente, se recibieron los mensajes en un tiempo adecuado.
 
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/36a03460-f419-4d66-aaf0-f5db797fbaf0" width="460px">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ddb474f0-2486-4d3b-9d06-1979c6edffef" width="440px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/36a03460-f419-4d66-aaf0-f5db797fbaf0" width="470px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ddb474f0-2486-4d3b-9d06-1979c6edffef" width="450px">
 </div>
