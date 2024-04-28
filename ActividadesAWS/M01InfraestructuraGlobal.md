@@ -13,7 +13,7 @@ Guardar datos mediante un proveedor de servicios en la nube (CSP) en lugar de un
 ### Servidor
 Un equipo diseñado para procesar solicitudes y entregar datos a otro equipo a través de Internet o de una red local. En la nube, un servidor está alojado por un proveedor externo al que se accede a través de Internet.
 
-## Antecedentes y conceptos erróneos
+## Antecedentes y conceptos
 ### ¿Qué es la informática en la nube? 
 Cada vez que trabaja o almacena información en línea (por ejemplo, enviar un correo electrónico o ver un vídeo en streaming), a diferencia de en su equipo local o en un servidor de la red local, está utilizando la informática en la nube.
 
