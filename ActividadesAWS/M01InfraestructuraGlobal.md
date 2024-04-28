@@ -43,4 +43,6 @@ Me basé en información proveniente de páginas web oficiales y confiables de e
 - **Plataforma como servicio (PaaS):** Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes.
 - **Software como servicio (SaaS):** Usadas por empresas y usuarios para acceder a aplicaciones y servicios listos para usarse en la web.
 #### ¿Le parece que alguno de los servicios es el más importante? Si es así, ¿por qué?
+Todos los servicios son fundamentales debido a su capacidad para satisfacer diferentes necesidades de los clientes. Cada servicio está diseñado para abordar un aspecto específico.
 #### Si un amigo cercano o familiar estuviera empezando un negocio y quisiera utilizar los servicios en la nube, ¿qué consejo daría?
+Es crucial que adquiera los conocimientos necesarios sobre cómo funcionan estos servicios, esto garantizará una mejor experiencia en el uso de la nube. Además, es fundamental que seleccione proveedores de servicios en la nube confiables y seguros para evitar comprometer información confidencial.
