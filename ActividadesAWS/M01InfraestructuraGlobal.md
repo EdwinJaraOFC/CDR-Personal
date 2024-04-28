@@ -3,7 +3,7 @@
   <h1 align="center">Módulo 1: Infraestructura global</h1>
 </p>
 
-## Terminología Técnica
+## Terminología
 ### Informática en la nube
 Es la distribución de recursos de TI bajo demanda a través de Internet mediante un esquema de pago por uso.
 ### Amazon Web Services (AWS)
