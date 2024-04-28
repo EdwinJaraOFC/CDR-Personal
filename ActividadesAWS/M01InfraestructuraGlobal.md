@@ -31,10 +31,16 @@ Entre los beneficios empresariales de la informática en la nube se incluyen los
 
 ## Actividad 1: Introducción a la informática en la nube
 #### ¿Cuál es una de las formas en las que la informática en la nube ha afectado al conjunto de la sociedad?
+La informática en la nube ha ampliado el acceso a recursos tecnológicos de gran potencia sin la necesidad de realizar grandes inversiones económicas.
 #### ¿Alguna información fue sorprendente o inesperada?
+La velocidad con la que se ha desarrollado el mercado de servicios en la nube ha sido impresionante y ha llevado al gran crecimiento de diversas empresas en este ámbito.
 #### ¿Cuáles son algunas de las fuentes en las que encontró su información y qué le llevó a creer que estas fuentes son creíbles y precisas?
+Me basé en información proveniente de páginas web oficiales y confiables de empresas líderes en tecnología como Microsoft y AWS. Estas empresas han establecido una reputación de confiabilidad y precisión a lo largo del tiempo al proporcionar servicios y productos de alta calidad a nivel mundial.
 
 ## Actividad 2: Uso de los servicios en la nube
 #### ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
+- **Infraestructura como servicio (IaaS):** Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades.
+- **Plataforma como servicio (PaaS):** Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes.
+- **Software como servicio (SaaS):** Usadas por empresas y usuarios para acceder a aplicaciones y servicios listos para usarse en la web.
 #### ¿Le parece que alguno de los servicios es el más importante? Si es así, ¿por qué?
 #### Si un amigo cercano o familiar estuviera empezando un negocio y quisiera utilizar los servicios en la nube, ¿qué consejo daría?
