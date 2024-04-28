@@ -1,3 +1,8 @@
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Módulo 1: Infraestructura global</h1>
+</p>
+
 ## Terminología Técnica
 ### Informática en la nube
 La entrega bajo demanda de potencia de cómputo, bases de datos, almacenamiento, aplicaciones y otros recursos de TI a través de Internet con precios de pago por uso.
