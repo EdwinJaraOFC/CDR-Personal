@@ -5,7 +5,7 @@
 
 ## Terminología Técnica
 ### Informática en la nube
-La entrega bajo demanda de potencia de cómputo, bases de datos, almacenamiento, aplicaciones y otros recursos de TI a través de Internet con precios de pago por uso.
+Es la distribución de recursos de TI bajo demanda a través de Internet mediante un esquema de pago por uso.
 ### Amazon Web Services (AWS)
 Una plataforma que proporciona una amplia gama de servicios de informática en la nube.
 ### Almacenamiento en nube
