@@ -24,6 +24,7 @@ Entre los beneficios empresariales de la informática en la nube se incluyen los
 ### ¿Qué tipos de servicios en la nube existen?
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/72cdf1bc-970e-4077-909d-40e9cddc4c29)
 
-
-
-
+## Actividad 1: Introducción a la informática en la nube
+#### ¿Cuál es una de las formas en las que la informática en la nube ha afectado al conjunto de la sociedad?
+#### ¿Alguna información fue sorprendente o inesperada?
+#### ¿Cuáles son algunas de las fuentes en las que encontró su información y qué le llevó a creer que estas fuentes son creíbles y precisas?
