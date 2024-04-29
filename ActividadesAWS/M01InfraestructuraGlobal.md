@@ -21,6 +21,7 @@ Cada vez que trabaja o almacena información en línea (por ejemplo, enviar un c
 
 ### ¿Por qué las empresas utilizan la computación en la nube?
 <p align="justify">
+  
 Entre los beneficios empresariales de la informática en la nube se incluyen los siguientes:
 - Pague menos para comenzar su negocio. Pague más a medida que crece su negocio.
 - Los servicios son más baratos porque los costos se reparten entre muchos usuarios.
