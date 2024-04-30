@@ -6,11 +6,11 @@
 ## Terminología
 ### Amazon Simple Storage Service (Amazon S3)
 <p align="justify">
-Servicio proporcionado por AWS que almacena datos para los usuarios en la nube.</p>
+Servicio que almacena datos para los usuarios en la nube.</p>
 
 ### Amazon Elastic Compute Cloud (Amazon EC2)
 <p align="justify">
-Un servicio web que ofrece capacidad de cómputo escalable en la nube. Considérelo como alquilar un equipo en la nube.</p>
+Servicio web que ofrece capacidad de cómputo escalable en la nube. Considérelo como alquilar un equipo en la nube.</p>
 
 ### Amazon Elastic Block Store (Amazon EBS)
 <p align="justify">
@@ -18,7 +18,7 @@ Almacenamiento para instancias EC2 específicas. Considérelo como la unidad de 
 
 ### Amazon Relational Database Service (Amazon RDS)
 <p align="justify">
-Esto permite a los desarrolladores crear y administrar bases de datos relacionales en la nube. Piense en una base de datos relacional como un conjunto de datos con relaciones 1 a 1. Por ejemplo, una base de datos de transacciones en un almacén departamental coincidiría con cada cliente con sus compras. Amazon RDS permite a los desarrolladores realizar un seguimiento de grandes cantidades de estos datos, organizarlos y buscarlos fácilmente. Las bases de datos relacionales están equipadas con un lenguaje de consulta estructurado no procedimental (SQL) que simplifica las interacciones con la base de datos.</p>
+Es un servicio en la nube que permite a los desarrolladores crear y gestionar bases de datos relacionales de manera eficiente. Imagina una base de datos relacional como una colección de datos donde cada elemento tiene relaciones con otros elementos de la base de datos. Por ejemplo, en una base de datos de transacciones de un almacén, cada cliente estaría relacionado con sus compras específicas.</p>
 
 ### Amazon DynamoDB
 <p align="justify">
@@ -26,7 +26,7 @@ Servicio de bases de datos no relacionales de AWS. Los datos se almacenan en par
 
 ### AWS Lambda
 <p align="justify">
-Lambda le permite ejecutar código sin necesidad de aprovisionar o administrar sercidores. Solo pagará por el tiempo de cómputo que consuma. No se cobra nada cuando el código no se está ejecutando. Con Lambda, puede ejecutar código para casi cualquier tipo de aplicación o servicio backend sin tener que realizar tareas de administración. Solo tiene que cargar el código y Lambda se encargará de todo lo necesario para ejecutar y escalar el código con alta disponibilidad. Puede configurar su código para que se active automáticamente desde otros servicios de AWS o puede llamarlo directamente desde cualquier aplicación web o móvil.</p>
+Lambda le permite ejecutar código sin necesidad de aprovisionar o administrar servidores. Solo pagará por el tiempo de cómputo que consuma. No se cobra nada cuando el código no se está ejecutando.</p>
 
 ### Amazon Virtual Private Cloud (Amazon VPC)
 <p align="justify">
@@ -58,11 +58,11 @@ Estas son algunas diferencias entre los servicios:</p>
 <p align="justify">
 Amazon S3 y Amazon EBS son formas de almacenamiento de datos. Existen algunas diferencias clave:</p>
 <p align="justify">
-Amazon EBS solo se puede utilizar cuando se conecta a una instancia EC2 y se puede acceder a Amazon S3 por sí solo.
-Amazon EBS no puede contener tantos datos como Amazon S3.
-Amazon EBS solo se puede adjuntar a una instancia EC2, mientras que varias instancias EC2 pueden acceder a los datos de un bucket de S3.
-Amazon S3 experimenta más retrasos que Amazon EBS al escribir datos.
-Amazon RDS, Amazon Redshift y DynamoDB están relacionados con las bases de datos, pero existen diferencias:</p>
+- Amazon EBS solo se puede utilizar cuando se conecta a una instancia EC2 y se puede acceder a Amazon S3 por sí solo.
+- Amazon EBS no puede contener tantos datos como Amazon S3.
+- Amazon EBS solo se puede adjuntar a una instancia EC2, mientras que varias instancias EC2 pueden acceder a los datos de un bucket de S3.
+- Amazon S3 experimenta más retrasos que Amazon EBS al escribir datos.
+- Amazon RDS, Amazon Redshift y DynamoDB están relacionados con las bases de datos, pero existen diferencias:</p>
 <p align="justify">
 Amazon RDS es la base de datos relacional clásica que utiliza SQL Server, Oracle Database, Amazon Aurora u otros sistemas de bases de datos similares. Considérelo como un libro de calificaciones en el que cada alumno es una fila y todos tienen el mismo número de tareas (columnas) a las que se adjuntan. Las empresas pueden utilizar el código para buscar datos específicos en función de la información de las filas y columnas. Amazon RDS resulta útil para las empresas que almacenan una cantidad moderada de datos de estructura uniforme, lo que significa que cada ID único, como el nombre del estudiante, se adjunta al mismo número de puntos de datos (calificaciones).</p>
 <p align="justify">
@@ -75,3 +75,12 @@ CloudTrail y CloudWatch son servicios de monitorización en la nube, pero realiz
 CloudTrail monitorea todas las acciones que los usuarios han realizado en una cuenta de AWS determinada. Esto significa que cada vez que alguien carga datos, ejecuta código, crea una instancia EC2, cambia un tipo de unidad S3 o cualquier otra acción que se pueda realizar en AWS, CloudTrail lo registrará. Esto resulta muy útil por razones de seguridad para que los administradores puedan saber quién está utilizando su cuenta y qué están haciendo. Si algo sale mal o si surge un problema de seguridad, CloudTrail será la mejor prueba para averiguar lo ocurrido.</p>
 <p align="justify">
 CloudWatch monitorea lo que hacen los distintos servicios y qué recursos están utilizando. Si CloudTrail monitorea personas, CloudWatch monitorea servicio. CloudWatch es excelente para asegurarse de que sus servicios en la nube funcionan sin problemas y no utilizan más o menos recursos de los esperados, lo que es importante para el seguimiento del presupuesto. CloudWatch es excelente para asegurarse de que todos los recursos están funcionando, lo que puede resultar complicado si una gran empresa utiliza cientos de máquinas y unidades diferentes. Los monitores y alarmas se pueden configurar a través de CloudWatch para iniciar automáticamente una alerta cuando una métrica alcanza un límite específico.</p>
+
+## Actividad 1: Aprender los servicios principales de AWS
+#### Describa uno de los usos reales de un servicio de AWS de los que ha aprendido. ¿Cómo ayuda el servicio a la empresa o a la industria que lo utiliza?
+#### ¿Qué servicio cree que es el más importante? ¿Qué servicio cree que utilizará probablemente en su área de carrera planificada?
+
+## Actividad 2: Preguntas de enfoque
+#### ¿Qué es un servicio en la nube que usa habitualmente? ¿Qué beneficio le proporciona? ¿Tiene algún inconveniente utilizar este servicio en la nube?
+#### La mayoría de ustedes ha utilizado un tipo de servicio en la nube SaaS. En el futuro, ¿cómo podría utilizar un servicio en la nube PaaS o IaaS? ¿Cómo pueden ayudarle los servicios en una carrera profesional o a alcanzar un objetivo?
+#### ¿Qué experiencia, si la hay, tiene con la consola y los servicios de AWS? ¿Cuáles ha usado, qué ha creado, hay alguno del que quiera saber más? 
