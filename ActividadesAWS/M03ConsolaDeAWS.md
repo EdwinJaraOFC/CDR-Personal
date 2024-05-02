@@ -137,5 +137,12 @@ CloudTrail y CloudWatch son servicios de monitorización en la nube, pero realiz
 
 ## Actividad 2: Preguntas de enfoque
 #### ¿Qué es un servicio en la nube que usa habitualmente? ¿Qué beneficio le proporciona? ¿Tiene algún inconveniente utilizar este servicio en la nube?
+<p align="justify">
+Un servicio en la nube que uso habitualmente es Google Drive. Me permite almacenar, sincronizar y compartir archivos en línea, lo cual es muy conveniente para acceder a mis documentos desde cualquier dispositivo con conexión a internet. Sin embargo, uno de los posibles inconvenientes es la dependencia de la conexión a internet para acceder a los archivos.</p>
+
 #### La mayoría de ustedes ha utilizado un tipo de servicio en la nube SaaS. En el futuro, ¿cómo podría utilizar un servicio en la nube PaaS o IaaS? ¿Cómo pueden ayudarle los servicios en una carrera profesional o a alcanzar un objetivo?
+<p align="justify">
+En el futuro, un servicio en la nube IaaS podría ser útil para desplegar servidores virtuales bajo demanda, lo que me permitiría escalar mi infraestructura según sea necesario sin incurrir en costos de hardware fijos. Estos servicios en la nube pueden ayudarme en mi carrera profesional al proporcionarme habilidades relevantes en la tecnología de la nube, lo que es muy demandado en el mercado laboral actual.</p>
+
 #### ¿Qué experiencia, si la hay, tiene con la consola y los servicios de AWS? ¿Cuáles ha usado, qué ha creado, hay alguno del que quiera saber más? 
+No he tenido ninguna experiencia usando la consola ni los servicios AWS por el momento.
