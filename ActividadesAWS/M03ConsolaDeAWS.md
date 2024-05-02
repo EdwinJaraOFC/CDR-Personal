@@ -133,7 +133,12 @@ CloudTrail y CloudWatch son servicios de monitorización en la nube, pero realiz
 
 ## Actividad 1: Aprender los servicios principales de AWS
 #### Describa uno de los usos reales de un servicio de AWS de los que ha aprendido. ¿Cómo ayuda el servicio a la empresa o a la industria que lo utiliza?
+<p align="justify">
+Un ejemplo del uso real de un servicio de AWS es el empleo de Amazon S3 (Simple Storage Service) por parte de una empresa de medios de comunicación para almacenar y distribuir contenido multimedia. Amazon S3 ofrece almacenamiento escalable y duradero, permitiendo a la empresa almacenar grandes volúmenes de archivos multimedia de manera segura y accesible desde cualquier lugar del mundo. Esto beneficia a la empresa al mejorar la entrega de contenido multimedia a los usuarios, optimizando así la experiencia del cliente y reduciendo los costos de almacenamiento.</p>
+
 #### ¿Qué servicio cree que es el más importante? ¿Qué servicio cree que utilizará probablemente en su área de carrera planificada?
+<p align="justify">
+En mi opinión, uno de los servicios más importantes de AWS es Amazon EC2 (Elastic Compute Cloud). EC2 proporciona capacidad informática escalable en la nube, lo que permite a las empresas ejecutar aplicaciones y cargas de trabajo de manera eficiente sin la necesidad de invertir en infraestructura física costosa. Para el campo de la ingeniería informática, servicios como AWS Lambda son fundamentales. AWS Lambda permite ejecutar código sin necesidad de gestionar servidores, lo que es esencial para aplicaciones y servicios que requieren alta escalabilidad y flexibilidad, optimizando así el desarrollo y la implementación de sistemas informáticos complejos.</p>
 
 ## Actividad 2: Preguntas de enfoque
 #### ¿Qué es un servicio en la nube que usa habitualmente? ¿Qué beneficio le proporciona? ¿Tiene algún inconveniente utilizar este servicio en la nube?
