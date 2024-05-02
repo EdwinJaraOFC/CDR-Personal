@@ -8,77 +8,77 @@
 <p align="justify">
 Servicio que almacena datos para los usuarios en la nube.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/322f25d1-024b-4c9f-a9fa-a63368c328b6">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/322f25d1-024b-4c9f-a9fa-a63368c328b6" width="250">
 </p>
 
 ### Amazon Elastic Compute Cloud (Amazon EC2)
 <p align="justify">
 Servicio web que ofrece capacidad de cómputo escalable en la nube. Considérelo como alquilar un equipo en la nube.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2e9b3ee3-18e4-4429-a907-8cb3ba2e6e2b">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2e9b3ee3-18e4-4429-a907-8cb3ba2e6e2b" width="250">
 </p>
 
 ### Amazon Elastic Block Store (Amazon EBS)
 <p align="justify">
 Almacenamiento para instancias EC2 específicas. Considérelo como la unidad de almacenamiento de su instancia EC2.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c78de8cc-7349-40a4-893e-ef10abbd1900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c78de8cc-7349-40a4-893e-ef10abbd1900" width="250">
 </p>
 
 ### Amazon Relational Database Service (Amazon RDS)
 <p align="justify">
 Es un servicio en la nube que permite a los desarrolladores crear y gestionar bases de datos relacionales de manera eficiente. Imagina una base de datos relacional como una colección de datos donde cada elemento tiene relaciones con otros elementos de la base de datos. Por ejemplo, en una base de datos de transacciones de un almacén, cada cliente estaría relacionado con sus compras específicas.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/45898109-44ff-4e86-91f5-cfe234f43bb8">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/45898109-44ff-4e86-91f5-cfe234f43bb8" width="250">
 </p>
 
 ### Amazon DynamoDB
 <p align="justify">
 Servicio de bases de datos no relacionales de AWS. Los datos se almacenan en pares de clave-valor.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6337d282-5815-4903-80d0-a3318f29487e">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6337d282-5815-4903-80d0-a3318f29487e" width="250">
 </p>
 
 ### AWS Lambda
 <p align="justify">
 Lambda le permite ejecutar código sin necesidad de aprovisionar o administrar servidores. Solo pagará por el tiempo de cómputo que consuma. No se cobra nada cuando el código no se está ejecutando.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b6328c73-9e13-4f0a-9661-989eea6ad1c0">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b6328c73-9e13-4f0a-9661-989eea6ad1c0" width="250">
 </p>
 
 ### Amazon Virtual Private Cloud (Amazon VPC)
 <p align="justify">
 Un servicio que proporciona una red virtual dedicada a su cuenta de AWS. Esta infraestructura está aislada de forma lógica de otras redes virtuales de la nube de AWS. Todos sus servicios de AWS se pueden lanzar desde una VPC. Sirve para proteger los datos y adinistrar quién puede acceder a la red.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c39cf795-7395-414f-912e-321d6bd94884">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c39cf795-7395-414f-912e-321d6bd94884" width="250">
 </p>
 
 ### AWS Identy and Management (IAM)
 <p align="justify">
 Implica el control de los usuarios que necesiten acceder a recursos informáticos.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/76d8b0c8-e121-44cb-b373-adcf2c5bdfee">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/76d8b0c8-e121-44cb-b373-adcf2c5bdfee" width="250">
 </p>
 
 ### AWS CloudTrail
 <p align="justify">
 Monitorea todas las acciones que se realizan en su cuenta de AWS por motivos de seguridad.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5e2fef92-ae3a-48e0-8d55-c0361a279462">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5e2fef92-ae3a-48e0-8d55-c0361a279462" width="250">
 </p>
 
 ### Amazon CloudWatch
 <p align="justify">
 CloudWatch es un servicio de supervisión para monitorizar los recursos de AWS y las aplicaciones que ejecuta en AWS.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/949032e4-16aa-42a3-9624-987f63ddf474">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/949032e4-16aa-42a3-9624-987f63ddf474" width="250">
 </p>
 
 ### Amazon Redshift
 <p align="justify">
 El servicio de almacenamiento de datos de AWS puede almacenar enormes cantidades de datos de forma que se puedan consultar rápidamente con fines de inteligencia empresarial.</p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9ccbcbcd-ca4f-4651-ab80-367e63b42625">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9ccbcbcd-ca4f-4651-ab80-367e63b42625" width="250">
 </p>
 
 ## Antecedentes y conceptos
