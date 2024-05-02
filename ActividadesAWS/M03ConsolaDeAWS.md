@@ -97,6 +97,10 @@ Amazon S3 y Amazon EBS son formas de almacenamiento de datos. Existen algunas di
 - Amazon EBS solo se puede utilizar cuando se conecta a una instancia EC2 y se puede acceder a Amazon S3 por sí solo.<br>
 - Amazon EBS no puede contener tantos datos como Amazon S3.<br>
 - Amazon S3 experimenta más retrasos que Amazon EBS al escribir datos.</p>
+<div align="center"; style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/322f25d1-024b-4c9f-a9fa-a63368c328b6" width="450px"/>
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c78de8cc-7349-40a4-893e-ef10abbd1900" width="450px"/>
+</div>
 <p align="justify">
 Amazon RDS, Amazon Redshift y DynamoDB están relacionados con las bases de datos, pero existen diferencias:</p>
 <p align="justify">
