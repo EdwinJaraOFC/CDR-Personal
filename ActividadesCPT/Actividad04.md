@@ -65,7 +65,7 @@ S1#
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fa1c849e-dda8-412c-99cf-e183a5a9f13a">
 </p>
 
-**¿Por qué se requiere el comando login?** Porque sin el login la contraseña no funciona.
+**¿Por qué se requiere el comando login?** <br>Porque sin el login la contraseña no funciona.
 
 ### Verifica que el acceso a la consola sea seguro.
 Salimos del modo privilegiado para verificar que la contraseña del puerto de consola esté vigente.
