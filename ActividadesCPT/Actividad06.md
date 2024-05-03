@@ -21,8 +21,9 @@
 3. Conecta los dispositivos como se muestra en la Topologia y en la Tabla de asignación de
 direcciones.
 4. Encienda todos los dispositivos.
-
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/11b93b28-5cc3-465c-9c09-42335d1a1cd5)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/11b93b28-5cc3-465c-9c09-42335d1a1cd5" width="500">
+</p>
 
 ## Paso 2: Configurar los dispositivos y verificar la conectividad
 En esta parte deberás configurar la topología de la red y los parámetros básicos, como las direcciones IP de las interfaces, el acceso de los dispositivos y las contraseñas. Consulte la Topología y la Tabla de asignación de direcciones que se encuentran al inicio de esta actividad para conocer los nombres de los dispositivos y la información de las direcciones.
