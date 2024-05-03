@@ -67,18 +67,18 @@ Todos los pings deben tener éxito.
 
 ## Paso 3: Muestra la información del dispositivo
 ### Muestra la tabla de routing en el router
-1. Utiliza el comando show ip route en R1 para responder las preguntas siguientes.
+Utiliza el comando show ip route en R1 para responder las preguntas siguientes.
 #### ¿Qué código se utiliza en la tabla de enrutamiento para indicar una red conectada directamente?
 #### ¿Cuántas entradas de ruta están codificadas con un código C en la tabla de enrutamiento?
 #### ¿Qué tipos de interfaces están asociadas a las rutas con código C?
-2. Usa el comando show ipv6 route en R1 para ver las rutas de IPv6.
+Usa el comando show ipv6 route en R1 para ver las rutas de IPv6.
 
 ### Muestra la información de la interfaz en el R1.
-1. Utiliza el comando show interface g0/0/1 para responder las preguntas siguientes.
-####     ¿Cuál es el estado operativo de la interfaz G0/0/1?
-####     ¿Cuál es la dirección de control de acceso a los medios (MAC) de la interfaz G0/0/1?
-####     ¿Cómo se muestra la dirección de Internet en este comando?
-2. Para obtener información sobre IPv6, escribe el comando show ipv6 interface interface .
+Utiliza el comando show interface g0/0/1 para responder las preguntas siguientes.
+#### ¿Cuál es el estado operativo de la interfaz G0/0/1?
+#### ¿Cuál es la dirección de control de acceso a los medios (MAC) de la interfaz G0/0/1?
+#### ¿Cómo se muestra la dirección de Internet en este comando?
+Para obtener información sobre IPv6, escribe el comando show ipv6 interface interface .
 
 ### Muestra una lista de resumen de las interfaces del router y del switch
 Existen varios comandos que se pueden utilizar para verificar la configuración de interfaz. Uno de los más útiles es el comando show ip interface brief. El resultado del comando muestra una lista resumida de las interfaces en el dispositivo y brinda información inmediata sobre el estado de cada interfaz.
