@@ -18,22 +18,22 @@
 4. Haz clic en la PDU y observa la siguiente información de las pestañas **Modelo OSI I** y **Capa de PDU saliente:** <br>- Destination MAC Address: 000C:85CC:1DA7<br>- Source MAC Address: 00D0:D311:C788<br>- Source IP Address:172.16.31.5<br>- Destination IP Address: 172.16.31.2<br>- At Device: 172.16.31.5
 5. Haz clic en **Capture / Forward (la flecha derecha seguida de una barra vertical)** para mover la PDU al siguiente dispositivo. Reúna la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino.
 
-**172.16.31.5**
+#### 172.16.31.5
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/ab6ec817-847c-41cd-8662-b5233495fb69" alt="Grupo trabajando" />
 </p>
 
-**Switch1**
+#### Switch1
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/ecf3dc79-6835-432b-8093-5bd62fd9c039">
 </p>
 
-**Concentrador (HUB)**
+#### Concentrador (HUB)
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/1d280728-e507-416e-b59e-35b650a03a95">
 </p>
 
-**172.16.31.2**
+#### 172.16.31.2
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bf0351d6-947e-439e-914b-591840cd16dd">
 </p>
@@ -41,12 +41,12 @@
 ### Reunir información adicional de la PDU de otros ping.
 Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
 
-- **Ping de 172.16.31.2 a 172.16.31.3**
+#### Ping de 172.16.31.2 a 172.16.31.3
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/be08a1e1-c032-44e7-b474-5fad2977f846">
 </p>
 
-- **Ping de 172.16.31.4 a 172.16.31.5**
+#### Ping de 172.16.31.4 a 172.16.31.5
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/aa81520e-5f11-4af1-8c03-9131da8c1a5e">
 </p>
@@ -62,40 +62,39 @@ Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a31f8b70-f606-4c1c-a5df-24a7d92ac239">
 </p>
 
-**¿Qué dispositivo tiene el MAC de destino que se muestra?**
-- El Router
+**¿Qué dispositivo tiene el MAC de destino que se muestra?** <br>El Router.
 
 5. Haz clic en **Capture / Forward (la flecha derecha seguida de una barra vertical)** para mover la PDU al siguiente dispositivo. Reúne la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino. Registra la información de la PDU que recopiló del ping 172.16.31.5 a 10.10.10.2 en una hoja de cálculo utilizando un formato como la tabla de muestra que se muestra a continuación: 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/283a7045-38d1-4211-8086-b0d5b82ac1b7">
 </p>
 
-**172.16.31.5**
+#### 172.16.31.5
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/959e2e8a-97f7-46bc-a5a5-081f5b6c017c">
 </p>
 
-**Switch1**
+#### Switch1
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a16c6a48-5fa0-4551-b3ca-1251255b999a">
 </p>
 
-**Router**
+#### Router
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/59c652c9-9452-49fa-85f7-757f85f07fe7">
 </p>
 
-**Switch0**
+#### Switch0
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/c1ae9f1d-4d35-4916-8783-b2fb8981f1f5">
 </p>
 
-**Punto de acceso**
+#### Punto de acceso
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/1578f351-8cb1-44c2-bd5a-93fc7a6f834f">
 </p>
 
-**10.10.10.2**
+#### 10.10.10.2
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/8f492934-35b0-4ae7-88b6-ef357b4d3f94">
 </p>
