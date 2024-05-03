@@ -22,7 +22,7 @@
 direcciones.
 4. Encienda todos los dispositivos.
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/11b93b28-5cc3-465c-9c09-42335d1a1cd5" width="500">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/11b93b28-5cc3-465c-9c09-42335d1a1cd5" width="800">
 </p>
 
 ## Paso 2: Configurar los dispositivos y verificar la conectividad
