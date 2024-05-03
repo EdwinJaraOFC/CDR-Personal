@@ -138,6 +138,7 @@ Puedes verificar la conectividad de la red mediante el comando ping. Es muy impo
 
 **Nota:** También usa el ping en la CLI del switch y en la PC2.
 Todos los ping deben tener éxito. Si el resultado del primer ping es 80%, inténtelo otra vez. Ahora debería ser 100%. Más adelante, aprenderá por qué es posible que un ping falle la primera vez. Si no puede hacer ping a ninguno de los dispositivos, vuelva a revisar la configuración para detectar errores.
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ea9e068f-a235-4a71-8bc4-439ba598e791">
-</p>
+<div align="center"; style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3801d46e-f715-46a8-a7a5-99b2ddd2a202" width="440px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8cdc34df-3415-4515-afe8-b620d08f6689" width="440px">
+</div>
