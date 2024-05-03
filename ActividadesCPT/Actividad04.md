@@ -160,10 +160,10 @@ Las contraseñas se mostrarán en forma cifrada debido a que el comando de confi
 ### Configura un aviso de mensaje del día (MOTD).
 El conjunto de comandos de Cisco IOS incluye una característica que permite configurar los mensajes que cualquier persona puede ver cuando inicia sesión en el switch. Estos mensajes se denominan “mensajes del día” o “avisos de MOTD”. Coloca el texto del mensaje en citas o utilizando un delimitador diferente a cualquier carácter que aparece en la cadena de MOTD.<br>
 ```
-S1# config t<br>
-S1(config)# banner motd "This is a secure system. Authorized Access Only!<br>
-S1(config)# exit<br>
-%SYS-5-CONFIG_I: Configured from console by console<br>
+S1# config t
+S1(config)# banner motd "This is a secure system. Authorized Access Only!
+S1(config)# exit
+%SYS-5-CONFIG_I: Configured from console by console
 S1#<br>
 ```
 <p align="center">
