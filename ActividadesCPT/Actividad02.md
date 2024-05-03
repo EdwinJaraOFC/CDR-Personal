@@ -16,11 +16,11 @@
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/84659ff9-4531-46b2-8e31-ba45d3c48b20)
 
 ## Configura la consola y las contraseñas cifradas de modo EXEC privilegiado
-a. Usa checha como la contraseña de la consola.
-b. Usa jeka para la contraseña del modo EXEC privilegiado.
+1. Usa checha como la contraseña de la consola.
+2. Usa jeka para la contraseña del modo EXEC privilegiado.
 
 ## Verifica la configuración de contraseñas para el S1.
-¿Cómo puedes verificar que ambas contraseñas se hayan configurado correctamente?
+#### ¿Cómo puedes verificar que ambas contraseñas se hayan configurado correctamente?
 
 ## Configura un aviso de MOTD.
 1. Utiliza un texto de aviso adecuado para advertir contra el acceso no autorizado. El siguiente texto es
