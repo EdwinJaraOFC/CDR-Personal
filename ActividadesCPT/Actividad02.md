@@ -76,3 +76,22 @@ No tuve éxito al enviar el ping, ya que todavía no he configurado una direcci�
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2cd6d2f0-cc22-4fdc-9176-7f57b9cf73f6">
 </p>
+
+## Paso 3: Configura la interfaz de administración de switches
+### Configura el S1 con una dirección IP.
+Los switches pueden usarse como dispositivos plug-and-play. Esto significa que no necesitan configurarse para que funcionen. Los switches reenvían información desde un puerto hacia otro sobre la base de direcciones de control de acceso al medio (MAC).
+#### Si este es el caso, ¿por qué lo configuraremos con una dirección IP?
+Usa los siguientes comandos para configurar el S1 con una dirección IP.
+```
+S1# configure terminal
+  Enter configuration commands, one per line. Finalice con CNTL/Z.
+S1(config)# interface vlan 1
+S1(config-if)# ip address 192.168.1.253 255.255.255.0
+S1(config-if)# no shutdown
+  %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state
+to up
+S1(config-if)#
+S1(config-if)# exit
+S1#
+```
+#### ¿Por qué debe introducir el comando no shutdown?
