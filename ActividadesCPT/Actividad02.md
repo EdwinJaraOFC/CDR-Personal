@@ -49,6 +49,9 @@ Acceso autorizado únicamente. Los infractores se procesarán en la medida en qu
 </p>
 
 ## Paso 2: Repita los pasos 1 a 5 para el S2
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fa17c053-2664-4300-a620-4e381435d44d)
+
 ### Configurar las PC
 Configura la PC1 y la PC2 con direcciones IP.
 ### Configura ambas PC con direcciones IP
