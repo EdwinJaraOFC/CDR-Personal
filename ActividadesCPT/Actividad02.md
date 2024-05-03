@@ -13,6 +13,8 @@
 1. Haz clic en S1 y luego en la ficha CLI.
 2. Introduce el comando correcto para configurar el nombre de host S1.
 
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/84659ff9-4531-46b2-8e31-ba45d3c48b20)
+
 ## Configura la consola y las contraseñas cifradas de modo EXEC privilegiado
 a. Usa checha como la contraseña de la consola.
 b. Usa jeka para la contraseña del modo EXEC privilegiado.
