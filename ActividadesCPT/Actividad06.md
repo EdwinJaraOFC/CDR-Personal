@@ -35,6 +35,7 @@ direcciones.
 </p>
 
 #### ¿Por qué los pings no fueron correctos?
+Porque el router y el switch aún no se han configurado.
 
 ### Configura el router
 1. Acceda al router mediante el puerto de consola y habilite el modo EXEC con privilegios.
@@ -46,12 +47,19 @@ direcciones.
 7. Encripta las contraseñas de texto sin formato.
 8. Crea un aviso que advierta a todo el que acceda al dispositivo que el acceso no autorizado está prohibido.
 9. Configura y activa las dos interfaces en el router.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ddd17af4-f9dd-4e19-bb1c-4822821c8da0">
+</p>
 10. Configura una descripción de interfaz para cada interfaz e indique qué dispositivo está conectado.
 11. Para habilitar el enrutamiento IPv6, ingrese el comando ipv6 unicast-routing.
 12. Guardar la configuración en ejecución en el archivo de configuración de inicio
 13. Configura el reloj en el router.<br>
 **Nota:** Utiliza el signo de interrogación (?) para poder determinar la secuencia correcta de
 parámetros necesarios para ejecutar este comando.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/485b6d18-3404-481c-9e14-2e2eb34a012b">
+</p>
+
 14. En una ventana con el símbolo del sistema en la PC-A, haga ping a la PC-B.<br>
 **Nota:** Si los pings no son correctos, es posible que debas desactivar el Firewall.<br> **¿Fueron correctos los pings? Explica.**
 
