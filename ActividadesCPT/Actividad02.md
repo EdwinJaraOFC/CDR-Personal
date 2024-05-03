@@ -117,8 +117,10 @@ Usa el comando show ip interface brief para ver la dirección IP y el estado de 
 
 ### Guarda la configuración para el S1 y el S2 en la NVRAM
 #### ¿Qué comando se utiliza para guardar en la NVRAM el archivo de configuración que se encuentra en la RAM?
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6880dc5e-b142-4c35-8f2c-eff7682c507b)
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ab15721c-f89e-40c9-b690-06f73ea4c992)
+<div align="center"; style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6880dc5e-b142-4c35-8f2c-eff7682c507b" width="510px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ab15721c-f89e-40c9-b690-06f73ea4c992" width="500px">
+</div>
 
 ### Verifica la conectividad de la red
 Puedes verificar la conectividad de la red mediante el comando ping. Es muy importante que haya conectividad en toda la red. Se deben tomar medidas correctivas si se produce una falla. Desde la PC1 y la PC2, haga ping al S1 y S2.
@@ -128,15 +130,11 @@ Puedes verificar la conectividad de la red mediante el comando ping. Es muy impo
 3. Haga ping a la dirección IP de la PC2.
 4. Haga ping a la dirección IP del S1.
 5. Haga ping a la dirección IP del S2
-<p align= "center">
+<div align="center"; style="display: flex; justify-content: space-between;">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8a1247cb-99d4-40fa-9398-1121133eb8c6">
-</p>
-<p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/73855886-1efb-445c-a1e5-8a60a0e77723">
-</p>
-<p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/696f4605-6873-4d89-8355-d7d6f739597a">
-</p>
+</div>
 
 **Nota:** También usa el ping en la CLI del switch y en la PC2.
 Todos los ping deben tener éxito. Si el resultado del primer ping es 80%, inténtelo otra vez. Ahora debería ser 100%. Más adelante, aprenderá por qué es posible que un ping falle la primera vez. Si no puede hacer ping a ninguno de los dispositivos, vuelva a revisar la configuración para detectar errores.
