@@ -27,6 +27,8 @@
 #### ¿Cómo puedes verificar que ambas contraseñas se hayan configurado correctamente?
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/899e4a1d-d602-4008-8412-af0fcdfdef10">
+</p>
+<p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/75e2d8a4-99a6-4104-91ed-e6e8641e39eb">
 </p>
 
