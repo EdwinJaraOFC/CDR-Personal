@@ -24,9 +24,8 @@ b. Usa jeka para la contraseña del modo EXEC privilegiado.
 1. Utiliza un texto de aviso adecuado para advertir contra el acceso no autorizado. El siguiente texto es
 un ejemplo:
 ```
-Acceso autorizado únicamente. Los infractores se procesarán en la medida en que lo
-permita la ley.
+Acceso autorizado únicamente. Los infractores se procesarán en la medida en que lo permita la ley.
 ```
 2. Guarda el archivo de configuración en la NVRAM.
 
-### ¿Qué comando emite para realizar este paso?
+#### ¿Qué comando emite para realizar este paso?
