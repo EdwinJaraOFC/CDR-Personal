@@ -118,8 +118,8 @@ Usa el comando show ip interface brief para ver la dirección IP y el estado de 
 ### Guarda la configuración para el S1 y el S2 en la NVRAM
 #### ¿Qué comando se utiliza para guardar en la NVRAM el archivo de configuración que se encuentra en la RAM?
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6880dc5e-b142-4c35-8f2c-eff7682c507b" width="510px">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ab15721c-f89e-40c9-b690-06f73ea4c992" width="500px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6880dc5e-b142-4c35-8f2c-eff7682c507b" width="410px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ab15721c-f89e-40c9-b690-06f73ea4c992" width="400px">
 </div>
 
 ### Verifica la conectividad de la red
