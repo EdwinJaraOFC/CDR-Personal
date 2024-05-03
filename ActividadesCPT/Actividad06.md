@@ -26,8 +26,6 @@ direcciones.
 </p>
 
 ## Paso 2: Configurar los dispositivos y verificar la conectividad
-En esta parte deberás configurar la topología de la red y los parámetros básicos, como las direcciones IP de las interfaces, el acceso de los dispositivos y las contraseñas. Consulte la Topología y la Tabla de asignación de direcciones que se encuentran al inicio de esta actividad para conocer los nombres de los dispositivos y la información de las direcciones.
-
 ### Asignar información de IP estática a las interfaces de la PC
 1. Configura la dirección IP, la máscara de subred y los parámetros del gateway predeterminado en la PC-A.
 2. Configura la dirección IP, la máscara de subred y los parámetros del gateway predeterminado en la PC-B.
