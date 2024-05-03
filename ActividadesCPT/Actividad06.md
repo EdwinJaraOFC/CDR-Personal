@@ -48,8 +48,7 @@ En esta parte deberás configurar la topología de la red y los parámetros bás
 **Nota:** Utiliza el signo de interrogación (?) para poder determinar la secuencia correcta de
 parámetros necesarios para ejecutar este comando.
 14. En una ventana con el símbolo del sistema en la PC-A, haga ping a la PC-B.<br>
-**Nota:** Si los pings no son correctos, es posible que debas desactivar el Firewall.
-#### ¿Fueron correctos los pings? Explica.
+**Nota:** Si los pings no son correctos, es posible que debas desactivar el Firewall.<br> **¿Fueron correctos los pings? Explica.**
 
 ### Configura el switch
 En este paso, configura el nombre de host, la interfaz de VLAN 1 y su puerta de enlace predeterminada.
