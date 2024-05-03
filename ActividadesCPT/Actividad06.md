@@ -66,14 +66,14 @@ Todos los pings deben tener éxito.
 
 ## Paso 3: Muestra la información del dispositivo
 ### Muestra la tabla de routing en el router
-Utiliza el comando show ip route en R1 para responder las preguntas siguientes.
+Utiliza el comando show ip route en R1 para responder las preguntas siguientes:
 #### ¿Qué código se utiliza en la tabla de enrutamiento para indicar una red conectada directamente?
 #### ¿Cuántas entradas de ruta están codificadas con un código C en la tabla de enrutamiento?
 #### ¿Qué tipos de interfaces están asociadas a las rutas con código C?
 Usa el comando show ipv6 route en R1 para ver las rutas de IPv6.
 
-### Muestra la información de la interfaz en el R1.
-Utiliza el comando show interface g0/0/1 para responder las preguntas siguientes.
+### Muestra la información de la interfaz en el R1
+Utiliza el comando show interface g0/0/1 para responder las preguntas siguientes:
 #### ¿Cuál es el estado operativo de la interfaz G0/0/1?
 #### ¿Cuál es la dirección de control de acceso a los medios (MAC) de la interfaz G0/0/1?
 #### ¿Cómo se muestra la dirección de Internet en este comando?
