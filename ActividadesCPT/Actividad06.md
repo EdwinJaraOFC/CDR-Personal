@@ -31,7 +31,7 @@ direcciones.
 2. Configura la dirección IP, la máscara de subred y los parámetros del gateway predeterminado en la PC-B.
 3. En una ventana con el símbolo del sistema en la PC-A, haga ping a la PC-B.
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/389f96f5-a224-4f44-9407-9d18c8fdb3c4" width="600">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/65da4028-8789-4abf-b885-64356bb622cc" width="600">
 </p>
 
 #### ¿Por qué los pings no fueron correctos?
