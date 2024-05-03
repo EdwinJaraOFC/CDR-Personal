@@ -49,16 +49,21 @@ Acceso autorizado únicamente. Los infractores se procesarán en la medida en qu
 </p>
 
 ## Paso 2: Repita los pasos 1 a 5 para el S2
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fa17c053-2664-4300-a620-4e381435d44d">
+</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7441b08d-8617-43ac-b83d-47767ecccdf9">
+</p>
 
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fa17c053-2664-4300-a620-4e381435d44d)
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7441b08d-8617-43ac-b83d-47767ecccdf9)
-
-### Configurar las PC
-Configura la PC1 y la PC2 con direcciones IP.
 ### Configura ambas PC con direcciones IP
 1. Haz clic en PC1 y luego en la ficha Escritorio.
 2. Haz clic en Configuración de IP. En la tabla de direccionamiento anterior, puede ver que la dirección IP para la PC1 es 192.168.1.1 y la máscara de subred es 255.255.255.0. Introduzca esta información para la PC1 en la ventana Configuración de IP.
 3. Repite los pasos 1a y 1b para la PC2.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d572b834-47e9-40cd-8371-fa10266110fa">
+</p>
+
 ### Prueba la conectividad a los switches.
 1. Haz clic en PC1. Cierre la ventana Configuración de IP si todavía está abierta. En la ficha Escritorio, haga clic en Símbolo del sistema.
 2. Escribe el comando ping y la dirección IP para S1 y presione Enter.
@@ -67,3 +72,7 @@ Packet Tracer PC Línea de comandos 1.0
 PC> ping 192.168.1.253
 ```
 #### ¿Tuviste éxito? Explica.
+No tuve éxito al enviar el ping, ya que todavía no he configurado una dirección IP para los switches.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2cd6d2f0-cc22-4fdc-9176-7f57b9cf73f6">
+</p>
