@@ -81,6 +81,7 @@ No tuve éxito al enviar el ping, ya que todavía no he configurado una direcci�
 ### Configura el S1 con una dirección IP.
 Los switches pueden usarse como dispositivos plug-and-play. Esto significa que no necesitan configurarse para que funcionen. Los switches reenvían información desde un puerto hacia otro sobre la base de direcciones de control de acceso al medio (MAC).
 #### Si este es el caso, ¿por qué lo configuraremos con una dirección IP?
+Tenemos que usar una dirección IP para poderlo administrar de manera remota.<br>
 Usa los siguientes comandos para configurar el S1 con una dirección IP.
 ```
 S1# configure terminal
@@ -94,3 +95,26 @@ S1(config-if)# exit
 S1#
 ```
 #### ¿Por qué debe introducir el comando no shutdown?
+Usamos "no shutdown" basicamente para que se habilite esta dirección en esta interfaz.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/abd593a5-eafb-4a37-8b17-003f894caca8">
+</p>
+
+### Configura el S2 con una dirección IP
+Usa la información de la tabla de direccionamiento para configurar el S2 con una dirección IP.
+### Verifica la configuración de direcciones IP en el S1 y el S2
+Usa el comando show ip interface brief para ver la dirección IP y el estado de todos los puertos y
+las interfaces del switch. También puede utilizar el comando show running-config.
+### Guarda la configuración para el S1 y el S2 en la NVRAM
+#### ¿Qué comando se utiliza para guardar en la NVRAM el archivo de configuración que se encuentra en la RAM?
+### Verifica la conectividad de la red
+Puedes verificar la conectividad de la red mediante el comando ping. Es muy importante que haya conectividad en toda la red. Se deben tomar medidas correctivas si se produce una falla. Desde la PC1 y la PC2, haga ping al S1 y S2.
+
+1. Haga clic en PC1 y luego en la ficha Escritorio.
+2. Haga clic en Símbolo del sistema.
+3. Haga ping a la dirección IP de la PC2.
+4. Haga ping a la dirección IP del S1.
+5. Haga ping a la dirección IP del S2
+
+**Nota:** También usa el ping en la CLI del switch y en la PC2.
+Todos los ping deben tener éxito. Si el resultado del primer ping es 80%, inténtelo otra vez. Ahora debería ser 100%. Más adelante, aprenderá por qué es posible que un ping falle la primera vez. Si no puede hacer ping a ninguno de los dispositivos, vuelva a revisar la configuración para detectar errores.
