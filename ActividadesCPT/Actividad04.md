@@ -26,21 +26,11 @@ Switch# show running-config
 ```
 Responde las siguientes preguntas:<br>
 
-**a) ¿Cuántas interfaces Fast Ethernet tiene el switch?**
-- 24 interfaces Fast Ethernet<br>
-
-**b) ¿Cuántas interfaces Gigabit Ethernet tiene el switch?**
-- 2 interfaces Gigabit Ethernet<br>
-
-**c) ¿Cuál es el rango de valores que se muestra para las líneas vty?**
-- De 0 a 15<br>
-
-**d) ¿Qué comando muestra el contenido actual de la memoria de acceso aleatorio no volátil (NVRAM)? show star**
-- show startup-config<br>
-
-**e) ¿Por qué el switch responde con "startup-config no está presente"?**
-- Porque no hemos almacenado nada aún.
-
+1. **¿Cuántas interfaces Fast Ethernet tiene el switch?** <br>- 24 interfaces Fast Ethernet<br>
+2. **¿Cuántas interfaces Gigabit Ethernet tiene el switch?** <br>- 2 interfaces Gigabit Ethernet<br>
+3. **¿Cuál es el rango de valores que se muestra para las líneas vty?** <br>- De 0 a 15<br>
+4. **¿Qué comando muestra el contenido actual de la memoria de acceso aleatorio no volátil (NVRAM)? show star** <br>- show startup-config<br>
+5. **¿Por qué el switch responde con "startup-config no está presente"?** <br>- Porque no hemos almacenado nada aún.
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/12bd29aa-a9fb-48be-9ed1-e45c66b05dbd">
 </p>
@@ -145,11 +135,8 @@ Nota: Puedes abreviar show running-config como:
 ```
 S1# show run
 ```
-**¿Qué se muestra como contraseña de enable secret?**
-- $1$mERr$ILwq/b7kc.7X/ejA4Aosn0
-
-**¿Por qué la contraseña de enable secret se ve diferente de lo que se configuró?**
-- Porque la contraseña está encriptada.
+**¿Qué se muestra como contraseña de enable secret?** <br>$1$mERr$ILwq/b7kc.7X/ejA4Aosn0<br>
+**¿Por qué la contraseña de enable secret se ve diferente de lo que se configuró?** <br>Porque la contraseña está encriptada.
 
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b46c0eb5-4ce1-4a20-aea7-ac4f161adb26">
@@ -183,29 +170,23 @@ S1#<br>
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b5be9353-a147-40fc-abd0-ff68c032e7f6">
 </p>
 
-**¿Cuándo se muestra este aviso?**
-- Se muestra cuando quieres ingresar o iniciar sesión.
-
-**¿Por qué todos los switches deben tener un aviso de MOTD?**
-- Porque necesitamos evitar que personas no autorizadas no ingresen.
+**¿Cuándo se muestra este aviso?** <br>Se muestra cuando quieres ingresar o iniciar sesión.<br>
+**¿Por qué todos los switches deben tener un aviso de MOTD?** <br>Porque necesitamos evitar que personas no autorizadas no ingresen.
 
 ## Paso 4: Guarda y verifica archivos de configuración en NVRAM
 ### Verifica que la configuración sea precisa mediante el comando show run.
 Guarda el archivo de configuración. Tu has completado la configuración básica del switch. Ahora haga una copia de seguridad del archivo de configuración en ejecución a NVRAM para garantizar que los cambios que se han realizado no se pierdan si el sistema se reinicia o se apaga.
+```
 S1# copy running-config startup-config Destination filename [startup-config]?[Enter]
 Building configuration…
 [OK]
-
+```
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/77cdb4b5-a3a4-4680-8ce6-acbe609d633f">
 </p>
 
-**¿Cuál es la versión abreviada más corta del comando copy running-config startup-config? Examine el archivo de configuración de inicio.¿Qué comando muestra el contenido de la NVRAM.**
-- La versión abreviada más corta del comando copy running-config es cop r st.
-- show startup-config.
-
-**¿Todos los cambios realizados están grabados en el archivo?**
-- Sí, están grabados y no se van a borrar.
+**¿Cuál es la versión abreviada más corta del comando copy running-config startup-config? Examine el archivo de configuración de inicio.¿Qué comando muestra el contenido de la NVRAM.** <br>La versión abreviada más corta del comando copy running-config es cop r st. <br>show startup-config.<br>
+**¿Todos los cambios realizados están grabados en el archivo?** <br>Sí, están grabados y no se van a borrar.
 
 ## Paso 5: Configura S2
 Hemos completado la configuración en S1. Ahora configura el S2. Si no recuerda los comandos, consulte las partes 1 a 4 para obtener ayuda.
