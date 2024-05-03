@@ -26,11 +26,11 @@ Switch# show running-config
 ```
 Responde las siguientes preguntas:<br>
 
-1. **¿Cuántas interfaces Fast Ethernet tiene el switch?** <br>- 24 interfaces Fast Ethernet<br>
-2. **¿Cuántas interfaces Gigabit Ethernet tiene el switch?** <br>- 2 interfaces Gigabit Ethernet<br>
-3. **¿Cuál es el rango de valores que se muestra para las líneas vty?** <br>- De 0 a 15<br>
-4. **¿Qué comando muestra el contenido actual de la memoria de acceso aleatorio no volátil (NVRAM)? show star** <br>- show startup-config<br>
-5. **¿Por qué el switch responde con "startup-config no está presente"?** <br>- Porque no hemos almacenado nada aún.
+1. **¿Cuántas interfaces Fast Ethernet tiene el switch?** <br>24 interfaces Fast Ethernet<br>
+2. **¿Cuántas interfaces Gigabit Ethernet tiene el switch?** <br>2 interfaces Gigabit Ethernet<br>
+3. **¿Cuál es el rango de valores que se muestra para las líneas vty?** <br>De 0 a 15<br>
+4. **¿Qué comando muestra el contenido actual de la memoria de acceso aleatorio no volátil (NVRAM)? show star** <br>show startup-config<br>
+5. **¿Por qué el switch responde con "startup-config no está presente"?** <br>Porque no hemos almacenado nada aún.
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/12bd29aa-a9fb-48be-9ed1-e45c66b05dbd">
 </p>
