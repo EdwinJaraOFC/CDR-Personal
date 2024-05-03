@@ -201,7 +201,7 @@ Configura el S2 con los siguientes parámetros:
 8. Cierra la ventana de configuración para S2.
 
 <p align="center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9e73b9f6-be06-4824-85d6-ad2e6198b141" width="400">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9e73b9f6-be06-4824-85d6-ad2e6198b141" width="600">
 </p>
 
 <p align="center">
