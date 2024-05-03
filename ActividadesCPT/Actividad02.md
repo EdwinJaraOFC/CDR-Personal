@@ -118,7 +118,7 @@ Usa el comando show ip interface brief para ver la dirección IP y el estado de 
 ### Guarda la configuración para el S1 y el S2 en la NVRAM
 #### ¿Qué comando se utiliza para guardar en la NVRAM el archivo de configuración que se encuentra en la RAM?
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6880dc5e-b142-4c35-8f2c-eff7682c507b" width="410px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6880dc5e-b142-4c35-8f2c-eff7682c507b" width="420px">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ab15721c-f89e-40c9-b690-06f73ea4c992" width="400px">
 </div>
 
@@ -131,9 +131,9 @@ Puedes verificar la conectividad de la red mediante el comando ping. Es muy impo
 4. Haga ping a la dirección IP del S1.
 5. Haga ping a la dirección IP del S2
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8a1247cb-99d4-40fa-9398-1121133eb8c6">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/73855886-1efb-445c-a1e5-8a60a0e77723">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/696f4605-6873-4d89-8355-d7d6f739597a">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8a1247cb-99d4-40fa-9398-1121133eb8c6" width="320px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/73855886-1efb-445c-a1e5-8a60a0e77723" width="320px">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/696f4605-6873-4d89-8355-d7d6f739597a" width="320px">
 </div>
 
 **Nota:** También usa el ping en la CLI del switch y en la PC2.
