@@ -103,7 +103,8 @@ Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
 ## Preguntas
 Responde las siguientes preguntas relacionadas con los datos capturados:
 1. **¿Se utilizaron diferentes tipos de cables / medios para conectar dispositivos?**
-  Sí, se utilizaron 3 tipos de cables: Inalámbrico, de cobre y de fibra óptica.<br><br>
+
+Sí, se utilizaron 3 tipos de cables: Inalámbrico, de cobre y de fibra óptica.<br><br>
 3. **¿Los cables cambiaron el manejo de la PDU de alguna manera?** <br>No, los cables solo trabajan a nivel de la capa 1.<br><br>
 4. **¿El hub perdió parte de la información que recibió?** <br>No.<br><br>
 5. **¿Qué hace el hub con las direcciones MAC y las direcciones IP?** <br>Nada, el HUB solo reenvía hacia todos sus puertos la trama que se envía.<br><br>
