@@ -50,6 +50,7 @@ Porque el router y el switch aún no se han configurado.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ddd17af4-f9dd-4e19-bb1c-4822821c8da0">
 </p>
+
 10. Configura una descripción de interfaz para cada interfaz e indique qué dispositivo está conectado.
 11. Para habilitar el enrutamiento IPv6, ingrese el comando ipv6 unicast-routing.
 12. Guardar la configuración en ejecución en el archivo de configuración de inicio
