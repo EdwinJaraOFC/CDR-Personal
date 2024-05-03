@@ -9,7 +9,7 @@
 </p>
 
 # Paso 1: Realiza una configuración básica en el S1 y el S2
-## Configura un nombre de host en el S1.
+## Configura un nombre de host en el S1
 1. Haz clic en S1 y luego en la ficha CLI.
 2. Introduce el comando correcto para configurar el nombre de host S1.
 <p align= "center">
@@ -102,11 +102,24 @@ Usamos "no shutdown" basicamente para que se habilite esta dirección en esta in
 
 ### Configura el S2 con una dirección IP
 Usa la información de la tabla de direccionamiento para configurar el S2 con una dirección IP.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e385e026-4a02-4b49-93f0-af424a435f78">
+</p>
+
 ### Verifica la configuración de direcciones IP en el S1 y el S2
-Usa el comando show ip interface brief para ver la dirección IP y el estado de todos los puertos y
-las interfaces del switch. También puede utilizar el comando show running-config.
+Usa el comando show ip interface brief para ver la dirección IP y el estado de todos los puertos y las interfaces del switch. También puede utilizar el comando show running-config.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e6e62ac1-7ea1-4f20-bb5e-980cc17b0f35">
+</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cb46e352-f1db-4776-a9b6-22aa5e58af3b">
+</p>
+
 ### Guarda la configuración para el S1 y el S2 en la NVRAM
 #### ¿Qué comando se utiliza para guardar en la NVRAM el archivo de configuración que se encuentra en la RAM?
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6880dc5e-b142-4c35-8f2c-eff7682c507b)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ab15721c-f89e-40c9-b690-06f73ea4c992)
+
 ### Verifica la conectividad de la red
 Puedes verificar la conectividad de la red mediante el comando ping. Es muy importante que haya conectividad en toda la red. Se deben tomar medidas correctivas si se produce una falla. Desde la PC1 y la PC2, haga ping al S1 y S2.
 
@@ -115,6 +128,18 @@ Puedes verificar la conectividad de la red mediante el comando ping. Es muy impo
 3. Haga ping a la dirección IP de la PC2.
 4. Haga ping a la dirección IP del S1.
 5. Haga ping a la dirección IP del S2
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8a1247cb-99d4-40fa-9398-1121133eb8c6">
+</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/73855886-1efb-445c-a1e5-8a60a0e77723">
+</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/696f4605-6873-4d89-8355-d7d6f739597a">
+</p>
 
 **Nota:** También usa el ping en la CLI del switch y en la PC2.
 Todos los ping deben tener éxito. Si el resultado del primer ping es 80%, inténtelo otra vez. Ahora debería ser 100%. Más adelante, aprenderá por qué es posible que un ping falle la primera vez. Si no puede hacer ping a ninguno de los dispositivos, vuelva a revisar la configuración para detectar errores.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ea9e068f-a235-4a71-8bc4-439ba598e791">
+</p>
