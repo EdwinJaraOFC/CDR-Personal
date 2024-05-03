@@ -70,7 +70,7 @@ S1#
 ### Verifica que el acceso a la consola sea seguro.
 Salimos del modo privilegiado para verificar que la contraseña del puerto de consola esté vigente.
 ```
-S1# exit<br>
+S1# exit
 Switch con0 is now available
 Press RETURN to get started.
 User Access Verification
