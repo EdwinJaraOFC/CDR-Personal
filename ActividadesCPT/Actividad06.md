@@ -75,9 +75,9 @@ Todos los pings deben tener éxito.
 
 ### Muestra la información de la interfaz en el R1.
 1. Utiliza el comando show interface g0/0/1 para responder las preguntas siguientes.
-#### ¿Cuál es el estado operativo de la interfaz G0/0/1?
-#### ¿Cuál es la dirección de control de acceso a los medios (MAC) de la interfaz G0/0/1?
-#### ¿Cómo se muestra la dirección de Internet en este comando?
+####     ¿Cuál es el estado operativo de la interfaz G0/0/1?
+####     ¿Cuál es la dirección de control de acceso a los medios (MAC) de la interfaz G0/0/1?
+####     ¿Cómo se muestra la dirección de Internet en este comando?
 2. Para obtener información sobre IPv6, escribe el comando show ipv6 interface interface .
 
 ### Muestra una lista de resumen de las interfaces del router y del switch
