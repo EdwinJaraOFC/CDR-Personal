@@ -88,8 +88,7 @@ S1# configure terminal
 S1(config)# interface vlan 1
 S1(config-if)# ip address 192.168.1.253 255.255.255.0
 S1(config-if)# no shutdown
-  %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state
-to up
+  %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
 S1(config-if)#
 S1(config-if)# exit
 S1#
