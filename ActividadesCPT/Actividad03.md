@@ -24,27 +24,32 @@
 </p>
 
 **Switch1**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/ecf3dc79-6835-432b-8093-5bd62fd9c039)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/ecf3dc79-6835-432b-8093-5bd62fd9c039">
+</p>
 
 **Concentrador (HUB)**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/1d280728-e507-416e-b59e-35b650a03a95)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/1d280728-e507-416e-b59e-35b650a03a95">
+</p>
 
 **172.16.31.2**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bf0351d6-947e-439e-914b-591840cd16dd)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/bf0351d6-947e-439e-914b-591840cd16dd">
+</p>
 
 ### Reunir información adicional de la PDU de otros ping.
 Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
 
 - **Ping de 172.16.31.2 a 172.16.31.3**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/be08a1e1-c032-44e7-b474-5fad2977f846)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/be08a1e1-c032-44e7-b474-5fad2977f846">
+</p>
 
 - **Ping de 172.16.31.4 a 172.16.31.5**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/aa81520e-5f11-4af1-8c03-9131da8c1a5e)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/aa81520e-5f11-4af1-8c03-9131da8c1a5e">
+</p>
 
 ## Paso 2: Recopila información del PDU para la comunicación de red remota
 
@@ -53,39 +58,47 @@ Repite el proceso del paso 1 y reúna información para las siguientes pruebas:
 2. Introduce el comando **ping 10.10.10.2.**
 3. Cambia al modo de simulación y repita el comando **ping 10.10.10.2.** Aparece una PDU junto a **172.16.31.5.**
 4. Haz clic en la PDU y observe la siguiente información en la ficha **Outbound PDU Layer (Capa de PDU saliente):** <br>- Destination MAC Address: 00D0:BA8E:741A<br>- Source MAC Address: 00D0:D311:C788<br>- Source IP Address: 172.16.31.5<br>- Destination IP Address: 10.10.10.2<br>- At Device: 172.16.31.5
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a31f8b70-f606-4c1c-a5df-24a7d92ac239)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a31f8b70-f606-4c1c-a5df-24a7d92ac239">
+</p>
 
 **¿Qué dispositivo tiene el MAC de destino que se muestra?**
 - El Router
 
 5. Haz clic en **Capture / Forward (la flecha derecha seguida de una barra vertical)** para mover la PDU al siguiente dispositivo. Reúne la misma información del paso 1d. Repite este proceso hasta que la PDU llegue al destino. Registra la información de la PDU que recopiló del ping 172.16.31.5 a 10.10.10.2 en una hoja de cálculo utilizando un formato como la tabla de muestra que se muestra a continuación: 
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/283a7045-38d1-4211-8086-b0d5b82ac1b7)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/283a7045-38d1-4211-8086-b0d5b82ac1b7">
+</p>
 
 **172.16.31.5**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/959e2e8a-97f7-46bc-a5a5-081f5b6c017c)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/959e2e8a-97f7-46bc-a5a5-081f5b6c017c">
+</p>
 
 **Switch1**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a16c6a48-5fa0-4551-b3ca-1251255b999a)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/a16c6a48-5fa0-4551-b3ca-1251255b999a">
+</p>
 
 **Router**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/59c652c9-9452-49fa-85f7-757f85f07fe7)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/59c652c9-9452-49fa-85f7-757f85f07fe7">
+</p>
 
 **Switch0**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/c1ae9f1d-4d35-4916-8783-b2fb8981f1f5)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/c1ae9f1d-4d35-4916-8783-b2fb8981f1f5">
+</p>
 
 **Punto de acceso**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/1578f351-8cb1-44c2-bd5a-93fc7a6f834f)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/1578f351-8cb1-44c2-bd5a-93fc7a6f834f">
+</p>
 
 **10.10.10.2**
-
-![image](https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/8f492934-35b0-4ae7-88b6-ef357b4d3f94)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150296803/8f492934-35b0-4ae7-88b6-ef357b4d3f94">
+</p>
 
 ## Preguntas
 Responde las siguientes preguntas relacionadas con los datos capturados:
