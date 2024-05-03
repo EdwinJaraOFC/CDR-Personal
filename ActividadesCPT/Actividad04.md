@@ -26,10 +26,10 @@ Switch# show running-config
 ```
 Responde las siguientes preguntas:<br>
 
-1. **¿Cuántas interfaces Fast Ethernet tiene el switch?** <br>24 interfaces Fast Ethernet<br>
-2. **¿Cuántas interfaces Gigabit Ethernet tiene el switch?** <br>2 interfaces Gigabit Ethernet<br>
-3. **¿Cuál es el rango de valores que se muestra para las líneas vty?** <br>De 0 a 15<br>
-4. **¿Qué comando muestra el contenido actual de la memoria de acceso aleatorio no volátil (NVRAM)? show star** <br>show startup-config<br>
+1. **¿Cuántas interfaces Fast Ethernet tiene el switch?** <br>24 interfaces Fast Ethernet<br><br>
+2. **¿Cuántas interfaces Gigabit Ethernet tiene el switch?** <br>2 interfaces Gigabit Ethernet<br><br>
+3. **¿Cuál es el rango de valores que se muestra para las líneas vty?** <br>De 0 a 15<br><br>
+4. **¿Qué comando muestra el contenido actual de la memoria de acceso aleatorio no volátil (NVRAM)? show star** <br>show startup-config<br><br>
 5. **¿Por qué el switch responde con "startup-config no está presente"?** <br>Porque no hemos almacenado nada aún.
 <p align="center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/12bd29aa-a9fb-48be-9ed1-e45c66b05dbd">
@@ -135,7 +135,7 @@ Nota: Puedes abreviar show running-config como:
 ```
 S1# show run
 ```
-**¿Qué se muestra como contraseña de enable secret?** <br>$1$mERr$ILwq/b7kc.7X/ejA4Aosn0<br>
+**¿Qué se muestra como contraseña de enable secret?** <br>$1$mERr$ILwq/b7kc.7X/ejA4Aosn0<br><br>
 **¿Por qué la contraseña de enable secret se ve diferente de lo que se configuró?** <br>Porque la contraseña está encriptada.
 
 <p align="center">
@@ -170,7 +170,7 @@ S1#<br>
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b5be9353-a147-40fc-abd0-ff68c032e7f6">
 </p>
 
-**¿Cuándo se muestra este aviso?** <br>Se muestra cuando quieres ingresar o iniciar sesión.<br>
+**¿Cuándo se muestra este aviso?** <br>Se muestra cuando quieres ingresar o iniciar sesión.<br><br>
 **¿Por qué todos los switches deben tener un aviso de MOTD?** <br>Porque necesitamos evitar que personas no autorizadas no ingresen.
 
 ## Paso 4: Guarda y verifica archivos de configuración en NVRAM
