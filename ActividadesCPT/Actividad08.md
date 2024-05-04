@@ -12,7 +12,7 @@ Realiza la siguiente tarea para reducir la cantidad de tráfico de red que se ve
 3. Cierra la ventana **MultiServer**.
 
 <p align="center">
-  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/89754dda-7968-47cb-9c50-8b62df82fed1" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRGrupo5/assets/150297452/89754dda-7968-47cb-9c50-8b62df82fed1" width="900">
 </p>
 
 **Nota:** El comando "-n 1" envía solo una solicitud de ping, aunque en el terminal se muestren cuatro envíos. Esto se debe a cómo funciona el comando en un prompt de Windows real, donde obedece al comando y envía una sola solicitud.
