@@ -41,14 +41,6 @@ Sitio web que cambia según las interacciones del usuario; a menudo se crea con 
 ### Sitio web estático
 Un sitio web que no cambia según las interacciones del usuario; normalmente se crea con HTML y hojas de estilo en cascada (CSS).
 
-## Preguntas de enfoque
-
-1. A menudo, la finalidad de un sitio web (o aplicación) no es el mismo para un usuario que para el creador. Por ejemplo, el motor de búsqueda de Google proporciona un servicio a los usuarios proporcionando capacidades de búsqueda rápidas y eficaces. Sin embargo, para Google, las búsquedas proporcionan datos sobre los usuarios que Google puede analizar para presentar a los usuarios anuncios específicos. Piense en un sitio web (o aplicación) que usa a menudo. ¿Cuál es la finalidad del sitio web (o aplicación) para el usuario y el creador? ¿Son estas finalidades similares o diferentes?
-
-2. El nombre de dominio de un sitio web suele ser nuestra primera impresión de un sitio web, incluso antes de ver el contenido. Nombres como Wikipedia, Twitter y Facebook evocan ideas sobre cómo se utilizarán. Sin embargo, nombres como Google y Amazon no dicen mucho sobre su finalidad. ¿Qué factores cree que son importantes a la hora de nombrar un sitio web y por qué? ¿Cómo afecta el nombre de un sitio web a la experiencia y las impresiones que el usuario tiene en ese sitio? Al nombrar su propio sitio web, ¿cuáles serán, al menos, los dos factores más importantes para usted? 
-
-3. Muchos sitios web almacenan datos sobre su uso del sitio web en la computadora (denominados cookies) o en el sitio web (denominados variables de sesión). Estos datos permiten al sitio web no solo personalizar su uso, sino también conocer sus patrones e historial de uso. Esto significa que los sitios web pueden ofrecer mejores recomendaciones y completar formularios de forma automática rápidamente. Sin embargo, también significa que pueden vender su información a anunciantes. Esto puede significar un acceso más fácil y eficiente a costa de la privacidad. Cuando se trata de este tipo de recopilación de datos, ¿considera que el intercambio vale la pena? ¿Por qué sí o por qué no? ¿Deberían los sitios web ser más transparentes acerca de qué tipos de datos están recopilando? ¿Debería poder optar por no participar?
-
 ## Laboratorio 1: Lanzamiento de una instancia EC2
 ### Objetivo
 Crear una instancia de EC2 que aloja un sitio web sencillo.
