@@ -56,7 +56,3 @@ Todos los servicios son fundamentales debido a su capacidad para satisfacer dife
 #### Si un amigo cercano o familiar estuviera empezando un negocio y quisiera utilizar los servicios en la nube, ¿qué consejo daría?
 <p align="justify">
 Es crucial que adquiera los conocimientos necesarios sobre cómo funcionan estos servicios, esto garantizará una mejor experiencia en el uso de la nube. Además, es fundamental que seleccione proveedores de servicios en la nube confiables y seguros para evitar comprometer información confidencial.</p>
-
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/72cdf1bc-970e-4077-909d-40e9cddc4c29">
-</p>
