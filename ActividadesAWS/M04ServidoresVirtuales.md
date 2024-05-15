@@ -35,7 +35,7 @@ Crear una instancia de EC2 que aloja un sitio web sencillo.
 <p align="justify">
 
 #### ¿Necesita una explicación más detallada de los pasos para crear una instancia EC2 para alojar un sitio web? ¿Dónde cree que podría buscar más información sobre esa parte del proceso?
-No es necesario una explicación más detallada, puedo encontrar más información en la página de AWS Services.
+No es necesario una explicación más detallada, puedo encontrar más información en la documentación de AWS.
 #### Abrió el servidor para que se acceda desde cualquier puerto. ¿En qué cree que la configuración del grupo de seguridad sería diferente para una gran empresa como AWS?
 Una gran empresa como AWS adoptaría una configuración de grupo de seguridad mucho más compleja y robusta, con un enfoque fuerte en la seguridad, la escalabilidad, etc.
 </p>
@@ -47,7 +47,7 @@ Crear un bucket de S3.
 <p align="justify">
   
 #### ¿Necesita una explicación más detallada de alguno de los pasos para crear un bucket de S3 para alojar un sitio web? ¿Dónde cree que podría buscar más información sobre esa parte del proceso?
-No es necesario una explicación más detallada, puedo encontrar más información en la página de AWS Services.
+No es necesario una explicación más detallada, puedo encontrar más información en la documentación de AWS.
 #### Los buckets de S3 escalan automáticamente para ajustarse al tamaño de los datos almacenados. ¿Por qué cree que esto es útil para las empresas que utilizan el servicio Amazon S3?
 S3 es útil ya que aporta flexibilidad, eficiencia en costos, facilidad de gestión y robustez a las empresas.
 #### ¿Qué tipos de datos cree que pueden beneficiarse de almacenarse en la nube? ¿Cómo el almacenamiento de los datos en la nube hace que sus datos estén más seguros y protegidos?
