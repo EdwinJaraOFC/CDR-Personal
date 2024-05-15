@@ -1,6 +1,6 @@
 <p align="left">
   <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
-  <h1 align="center">Repositorio personal Comunicación de Datos y Redes</h1>
+  <h1 align="center">Repositorio Personal: Comunicación de Datos y Redes</h1>
 </p>
 <p align="justify">
 Este repositorio contiene los materiales y actividades realizadas durante el curso de Comunicación de Datos y Redes. El objetivo principal del curso es comprender los conceptos fundamentales de las redes de comunicación y adquirir habilidades prácticas en el uso de herramientas y servicios relacionados.</p>
