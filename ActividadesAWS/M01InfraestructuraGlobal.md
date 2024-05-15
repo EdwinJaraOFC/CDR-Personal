@@ -9,7 +9,7 @@
 | Informática en la nube | Es la distribución de recursos de TI bajo demanda a través de Internet mediante un esquema de pago por uso.  |
 |  Amazon Web Services (AWS) | Una plataforma que proporciona una amplia gama de servicios de informática en la nube. |
 |  Almacenamiento en nube | Guardar datos mediante un proveedor de servicios en la nube (CSP) en lugar de una máquina física.  |
-|  Servidor |  Un equipo diseñado para procesar solicitudes y entregar datos a otro equipo a través de Internet o de una red local. En la nube, un servidor está alojado por un proveedor externo al que se accede a través de Internet. |
+|  Servidor |  <p align="justify">Un equipo diseñado para procesar solicitudes y entregar datos a otro equipo a través de Internet o de una red local. En la nube, un servidor está alojado por un proveedor externo al que se accede a través de Internet.</p> |
 
 
 ## Antecedentes y conceptos
