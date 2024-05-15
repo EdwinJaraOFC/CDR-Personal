@@ -12,8 +12,9 @@
 | Requisitos de confirmación o acuse de recibo | ¿Cómo sabe que se recibió el mensaje? ¿Cómo sabe que la conversación terminó? | <p align="justify">Un sistema automatizado que genere una notificación de recepción una vez que el mensaje haya sido procesado por el servidor del destinatario.</p> |
 
 ## Preguntas
-1. **Ahora que anotaste los protocolos que usan el enviar y leer mensajes de texto, ¿crees que estos protocolos serían los mismos si estuviera escribiendo a amigos que si estuviera escribiendo a sus padres o profesores?** <br>- Los protocolos utilizados al enviar y recibir mensajes de texto tienden a seguir estándares, independientemente del destinatario.
-
-2. **¿Cuáles crees que serían las consecuencias si no hubiera estándares de protocolo acordados para los diferentes métodos de comunicación?** <br>- Si los estándares de protocolo no estuvieran establecidos para los distintos métodos de comunicación, se generaría una situación en la que la comunicación no sería clara ni confiable, además de tener riesgos de seguridad, como el robo de información.
-
-3. **Comparte las reglas de protocolo con tus compañeros de equipo. ¿Hay diferencias entre tus protocolos y los de ellos? Si es así, ¿podrían estas diferencias producir malentendidos de los mensajes?** <br>- Sí, hay ciertas diferencias entre nuestras reglas de protocolos. Considero que estás diferencias sí pueden producir malentendidos en los mensajes.
+#### Ahora que anotaste los protocolos que usan el enviar y leer mensajes de texto, ¿crees que estos protocolos serían los mismos si estuviera escribiendo a amigos que si estuviera escribiendo a sus padres o profesores?
+Los protocolos utilizados al enviar y recibir mensajes de texto tienden a seguir estándares, independientemente del destinatario.
+#### ¿Cuáles crees que serían las consecuencias si no hubiera estándares de protocolo acordados para los diferentes métodos de comunicación?
+Si los estándares de protocolo no estuvieran establecidos para los distintos métodos de comunicación, se generaría una situación en la que la comunicación no sería clara ni confiable, además de tener riesgos de seguridad, como el robo de información.
+#### Comparte las reglas de protocolo con tus compañeros de equipo. ¿Hay diferencias entre tus protocolos y los de ellos? Si es así, ¿podrían estas diferencias producir malentendidos de los mensajes?
+Sí, hay ciertas diferencias entre nuestras reglas de protocolos. Considero que estás diferencias sí pueden producir malentendidos en los mensajes.
