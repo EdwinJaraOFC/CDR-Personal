@@ -46,8 +46,12 @@ Crear un bucket de S3.
 ### Preguntas
 <p align="justify">
   
-1. ¿Necesita una explicación más detallada de alguno de los pasos para crear un bucket de S3 para alojar un sitio web? ¿Dónde cree que podría buscar más información sobre esa parte del proceso?
-2. Los buckets de S3 escalan automáticamente para ajustarse al tamaño de los datos almacenados. ¿Por qué cree que esto es útil para las empresas que utilizan el servicio Amazon S3?
-3. ¿Qué tipos de datos cree que pueden beneficiarse de almacenarse en la nube? ¿Cómo el almacenamiento de los datos en la nube hace que sus datos estén más seguros y protegidos? 
-4. ¿Cómo cree que los buckets de S3 están relacionados con las instancias EC2?
+#### ¿Necesita una explicación más detallada de alguno de los pasos para crear un bucket de S3 para alojar un sitio web? ¿Dónde cree que podría buscar más información sobre esa parte del proceso?
+No es necesario una explicación más detallada, puedo encontrar más información en la página de AWS Services.
+#### Los buckets de S3 escalan automáticamente para ajustarse al tamaño de los datos almacenados. ¿Por qué cree que esto es útil para las empresas que utilizan el servicio Amazon S3?
+S3 es útil ya que aporta flexibilidad, eficiencia en costos, facilidad de gestión y robustez a las empresas.
+#### ¿Qué tipos de datos cree que pueden beneficiarse de almacenarse en la nube? ¿Cómo el almacenamiento de los datos en la nube hace que sus datos estén más seguros y protegidos?
+Los tipos de datos que pueden beneficiarse de almacenarse en la nube son los archivos multimedia, los correos electrónicos, etc. El almacenamiento de los datos en la nube es más seguro ya que contienen cifrado de datos.
+#### ¿Cómo cree que los buckets de S3 están relacionados con las instancias EC2?
+S3 proporciona un almacenamiento escalable y duradero, mientras que EC2 ofrece la capacidad de procesamiento necesaria para trabajar con esos datos. Esta combinación permite a las empresas construir aplicaciones y sistemas flexibles, eficientes y seguros en la nube.
 </p>
