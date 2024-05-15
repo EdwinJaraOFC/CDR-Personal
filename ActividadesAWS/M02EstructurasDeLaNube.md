@@ -18,9 +18,7 @@
 <p align="justify">
 Las diferencias entre los componentes de la infraestructura pueden ser confusas porque todos están interconectados y están relacionados con el diseño físico de la nube de AWS. Es bueno tener un ejemplo visual concreto.</p><br>
 
-<p align="center">
-  
-**Región > zona de disponibilidad > ubicación de borde**</p>
+<p align="center">Región > zona de disponibilidad > ubicación de borde</p>
 
 ## Actividad 1: Visualización de la infraestructura global de AWS
 <p align= "center">
