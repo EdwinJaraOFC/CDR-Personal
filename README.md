@@ -12,7 +12,7 @@ Este repositorio contiene los materiales y actividades realizadas durante el cur
 ## Contenido
 | Nombre de Carpeta  | Descripción  |
 | :------------: | :------------: |
-| <a href="ruta_a_la_carpeta_ActividadesAmazonWebServices">ActividadesAmazonWebServices</a>  | <p align="justify">En esta carpeta, encontrarás ejercicios y proyectos prácticos relacionados con los servicios de Amazon Web Services (AWS). Aquí podrás explorar y experimentar con diferentes servicios de AWS, como redes virtuales, instancias EC2, balanceadores de carga, servicios de DNS, entre otros.</p>  |
+| <a href="ActividadesAmazonWebServices">ActividadesAmazonWebServices</a>  | <p align="justify">En esta carpeta, encontrarás ejercicios y proyectos prácticos relacionados con los servicios de Amazon Web Services (AWS). Aquí podrás explorar y experimentar con diferentes servicios de AWS, como redes virtuales, instancias EC2, balanceadores de carga, servicios de DNS, entre otros.</p>  |
 | <a href="ruta_a_la_carpeta_ActividadesAmazonWebServices">ActividadesGenerales</a>  | <p align="justify">Esta carpeta contiene actividades generales relacionadas con el curso. Aquí encontrarás simulaciones y ejercicios realizados en Cisco Packet Tracer, código fuente de programas y scripts, y otros materiales complementarios.</p>  |
 | <a href="ruta_a_la_carpeta_ActividadesAmazonWebServices">ActividadesPreliminares</a>  | <p align="justify">En esta carpeta, se encuentran las actividades preliminares realizadas al inicio del curso. Incluye ejercicios de configuración de entornos Linux, retroalimentación de clases y otros materiales introductorios.</p>  |
 
