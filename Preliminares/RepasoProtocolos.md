@@ -4,7 +4,7 @@
 </p>
 
 |Requisito del protocolo|¿Qué significa esto?|¿Cómo se implementa en su protocolo?|
-| :------------: | :------------: |
+| :------------: | :------------: | :------------: |
 | Un emisor y un receptor identificados | ¿Cómo sabe de quién es el mensaje de texto? ¿Cómo sabe la persona en el otro extremo que usted recibió el mensaje? ¿Va dirigido a una persona o a un grupo? | <p align="justify">En mensajería de texto, el emisor y el receptor generalmente se identifican por el número de teléfono, el nombre de usuario o el apodo. Los mensajes de texto se pueden enviar a un grupo predefinido o a grupos nuevos que se crean según la necesidad.</p> |
 | Un método de comunicación acordado | ¿Solo enviamos texto? ¿Enviamos y recibimos fotos? ¿Y los emoticones y emoji? | <p align="justify">El protocolo debe proporcionar la flexibilidad necesaria para permitir el intercambio de diferentes tipos de mensajes sin una restricción predefinida sobre su contenido específico.</p> |
 | Idioma y gramática común | ¿Usamos acrónimos? ¿Es aceptable el argot? ¿Cuál es el idioma materno de los participantes? | <p align="justify">Una función de detección y adaptación de idioma que permite a los usuarios comunicarse sin la restricción de mantener el mismo idioma o gramática.</p>  |
