@@ -38,8 +38,6 @@ Crear una instancia de EC2 que aloja un sitio web sencillo.
 No es necesario una explicación más detallada, puedo encontrar más información en la página de AWS Services.
 #### Abrió el servidor para que se acceda desde cualquier puerto. ¿En qué cree que la configuración del grupo de seguridad sería diferente para una gran empresa como AWS?
 Una gran empresa como AWS adoptaría una configuración de grupo de seguridad mucho más compleja y robusta, con un enfoque fuerte en la seguridad, la escalabilidad, etc.
-#### ¿Tiene alguna otra pregunta sobre el proceso de creación de una instancia EC2 y la ejecución de un sitio web?
-Ninguna por el momento.
 </p>
 
 ## Laboratorio 2: Creación de un bucket de S3
