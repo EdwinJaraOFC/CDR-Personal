@@ -24,8 +24,8 @@ Aprenderemos a crear una instancia de Amazon Elastic Compute Cloud (Amazon EC2) 
 
 ## Antecedentes y conceptos
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5293303b-639b-4cd8-b233-0ad252466e4a" width="390px"/>
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a26c8c4f-5546-4d5a-ae4b-a43307c25e70" width="450px"/>
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5293303b-639b-4cd8-b233-0ad252466e4a" width="300px"/>
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a26c8c4f-5546-4d5a-ae4b-a43307c25e70" width="600px"/>
 </div>
 
 ## Laboratorio 1: Lanzamiento de una instancia EC2
