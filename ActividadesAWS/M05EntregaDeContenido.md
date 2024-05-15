@@ -17,20 +17,14 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 | Ubicación de borde  | <p align="justify">Sitio en el que se pueden almacenar los datos para reducir la latencia.</p>  |
 | Origen  | <p align="justify">Tipo complejo que describe el bucket de AmazonS3, el servidor de protocolo de transferencia de hipertexto (HTTP).</p>  |
 
-Laboratorio: Uso de CloudFront como CDN para un sitio web
-
-Información general
+## Laboratorio: Uso de CloudFront como CDN para un sitio web
+### Información general
 Utilizará CloudFront para crear una red de distribución de contenido (CDN) para un sitio web almacenado en Amazon S3.
 
-Objetivo
-
+### Objetivo
 Configurar una distribución de CloudFront y adjuntarla a un sitio web.
-Instrucciones de laboratorio
-Siga las indicaciones de su instructor para completar el laboratorio.
 
-Reflexione
-
-Después de completar el laboratorio, prepárese para responder y analizar estas preguntas.
+### Preguntas
 
 ¿Hubo algún paso para crear un bucket de S3 o adjuntar una distribución de CloudFront que necesite una explicación más detallada? ¿Dónde cree que puede buscar para obtener más información sobre esa parte del proceso?
 ¿Por qué sería importante tener una red de distribución en la nube como CloudFront para una empresa de streaming de video o streaming de audio, como Hulu o Spotify?
