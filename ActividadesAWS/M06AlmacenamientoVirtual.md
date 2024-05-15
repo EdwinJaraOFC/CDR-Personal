@@ -15,6 +15,20 @@ Compararemos Amazon Elastic Block Store (Amazon EBS) con Amazon Simple Storage S
 | Operaciones de entrada y salida por segundo (IOPS)  |  <p align="justify">Medida de rendimiento frecuente que se utiliza para comparar dispositivos de almacenamiento.</p> |
 | Unidad de estado sólido (SDD)  | <p align="justify">Almacenamiento muy rápido que utiliza memoria flash.</p>  |
 
+## Antecedentes y conceptos
+<p align="justify">
+El almacenamiento de Amazon EBS se implementa como una serie de bloques de longitud fija que el sistema operativo puede leer y escribir. No se almacena nada de lo que representan estos bloques o sus atributos. Los bloques se parecen mucho a los sistemas de archivos del Sistema de archivos de nueva tecnología (NTFS) o de la Tabla de asignación de archivos (FAT) que se ejecutan en su equipo PC o Mac. Esto significa que se puede acceder a ellos rápidamente.</p>
+
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2abdbb12-c270-42c6-8a39-2f590bd3903d">
+</p>
+
+<p align="justify">
+El almacenamiento de Amazon S3 se implementa como un objeto que la aplicación que lo utiliza debe leer y escribir. Los objetos contienen metadatos, es decir, datos sobre los atributos del objeto que ayudan al sistema a catalogar e identificar dicho objeto. Algunos ejemplos de objetos son imágenes, videos y música. Los objetos no se pueden procesar de forma incremental. Deben leerse y escribirse en su totalidad. Esto puede tener implicaciones de rendimiento y consistencia.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e599b144-8cf2-4d7b-94ea-7de609978021">
+</p>
+
 ## Laboratorio: Adjuntar un volumen de EBS
 ### Objetivo
 Crear un volumen de EBS y asociarlo a una instancia EC2.
