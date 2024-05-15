@@ -20,7 +20,7 @@ Compararemos Amazon Elastic Block Store (Amazon EBS) con Amazon Simple Storage S
 El almacenamiento de Amazon EBS se implementa como una serie de bloques de longitud fija que el sistema operativo puede leer y escribir. No se almacena nada de lo que representan estos bloques o sus atributos. Los bloques se parecen mucho a los sistemas de archivos del Sistema de archivos de nueva tecnología (NTFS) o de la Tabla de asignación de archivos (FAT) que se ejecutan en su equipo PC o Mac. Esto significa que se puede acceder a ellos rápidamente.</p>
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a3491935-125e-4f35-be1c-41c43cf302d3" width="500">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a3491935-125e-4f35-be1c-41c43cf302d3">
 </p>
 
 <p align="justify">
