@@ -35,8 +35,13 @@ Crear un volumen de EBS y asociarlo a una instancia EC2.
 
 ### Preguntas
 #### ¿Algún paso en el laboratorio fue confuso? ¿Dónde podría buscar respuestas?
-No fue confuso en absoluto, puedo encontrar más información en la documentación de AWS.
+<p align="justify">
+No fue confuso en absoluto, puedo encontrar más información en la documentación de AWS.</p>
+
 #### ¿Cómo cree que Amazon EBS podría ayudar a que una escuela funcione de manera más eficaz?
-Amazon EBS puede ayudar a una escuela almacenando la base de datos de estudiantes, registros académicos, entre otros.
+<p align="justify">
+Amazon EBS puede ayudar a una escuela almacenando la base de datos de estudiantes, registros académicos, entre otros.</p>
+
 #### ¿Qué problema considera importante y cómo podría utilizar sus conocimientos sobre Amazon EBS y otros servicios en la nube para solucionar ese problema?
-Al utilizar Amazon EBS y otros servicios en la nube de AWS, las escuelas pueden abordar eficazmente el desafío de gestionar grandes cantidades de datos educativos al tiempo que garantizan la seguridad, la disponibilidad y el rendimiento del acceso a los datos en un entorno digitalizado y de aprendizaje remoto.
+<p align="justify">
+Al utilizar Amazon EBS y otros servicios en la nube de AWS, las escuelas pueden abordar eficazmente el desafío de gestionar grandes cantidades de datos educativos al tiempo que garantizan la seguridad, la disponibilidad y el rendimiento del acceso a los datos en un entorno digitalizado y de aprendizaje remoto.</p>
