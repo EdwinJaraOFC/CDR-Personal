@@ -5,7 +5,7 @@
 
 ## Terminología
 | Término | Concepto |
-| :------------: | :------------: |
+| ------------ | ------------ |
 | Informática en la nube | <p align="justify">Es la distribución de recursos de TI bajo demanda a través de Internet mediante un esquema de pago por uso.</p>|
 | Amazon Web Services (AWS) | <p align="justify">Una plataforma que proporciona una amplia gama de servicios de informática en la nube.</p>|
 | Almacenamiento en nube | <p align="justify">Guardar datos mediante un proveedor de servicios en la nube (CSP) en lugar de una máquina física.</p>|
