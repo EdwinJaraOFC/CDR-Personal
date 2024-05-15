@@ -13,8 +13,13 @@
 
 ## Preguntas
 #### Ahora que anotaste los protocolos que usan el enviar y leer mensajes de texto, ¿crees que estos protocolos serían los mismos si estuviera escribiendo a amigos que si estuviera escribiendo a sus padres o profesores?
-Los protocolos utilizados al enviar y recibir mensajes de texto tienden a seguir estándares, independientemente del destinatario.
+<p align="justify">
+Los protocolos utilizados al enviar y recibir mensajes de texto tienden a seguir estándares, independientemente del destinatario.</p>
+
 #### ¿Cuáles crees que serían las consecuencias si no hubiera estándares de protocolo acordados para los diferentes métodos de comunicación?
-Si los estándares de protocolo no estuvieran establecidos para los distintos métodos de comunicación, se generaría una situación en la que la comunicación no sería clara ni confiable, además de tener riesgos de seguridad, como el robo de información.
+<p align="justify">
+Si los estándares de protocolo no estuvieran establecidos para los distintos métodos de comunicación, se generaría una situación en la que la comunicación no sería clara ni confiable, además de tener riesgos de seguridad, como el robo de información.</p>
+
 #### Comparte las reglas de protocolo con tus compañeros de equipo. ¿Hay diferencias entre tus protocolos y los de ellos? Si es así, ¿podrían estas diferencias producir malentendidos de los mensajes?
-Sí, hay ciertas diferencias entre nuestras reglas de protocolos. Considero que estás diferencias sí pueden producir malentendidos en los mensajes.
+<p align="justify">
+Sí, hay ciertas diferencias entre nuestras reglas de protocolos. Considero que estás diferencias sí pueden producir malentendidos en los mensajes.</p>
