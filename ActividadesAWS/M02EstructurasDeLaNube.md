@@ -33,8 +33,7 @@ Se diferencian en la manera en que cada uno ha representado la infraestructura g
 Las regiones representan áreas geográficas independientes que contienen una o más zonas de disponibilidad, y estas zonas están interconectadas para garantizar la disponibilidad y la redundancia de los servicios. Las ubicaciones de borde, por otro lado, son instalaciones distribuidas globalmente que actúan como puntos de entrada y salida de tráfico a la red global de AWS.</p>
 
 ## Actividad 2: Tipos de servicios en la nube
-<p align="justify">
-  
 #### Una pediatra con consultorio privado tiene tantos archivos de pacientes que se está quedando sin espacio en sus archivadores. Por este motivo, quiere trasladar sus datos a la nube. Ella quiere asegurarse de que los datos estén seguros, pero también quiere que sus pacientes puedan acceder a sus registros médicos y comunicarse con ella en línea de forma segura. Describa una forma en la que puede utilizar cada tipo de servicio en la nube y cómo beneficiaría a su negocio.
+<p align="justify">
 La pediatra puede utilizar Amazon S3 para almacenar archivos de pacientes, Amazon API Gateway y AWS Lambda para desarrollar una API segura, Amazon Cognito para la gestión de la autenticación, Amazon RDS para almacenar y gestionar la base de datos de registros médicos, y Amazon CloudFront para mejorar la entrega de datos a los pacientes. Con estos servicios de AWS, puede trasladar sus datos a la nube de manera segura y ofrecer acceso en línea a los registros médicos de los pacientes.
 </p>
