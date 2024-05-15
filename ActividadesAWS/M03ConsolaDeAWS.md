@@ -20,14 +20,10 @@
 
 ## Antecedentes y conceptos
 <p align="justify">
-Los servicios en la nube de AWS incluyen una gran cantidad de herramientas diferentes que funcionan juntas para cubrir todas las necesidades informáticas de un usuario, completamente en la nube.</p>
-<p align="justify">
 Amazon VPC es la red virtual que define dónde lanza los recursos de AWS. Esta red virtual se parece mucho a una red tradicional que opera en su propio centro de datos, con las ventajas de utilizar la infraestructura escalable de AWS.</p>
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c39cf795-7395-414f-912e-321d6bd94884" width="400">
 </p>
-<p align="justify">
-Estas son algunas diferencias entre los servicios:</p>
 <p align="justify">
 Amazon S3 y Amazon EBS son formas de almacenamiento de datos. Existen algunas diferencias clave:</p>
 <p align="justify">
