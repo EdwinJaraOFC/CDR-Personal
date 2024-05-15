@@ -23,6 +23,7 @@ Configurar una distribución de CloudFront y adjuntarla a un sitio web.
 
 ### Preguntas
 #### ¿Hubo algún paso para crear un bucket de S3 o adjuntar una distribución de CloudFront que necesite una explicación más detallada? ¿Dónde cree que puede buscar para obtener más información sobre esa parte del proceso?
+No es necesario una explicación más detallada, puedo encontrar más información en la documentación de AWS.
 #### ¿Por qué sería importante tener una red de distribución en la nube como CloudFront para una empresa de streaming de video o streaming de audio, como Hulu o Spotify?
 #### En base a lo que ha aprendido sobre las redes de distribución en la nube, ¿qué pensará o sentirá cuando un sitio web responda lentamente o un video tarde mucho en almacenarse en búfer?
 #### ¿Qué tipos de datos cree que es más importante almacenar en caché para una distribución rápida?
