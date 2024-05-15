@@ -34,9 +34,9 @@ Crear una instancia de EC2 que aloja un sitio web sencillo.
 ### Preguntas
 <p align="justify">
 
-1. ¿Necesita una explicación más detallada de los pasos para crear una instancia EC2 para alojar un sitio web? ¿Dónde cree que podría buscar más información sobre esa parte del proceso?
-2. Abrió el servidor para que se acceda desde cualquier puerto. ¿En qué cree que la configuración del grupo de seguridad sería diferente para una gran empresa como AWS?
-3. ¿Tiene alguna otra pregunta sobre el proceso de creación de una instancia EC2 y la ejecución de un sitio web?
+1. ¿Necesita una explicación más detallada de los pasos para crear una instancia EC2 para alojar un sitio web? ¿Dónde cree que podría buscar más información sobre esa parte del proceso?<br> No es necesario una explicación más detallada, puedo encontrar más información en la página de AWS Services.
+2. Abrió el servidor para que se acceda desde cualquier puerto. ¿En qué cree que la configuración del grupo de seguridad sería diferente para una gran empresa como AWS?<br> La configuración del grupo de seguridad nos ayuda a poner ciertas reglas al momento de compartir una dirección web.
+3. ¿Tiene alguna otra pregunta sobre el proceso de creación de una instancia EC2 y la ejecución de un sitio web?<br> Ninguna por el momento.
 </p>
 
 ## Laboratorio 2: Creación de un bucket de S3
