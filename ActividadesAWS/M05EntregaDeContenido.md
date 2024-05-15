@@ -20,6 +20,9 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 ## Laboratorio: Uso de CloudFront como CDN para un sitio web
 ### Objetivo
 Configurar una distribución de CloudFront y adjuntarla a un sitio web.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b09a4749-2478-4a77-b359-d392c6c76284">
+</p>
 
 ### Preguntas
 <p align="justify">
