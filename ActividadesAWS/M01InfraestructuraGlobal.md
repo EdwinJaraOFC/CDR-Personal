@@ -13,10 +13,6 @@
 
 
 ## Antecedentes y conceptos
-### ¿Qué es la informática en la nube?
-<p align="justify">
-Cada vez que trabaja o almacena información en línea (por ejemplo, enviar un correo electrónico o ver un vídeo en streaming), a diferencia de en su equipo local o en un servidor de la red local, está utilizando la informática en la nube.</p>
-
 ### ¿Por qué las empresas utilizan la computación en la nube?
 <p align="justify">
   
