@@ -11,10 +11,7 @@
 | Almacenamiento en nube | <p align="justify">Guardar datos mediante un proveedor de servicios en la nube (CSP) en lugar de una máquina física.</p>|
 | Servidor | <p align="justify">Un equipo diseñado para procesar solicitudes y entregar datos a otro equipo a través de Internet o de una red local. En la nube, un servidor está alojado por un proveedor externo al que se accede a través de Internet.</p>|
 
-
-## Antecedentes y conceptos
 ### ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
-  
 #### Infraestructura como servicio (IaaS):
 <p align="justify">
 Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades. Los usuarios tienen control sobre el sistema operativo, el almacenamiento y las aplicaciones desplegadas.</p>
