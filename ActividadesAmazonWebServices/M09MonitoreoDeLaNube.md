@@ -33,22 +33,11 @@ Fuente de la imagen: https://aws.amazon.com/config/
 Amazon SNS es la forma en que AWS se comunica dentro de la nube y con el mundo exterior. Cuando se inicia un evento o un programa alerta a AWS para enviar notificaciones, Amazon SNS envía los mensajes a los usuarios u otros servicios de AWS.
 
 ## Laboratorio: Creación de una alarma de CloudWatch que inicia un mensaje de Amazon SNS
-
-Información general
-En este laboratorio, creará una alerta de Amazon CloudWatch que envía un mensaje a Amazon SNS para enviar un correo electrónico o un mensaje de texto cuando la cuenta haya gastado más de una cierta cantidad de dinero.
-
-Objetivo
-
+### Objetivo
 Utilizar CloudWatch para configurar un evento de alerta de mensaje de texto.
-Instrucciones del laboratorio
 
-Siga las indicaciones del instructor para completar el laboratorio.
+### Tarea 1: Crear y suscribirse a un tema de SNS
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/33d5827e-5f55-46de-8b71-3a7a6d7ccd23)
 
-Reflexione
-
-Después de completar el laboratorio, prepárese para responder y analizar estas preguntas.
-
-¿Por qué cree que es mejor crear un tema y suscribirse a él en lugar de hacer que la alarma envíe el mensaje directamente?
-Además de las métricas de facturación, también puede configurar alarmas en función de distintas métricas de servicio de AWS. ¿Qué tipo de eventos cree que iniciarían una alarma para EC2? ¿Qué sucede con S3?
-¿Qué tipos de métricas de alerta puede configurar para su propio sitio web? ¿Qué querría saber?
-¿Cómo se podría utilizar este proceso para que su cuenta de AWS sea más segura?
+### Tarea 2: Crear una alarma de CloudWatch
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d3e947f0-3571-4538-8a13-4cc1108f5bcc)
