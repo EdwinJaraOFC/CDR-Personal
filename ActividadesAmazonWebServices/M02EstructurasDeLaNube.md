@@ -8,8 +8,8 @@
 | :------------: | :------------: |
 | Región  | <p align="justify">Áreas en las que se almacenan los datos. El almacenamiento de datos en una región más cercana a usted es uno de los motivos por los que se puede acceder a ella a la velocidad de la luz.</p>  |
 | Zona de disponibilidad  |  <p align="justify">Uno o varios centros de datos que albergan muchos servidores. Cada zona de disponibilidad está aislada, pero las zonas de disponibilidad de una región están conectadas mediante enlaces de baja latencia.</p> |
-| Ubicación de borde  |  <p align="justify">Un sitio donde se pueden almacenar datos para reducir la latencia. A menudo, las ubicaciones de borde estarán cerca de las zonas de gran población que generarán volúmenes de tráfico elevados.</p> |
-| Latencia  | <p align="justify">El retraso que se produce antes de que se inicie una transferencia de datos después de que se hayan solicitado los datos.</p>  |
+| Ubicación de borde  |  <p align="justify">Sitio donde se pueden almacenar datos para reducir la latencia. A menudo, las ubicaciones de borde estarán cerca de las zonas de gran población que generarán volúmenes de tráfico elevados.</p> |
+| Latencia  | <p align="justify">Retraso que se produce antes de que se inicie una transferencia de datos después de que se hayan solicitado los datos.</p>  |
 
 ## Conponentes de la infraestructura de la nube
 <p align="justify">
