@@ -27,59 +27,55 @@ IAM aplica controles a los usuarios que necesitan acceder a los recursos inform�
 
 ### Prácticas recomendadas de IAM
 
-1. Bloquee las claves de acceso de usuario raíz de la cuenta de AWS.
+**1. Bloquee las claves de acceso de usuario raíz de la cuenta de AWS:**
 La clave de acceso del usuario raíz de su cuenta de AWS le da acceso completo a todos sus recursos en todos los servicios de AWS, incluso a su información de facturación. No puede reducir los permisos asociados a la clave de acceso de usuario raíz de su cuenta de AWS. Por lo tanto, proteja su clave de acceso de usuario raíz como lo haría con los números de su tarjeta de crédito o cualquier otra información secreta confidencial.
 
-2. Cree usuarios individuales de IAM.
-No utilice las credenciales de usuario raíz de su cuenta de AWS para acceder a AWS, y no dé sus credenciales a ninguna otra persona. En su lugar, cree usuarios individuales para cualquier persona que necesite acceder a su cuenta de AWS.
+**2. Cree usuarios individuales de IAM:**
 Al crear usuarios IAM individuales para las personas que acceden a su cuenta, puede dar a cada usuario de IAM un conjunto exclusivo de credenciales de seguridad. También puede conceder permisos diferentes a cada usuario de IAM. Si es necesario, puede cambiar o revocar los permisos de un usuario de IAM en cualquier momento.
 
-3. Utilice grupos de usuarios para asignar permisos a los usuarios de IAM. 
-En lugar de definir permisos para usuarios individuales de IAM, lo más conveniente es que cree grupos que se relacionen con las funciones del trabajo (administradores, desarrolladores, contadores, etc.). A continuación, defina los permisos pertinentes para cada grupo. Por último, asigne usuarios de IAM a esos grupos. Todos los usuarios de un grupo de IAM heredan los permisos asignados al grupo. De esta forma, puede hacer cambios para todos los miembros de un grupo en un solo lugar.
+**3. Utilice grupos de usuarios para asignar permisos a los usuarios de IAM:**
+Cree grupos que se relacionen con las funciones del trabajo (administradores, desarrolladores, contadores, etc.). A continuación, defina los permisos pertinentes para cada grupo. Por último, asigne usuarios de IAM a esos grupos. Todos los usuarios de un grupo de IAM heredan los permisos asignados al grupo.
 
-4. Conceda menos privilegios.
+**4. Conceda menos privilegios:**
 Cuando cree políticas de IAM, siga los consejos de seguridad estándar de conceder menos privilegios o conceder solo los permisos necesarios para realizar una tarea. Determine qué deben hacer los usuarios (y roles) y, a continuación, cree políticas que les permitan realizar solo esas tareas.
 
-5. Comience a utilizar los permisos con las políticas administradas de AWS.
-Proporcionar a sus empleados solo los permisos que necesitan requiere tiempo y un conocimiento detallado de las políticas de IAM. Si desea comenzar rápidamente, puede utilizar las políticas administradas de AWS para otorgar a sus empleados los permisos que necesitan para comenzar. Estas políticas ya están disponibles en su cuenta, y AWS se encarga de mantenerlas y actualizarlas.
-Las políticas administradas de AWS están diseñadas para proporcionar permisos a muchos casos de uso comunes. Las políticas administradas de AWS le facilitarán la tarea de asignar de los permisos adecuados a los usuarios, grupos de usuarios y roles en lugar de tener que escribir las políticas usted mismo.
+**5. Comience a utilizar los permisos con las políticas administradas de AWS:**
+Si desea comenzar rápidamente, puede utilizar las políticas administradas de AWS para otorgar a sus empleados los permisos que necesitan para comenzar. Estas políticas ya están disponibles en su cuenta, y AWS se encarga de mantenerlas y actualizarlas.Las políticas administradas de AWS le facilitarán la tarea de asignar de los permisos adecuados a los usuarios, grupos de usuarios y roles en lugar de tener que escribir las políticas usted mismo.
 
-6. Valide sus políticas.
+**6. Valide sus políticas:**
 Es una práctica recomendada que valide las políticas que crea. Puede realizar la validación de políticas cuando crea y edita políticas JSON. IAM identifica cualquier error de sintaxis JSON, mientras que IAM Access Analyzer proporciona más de 100 comprobaciones de políticas y recomendaciones procesables para ayudarlo a crear políticas seguras y funcionales.
 
-7. Utilice políticas administradas por el cliente en lugar de políticas en línea.
-En el caso de las políticas personalizadas, le recomendamos que utilice políticas administradas en lugar de políticas en línea. Una ventaja clave del uso de estas políticas es que puede ver todas las políticas administradas en un solo lugar. Las políticas integradas son aquellas que solo existen en una identidad de IAM (usuario, grupo de usuarios o rol). Las políticas administradas son recursos de IAM independientes que se pueden adjuntar a varias identidades.
+**7. Utilice políticas administradas por el cliente en lugar de políticas en línea:**
+Una ventaja clave del uso de estas políticas es que puede ver todas las políticas administradas en un solo lugar. Las políticas integradas son aquellas que solo existen en una identidad de IAM (usuario, grupo de usuarios o rol).
 
-8. Utilice los niveles de acceso para revisar los permisos de IAM.
+**8. Utilice los niveles de acceso para revisar los permisos de IAM:**
 Para mejorar la seguridad de su cuenta de AWS, debe revisar y supervisar periódicamente cada una de sus políticas de IAM. Asegúrese de que sus políticas otorguen la menor cantidad de privilegios necesarios para llevar a cabo solo las acciones necesarias.
 
-9. Configure una política de contraseñas seguras para los usuarios. 
-Si permite que los usuarios cambien sus propias contraseñas, solicite que creen contraseñas seguras y que las cambien regularmente.
+**9. Configure una política de contraseñas seguras para los usuarios:**
 Puede utilizar la política de contraseñas para definir requisitos de contraseña, como la longitud mínima, si requiere caracteres no alfabéticos, con qué frecuencia debe cambiarla, etc.
 
-10. Habilite la MFA. 
+**10. Habilite la MFA:**
 Solicite la autenticación multifactor (MFA) para todos los usuarios de su cuenta. Con la MFA, los usuarios tendrán un dispositivo que generará una respuesta a un desafío de autenticación. Se requieren tanto las credenciales del usuario como la respuesta generada por el dispositivo para completar el proceso de inicio de sesión. Si la contraseña o las claves de acceso de un usuario se ven comprometidas, los recursos de la cuenta seguirán estando seguros gracias al requisito de autenticación adicional.
 
-11. Utilice roles para aplicaciones que se ejecutan en instancias de Amazon EC2.
+**11. Utilice roles para aplicaciones que se ejecutan en instancias de Amazon EC2:**
 Las aplicaciones que se ejecutan en una instancia EC2 necesitan credenciales para acceder a otros servicios de AWS. Para proporcionar credenciales a la aplicación de forma segura, utilice roles de IAM. Un rol es una entidad que tiene su propio conjunto de permisos, pero no es un usuario ni un grupo de usuarios.
-Los roles tampoco tienen su propio conjunto de credenciales permanentes como los usuarios de IAM. En el caso de Amazon EC2, IAM proporciona credenciales temporales a la instancia EC2 de forma dinámica, y estas credenciales cambian automáticamente sin necesidad de que usted las modifique.
 
-12. Utilice roles para delegar permisos.
+**12. Utilice roles para delegar permisos:**
 No comparta credenciales de seguridad entre cuentas con el fin de permitir que los usuarios de otra cuenta de AWS accedan a los recursos de su cuenta de AWS. En su lugar, use roles de IAM. Puede definir un rol que especifique qué permisos tienen los usuarios de IAM en la otra cuenta. También puede designar qué cuentas de AWS cuentan con los usuarios de IAM que pueden asumir el rol.
 
-13. No comparta claves de acceso.
+**13. No comparta claves de acceso:**
 Las claves de acceso proporcionan acceso mediante programación a AWS. No comparta estas credenciales de seguridad entre los usuarios de su cuenta de AWS. En el caso de las aplicaciones que necesitan acceso a AWS, configure el programa para recuperar credenciales de seguridad temporales mediante un rol de IAM.
 
-14. Cambie las credenciales regularmente.
-Cambie sus propias contraseñas y claves de acceso con frecuencia y asegúrese de que todos los usuarios de IAM de su cuenta también lo hagan. De esta forma, si una contraseña o clave de acceso se ve comprometida sin su conocimiento, podrá limitar el tiempo de uso de las credenciales para acceder a sus recursos. Puede aplicar una política de contraseñas a su cuenta para exigir que todos los usuarios de IAM cambien sus contraseñas. También puede elegir con qué frecuencia deben hacerlo.
+**14. Cambie las credenciales regularmente:**
+Cambie sus propias contraseñas y claves de acceso con frecuencia y asegúrese de que todos los usuarios de IAM de su cuenta también lo hagan. De esta forma, si una contraseña o clave de acceso se ve comprometida sin su conocimiento, podrá limitar el tiempo de uso de las credenciales para acceder a sus recursos.
 
-15. Elimine credenciales innecesarias.
+**15. Elimine credenciales innecesarias:**
 Elimine las credenciales de usuario de IAM (contraseñas y claves de acceso) que no sean necesarias.
 
-16. Utilice las condiciones de la política para obtener mayor seguridad.
-Defina las condiciones en las que las políticas de IAM permiten el acceso a un recurso. Por ejemplo, puede escribir condiciones para especificar un rango de direcciones IP permitidas desde donde debe proceder una solicitud. También puede especificar que una solicitud solo se permita dentro de un intervalo de fechas o de horas especificado. También puede establecer condiciones que requieran el uso de SSL o MFA (autenticación multifactor). Por ejemplo, puede exigir que un usuario se autentique con un dispositivo MFA para poder terminar una instancia de Amazon EC2.
+**16. Utilice las condiciones de la política para obtener mayor seguridad:**
+Defina las condiciones en las que las políticas de IAM permiten el acceso a un recurso.
 
-17. Supervise la actividad de su cuenta de AWS.
+**17. Supervise la actividad de su cuenta de AWS:**
 Puede utilizar las funciones de registro de AWS para determinar las acciones que realizaron los usuarios en su cuenta y los recursos que se utilizaron. Los archivos de registro muestran la hora y la fecha de las acciones, la IP de origen de una acción, qué acciones fallaron debido a permisos inadecuados y más.
 
 ### Identidades de AWS
