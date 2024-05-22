@@ -9,8 +9,8 @@ Obtendremos información general sobre la seguridad en la nube en relación con 
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
-| AWS Identity and Acces Management (IAM)  | Implica aplicar controles para los usuarios que necesitan acceder a recursos informáticos.  |
-|  Rol | Una identidad de IAM que puede crear en su cuenta y que tiene permisos específicos.  |
+| AWS Identity and Acces Management (IAM)  | <p align="justify">Implica aplicar controles para los usuarios que necesitan acceder a recursos informáticos.</p>  |
+|  Rol | <p align="justify">Una identidad de IAM que puede crear en su cuenta y que tiene permisos específicos.</p>  |
 | Usuario  |  Una entidad que se crea en AWS para representar a la persona o aplicación que la utiliza y que interactúa con AWS. Un usuario de AWS está compuesto por un nombre y credenciales. |
 | Grupo de seguridad  | Actúa como firewall virtual de la instancia para controlar el tráfico entrante y saliente. |
 | Política  | Objeto de AWS que, cuando se asocia a una identidad o un recurso, define sus permisos. AWS evalúa estas políticas cuando una entidad principal (usuario o rol) realiza una solicitud. |
