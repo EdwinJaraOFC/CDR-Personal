@@ -110,4 +110,5 @@ Diferenciar entre un rol, un usuario y una política en la seguridad en la nube.
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ac808453-664c-4920-878a-6a6316750b42)
 
 ### Tarea 3: Iniciar sesión y probar los usuarios
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/420ae6a2-d8cd-4f27-87c9-af63fe8d4a86)
 
