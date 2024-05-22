@@ -31,11 +31,11 @@ IAM aplica controles a los usuarios que necesitan acceder a los recursos inform�
 
 **1. Bloquee las claves de acceso de usuario raíz de la cuenta de AWS:** <br>
 <p align="justify">
-La clave de acceso del usuario raíz de su cuenta de AWS le da acceso completo a todos sus recursos en todos los servicios de AWS, incluso a su información de facturación. No puede reducir los permisos asociados a la clave de acceso de usuario raíz de su cuenta de AWS. Por lo tanto, proteja su clave de acceso de usuario raíz como lo haría con los números de su tarjeta de crédito o cualquier otra información secreta confidencial.</p>
+La clave de acceso del usuario raíz le da acceso completo a todos sus recursos en todos los servicios de AWS. Por lo tanto, proteja su clave de acceso de usuario raíz como lo haría con los números de su tarjeta de crédito o cualquier otra información secreta confidencial.</p>
 
 **2. Cree usuarios individuales de IAM:** <br>
 <p align="justify">
-Al crear usuarios IAM individuales para las personas que acceden a su cuenta, puede dar a cada usuario de IAM un conjunto exclusivo de credenciales de seguridad. También puede conceder permisos diferentes a cada usuario de IAM. Si es necesario, puede cambiar o revocar los permisos de un usuario de IAM en cualquier momento.</p>
+Al crear usuarios IAM individuales para las personas que acceden a su cuenta, puede dar a cada usuario de IAM un conjunto exclusivo de credenciales de seguridad. Si es necesario, puede cambiar o revocar los permisos de un usuario de IAM en cualquier momento.</p>
 
 **3. Utilice grupos de usuarios para asignar permisos a los usuarios de IAM:** <br>
 <p align="justify">
@@ -43,15 +43,15 @@ Cree grupos que se relacionen con las funciones del trabajo (administradores, de
 
 **4. Conceda menos privilegios:** <br>
 <p align="justify">
-Cuando cree políticas de IAM, siga los consejos de seguridad estándar de conceder menos privilegios o conceder solo los permisos necesarios para realizar una tarea. Determine qué deben hacer los usuarios (y roles) y, a continuación, cree políticas que les permitan realizar solo esas tareas.</p>
+Determine qué deben hacer los usuarios (y roles) y, a continuación, cree políticas que les permitan realizar solo esas tareas.</p>
 
 **5. Comience a utilizar los permisos con las políticas administradas de AWS:** <br>
 <p align="justify">
-Si desea comenzar rápidamente, puede utilizar las políticas administradas de AWS para otorgar a sus empleados los permisos que necesitan para comenzar. Estas políticas ya están disponibles en su cuenta, y AWS se encarga de mantenerlas y actualizarlas.Las políticas administradas de AWS le facilitarán la tarea de asignar de los permisos adecuados a los usuarios, grupos de usuarios y roles en lugar de tener que escribir las políticas usted mismo.</p>
+Estas políticas ya están disponibles en su cuenta, y AWS se encarga de mantenerlas y actualizarlas. Las políticas administradas de AWS le facilitarán la tarea de asignar de los permisos adecuados a los usuarios, grupos de usuarios y roles en lugar de tener que escribir las políticas usted mismo.</p>
 
 **6. Valide sus políticas:** <br>
 <p align="justify">
-Es una práctica recomendada que valide las políticas que crea. Puede realizar la validación de políticas cuando crea y edita políticas JSON. IAM identifica cualquier error de sintaxis JSON, mientras que IAM Access Analyzer proporciona más de 100 comprobaciones de políticas y recomendaciones procesables para ayudarlo a crear políticas seguras y funcionales.</p>
+Puede realizar la validación de políticas cuando crea y edita políticas JSON. IAM identifica cualquier error de sintaxis JSON, mientras que IAM Access Analyzer proporciona más de 100 comprobaciones de políticas y recomendaciones procesables para ayudarlo a crear políticas seguras y funcionales.</p>
 
 **7. Utilice políticas administradas por el cliente en lugar de políticas en línea:** <br>
 <p align="justify">
@@ -67,11 +67,11 @@ Puede utilizar la política de contraseñas para definir requisitos de contrase�
 
 **10. Habilite la MFA:** <br>
 <p align="justify">
-Solicite la autenticación multifactor (MFA) para todos los usuarios de su cuenta. Con la MFA, los usuarios tendrán un dispositivo que generará una respuesta a un desafío de autenticación. Se requieren tanto las credenciales del usuario como la respuesta generada por el dispositivo para completar el proceso de inicio de sesión. Si la contraseña o las claves de acceso de un usuario se ven comprometidas, los recursos de la cuenta seguirán estando seguros gracias al requisito de autenticación adicional.</p>
+Solicite la autenticación multifactor (MFA) para todos los usuarios de su cuenta. Con la MFA, los usuarios tendrán un dispositivo que generará una respuesta a un desafío de autenticación. Se requieren tanto las credenciales del usuario como la respuesta generada por el dispositivo para completar el proceso de inicio de sesión.</p>
 
 **11. Utilice roles para aplicaciones que se ejecutan en instancias de Amazon EC2:** <br>
 <p align="justify">
-Las aplicaciones que se ejecutan en una instancia EC2 necesitan credenciales para acceder a otros servicios de AWS. Para proporcionar credenciales a la aplicación de forma segura, utilice roles de IAM. Un rol es una entidad que tiene su propio conjunto de permisos, pero no es un usuario ni un grupo de usuarios.</p>
+Las aplicaciones que se ejecutan en una instancia EC2 necesitan credenciales para acceder a otros servicios de AWS. Para proporcionar credenciales a la aplicación de forma segura, utilice roles de IAM.</p>
 
 **12. Utilice roles para delegar permisos:** <br>
 <p align="justify">
