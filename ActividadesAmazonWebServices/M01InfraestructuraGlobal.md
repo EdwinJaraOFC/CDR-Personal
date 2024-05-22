@@ -110,5 +110,5 @@ No se podía acceder al servidor web porque el grupo de seguridad no permite el 
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/606458df-2ffb-4f79-b57e-b1ee7e7e6705" width="800">
 </p>
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3cb23b1b-515e-4edd-89cc-24edeb7fee10" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3cb23b1b-515e-4edd-89cc-24edeb7fee10" width="500">
 </p>
