@@ -49,6 +49,3 @@ Utilizar CloudWatch para configurar un evento de alerta de mensaje de texto.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/57d3aaf2-4d7a-4749-b146-4b210d67a2c7">
 </p>
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d3e947f0-3571-4538-8a13-4cc1108f5bcc">
-</p>
