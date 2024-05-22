@@ -25,5 +25,5 @@ Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus
 Usadas por empresas y usuarios para acceder a aplicaciones y servicios listos para usarse en la web. Los usuarios acceden a las aplicaciones a través de internet sin necesidad de instalar, gestionar o mantener software y hardware.</p>
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f0d35031-ecf6-42bf-b4c0-9cc5a6451447" width="500">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f0d35031-ecf6-42bf-b4c0-9cc5a6451447" width="600">
 </p>
