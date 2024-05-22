@@ -91,5 +91,23 @@ Este script bash se ejecutará sin permisos de usuario raíz en el SO invitado d
 - Instala un servidor web Apache (httpd)
 - Configura el servidor web para que comience automáticamente durante el arranque
 - Activa el servidor web
-- Crea una página web sencilla
+- Crea una página web sencilla<br>
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d9ad2277-ec78-4314-a730-a7b24fc31886)
+
+### Tarea 8: Revisar la instancia y lanzarla
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ee52942a-43c6-44ff-8f35-08528ea627c7)
+
+### Tarea 9: Acceder a la instancia de EC2
+Dirección IPv4 pública: 54.234.58.248<br>
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/53f995a6-3ec0-412c-9e0f-6950845f71e5)
+
+### Tarea 10: Actualizar el grupo de seguridad
+No se podía acceder al servidor web porque el grupo de seguridad no permite el tráfico entrante en el puerto 80, que se utiliza para las solicitudes web HTTP.
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d316065e-1be4-48bd-b06b-5edf67f6f609)
+
+### Tarea 11: Crear una regla de entrada
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/88e69497-560d-4dc6-b77b-1d874e3e3b4a)
+
+### Tarea 12: Probar la regla
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/407d72ef-700d-4ccf-aac5-29f4eb246c26)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3cb23b1b-515e-4edd-89cc-24edeb7fee10)
