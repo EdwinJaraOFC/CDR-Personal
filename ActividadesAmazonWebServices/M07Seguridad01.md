@@ -107,3 +107,4 @@ Diferenciar entre un rol, un usuario y una política en la seguridad en la nube.
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/29fec384-b5a3-477c-b645-7e70b616c2b0)
 
 ### Tarea 2: Agregar usuarios a los grupos
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ac808453-664c-4920-878a-6a6316750b42)
