@@ -101,3 +101,5 @@ Anteriormente, se mencionó las políticas en relación con los permisos que se 
 ## Laboratorio: Introducción a IAM
 ### Objetivo
 Diferenciar entre un rol, un usuario y una política en la seguridad en la nube.
+
+### Tarea 1: Analizar los usuarios y grupos
