@@ -78,16 +78,6 @@ Defina las condiciones en las que las políticas de IAM permiten el acceso a un 
 **17. Supervise la actividad de su cuenta de AWS:** <br>
 Puede utilizar las funciones de registro de AWS para determinar las acciones que realizaron los usuarios en su cuenta y los recursos que se utilizaron. Los archivos de registro muestran la hora y la fecha de las acciones, la IP de origen de una acción, qué acciones fallaron debido a permisos inadecuados y más.
 
-### Identidades de AWS
-
-Cuando se piensa en IAM en AWS, hay roles, identidades y grupos, y todos ellos se rigen por políticas.
-
-En el nivel más alto se encuentra el usuario raíz. El usuario raíz tiene acceso a todos los aspectos de AWS y actúa como administrador universal. Nunca se deben dar a conocer las credenciales del usuario raíz y tampoco se recomienda que el creador de la cuenta realice tareas cotidianas como usuario raíz. En su lugar, se debe utilizar la cuenta del usuario raíz para crear una cuenta de administrador. Solo se deben realizar pocas tareas como usuario raíz, como cambiar el plan de AWS Support o cerrar una cuenta.
-
-Los roles de IAM son similares a los usuarios, ya que son identidades de AWS con políticas de permisos para determinar qué puede o no puede hacer la identidad en AWS. Sin embargo, un rol no tiene asociadas credenciales, como una contraseña o claves de acceso. En vez de estar asociado únicamente a una persona, el rol está pensado para asignarse a cualquiera que lo necesite. Un usuario de IAM puede asumir un rol y adquirir temporalmente diferentes permisos para una tarea específica. Los roles son útiles en los casos en que una aplicación móvil accede a sus datos de AWS. No es deseable que todas las personas que utilicen esa aplicación tengan credenciales para su cuenta de AWS, aunque sí necesitan algún tipo de acceso a los datos cuando la utilizan. Si se asigna un rol cuando el usuario inicia sesión, se le otorga un acceso temporal con algunos permisos, pero sin credenciales permanentes.
-
-Anteriormente, se mencionó las políticas en relación con los permisos que se pueden asignar a un grupo. Cuando una política se adjunta a un usuario,rol o grupo, se definen sus permisos. Las políticas se almacenan en AWS como documentos JSON. Es una práctica recomendada asignar políticas a los grupos y luego asignar cada usuario y rol a un grupo al crearlos. De esta forma, puede eliminar o cambiar rápidamente los permisos sin tener que modificar cada usuario o rol individual.
-
 ## Laboratorio: Introducción a IAM
 ### Objetivo
 Diferenciar entre un rol, un usuario y una política en la seguridad en la nube.
