@@ -31,7 +31,7 @@ AWS Config es un servicio que permite sopesar, auditar y evaluar las configuraci
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/50b80484-68b9-4461-bcab-f0ca77b0c383">
 </p>
-Fuente de la imagen: https://aws.amazon.com/config/<br>
+Fuente de la imagen: https://aws.amazon.com/config/<br><br>
 
 <p align="justify">
 Amazon SNS es la forma en que AWS se comunica dentro de la nube y con el mundo exterior. Cuando se inicia un evento o un programa alerta a AWS para enviar notificaciones, Amazon SNS envía los mensajes a los usuarios u otros servicios de AWS.</p>
