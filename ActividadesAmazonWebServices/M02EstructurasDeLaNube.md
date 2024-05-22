@@ -14,7 +14,7 @@
 | Plataforma como Servicio (PaaS)  | <p align="justify">Un modelo que proporciona una plataforma virtual para que los clientes creen software personalizado.</p> |
 | Software como Servicio (SaaS)  | <p align="justify">Un modelo que proporciona aplicaciones que utilizan Internet gestionadas por un tercero.</p> |
 
-## Antecedentes y conceptos
+## Conponentes de la infraestructura de la nube
 <p align="justify">
 Las diferencias entre los componentes de la infraestructura pueden ser confusas porque todos están interconectados y están relacionados con el diseño físico de la nube de AWS. Es bueno tener un ejemplo visual concreto.</p>
 <p align="center">Región > zona de disponibilidad > ubicación de borde</p>
