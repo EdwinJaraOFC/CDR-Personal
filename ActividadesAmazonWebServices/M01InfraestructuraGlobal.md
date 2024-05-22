@@ -18,7 +18,7 @@
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d43bdcde-5149-406a-9f2b-967b9c0506c0">
 </p>
 
-#### ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
+### ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
 <p align="justify">
   
 - **Infraestructura como servicio (IaaS):** Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades.
