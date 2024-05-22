@@ -103,3 +103,4 @@ Anteriormente, se mencionó las políticas en relación con los permisos que se 
 Diferenciar entre un rol, un usuario y una política en la seguridad en la nube.
 
 ### Tarea 1: Analizar los usuarios y grupos
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/31ae5034-0622-4feb-a57e-0816563b9a31)
