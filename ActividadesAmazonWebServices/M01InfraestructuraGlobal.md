@@ -77,5 +77,5 @@ No se podía acceder al servidor web porque el grupo de seguridad no permite el 
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/13248397-ddc9-4bee-a75d-ad5676e5f1c1)
 
 ### Tarea 12: Probar la regla
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/407d72ef-700d-4ccf-aac5-29f4eb246c26)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/606458df-2ffb-4f79-b57e-b1ee7e7e6705)
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3cb23b1b-515e-4edd-89cc-24edeb7fee10)
