@@ -31,7 +31,8 @@ Amazon Inspector aborda la evaluación investigando qué tan bien se protegen lo
 <p align="justify">
 La naturaleza de la nube la hace susceptible a los ciberataques que pueden hacer que los sitios web, las aplicaciones y los procesos dejen de funcionar. Uno de los principales tipos de ciberataque se denomina DDoS. Los DDoS se producen cuando los atacantes configuran programas que envían miles o millones de solicitudes a una aplicación, sitio web o servicio al mismo tiempo. Este pico en el tráfico puede consumir recursos hasta el punto en que el sitio web o la aplicación ya no están accesibles para los usuarios legítimos.</p>
 <p align="justify">
-Shield trabaja junto con Elastic Load Balancing, Amazon CloudFront y Amazon Route 53 para protegerlo contra ataques DDoS. Hay dos niveles de servicio:</p>
+Shield trabaja junto con Elastic Load Balancing, Amazon CloudFront y Amazon Route 53 para protegerlo contra ataques DDoS. Hay dos niveles de servicio:
+
 - AWS Shield Standard protege a los usuarios de los ataques DDoS más comunes. Esta protección se aplica de forma automática y transparente a cualquier recurso de ELB, distribuciones de CloudFront y recursos de Route 53.
 - AWS Shield Advanced proporciona una capacidad adicional de mitigación de DDoS para ataques volumétricos, detección inteligente de ataques y mitigación de ataques en las capas de la aplicación y la red. Los usuarios tienen acceso las 24 horas del día, los 7 días de la semana al equipo de respuesta DDoS (DRT) para una mitigación personalizada durante los ataques.
 
