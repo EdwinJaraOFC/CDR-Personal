@@ -28,34 +28,84 @@ Aprenderemos a crear una instancia de Amazon Elastic Compute Cloud (Amazon EC2) 
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a26c8c4f-5546-4d5a-ae4b-a43307c25e70" width="615px"/>
 </div>
 
-## Laboratorio 1: Lanzamiento de una instancia EC2
-### Objetivo
-Crear una instancia de EC2 que aloja un sitio web sencillo.
-### Preguntas
-<p align="justify">
-
-#### ¿Necesita una explicación más detallada de los pasos para crear una instancia EC2 para alojar un sitio web? ¿Dónde cree que podría buscar más información sobre esa parte del proceso?
-No es necesario una explicación más detallada, puedo encontrar más información en la documentación de AWS.
-#### Abrió el servidor para que se acceda desde cualquier puerto. ¿En qué cree que la configuración del grupo de seguridad sería diferente para una gran empresa como AWS?
-Una gran empresa como AWS adoptaría una configuración de grupo de seguridad mucho más compleja y robusta, con un enfoque fuerte en la seguridad, la escalabilidad, etc.
+## Laboratorio 1 del módulo 4: Lanzamiento de una instancia de EC2
+### Tarea 1: Comenzar a crear la instancia y asignarle un nombre
+Las etiquetas te permiten clasificar los recursos de AWS de diferentes maneras: por ejemplo, por finalidad, propietario o entorno. Name es otra etiqueta diferente. La clave de esta etiqueta es Name y el valor es Web Server 1.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/14f1c374-6706-4dd9-9cad-2cf677439326" width="800">
 </p>
 
-## Laboratorio 2: Creación de un bucket de S3
-### Objetivo
-Crear un bucket de S3.
-### Preguntas
-#### ¿Necesita una explicación más detallada de alguno de los pasos para crear un bucket de S3 para alojar un sitio web? ¿Dónde cree que podría buscar más información sobre esa parte del proceso?
-<p align="justify">
-No es necesario una explicación más detallada, puedo encontrar más información en la documentación de AWS.</p>
+### Tarea 2: Imágenes de aplicación y SO
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ea6e03aa-f864-4c0b-b796-dfc01880757a" width="800">
+</p>
 
-#### Los buckets de S3 escalan automáticamente para ajustarse al tamaño de los datos almacenados. ¿Por qué cree que esto es útil para las empresas que utilizan el servicio Amazon S3?
-<p align="justify">
-S3 es útil ya que aporta flexibilidad, eficiencia en costos, facilidad de gestión y robustez a las empresas.</p>
+### Tarea 3: Elegir el tipo de instancia
+El Tipo de instancia define los recursos de hardware asignados a la instancia. Este tipo de instancia tiene 1 unidad de procesamiento central virtual (CPU) y 1 GiB de memoria.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/06b2710e-81ad-458e-99cc-1fec667f4951" width="800">
+</p>
 
-#### ¿Qué tipos de datos cree que pueden beneficiarse de almacenarse en la nube? ¿Cómo el almacenamiento de los datos en la nube hace que sus datos estén más seguros y protegidos?
-<p align="justify">
-Los tipos de datos que pueden beneficiarse de almacenarse en la nube son los archivos multimedia, los correos electrónicos, etc. El almacenamiento de los datos en la nube es más seguro ya que contienen cifrado de datos.</p>
+### Tarea 4: Seleccionar un par de claves
+El par de claves vockey que has seleccionado te permitirá conectarte a esta instancia mediante SSH después de que se haya iniciado.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fa55f25c-367d-4f62-8e9d-91a96a63c7de" width="800">
+</p>
 
-#### ¿Cómo cree que los buckets de S3 están relacionados con las instancias EC2?
-<p align="justify">
-S3 proporciona un almacenamiento escalable y duradero, mientras que EC2 ofrece la capacidad de procesamiento necesaria para trabajar con esos datos. Esta combinación permite a las empresas construir aplicaciones y sistemas flexibles, eficientes y seguros en la nube.</p>
+### Tarea 5: Configuración de red
+La red indica la nube virtual privada (VPC) en la que quieres lanzar la instancia. Puede tener varias redes; por ejemplo, una para desarrollo, una segunda para pruebas y una tercera para producción.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/14d38ada-9985-4e3e-a2b8-a0305a6b3bdd" width="800">
+</p>
+
+Un grupo de seguridad actúa como un firewall virtual que controla el tráfico de una o varias instancias. Cuando inicias una instancia, la asocias a uno o varios grupos de seguridad. Añades reglas a cada grupo de seguridad que permiten que el tráfico fluya a sus instancias asociadas o desde ellas.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4d91c33c-af47-43ec-a506-e642165e3711" width="800">
+</p>
+
+### Tarea 6: Configurar el almacenamiento
+Volumen raíz (denominado también volumen de arranque)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8c86d2f9-6bb8-4dfd-bd99-199ce07cd9c4" width="800">
+</p>
+
+### Tarea 7: Detalles avanzados
+Este script bash se ejecutará sin permisos de usuario raíz en el SO invitado de la instancia. Se ejecutará automáticamente cuando la instancia se inicie por primera vez. Este script hace lo siguiente:
+- Actualiza el servidor
+- Instala un servidor web Apache (httpd)
+- Configura el servidor web para que comience automáticamente durante el arranque
+- Activa el servidor web
+- Crea una página web sencilla<br>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d9ad2277-ec78-4314-a730-a7b24fc31886" width="800">
+</p>
+
+### Tarea 8: Revisar la instancia y lanzarla
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ee52942a-43c6-44ff-8f35-08528ea627c7" width="800">
+</p>
+
+### Tarea 9: Acceder a la instancia de EC2
+Dirección IPv4 pública: 54.234.58.248<br>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/53f995a6-3ec0-412c-9e0f-6950845f71e5" width="800">
+</p>
+
+### Tarea 10: Actualizar el grupo de seguridad
+No se podía acceder al servidor web porque el grupo de seguridad no permite el tráfico entrante en el puerto 80, que se utiliza para las solicitudes web HTTP.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fd3bb33c-7f6a-4410-bc35-28ae0fc350d6" width="800">
+</p>
+
+### Tarea 11: Crear una regla de entrada
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/13248397-ddc9-4bee-a75d-ad5676e5f1c1" width="800">
+</p>
+
+### Tarea 12: Probar la regla
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/606458df-2ffb-4f79-b57e-b1ee7e7e6705" width="800">
+</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3cb23b1b-515e-4edd-89cc-24edeb7fee10" width="500">
+</p>
