@@ -61,7 +61,7 @@ La red indica la nube virtual privada (VPC) en la que quieres lanzar la instanci
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/14d38ada-9985-4e3e-a2b8-a0305a6b3bdd" width="800">
 </p>
 
-Un grupo de seguridad actúa como un firewall virtual que controla el tráfico de una o varias instancias. Cuando inicias una instancia, la asocias a uno o varios grupos de seguridad. Añades reglas a cada grupo de seguridad que permiten que el tráfico fluya a sus instancias asociadas o desde ellas. Las reglas de un grupo de seguridad se pueden modificar en cualquier momento. Las nuevas reglas se aplican automáticamente a todas las instancias que estén asociadas al grupo de seguridad.
+Un grupo de seguridad actúa como un firewall virtual que controla el tráfico de una o varias instancias. Cuando inicias una instancia, la asocias a uno o varios grupos de seguridad. Añades reglas a cada grupo de seguridad que permiten que el tráfico fluya a sus instancias asociadas o desde ellas.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4d91c33c-af47-43ec-a506-e642165e3711" width="800">
 </p>
