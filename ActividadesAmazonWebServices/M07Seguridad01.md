@@ -102,12 +102,19 @@ Puede utilizar las funciones de registro de AWS para determinar las acciones que
 Diferenciar entre un rol, un usuario y una política en la seguridad en la nube.
 
 ### Tarea 1: Analizar los usuarios y grupos
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d569d0e7-bccc-407a-a9b3-0a12b1e8abeb)
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/29fec384-b5a3-477c-b645-7e70b616c2b0)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d569d0e7-bccc-407a-a9b3-0a12b1e8abeb">
+</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/29fec384-b5a3-477c-b645-7e70b616c2b0">
+</p>
 
 ### Tarea 2: Agregar usuarios a los grupos
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ac808453-664c-4920-878a-6a6316750b42)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ac808453-664c-4920-878a-6a6316750b42">
+</p>
 
 ### Tarea 3: Iniciar sesión y probar los usuarios
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/420ae6a2-d8cd-4f27-87c9-af63fe8d4a86)
-
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/420ae6a2-d8cd-4f27-87c9-af63fe8d4a86">
+</p>
