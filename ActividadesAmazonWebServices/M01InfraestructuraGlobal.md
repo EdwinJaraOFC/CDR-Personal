@@ -13,17 +13,12 @@
 
 
 ## Antecedentes y conceptos
-### ¿Qué tipos de servicios en la nube existen?
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d43bdcde-5149-406a-9f2b-967b9c0506c0">
-</p>
-
 ### ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
 <p align="justify">
   
-- **Infraestructura como servicio (IaaS):** Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades.
-- **Plataforma como servicio (PaaS):** Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes.
-- **Software como servicio (SaaS):** Usadas por empresas y usuarios para acceder a aplicaciones y servicios listos para usarse en la web.</p>
+- **Infraestructura como servicio (IaaS):** Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades. Los usuarios tienen control sobre el sistema operativo, el almacenamiento y las aplicaciones desplegadas.
+- **Plataforma como servicio (PaaS):** Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes. Los desarrolladores pueden centrarse en el desarrollo de aplicaciones sin preocuparse por la gestión de la infraestructura subyacente.
+- **Software como servicio (SaaS):** Usadas por empresas y usuarios para acceder a aplicaciones y servicios listos para usarse en la web. Los usuarios acceden a las aplicaciones a través de internet sin necesidad de instalar, gestionar o mantener software y hardware.</p>
 
 ## Laboratorio 1 del módulo 4: Lanzamiento de una instancia de EC2
 ### Tarea 1: Comenzar a crear la instancia y asignarle un nombre
