@@ -71,10 +71,9 @@ Dirección IPv4 pública: 54.234.58.248<br>
 
 ### Tarea 10: Actualizar el grupo de seguridad
 No se podía acceder al servidor web porque el grupo de seguridad no permite el tráfico entrante en el puerto 80, que se utiliza para las solicitudes web HTTP.
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/13248397-ddc9-4bee-a75d-ad5676e5f1c1)
 
 ### Tarea 11: Crear una regla de entrada
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/88e69497-560d-4dc6-b77b-1d874e3e3b4a)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/13248397-ddc9-4bee-a75d-ad5676e5f1c1)
 
 ### Tarea 12: Probar la regla
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/407d72ef-700d-4ccf-aac5-29f4eb246c26)
