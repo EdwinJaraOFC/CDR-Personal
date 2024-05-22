@@ -60,3 +60,7 @@ DynamoDB es una base de datos no relacional, lo que significa que no se pueden u
 Aurora es un motor de base de datos relacional diseñado específicamente para funcionar con la nube de AWS. Aurora es hasta cinco veces más rápido que las bases de datos MySQL estándar y tres veces más rápido que las bases de datos PostgreSQL estándar. Está diseñado para proporcionar la seguridad, la disponibilidad y la fiabilidad de las bases de datos comerciales a una décima parte del costo. Aurora está completamente administrada por Amazon RDS, que automatiza tareas administrativas que consumen mucho tiempo, tales como aprovisionar hardware, configurar una base de datos, aplicar parches y realizar copias de seguridad.
 
 Amazon Redshift es un almacén de datos rápido y completamente administrado que hace eficiente y rentable analizar todos sus datos a través de SQL estándar y de las herramientas de inteligencia empresarial existentes.
+
+## Laboratorio: Creación de una instancia de base de datos de Amazon RDS
+### Objetivo
+Comparar bases de datos relacionales y no relacionales.
