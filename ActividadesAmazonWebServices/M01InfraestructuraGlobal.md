@@ -10,6 +10,9 @@
 | Amazon Web Services (AWS) | <p align="justify">Una plataforma que proporciona una amplia gama de servicios de informática en la nube.</p>|
 | Almacenamiento en nube | <p align="justify">Guardar datos mediante un proveedor de servicios en la nube (CSP) en lugar de una máquina física.</p>|
 | Servidor | <p align="justify">Un equipo diseñado para procesar solicitudes y entregar datos a otro equipo a través de Internet o de una red local. En la nube, un servidor está alojado por un proveedor externo al que se accede a través de Internet.</p>|
+| Infraestructura como Servicio (IaaS)  | <p align="justify">Un modelo en el que se utilizan máquinas virtuales y servidores para que los clientes alojen una amplia gama de aplicaciones y para que se proporcionen servicios de TI.</p>  |
+| Plataforma como Servicio (PaaS)  | <p align="justify">Un modelo que proporciona una plataforma virtual para que los clientes creen software personalizado.</p> |
+| Software como Servicio (SaaS)  | <p align="justify">Un modelo que proporciona aplicaciones que utilizan Internet gestionadas por un tercero.</p> |
 
 ## ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
 ### Infraestructura como servicio (IaaS)
