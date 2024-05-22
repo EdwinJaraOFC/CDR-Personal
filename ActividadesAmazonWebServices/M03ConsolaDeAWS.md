@@ -8,7 +8,7 @@
 | :------------: | :------------: |
 |  Amazon Simple Storage Service (Amazon S3) |  <p align="justify">Servicio que almacena datos para los usuarios en la nube.</p> |
 |  Amazon Elastic Compute Cloud (Amazon EC2) |  <p align="justify">Servicio web que ofrece capacidad de cómputo escalable en la nube. Considérelo como alquilar un equipo en la nube.</p> |
-| Amazon Elastic Block Store (Amazon EBS)  | <p align="justify">Almacenamiento para instancias EC2 específicas. Considérelo como la unidad de almacenamiento de su instancia EC2.</p>  |
+| Amazon Elastic Block Store (Amazon EBS)  | <p align="justify">Almacenamiento para instancias EC2 específicas. Unidad de almacenamiento de su instancia EC2.</p>  |
 | Amazon Relational Database Service (Amazon RDS)  |  <p align="justify">Es un servicio en la nube que permite a los desarrolladores crear y gestionar bases de datos relacionales de manera eficiente. Imagina una base de datos relacional como una colección de datos donde cada elemento tiene relaciones con otros elementos de la base de datos. Por ejemplo, en una base de datos de transacciones de un almacén, cada cliente estaría relacionado con sus compras específicas.</p> |
 |  Amazon DynamoDB | <p align="justify">Servicio de bases de datos no relacionales de AWS. Los datos se almacenan en pares de clave-valor.</p>  |
 | AWS Lambda  |  <p align="justify">Lambda le permite ejecutar código sin necesidad de aprovisionar o administrar servidores. Solo pagará por el tiempo de cómputo que consuma. No se cobra nada cuando el código no se está ejecutando.</p> |
