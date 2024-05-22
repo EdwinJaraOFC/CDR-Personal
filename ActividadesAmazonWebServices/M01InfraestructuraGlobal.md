@@ -12,15 +12,15 @@
 | Servidor | <p align="justify">Un equipo diseñado para procesar solicitudes y entregar datos a otro equipo a través de Internet o de una red local. En la nube, un servidor está alojado por un proveedor externo al que se accede a través de Internet.</p>|
 
 ## ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
-### Infraestructura como servicio (IaaS):
+### Infraestructura como servicio (IaaS)
 <p align="justify">
 Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades. Los usuarios tienen control sobre el sistema operativo, el almacenamiento y las aplicaciones desplegadas.</p>
 
-### Plataforma como servicio (PaaS):
+### Plataforma como servicio (PaaS)
 <p align="justify">
 Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes. Los desarrolladores pueden centrarse en el desarrollo de aplicaciones sin preocuparse por la gestión de la infraestructura subyacente.</p>
 
-### Software como servicio (SaaS):
+### Software como servicio (SaaS)
 <p align="justify">
 Usadas por empresas y usuarios para acceder a aplicaciones y servicios listos para usarse en la web. Los usuarios acceden a las aplicaciones a través de internet sin necesidad de instalar, gestionar o mantener software y hardware.</p>
 
