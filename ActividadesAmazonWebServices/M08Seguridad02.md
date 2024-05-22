@@ -11,7 +11,7 @@ Continuar desarrollando la comprensión de la seguridad en la nube. El módulo c
 | :------------: | :------------: |
 | AWS Shield  | <p align="justify">Servicio de protección contra DDoS administrado que protege las aplicaciones que se ejecutan en AWS.</p>  |
 | AWS WAF  | <p align="justify">Servicio que le da control sobre qué tráfico permitir o bloquear en sus aplicaciones web mediante la definición de reglas de seguridad web personalizables.</p>  |
-| Denegación de servicio distribuido(DDos)  | <p align="justify">Intento malicioso de hacer que un sistema dirigido, como un sitio web o una aplicación, no esté disponible para los usuarios finales. Para lograrlo, los atacantes utilizan una variedad de técnicas que consumen recursos de red o de otros tipos, lo que interrumpe el acceso de los usuarios finales legítimos.</p>  |
+| Denegación de servicio distribuido (DDos)  | <p align="justify">Intento malicioso de hacer que un sistema dirigido, como un sitio web o una aplicación, no esté disponible para los usuarios finales. Para lograrlo, los atacantes utilizan una variedad de técnicas que consumen recursos de red o de otros tipos, lo que interrumpe el acceso de los usuarios finales legítimos.</p>  |
 | Amazon Inspector  | <p align="justify">Un servicio de evaluación de seguridad automatizada. Le ayuda a probar la accesibilidad a la red de sus instancias de Amazon EC2 y el estado de seguridad de las aplicaciones que se ejecutan en las instancias.</p>  |
 | AWS Artifact  | <p align="justify">Un recurso crucial para la información relacionada con la conformidad. Proporciona acceso bajo demanda a los informes de seguridad y conformidad de AWS y a determinados acuerdos en línea.</p>  |
 
