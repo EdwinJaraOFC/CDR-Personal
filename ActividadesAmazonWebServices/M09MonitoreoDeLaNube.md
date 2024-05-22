@@ -21,10 +21,10 @@ AWS proporciona herramientas poderosas para supervisar todos los servicios en la
 CloudWatch es un servicio de monitoreo para monitorear los recursos de AWS y las aplicaciones que ejecuta en AWS.</p>
 <p align="justify">
 CloudTrail y CloudWatch son servicios de monitoreo en la nube, pero realizan diferentes funciones:</p>
-<p align="justify">
-CloudTrail monitorea y registra todas las acciones que los usuarios han realizado en una cuenta de AWS determinada. Esto significa que CloudTrail registra cada vez que alguien carga datos, ejecuta un código, crea una instancia de Amazon Elastic Compute Cloud (Amazon EC2) o realiza cualquier otra acción.</p>
-<p align="justify">
-CloudWatch supervisa lo que hacen los distintos servicios y qué recursos están utilizando. CloudTrail registra actividades, mientras que CloudWatch monitorea las actividades. CloudWatch lo ayuda a asegurarse de que sus servicios en la nube se ejecuten sin problemas. Los servicios también pueden ayudarlo a no utilizar ni más ni menos recursos de lo esperado, lo que es importante para el seguimiento del presupuesto.</p>
+
+- CloudTrail monitorea y registra todas las acciones que los usuarios han realizado en una cuenta de AWS determinada. Esto significa que CloudTrail registra cada vez que alguien carga datos, ejecuta un código, crea una instancia de Amazon Elastic Compute Cloud (Amazon EC2) o realiza cualquier otra acción.
+- CloudWatch supervisa lo que hacen los distintos servicios y qué recursos están utilizando. CloudTrail registra actividades, mientras que CloudWatch monitorea las actividades. CloudWatch lo ayuda a asegurarse de que sus servicios en la nube se ejecuten sin problemas. Los servicios también pueden ayudarlo a no utilizar ni más ni menos recursos de lo esperado, lo que es importante para el seguimiento del presupuesto.
+
 <p align="justify">
 AWS Config es un servicio que permite sopesar, auditar y evaluar las configuraciones de los recursos de AWS. AWS Config monitorea y registra de manera continua sus configuraciones de recursos de AWS y permite automatizar la evaluación de las configuraciones registradas con respecto a las deseadas.</p>
 
