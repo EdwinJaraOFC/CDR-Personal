@@ -39,7 +39,6 @@ Las etiquetas te permiten clasificar los recursos de AWS de diferentes maneras: 
 </p>
 
 ### Tarea 2: Imágenes de aplicación y SO
-Name es otra etiqueta diferente. La clave de esta etiqueta es Name y el valor es Web Server 1.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ea6e03aa-f864-4c0b-b796-dfc01880757a">
 </p>
