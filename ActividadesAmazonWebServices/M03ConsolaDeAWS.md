@@ -16,7 +16,7 @@
 |  AWS Identy and Management (IAM) | <p align="justify">Implica el control de los usuarios que necesiten acceder a recursos informáticos.</p>  |
 |  AWS CloudTrail |  <p align="justify">Monitorea todas las acciones que se realizan en su cuenta de AWS por motivos de seguridad.</p> |
 |  Amazon CloudWatch |  <p align="justify">Servicio de supervisión para monitorizar los recursos de AWS y las aplicaciones que ejecuta en AWS.</p> |
-|  Amazon Redshift | <p align="justify">Servicio de almacenamiento de datos en AWS que puede almacenar enormes cantidades de datos de forma que se puedan consultar rápidamente con fines de inteligencia empresarial.</p>  |
+|  Amazon Redshift | <p align="justify">Servicio de AWS que puede almacenar enormes cantidades de datos de forma que se puedan consultar rápidamente con fines de inteligencia empresarial.</p>  |
 
 ## Antecedentes y conceptos
 <p align="justify">
