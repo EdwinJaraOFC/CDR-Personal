@@ -11,7 +11,7 @@
 | Amazon Elastic Block Store (Amazon EBS)  | <p align="justify">Almacenamiento para instancias EC2 específicas. Unidad de almacenamiento de su instancia EC2.</p>  |
 | Amazon Relational Database Service (Amazon RDS)  |  <p align="justify">Servicio en la nube que permite crear y gestionar bases de datos relacionales de manera eficiente. Una base de datos relacional es como una colección de datos donde cada elemento tiene relaciones con otros elementos de la base de datos.</p> |
 |  Amazon DynamoDB | <p align="justify">Servicio de bases de datos no relacionales de AWS. Los datos se almacenan en pares de clave-valor.</p>  |
-| AWS Lambda  |  <p align="justify">Lambda le permite ejecutar código sin necesidad de aprovisionar o administrar servidores. Solo pagará por el tiempo de cómputo que consuma. No se cobra nada cuando el código no se está ejecutando.</p> |
+| AWS Lambda  |  <p align="justify">Permite ejecutar código sin necesidad de aprovisionar o administrar servidores. Solo pagará por el tiempo de cómputo que consuma.</p> |
 |  Amazon Virtual Private Cloud (Amazon VPC) |  <p align="justify">Un servicio que proporciona una red virtual dedicada a su cuenta de AWS. Esta infraestructura está aislada de forma lógica de otras redes virtuales de la nube de AWS. Todos sus servicios de AWS se pueden lanzar desde una VPC. Sirve para proteger los datos y adinistrar quién puede acceder a la red.</p> |
 |  AWS Identy and Management (IAM) | <p align="justify">Implica el control de los usuarios que necesiten acceder a recursos informáticos.</p>  |
 |  AWS CloudTrail |  <p align="justify">Monitorea todas las acciones que se realizan en su cuenta de AWS por motivos de seguridad.</p> |
