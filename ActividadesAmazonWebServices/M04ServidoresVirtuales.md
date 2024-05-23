@@ -3,10 +3,6 @@
   <h1 align="center">Módulo 4: Servidores Virtuales</h1>
 </p>
 
-## Finalidad del módulo
-<p align="justify">
-Aprenderemos a crear una instancia de Amazon Elastic Compute Cloud (Amazon EC2) y utilizarla para alojar un sitio web. También aprenderemos la finalidad de las claves de acceso, un sistema de nombres de dominio (DNS), Amazon Route 53 y nubes privadas virtuales.</p>
-
 ## Terminología
 |  Término | Concepto  |
 | :------------: | :------------: |
