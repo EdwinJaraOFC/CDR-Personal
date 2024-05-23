@@ -12,7 +12,7 @@
 | Amazon Relational Database Service (Amazon RDS)  |  <p align="justify">Servicio en la nube que permite crear y gestionar bases de datos relacionales de manera eficiente. Una base de datos relacional es como una colección de datos donde cada elemento tiene relaciones con otros elementos de la base de datos.</p> |
 |  Amazon DynamoDB | <p align="justify">Servicio de bases de datos no relacionales de AWS. Los datos se almacenan en pares de clave-valor.</p>  |
 | AWS Lambda  |  <p align="justify">Permite ejecutar código sin necesidad de aprovisionar o administrar servidores. Solo pagará por el tiempo de cómputo que consuma.</p> |
-|  Amazon Virtual Private Cloud (Amazon VPC) |  <p align="justify">Un servicio que proporciona una red virtual dedicada a su cuenta de AWS. Esta infraestructura está aislada de forma lógica de otras redes virtuales de la nube de AWS. Todos sus servicios de AWS se pueden lanzar desde una VPC. Sirve para proteger los datos y adinistrar quién puede acceder a la red.</p> |
+|  Amazon Virtual Private Cloud (Amazon VPC) |  <p align="justify">Servicio que proporciona una red virtual dedicada a su cuenta de AWS. Sirve para proteger los datos y adinistrar quién puede acceder a la red.</p> |
 |  AWS Identy and Management (IAM) | <p align="justify">Implica el control de los usuarios que necesiten acceder a recursos informáticos.</p>  |
 |  AWS CloudTrail |  <p align="justify">Monitorea todas las acciones que se realizan en su cuenta de AWS por motivos de seguridad.</p> |
 |  Amazon CloudWatch |  <p align="justify">CloudWatch es un servicio de supervisión para monitorizar los recursos de AWS y las aplicaciones que ejecuta en AWS.</p> |
