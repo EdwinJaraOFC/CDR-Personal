@@ -15,8 +15,8 @@
 |  Amazon Virtual Private Cloud (Amazon VPC) |  <p align="justify">Servicio que proporciona una red virtual dedicada a su cuenta de AWS. Sirve para proteger los datos y adinistrar quién puede acceder a la red.</p> |
 |  AWS Identy and Management (IAM) | <p align="justify">Implica el control de los usuarios que necesiten acceder a recursos informáticos.</p>  |
 |  AWS CloudTrail |  <p align="justify">Monitorea todas las acciones que se realizan en su cuenta de AWS por motivos de seguridad.</p> |
-|  Amazon CloudWatch |  <p align="justify">CloudWatch es un servicio de supervisión para monitorizar los recursos de AWS y las aplicaciones que ejecuta en AWS.</p> |
-|  Amazon Redshift | <p align="justify">El servicio de almacenamiento de datos de AWS puede almacenar enormes cantidades de datos de forma que se puedan consultar rápidamente con fines de inteligencia empresarial.</p>  |
+|  Amazon CloudWatch |  <p align="justify">Servicio de supervisión para monitorizar los recursos de AWS y las aplicaciones que ejecuta en AWS.</p> |
+|  Amazon Redshift | <p align="justify">Servicio de almacenamiento de datos en AWS que puede almacenar enormes cantidades de datos de forma que se puedan consultar rápidamente con fines de inteligencia empresarial.</p>  |
 
 ## Antecedentes y conceptos
 <p align="justify">
