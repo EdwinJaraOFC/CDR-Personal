@@ -10,8 +10,8 @@ Aprenderemos a crear una instancia de Amazon Elastic Compute Cloud (Amazon EC2) 
 ## Terminología
 |  Término | Concepto  |
 | :------------: | :------------: |
-| Amazon Elastic Compute Cloud (Amazon EC2)  | <p align="justify">Servicio web que ofrece capacidad informática escalable en la nube. Considérelo como alquilar una computadora en la nube.</p>  |
-| Amazon Simple Storage Service (Amazon S3)  | <p align="justify">Servicio proporcionado por Amazon Web Services (AWS) que almacena datos para los usuarios en la nube.</p>  |
+| Amazon Elastic Compute Cloud (Amazon EC2)  | <p align="justify">Servicio web que ofrece capacidad de cómputo escalable en la nube. Considérelo como alquilar un equipo en la nube.</p>  |
+| Amazon Simple Storage Service (Amazon S3)  | <p align="justify">Servicio que almacena datos para los usuarios en la nube.</p>  |
 | Sistema de nombres de dominio (DNS)  | <p align="justify">Sistema de nomenclatura para computadoras, dispositivos y recursos conectados a una red.</p>  |
 |  Bucket de Amazon Simple Storage Service (Amazon S3) |  <p align="justify">Un contenedor de objetos (como imágenes, archivos de audio, archivos de video, documentos, etc.) en Amazon S3.</p> |
 | Política  | <p align="justify">Objeto de AWS que, cuando se asocia a una identidad o un recurso, define sus permisos. AWS evalúa estas políticas cuando una entidad principal (usuario o rol) realiza una solicitud.</p>  |
