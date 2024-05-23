@@ -18,7 +18,7 @@
 |  Amazon CloudWatch |  <p align="justify">Servicio de supervisión para monitorizar los recursos de AWS y las aplicaciones que ejecuta en AWS.</p> |
 |  Amazon Redshift | <p align="justify">Servicio de AWS que puede almacenar enormes cantidades de datos de forma que se puedan consultar rápidamente con fines de inteligencia empresarial.</p>  |
 
-## Antecedentes y conceptos
+## Conceptos generales
 <p align="justify">
 Amazon VPC es la red virtual que define dónde lanza los recursos de AWS. Esta red virtual se parece mucho a una red tradicional que opera en su propio centro de datos, con las ventajas de utilizar la infraestructura escalable de AWS.</p>
 <p align= "center">
