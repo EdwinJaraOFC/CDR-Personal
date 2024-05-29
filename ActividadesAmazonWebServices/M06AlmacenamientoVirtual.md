@@ -19,8 +19,7 @@ Compararemos Amazon Elastic Block Store (Amazon EBS) con Amazon Simple Storage S
 <p align="justify">
 Elastic Block Store (EBS) y Simple Storage Service (S3) son dos servicios de almacenamiento en la nube ofrecidos por Amazon Web Services (AWS), pero tienen diferentes propósitos y características:
 
-Elastic Block Store (EBS):
-
+### Elastic Block Store (EBS):
 - Bloques de almacenamiento: EBS proporciona almacenamiento de bloques para instancias de Amazon EC2 (Elastic Compute Cloud).
 - Persistencia: Los datos en EBS son persistentes y se mantienen incluso después de que se apague la instancia EC2 a la que está adjunto el volumen de EBS.
 - Acceso de nivel de bloque: EBS permite el acceso de nivel de bloque, lo que lo hace adecuado para sistemas de archivos que requieren acceso de bajo nivel, como sistemas de archivos de bases de datos.
@@ -29,8 +28,7 @@ Elastic Block Store (EBS):
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a3491935-125e-4f35-be1c-41c43cf302d3">
 </p>
 
-Simple Storage Service (S3):
-
+### Simple Storage Service (S3):
 - Almacenamiento de objetos: S3 ofrece almacenamiento de objetos para datos en la nube, que pueden ser archivos, imágenes, videos, documentos, etc.
 - Escalabilidad y durabilidad: S3 es altamente escalable y está diseñado para ofrecer una alta durabilidad de los datos. Los datos se almacenan en múltiples ubicaciones y están replicados automáticamente.
 - Acceso a través de API HTTP: S3 proporciona acceso a los datos a través de una API HTTP, lo que facilita su integración con una amplia variedad de aplicaciones y servicios.
