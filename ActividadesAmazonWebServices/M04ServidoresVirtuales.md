@@ -105,3 +105,23 @@ No se podía acceder al servidor web porque el grupo de seguridad no permite el 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3cb23b1b-515e-4edd-89cc-24edeb7fee10" width="500">
 </p>
+
+## Laboratorio 2 del módulo 4: Creación de un bucket de S3
+### Tarea 1: Crear un bucket de S3
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ebe97fe5-6e06-47fd-b6a9-973622401ffd)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fcff8d20-e849-4ddd-a848-fa91f7be7d1e)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/69ebabd9-6f0d-4e87-961c-b003cbec0123)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8d993489-957b-422d-b3eb-edb71ece66cf)
+
+### Tarea 2: Añadir una política de bucket para que el contenido esté disponible públicamente
+La política del bucket, escrita en JSON, proporciona acceso a los objetos almacenados en el bucket. Las políticas de bucket no se aplican a los objetos que pertenecen a otras cuentas.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ad89d471-a0ea-4715-9de9-0832bda5246a)
+
+### Tarea 3: Subir un documento HTML
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fc4eb5f7-2249-4aaa-a8ad-29dd5dc7ff88)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/40e7da00-66bc-463a-944a-72a3881ef7c6)
+
+### Tarea 4: Probar el sitio web
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/0343cb82-53e2-407c-9ecf-6d9036e10831)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7044d494-382e-4683-81a8-f8f90544bb2b)
