@@ -17,14 +17,25 @@ Compararemos Amazon Elastic Block Store (Amazon EBS) con Amazon Simple Storage S
 
 ## Antecedentes y conceptos
 <p align="justify">
-El almacenamiento de Amazon EBS se implementa como una serie de bloques de longitud fija que el sistema operativo puede leer y escribir. No se almacena nada de lo que representan estos bloques o sus atributos. Los bloques se parecen mucho a los sistemas de archivos del Sistema de archivos de nueva tecnología (NTFS) o de la Tabla de asignación de archivos (FAT) que se ejecutan en su equipo PC o Mac. Esto significa que se puede acceder a ellos rápidamente.</p>
+Elastic Block Store (EBS) y Simple Storage Service (S3) son dos servicios de almacenamiento en la nube ofrecidos por Amazon Web Services (AWS), pero tienen diferentes propósitos y características:
 
+Elastic Block Store (EBS):
+
+- Bloques de almacenamiento: EBS proporciona almacenamiento de bloques para instancias de Amazon EC2 (Elastic Compute Cloud).
+- Persistencia: Los datos en EBS son persistentes y se mantienen incluso después de que se apague la instancia EC2 a la que está adjunto el volumen de EBS.
+- Acceso de nivel de bloque: EBS permite el acceso de nivel de bloque, lo que lo hace adecuado para sistemas de archivos que requieren acceso de bajo nivel, como sistemas de archivos de bases de datos.
+- Uso para sistemas de archivos y bases de datos: EBS se utiliza comúnmente para almacenar el sistema de archivos raíz de una instancia EC2, así como para almacenar datos de bases de datos que requieren un alto rendimiento y persistencia.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a3491935-125e-4f35-be1c-41c43cf302d3">
 </p>
 
-<p align="justify">
-El almacenamiento de Amazon S3 se implementa como un objeto que la aplicación que lo utiliza debe leer y escribir. Los objetos contienen metadatos, es decir, datos sobre los atributos del objeto que ayudan al sistema a catalogar e identificar dicho objeto. Algunos ejemplos de objetos son imágenes, videos y música. Los objetos no se pueden procesar de forma incremental. Deben leerse y escribirse en su totalidad. Esto puede tener implicaciones de rendimiento y consistencia.</p>
+Simple Storage Service (S3):
+
+- Almacenamiento de objetos: S3 ofrece almacenamiento de objetos para datos en la nube, que pueden ser archivos, imágenes, videos, documentos, etc.
+- Escalabilidad y durabilidad: S3 es altamente escalable y está diseñado para ofrecer una alta durabilidad de los datos. Los datos se almacenan en múltiples ubicaciones y están replicados automáticamente.
+- Acceso a través de API HTTP: S3 proporciona acceso a los datos a través de una API HTTP, lo que facilita su integración con una amplia variedad de aplicaciones y servicios.
+- Adecuado para almacenamiento de objetos: S3 es ideal para almacenar grandes cantidades de datos no estructurados, como archivos multimedia, copias de seguridad, archivos de registro, etc.</p>
+
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e599b144-8cf2-4d7b-94ea-7de609978021">
 </p>
