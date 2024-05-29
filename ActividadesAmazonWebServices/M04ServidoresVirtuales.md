@@ -65,15 +65,20 @@ Volumen raíz (denominado también volumen de arranque).
 </p>
 
 ### Tarea 7: Detalles avanzados
+```
+#!/bin/bash
+yum update -y
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello World!</h1></html>' > /var/www/html/index.html
+```
 Este script bash se ejecutará sin permisos de usuario raíz en el SO invitado de la instancia. Se ejecutará automáticamente cuando la instancia se inicie por primera vez. Este script hace lo siguiente:
 - Actualiza el servidor
 - Instala un servidor web Apache (httpd)
 - Configura el servidor web para que comience automáticamente durante el arranque
 - Activa el servidor web
 - Crea una página web sencilla<br>
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d9ad2277-ec78-4314-a730-a7b24fc31886" width="800">
-</p>
 
 ### Tarea 8: Revisar la instancia y lanzarla
 <p align= "center">
