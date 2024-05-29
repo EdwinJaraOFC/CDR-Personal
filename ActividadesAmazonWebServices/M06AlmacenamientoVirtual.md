@@ -122,10 +122,6 @@ El volumen de EBS que vas a crear pronto tendrá que estar en la misma zona de d
 </p>
 
 - Selecciona el menú desplegable Instancia y selecciona tu instancia de EC2. Luego asocia el volumen a la instancia.
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5ff63b1a-8987-448f-bb45-2b701b8e7a8e" width="800">
-</p>
-
 - El estado del volumen cambia a en uso. El nuevo volumen se ha adjuntado a la instancia de EC2.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/79ee59c0-84a1-420b-8816-a7533c52b3f6" width="800">
