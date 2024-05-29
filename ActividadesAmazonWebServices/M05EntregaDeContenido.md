@@ -34,7 +34,39 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b297f19e-f9a8-40c3-839b-c56a83bbec06)
 
 ### Tarea 3. Subir un documento HTML
+- Expande la sección Permisos.
+- En ACL predefinidas, selecciona Conceder acceso de lectura público.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2c472638-d772-402d-b97e-3a88dba27371)
 
 ### Tarea 4. Probar el sitio web
+- Habilita la sección Alojamiento de sitios web estáticos.
+- Desplázate de nuevo hacia abajo hasta la sección Alojamiento de sitios web estáticos y copia la URL del Punto de enlace de sitio web del bucket en el portapapeles.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a89cf7f6-ffc8-4b40-b274-08760863b623)
 
 ### Tarea 5. Crear una distribución de CloudFront para servir al sitio web
+- En la sección Origen, selecciona el cuadro de texto que aparece junto a Dominio de origen y selecciona el punto de enlace de tu bucket de S3.
+- Para Viewer Protocol Policy (Política de protocolo de visor), asegúrate de que HTTP y HTTPS estén seleccionados. En Web Application Firewall (WAF), selecciona Do not enable security protections (No habilitar protecciones de seguridad).
+- Se muestra una nueva distribución de CloudFront en la lista de distribuciones. El Estado será Implementando hasta que el sitio web se haya distribuido. Puede tardar hasta 20 minutos.
+- Cuando el Estado sea Habilitado, puedes probar la distribución.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f0a2d82e-bc71-4032-b94a-7fa644002763)
+
+- Copia el valor de Nombre de dominio de la distribución y guárdalo en un editor de texto para utilizarlo en un paso posterior.
+- Crea un nuevo archivo HTML para probar la distribución.
+- Crea un nuevo archivo de texto con el Bloc de notas y copia en él el siguiente texto:
+```
+<html>
+    <head>My CloudFront Test</head>
+    <body>
+        <p>My test content goes here.</p>
+        <p><img src="http://domain-name/object-name" alt="my test image">
+    </body>
+</html>
+```
+- Reemplaza domain-name por el nombre de dominio que copiaste antes para la distribución de CloudFront.
+- Reemplaza object-name por el nombre del archivo de imagen que cargaste en el bucket de S3.
+- Utiliza un navegador de Internet para abrir el archivo HTML que acabas de crear.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/558b20f2-3e32-4bc5-b061-df82ad8c7b9a)
