@@ -132,6 +132,7 @@ La política del bucket, escrita en JSON, proporciona acceso a los objetos almac
 </p>
 
 ### Tarea 4: Probar el sitio web
+Antes de desplegar el sitio web estático, "Alojamiento de sitios web estáticos" tiene que estar habilitado.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/0343cb82-53e2-407c-9ecf-6d9036e10831" width="800">
 </p>
