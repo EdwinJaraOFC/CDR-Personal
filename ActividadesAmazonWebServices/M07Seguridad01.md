@@ -28,9 +28,6 @@ Obtendremos información general sobre la seguridad en la nube en relación con 
 IAM aplica controles a los usuarios que necesitan acceder a los recursos informáticos. Una sola cuenta de AWS puede tener servicios administrados por decenas de personas diferentes que pueden estar en distintos departamentos u oficinas, tener diferentes responsabilidades o niveles de antigüedad, e incluso estar en distintos países. Para mantener un entorno seguro en la nube con todas estas variables en cuestión, es esencial seguir las prácticas recomendadas de IAM.</p>
 
 ## Laboratorio del módulo 7: Introducción a IAM
-### Objetivo
-Diferenciar entre un rol, un usuario y una política en la seguridad en la nube.
-
 ### Tarea 1: Analizar los usuarios y grupos
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d569d0e7-bccc-407a-a9b3-0a12b1e8abeb">
