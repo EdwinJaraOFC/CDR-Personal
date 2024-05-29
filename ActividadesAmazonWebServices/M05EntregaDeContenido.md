@@ -53,9 +53,6 @@ aws s3api create-bucket --bucket (bucket-name) --region us-east-1
    ]
 }
 ```
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b297f19e-f9a8-40c3-839b-c56a83bbec06" width="500">
-</p>
 
 ### Tarea 3. Subir un documento HTML
 - Expande la sección Permisos.
