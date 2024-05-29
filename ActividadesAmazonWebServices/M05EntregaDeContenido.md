@@ -74,11 +74,11 @@ aws s3api create-bucket --bucket (bucket-name) --region us-east-1
 ### Tarea 5. Crear una distribución de CloudFront para servir al sitio web
 - En la sección Origen, selecciona el cuadro de texto que aparece junto a Dominio de origen y selecciona el punto de enlace de tu bucket de S3.
 - Para Viewer Protocol Policy (Política de protocolo de visor), asegúrate de que HTTP y HTTPS estén seleccionados. En Web Application Firewall (WAF), selecciona Do not enable security protections (No habilitar protecciones de seguridad).
-- Se muestra una nueva distribución de CloudFront en la lista de distribuciones. El Estado será Implementando hasta que el sitio web se haya distribuido. Puede tardar hasta 20 minutos.
-- Cuando el Estado sea Habilitado, puedes probar la distribución.
+- Cuando el Estado de la distribución sea Habilitado, puedes probarlo.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f0a2d82e-bc71-4032-b94a-7fa644002763" width="800">
 </p>
+
 - Copia el valor de Nombre de dominio de la distribución y guárdalo en un editor de texto para utilizarlo en un paso posterior.
 - Crea un nuevo archivo HTML para probar la distribución.
 - Crea un nuevo archivo de texto con el Bloc de notas y copia en él el siguiente texto:
