@@ -114,15 +114,8 @@ Configura lo siguiente:
 
 ## Laboratorio 2 del módulo 4: Creación de un bucket de S3
 ### Tarea 1: Crear un bucket de S3
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ebe97fe5-6e06-47fd-b6a9-973622401ffd" width="800">
-</p>
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fcff8d20-e849-4ddd-a848-fa91f7be7d1e" width="800">
-</p>
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/69ebabd9-6f0d-4e87-961c-b003cbec0123" width="800">
-</p>
+En Nombre del bucket, introduce un nombre exclusivo compatible con el sistema de nombres de dominio (DNS) para el nuevo bucket.
+
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8d993489-957b-422d-b3eb-edb71ece66cf" width="800">
 </p>
