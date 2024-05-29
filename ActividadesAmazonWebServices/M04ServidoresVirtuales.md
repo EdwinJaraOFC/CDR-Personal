@@ -123,7 +123,7 @@ En Nombre del bucket, introduce un nombre exclusivo compatible con el sistema de
 ### Tarea 2: Añadir una política de bucket para que el contenido esté disponible públicamente
 La política del bucket, escrita en JSON, proporciona acceso a los objetos almacenados en el bucket. Las políticas de bucket no se aplican a los objetos que pertenecen a otras cuentas.
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d3730e6d-c9c8-4f2f-bf10-28cbb1bc9dc4" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d3730e6d-c9c8-4f2f-bf10-28cbb1bc9dc4" width="500">
 </p>
 
 ### Tarea 3: Subir un documento HTML
