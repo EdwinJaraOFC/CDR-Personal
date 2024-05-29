@@ -128,9 +128,6 @@ La política del bucket, escrita en JSON, proporciona acceso a los objetos almac
 
 ### Tarea 3: Subir un documento HTML
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fc4eb5f7-2249-4aaa-a8ad-29dd5dc7ff88" width="800">
-</p>
-<p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/40e7da00-66bc-463a-944a-72a3881ef7c6" width="800">
 </p>
 
