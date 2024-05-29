@@ -20,3 +20,16 @@ Obtendremos información sobre Amazon Relational Database Service (Amazon RDS), 
 | MySQL  | <p align="justify">Sistema de administración de base de datos relacional de código abierto.</p>  |
 
 ## Laboratorio del módulo 10: Creación de una instancia de base de datos de Amazon RDS
+### Tarea 1. Configurar una instancia de base de datos RDS
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/42b3cb17-5f5d-42dc-95c9-e4a1dd60a120)
+
+### Tarea 2. Descargue e instale SQL Server Management Studio
+
+### Tarea 3. Haga que la base de datos sea de acceso público
+
+### Tarea 4. Actualizar el grupo de seguridad de la VPC
+
+### Tarea 5. Conectarse a la instancia de la base de datos
+
+### Tarea 6. Explorar la estructura de la base de datos relacional
+
