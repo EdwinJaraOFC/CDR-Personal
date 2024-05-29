@@ -70,9 +70,11 @@ systemctl start httpd
 echo '<html><h1>Hello World!</h1></html>' > /var/www/html/index.html
 ```
 Este script bash se ejecutará sin permisos de usuario raíz en el SO invitado de la instancia. Se ejecutará automáticamente cuando la instancia se inicie por primera vez. Este script hace lo siguiente:
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/384cb740-8177-40c9-ba11-24d470fc8d94" width="800">
-</p>
+- Actualiza el servidor
+- Instala un servidor web Apache (httpd)
+- Configura el servidor web para que comience automáticamente durante el arranque
+- Activa el servidor web
+- Crea una página web sencilla<br>
 
 ### Tarea 8: Revisar la instancia y lanzarla
 <p align= "center">
