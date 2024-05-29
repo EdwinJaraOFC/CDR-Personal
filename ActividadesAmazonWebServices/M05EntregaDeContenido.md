@@ -55,8 +55,7 @@ aws s3api create-bucket --bucket (bucket-name) --region us-east-1
 ```
 
 ### Tarea 3. Subir un documento HTML
-- Expande la sección Permisos.
-- En ACL predefinidas, selecciona Conceder acceso de lectura público.
+En ACL predefinidas, selecciona Conceder acceso de lectura público.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2c472638-d772-402d-b97e-3a88dba27371" width="800">
 </p>
