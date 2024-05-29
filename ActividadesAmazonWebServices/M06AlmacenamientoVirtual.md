@@ -13,7 +13,7 @@ Compararemos Amazon Elastic Block Store (Amazon EBS) con Amazon Simple Storage S
 | Amazon Elastic Compute Cloud (EC2)  | <p align="justify">Servicio web que ofrece capacidad informática escalable en la nube.</p>  |
 | Unidad de disco duro (HDD)  |  <p align="justify">Almacenamiento más lento que utiliza un disco giratorio para almacenar datos.</p> |
 | Operaciones de entrada y salida por segundo (IOPS)  |  <p align="justify">Medida de rendimiento frecuente que se utiliza para comparar dispositivos de almacenamiento.</p> |
-| Unidad de estado sólido (SDD)  | <p align="justify">Almacenamiento muy rápido que utiliza memoria flash.</p>  |
+| Unidad de estado sólido (SSD)  | <p align="justify">Almacenamiento muy rápido que utiliza memoria flash.</p>  |
 
 ## Antecedentes y conceptos
 <p align="justify">
