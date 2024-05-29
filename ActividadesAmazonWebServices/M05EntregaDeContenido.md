@@ -21,6 +21,10 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 ### Tarea 1. Crear un bucket de S3 mediante AWS CLI
 - AWS CLI es una herramienta de código abierto que puedes utilizar para interactuar con los servicios de AWS mediante comandos en tu shell de línea de comandos.
 - AWS CloudShell es un shell basado en navegador que da acceso a la línea de comandos para los recursos de AWS en la región de AWS seleccionada.
+```
+cd ~
+aws s3api create-bucket --bucket (bucket-name) --region us-east-1
+```
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3b1b0df2-9521-44e2-8bd7-56beb6b5864b" width="800">
 </p>
@@ -31,6 +35,24 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 ### Tarea 2. Añadir una política de bucket
 - Desactiva la casilla de Bloquear todo el acceso público.
 - Selecciona ACL habilitadas.
+```
+{
+   "Version":"2012-10-17",
+   "Statement":[
+      {
+         "Sid":"PublicReadForGetBucketObjects",
+         "Effect":"Allow",
+         "Principal":"*",
+         "Action":[
+            "s3:GetObject"
+         ],
+         "Resource":[
+            "arn:aws:s3:::example-bucket/*"
+         ]
+      }
+   ]
+}
+```
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b297f19e-f9a8-40c3-839b-c56a83bbec06" width="500">
 </p>
