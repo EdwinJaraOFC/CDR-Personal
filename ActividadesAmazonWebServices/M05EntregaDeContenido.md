@@ -21,8 +21,9 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 ### Tarea 1. Crear un bucket de S3 mediante AWS CLI
 - AWS CLI es una herramienta de código abierto que puedes utilizar para interactuar con los servicios de AWS mediante comandos en tu shell de línea de comandos.
 - AWS CloudShell es un shell basado en navegador que da acceso a la línea de comandos para los recursos de AWS en la región de AWS seleccionada.
-
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3b1b0df2-9521-44e2-8bd7-56beb6b5864b)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3b1b0df2-9521-44e2-8bd7-56beb6b5864b" width="800">
+</p>
 
 - La región us-east-1 se ha introducido en el comando. Al crear un bucket, la práctica recomendada es elegir una región cercana para minimizar la latencia y los costes o para cumplir los requisitos normativos. Los objetos almacenados en una región nunca abandonan esa región a menos que los transfieras explícitamente a otra región.
 - Al crear un bucket con este comando, el bucket está abierto al público. Te recomendamos que mantengas habilitada toda la configuración a menos que sepas que tendrás que desactivar uno o más ajustes para tu caso de uso, por ejemplo, para alojar un sitio web público.
@@ -30,29 +31,32 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 ### Tarea 2. Añadir una política de bucket
 - Desactiva la casilla de Bloquear todo el acceso público.
 - Selecciona ACL habilitadas.
-
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b297f19e-f9a8-40c3-839b-c56a83bbec06)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b297f19e-f9a8-40c3-839b-c56a83bbec06" width="500">
+</p>
 
 ### Tarea 3. Subir un documento HTML
 - Expande la sección Permisos.
 - En ACL predefinidas, selecciona Conceder acceso de lectura público.
-
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2c472638-d772-402d-b97e-3a88dba27371)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2c472638-d772-402d-b97e-3a88dba27371" width="800">
+</p>
 
 ### Tarea 4. Probar el sitio web
 - Habilita la sección Alojamiento de sitios web estáticos.
 - Desplázate de nuevo hacia abajo hasta la sección Alojamiento de sitios web estáticos y copia la URL del Punto de enlace de sitio web del bucket en el portapapeles.
-
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a89cf7f6-ffc8-4b40-b274-08760863b623)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a89cf7f6-ffc8-4b40-b274-08760863b623" width="800">
+</p>
 
 ### Tarea 5. Crear una distribución de CloudFront para servir al sitio web
 - En la sección Origen, selecciona el cuadro de texto que aparece junto a Dominio de origen y selecciona el punto de enlace de tu bucket de S3.
 - Para Viewer Protocol Policy (Política de protocolo de visor), asegúrate de que HTTP y HTTPS estén seleccionados. En Web Application Firewall (WAF), selecciona Do not enable security protections (No habilitar protecciones de seguridad).
 - Se muestra una nueva distribución de CloudFront en la lista de distribuciones. El Estado será Implementando hasta que el sitio web se haya distribuido. Puede tardar hasta 20 minutos.
 - Cuando el Estado sea Habilitado, puedes probar la distribución.
-
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f0a2d82e-bc71-4032-b94a-7fa644002763)
-
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f0a2d82e-bc71-4032-b94a-7fa644002763" width="800">
+</p>
 - Copia el valor de Nombre de dominio de la distribución y guárdalo en un editor de texto para utilizarlo en un paso posterior.
 - Crea un nuevo archivo HTML para probar la distribución.
 - Crea un nuevo archivo de texto con el Bloc de notas y copia en él el siguiente texto:
@@ -68,5 +72,6 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 - Reemplaza domain-name por el nombre de dominio que copiaste antes para la distribución de CloudFront.
 - Reemplaza object-name por el nombre del archivo de imagen que cargaste en el bucket de S3.
 - Utiliza un navegador de Internet para abrir el archivo HTML que acabas de crear.
-
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/558b20f2-3e32-4bc5-b061-df82ad8c7b9a)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/558b20f2-3e32-4bc5-b061-df82ad8c7b9a" width="800">
+</p>
