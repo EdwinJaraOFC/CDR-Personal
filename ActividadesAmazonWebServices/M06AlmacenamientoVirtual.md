@@ -29,19 +29,4 @@ El almacenamiento de Amazon S3 se implementa como un objeto que la aplicación q
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e599b144-8cf2-4d7b-94ea-7de609978021">
 </p>
 
-## Laboratorio: Adjuntar un volumen de EBS
-### Objetivo
-Crear un volumen de EBS y asociarlo a una instancia EC2.
-
-### Preguntas
-#### ¿Algún paso en el laboratorio fue confuso? ¿Dónde podría buscar respuestas?
-<p align="justify">
-No fue confuso en absoluto, puedo encontrar más información en la documentación de AWS.</p>
-
-#### ¿Cómo cree que Amazon EBS podría ayudar a que una escuela funcione de manera más eficaz?
-<p align="justify">
-Amazon EBS puede ayudar a una escuela almacenando la base de datos de estudiantes, registros académicos, entre otros.</p>
-
-#### ¿Qué problema considera importante y cómo podría utilizar sus conocimientos sobre Amazon EBS y otros servicios en la nube para solucionar ese problema?
-<p align="justify">
-Al utilizar Amazon EBS y otros servicios en la nube de AWS, las escuelas pueden abordar eficazmente el desafío de gestionar grandes cantidades de datos educativos al tiempo que garantizan la seguridad, la disponibilidad y el rendimiento del acceso a los datos en un entorno digitalizado y de aprendizaje remoto.</p>
+## Laboratorio del módulo 6: Asociar un volumen de EBS
