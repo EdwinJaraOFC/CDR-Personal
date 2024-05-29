@@ -36,10 +36,7 @@ Fuente de la imagen: https://aws.amazon.com/config/<br><br>
 <p align="justify">
 Amazon SNS es la forma en que AWS se comunica dentro de la nube y con el mundo exterior. Cuando se inicia un evento o un programa alerta a AWS para enviar notificaciones, Amazon SNS envía los mensajes a los usuarios u otros servicios de AWS.</p>
 
-## Laboratorio: Creación de una alarma de CloudWatch que inicia un mensaje de Amazon SNS
-### Objetivo
-Utilizar CloudWatch para configurar un evento de alerta de mensaje de texto.
-
+## Laboratorio del módulo 9: Creación de una alarma de CloudWatch que inicie un mensaje de Amazon SNS
 ### Tarea 1: Crear y suscribirse a un tema de SNS
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/33d5827e-5f55-46de-8b71-3a7a6d7ccd23">
