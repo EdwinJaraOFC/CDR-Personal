@@ -32,6 +32,7 @@ Las etiquetas te permiten clasificar los recursos de AWS de diferentes maneras: 
 </p>
 
 ### Tarea 2: Imágenes de aplicación y SO
+El tipo de imagen de máquina de Amazon (AMI) que selecciones determina el sistema operativo (SO) que se ejecutará en la instancia de EC2 que inicies. En este caso, has seleccionado Amazon Linux 2023 como SO invitado.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ea6e03aa-f864-4c0b-b796-dfc01880757a" width="800">
 </p>
