@@ -17,26 +17,24 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 | Ubicación de borde  | <p align="justify">Sitio en el que se pueden almacenar los datos para reducir la latencia.</p>  |
 | Origen  | <p align="justify">Tipo complejo que describe el bucket de AmazonS3, el servidor de protocolo de transferencia de hipertexto (HTTP).</p>  |
 
-## Laboratorio: Uso de CloudFront como CDN para un sitio web
-### Objetivo
-Configurar una distribución de CloudFront y adjuntarla a un sitio web.
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b09a4749-2478-4a77-b359-d392c6c76284">
-</p>
+## Laboratorio del módulo 5: Uso de CloudFront como CDN para un sitio web
+### Tarea 1. Crear un bucket de S3 mediante AWS CLI
+- AWS CLI es una herramienta de código abierto que puedes utilizar para interactuar con los servicios de AWS mediante comandos en tu shell de línea de comandos.
+- AWS CloudShell es un shell basado en navegador que da acceso a la línea de comandos para los recursos de AWS en la región de AWS seleccionada.
 
-### Preguntas  
-#### ¿Hubo algún paso para crear un bucket de S3 o adjuntar una distribución de CloudFront que necesite una explicación más detallada? ¿Dónde cree que puede buscar para obtener más información sobre esa parte del proceso?
-<p align="justify">
-No es necesario una explicación más detallada, puedo encontrar más información en la documentación de AWS.</p>
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3b1b0df2-9521-44e2-8bd7-56beb6b5864b)
 
-#### ¿Por qué sería importante tener una red de distribución en la nube como CloudFront para una empresa de streaming de video o streaming de audio, como Hulu o Spotify?
-<p align="justify">
-Porque mejora la rapidez de la entrega de contenido, maneja eficientemente el tráfico masivo y simultáneo de usuarios, y proporciona una experiencia de usuario óptima y segura.</p>
+- La región us-east-1 se ha introducido en el comando. Al crear un bucket, la práctica recomendada es elegir una región cercana para minimizar la latencia y los costes o para cumplir los requisitos normativos. Los objetos almacenados en una región nunca abandonan esa región a menos que los transfieras explícitamente a otra región.
+- Al crear un bucket con este comando, el bucket está abierto al público. Te recomendamos que mantengas habilitada toda la configuración a menos que sepas que tendrás que desactivar uno o más ajustes para tu caso de uso, por ejemplo, para alojar un sitio web público.
 
-#### En base a lo que ha aprendido sobre las redes de distribución en la nube, ¿qué pensará o sentirá cuando un sitio web responda lentamente o un video tarde mucho en almacenarse en búfer?
-<p align="justify">
-"Esta situación subraya la importancia de tener una buena CDN para entregar contenido de manera eficiente y rápida".</p>
+### Tarea 2. Añadir una política de bucket
+- Desactiva la casilla de Bloquear todo el acceso público.
+- Selecciona ACL habilitadas.
 
-#### ¿Qué tipos de datos cree que es más importante almacenar en caché para una distribución rápida?
-<p align="justify">
-Los archivos estáticos, como las página web estáticas, también contenidos multimedia.</p>
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b297f19e-f9a8-40c3-839b-c56a83bbec06)
+
+### Tarea 3. Subir un documento HTML
+
+### Tarea 4. Probar el sitio web
+
+### Tarea 5. Crear una distribución de CloudFront para servir al sitio web
