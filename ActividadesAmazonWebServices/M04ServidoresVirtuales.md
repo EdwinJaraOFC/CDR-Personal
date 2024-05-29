@@ -95,6 +95,11 @@ No se podía acceder al servidor web porque el grupo de seguridad no permite el 
 </p>
 
 ### Tarea 11: Crear una regla de entrada
+Configura lo siguiente:
+- Tipo: HTTP
+- Fuente: Cualquier lugar-IPv4
+- Selecciona Guardar reglas
+
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/13248397-ddc9-4bee-a75d-ad5676e5f1c1" width="800">
 </p>
