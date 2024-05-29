@@ -15,8 +15,6 @@
 |  Amazon Route 53 |  <p align="justify">El servicio web DNS de AWS.</p> |
 |  Nube privada virtual (VPC) |  <p align="justify">Red virtual dedicada a su cuenta de AWS. Esta infraestructura está aislada de forma lógica de otras redes virtuales de la nuve de AWS. Todos sus servicios de AWS se pueden lanzar desde una VPC. Resulta útil para proteger los datos y administrar quién puede acceder a la red.</p> |
 |  Notación de objetos JavaScript (JSON) | <p align="justify">Sintaxis para almacenar e intercambiar datos.</p>  |
-| Sitio web dinámico  | <p align="justify">Sitio web que cambia según las interacciones del usuario; a menudo se crea con Python, JavaScript, PHP o ASP con lenguaje de marcado de hipertexto (HTML).</p>  |
-| Sitio web estático  |  <p align="justify">Un sitio web que no cambia según las interacciones del usuario; normalmente se crea con HTML y hojas de estilo en cascada (CSS).</p> |
 
 ## Conceptos Generales
 <div align="center"; style="display: flex; justify-content: space-between;">
