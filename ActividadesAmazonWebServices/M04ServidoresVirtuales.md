@@ -61,7 +61,7 @@ Un grupo de seguridad actúa como un firewall virtual que controla el tráfico d
 </p>
 
 ### Tarea 6: Configurar el almacenamiento
-Volumen raíz (denominado también volumen de arranque)
+Volumen raíz (denominado también volumen de arranque).
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8c86d2f9-6bb8-4dfd-bd99-199ce07cd9c4" width="800">
 </p>
