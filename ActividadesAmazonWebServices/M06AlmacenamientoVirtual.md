@@ -90,11 +90,6 @@ Este script bash se ejecutará sin permisos de usuario raíz en el SO invitado d
 </p>
 
 ### Tarea 11: Crear una regla de entrada
-Configura lo siguiente:
-- Tipo: HTTP
-- Fuente: Cualquier lugar-IPv4
-- Selecciona Guardar reglas
-La nueva regla HTTP de entrada crea una entrada para las direcciones IP IPv4 IP (0.0.0.0/0) y IPv6 (::/0).
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/055a5437-78be-495c-81b8-78c75c4d3db8" width="800">
 </p>
