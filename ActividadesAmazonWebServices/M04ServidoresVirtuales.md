@@ -93,11 +93,6 @@ No se podía acceder al servidor web porque el grupo de seguridad no permite el 
 </p>
 
 ### Tarea 11: Crear una regla de entrada
-Configura lo siguiente:
-- Tipo: HTTP
-- Fuente: Cualquier lugar-IPv4
-- Selecciona Guardar reglas
-
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/13248397-ddc9-4bee-a75d-ad5676e5f1c1" width="800">
 </p>
@@ -112,8 +107,6 @@ Configura lo siguiente:
 
 ## Laboratorio 2 del módulo 4: Creación de un bucket de S3
 ### Tarea 1: Crear un bucket de S3
-En Nombre del bucket, introduce un nombre exclusivo compatible con el sistema de nombres de dominio (DNS) para el nuevo bucket.
-
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8d993489-957b-422d-b3eb-edb71ece66cf" width="800">
 </p>
