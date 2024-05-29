@@ -30,3 +30,72 @@ El almacenamiento de Amazon S3 se implementa como un objeto que la aplicación q
 </p>
 
 ## Laboratorio del módulo 6: Asociar un volumen de EBS
+### Tarea 1. Comenzar a crear la instancia y asignarle un nombre
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/46dceaad-197a-466b-8456-3e39101768a6)
+
+### Tarea 2. Imágenes de aplicación y SO
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d907735c-7540-4bae-94ae-9c6c5db8f5c5)
+
+### Tarea 3. Elegir el tipo de instancia
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9d5aacfb-5ea6-425a-b619-94432abc63b7)
+
+### Tarea 4. Seleccionar un par de claves
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d9423a5c-e5b9-4ca8-a3c1-dcbad7f9876d)
+
+### Tarea 5. Configuración de red
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/30c6543b-602c-4119-9579-ccb638f7cb46)
+
+### Tarea 6. Configurar el almacenamiento
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e46b61ee-02c3-40b7-96bf-3b6104a94aee)
+
+### Tarea 7: Detalles avanzados
+```
+#!/bin/bash
+yum update -y
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello World!</h1></html>' > /var/www/html/index.html
+```
+Este script bash se ejecutará sin permisos de usuario raíz en el SO invitado de la instancia. Se ejecutará automáticamente cuando la instancia se inicie por primera vez. Este script hace lo siguiente:
+- Actualiza el servidor
+- Instala un servidor web Apache (httpd)
+- Configura el servidor web para que comience automáticamente durante el arranque
+- Activa el servidor web
+- Crea una página web sencilla
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/384cb740-8177-40c9-ba11-24d470fc8d94)
+
+### Tarea 8: Revisar la instancia y lanzarla
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/fc7f0381-c405-48f4-985b-b2d5e46da8b1)
+
+### Tarea 9. Acceder a la instancia de EC2
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f96419b0-acf2-440a-8e31-92e81e1c30ab)
+
+### Tarea 10. Actualizar el grupo de seguridad
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/33c935db-8ab9-4012-80a7-d505e39600c6)
+
+### Tarea 11: Crear una regla de entrada
+Configura lo siguiente:
+- Tipo: HTTP
+- Fuente: Cualquier lugar-IPv4
+- Selecciona Guardar reglas
+La nueva regla HTTP de entrada crea una entrada para las direcciones IP IPv4 IP (0.0.0.0/0) y IPv6 (::/0).
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/055a5437-78be-495c-81b8-78c75c4d3db8)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/82e9bcd0-fa6e-444a-86c2-da1afddd36f2)
+
+### Tarea 12. Probar la regla
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ba8eb08e-4644-4cd8-93b2-5ddc5a5e4828)
+
+### Tarea 13: Adjuntar un volumen de EBS a la instancia de EC2
+El volumen de EBS que vas a crear pronto tendrá que estar en la misma zona de disponibilidad.
+- En Elastic Block Store, selecciona Volúmenes. Selecciona Crear volumen.
+- En Tamaño, introduce 1 para crear un volumen con 1 GiB.
+- En Zona de disponibilidad, selecciona la misma zona de disponibilidad en la que se ejecuta la instancia de EC2.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c92c1a79-a32f-4314-9a6b-2d638b39d832)
+
+- Selecciona el menú desplegable Instancia y selecciona tu instancia de EC2. Luego asocia el volumen a la instancia.
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5ff63b1a-8987-448f-bb45-2b701b8e7a8e)
+
+- El estado del volumen cambia a en uso. El nuevo volumen se ha adjuntado a la instancia de EC2.
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/79ee59c0-84a1-420b-8816-a7533c52b3f6)
