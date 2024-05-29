@@ -60,6 +60,7 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
 - Copia el valor de Nombre de dominio de la distribución y guárdalo en un editor de texto para utilizarlo en un paso posterior.
 - Crea un nuevo archivo HTML para probar la distribución.
 - Crea un nuevo archivo de texto con el Bloc de notas y copia en él el siguiente texto:
+
 ```
 <html>
     <head>My CloudFront Test</head>
@@ -69,6 +70,7 @@ Obtendremos información sobre la red de entrega de contenido (CDN) de Amazon We
     </body>
 </html>
 ```
+
 - Reemplaza domain-name por el nombre de dominio que copiaste antes para la distribución de CloudFront.
 - Reemplaza object-name por el nombre del archivo de imagen que cargaste en el bucket de S3.
 - Utiliza un navegador de Internet para abrir el archivo HTML que acabas de crear.
