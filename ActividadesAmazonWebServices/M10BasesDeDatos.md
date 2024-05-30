@@ -34,6 +34,12 @@ Para conectarse a la instancia de la base de datos RDS, deberá descargar e inst
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7658dc98-66a0-472f-a517-7c673a2381bc)
 
 ### Tarea 3. Haga que la base de datos sea de acceso público
+- Para cambiar esta configuración, seleccione Modificar en la parte superior de la página.
+- Baje hasta la sección Connectivity (Conectividad) y expanda Additional configuration (Configuración adicional).
+- En Public access (Acceso público), seleccione Publicly accessible (Acceso público).
+- Desplácese hasta el final de la página y elija Continue (Continuar).
+- En la sección Scheduling of modifications (Programación de las modificaciones), en When to apply modifications (Cuándo aplicar las modificaciones), seleccione Apply immediately (Aplicar inmediatamente).
+- Seleccione Modify DB Instance (Modificar instancia de base de datos).
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/aae6b2f0-dadc-47d5-9754-ae6c34b9a148)
 
 ### Tarea 4. Actualizar el grupo de seguridad de la VPC
