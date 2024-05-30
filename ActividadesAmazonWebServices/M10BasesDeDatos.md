@@ -62,8 +62,6 @@ Primero, tendrá que encontrar el punto de enlace del Sistema de Nombres de Domi
 - En Authentication (Autenticación), seleccione SQL Server Authentication (Autenticación de SQL Server).
 
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/688cfb4f-6b6d-4e99-b587-d52213bacb41)
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/08a12f19-e820-4088-9fac-78bfb4c1dc61)
 
 ### Tarea 6. Explorar la estructura de la base de datos relacional
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e7a57fa8-8a6d-4772-90a5-d85077063f63)
-
