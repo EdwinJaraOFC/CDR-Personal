@@ -30,6 +30,7 @@ En la sección Configuration (Configuración), configure:
 
 ### Tarea 2. Descargue e instale SQL Server Management Studio
 Para conectarse a la instancia de la base de datos RDS, deberá descargar e instalar SQL Server Management Studio.
+
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7658dc98-66a0-472f-a517-7c673a2381bc)
 
 ### Tarea 3. Haga que la base de datos sea de acceso público
