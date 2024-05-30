@@ -29,7 +29,60 @@ El tráfico intenso puede apagar aplicaciones y sitios web si el servidor no pue
 - El balanceador de carga de red, que funciona a nivel de conexión (capa 4), dirige el tráfico a los destinos dentro de la Amazon VPC y es capaz de gestionar millones de solicitudes por segundo mientras mantiene latencias ultrabajas.
 - Debido al aumento de la velocidad que se puede lograr en la capa de conexión, el tipo de compensación de carga del balanceador de carga de red es más conveniente cuando se intenta evitar mayores volúmenes de tráfico de red. Por ejemplo, para evitar retrasos cuando el interés en un sitio web se vuelve viral, elegirá utilizar la compensación del balanceador de carga de red.
 
+### Equilibrador de carga de gateway
+- Elija un equilibrador de carga de gateway cuando necesite implementar y administrar una flota de dispositivos virtuales de terceros compatibles con GENEVE.
+- Estos dispositivos permiten mejorar los controles de las políticas, la seguridad y la conformidad.
+
 ### Balanceador de carga clásico
 - El balanceador de carga clásico proporciona una compensación de carga básica en varias instancias EC2 y funciona a petición y según los niveles de conexión.
 - El balanceador de carga clásico está diseñado para aplicaciones que se construyeron dentro de la red EC2-Classic.
 
+## Laboratorio del módulo 11: Uso de los balanceadores de carga
+### Tarea 1. Lanzar una instancia de EC2
+```
+#!/bin/bash
+yum update -y
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello World! This is server 1.</h1></html>' > /var/www/html/index.html
+```
+Este script hace lo siguiente:
+- Actualiza el servidor
+- Instala un servidor web Apache (httpd)
+- Configura el servidor web para que se inicie de forma automática al iniciar el sistema
+- Inicia el servidor web
+- Crea una página web sencilla
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/42e6d81c-c4e9-4b14-85e0-fd941c934c70)
+
+### Tarea 2. Acceder al sitio web de la instancia de EC2
+Debe mostrar la página del servidor web con el mensaje Hello World! This is server 1. (¡Hola, mundo! Este es el servidor 1).
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/be5a81d2-9692-47fa-a0a7-1512028c01e3)
+
+### Tarea 3. Configurar una segunda instancia de EC2 para el balanceo de carga
+```
+#!/bin/bash
+yum update -y
+yum -y install httpd
+systemctl enable httpd
+systemctl start httpd
+echo '<html><h1>Hello World! This is server 2.</h1></html>' > /var/www/html/index.html
+```
+**Nota:** Este script es casi el mismo que el que utilizó para la primera instancia. Sin embargo, observe que dice Este es el servidor 2. El texto que se muestra cuando se accede al Servidor Web 2 será diferente al texto del Servidor Web 1. Cuando acceda a las instancias a través del equilibrador de carga, esta diferencia en el texto es la forma en que sabrá qué instancia se muestra.
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/0232f8de-ddda-4459-aeeb-454f211b09ee)
+
+### Tarea 4. Acceder al sitio web en la segunda instancia de EC2
+Debe mostrar la página del servidor web con el mensaje Hello World! This is server 2. (¡Hola, mundo! Este es el servidor 2).
+
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/48c5f026-5e22-428d-879c-9124325b973b)
+
+Tome nota de la Zona de disponibilidad en la que se están ejecutando las instancias Web Server 1 (Servidor Web 1) y Web Server 2 (Servidor Web 2). Por ejemplo, us-east-1a y us-east-1b. Necesitará esta información en la siguiente tarea.
+
+### Tarea 5. Crear un equilibrador de carga
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a0a9ee0e-d281-4141-a571-ce31e660648b)
+
+### Tarea 6. Probar el balanceador de carga
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/77f65b15-2596-4740-b46c-d667b4970d79)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/512e4a65-d4b5-4604-8388-f0395e78498a)
