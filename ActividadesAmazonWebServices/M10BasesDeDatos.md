@@ -37,10 +37,10 @@ Para conectarse a la instancia de la base de datos RDS, deberá descargar e inst
 - Para cambiar esta configuración, seleccione Modificar en la parte superior de la página.
 - Baje hasta la sección Connectivity (Conectividad) y expanda Additional configuration (Configuración adicional).
 - En Public access (Acceso público), seleccione Publicly accessible (Acceso público).
-- Desplácese hasta el final de la página y elija Continue (Continuar).
 - En la sección Scheduling of modifications (Programación de las modificaciones), en When to apply modifications (Cuándo aplicar las modificaciones), seleccione Apply immediately (Aplicar inmediatamente).
-- Seleccione Modify DB Instance (Modificar instancia de base de datos).
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/574faff1-026d-4c50-a572-eeb466c6765e)
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/aae6b2f0-dadc-47d5-9754-ae6c34b9a148)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/227b3f52-a307-4227-b21c-02226279d7be)
 
 ### Tarea 4. Actualizar el grupo de seguridad de la VPC
 De forma predeterminada, el grupo de seguridad predeterminado de la nube virtual privada (VPC) no permite el tráfico entrante de SQL Server desde fuentes externas. En esta tarea, activará las conexiones entrantes de SQL Server desde la dirección IP.
