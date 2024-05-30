@@ -25,6 +25,7 @@ En la sección Configuration (Configuración), configure:
 - En Engine type (Tipo de motor), elija Microsoft SQL Server.
 - En DB instance size (Tamaño de la instancia de la base de datos), elija Free tier (Nivel gratuito).
 - Marque la casilla junto a Auto generate a password (Generar automáticamente una contraseña).
+
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f81b60f8-be4a-458d-9a90-97e1753c3d2b)
 
 ### Tarea 2. Descargue e instale SQL Server Management Studio
