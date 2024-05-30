@@ -48,7 +48,7 @@ De forma predeterminada, el grupo de seguridad predeterminado de la nube virtual
 - En Tipo, seleccione MSSQL.
 - En Origen, elija Personalizado e ingrese la dirección IP o la dirección IP de la instancia de WindowsWorkstation en el cuadro de texto.
 - Agregue /32 al final de la dirección IP. El texto completo debe ser similar al siguiente 123.12.123.23/32
-- 
+
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/47bf3814-084f-4213-a890-e137a0aa4db1)
 
 ### Tarea 5. Conectarse a la instancia de la base de datos
