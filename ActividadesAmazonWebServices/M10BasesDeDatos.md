@@ -24,6 +24,7 @@ Obtendremos información sobre Amazon Relational Database Service (Amazon RDS), 
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/42b3cb17-5f5d-42dc-95c9-e4a1dd60a120)
 
 ### Tarea 2. Descargue e instale SQL Server Management Studio
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7658dc98-66a0-472f-a517-7c673a2381bc)
 
 ### Tarea 3. Haga que la base de datos sea de acceso público
 
