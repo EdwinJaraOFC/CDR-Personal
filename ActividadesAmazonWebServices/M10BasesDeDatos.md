@@ -52,6 +52,15 @@ De forma predeterminada, el grupo de seguridad predeterminado de la nube virtual
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/47bf3814-084f-4213-a890-e137a0aa4db1)
 
 ### Tarea 5. Conectarse a la instancia de la base de datos
+Primero, tendrá que encontrar el punto de enlace del Sistema de Nombres de Dominio (DNS) y el número de puerto de su instancia de base de datos.
+- En la pestaña Conectividad y seguridad, copie el valor del Punto de enlace en un editor de texto.
+- Abra la aplicación Microsoft SQL Server Management Studio.
+- Aparece el cuadro de diálogo Conectar con el servidor.
+- Para el Server type (Tipo de servidor), seleccione Database Engine (Motor de base de datos).
+- En Server name (Nombre del servidor), ingrese el valor del punto de enlace de la base de datos que copió.
+- Al final del valor del punto de enlace, agregue una coma ( , ) y el número de puerto (el número de puerto predeterminado es 1433).
+- En Authentication (Autenticación), seleccione SQL Server Authentication (Autenticación de SQL Server).
+
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/688cfb4f-6b6d-4e99-b587-d52213bacb41)
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/08a12f19-e820-4088-9fac-78bfb4c1dc61)
 
