@@ -27,6 +27,7 @@ Obtendremos información sobre Amazon Relational Database Service (Amazon RDS), 
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7658dc98-66a0-472f-a517-7c673a2381bc)
 
 ### Tarea 3. Haga que la base de datos sea de acceso público
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/aae6b2f0-dadc-47d5-9754-ae6c34b9a148)
 
 ### Tarea 4. Actualizar el grupo de seguridad de la VPC
 
