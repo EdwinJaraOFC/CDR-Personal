@@ -21,7 +21,7 @@ Obtendremos información sobre Amazon Relational Database Service (Amazon RDS), 
 
 ## Laboratorio del módulo 10: Creación de una instancia de base de datos de Amazon RDS
 ### Tarea 1. Configurar una instancia de base de datos RDS
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/42b3cb17-5f5d-42dc-95c9-e4a1dd60a120)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f81b60f8-be4a-458d-9a90-97e1753c3d2b)
 
 ### Tarea 2. Descargue e instale SQL Server Management Studio
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7658dc98-66a0-472f-a517-7c673a2381bc)
