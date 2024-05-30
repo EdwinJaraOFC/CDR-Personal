@@ -21,17 +21,28 @@ Obtendremos información sobre Amazon Relational Database Service (Amazon RDS), 
 
 ## Laboratorio del módulo 10: Creación de una instancia de base de datos de Amazon RDS
 ### Tarea 1. Configurar una instancia de base de datos RDS
+En la sección Configuration (Configuración), configure:
+- En Engine type (Tipo de motor), elija Microsoft SQL Server.
+- En DB instance size (Tamaño de la instancia de la base de datos), elija Free tier (Nivel gratuito).
+- Marque la casilla junto a Auto generate a password (Generar automáticamente una contraseña).
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f81b60f8-be4a-458d-9a90-97e1753c3d2b)
 
 ### Tarea 2. Descargue e instale SQL Server Management Studio
+Para conectarse a la instancia de la base de datos RDS, deberá descargar e instalar SQL Server Management Studio.
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7658dc98-66a0-472f-a517-7c673a2381bc)
 
 ### Tarea 3. Haga que la base de datos sea de acceso público
 ![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/aae6b2f0-dadc-47d5-9754-ae6c34b9a148)
 
 ### Tarea 4. Actualizar el grupo de seguridad de la VPC
+De forma predeterminada, el grupo de seguridad predeterminado de la nube virtual privada (VPC) no permite el tráfico entrante de SQL Server desde fuentes externas. En esta tarea, activará las conexiones entrantes de SQL Server desde la dirección IP.
+- Nota: Si utiliza la instancia de EC2, utilizará la dirección IP de WindowsWorkstation que guardó con anterioridad. En este caso omita los siguientes pasos para obtener la dirección IP.
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/47bf3814-084f-4213-a890-e137a0aa4db1)
 
 ### Tarea 5. Conectarse a la instancia de la base de datos
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/688cfb4f-6b6d-4e99-b587-d52213bacb41)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/08a12f19-e820-4088-9fac-78bfb4c1dc61)
 
 ### Tarea 6. Explorar la estructura de la base de datos relacional
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e7a57fa8-8a6d-4772-90a5-d85077063f63)
 
