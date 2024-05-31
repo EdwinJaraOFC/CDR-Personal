@@ -8,7 +8,7 @@
 | :------------: | :------------: |
 | Informática en la nube | <p align="justify">Distribución de recursos de TI a través de Internet mediante un esquema de pago por uso.</p>|
 | Amazon Web Services (AWS) | <p align="justify">Plataforma que proporciona una amplia gama de servicios de informática en la nube.</p>|
-| Servidor | <p align="justify">Aplicación que se ejecuta en el hardware de una computadora, otorga acceso a un conjunto de servicios.</p>|
+| Servidor | <p align="justify">Sistema que proporciona recursos, datos, servicios o programas a otros ordenadores, conocidos como clientes, a través de una red.</p>|
 | Infraestructura como Servicio (IaaS)  | <p align="justify">Ofrece infraestructura informática básica a través de la nube. Esto incluye servidores virtuales o físicos, almacenamiento, redes y sistemas operativos.</p>  |
 | Plataforma como Servicio (PaaS)  | <p align="justify">Proporciona una plataforma sobre la cual los desarrolladores pueden construir, desplegar y gestionar aplicaciones sin preocuparse por la infraestructura subyacente.</p> |
 | Software como Servicio (SaaS)  | <p align="justify">Entrega aplicaciones completas y gestionadas a través de Internet. Los usuarios acceden a estas aplicaciones mediante un navegador web.</p> |
