@@ -22,7 +22,7 @@
 ## Datos importantes
 - La escalabilidad es la capacidad de la nube para adaptarse a cargas variables, mediante el escalamiento vertical (aumentando los recursos de un único servidor) o el escalamiento horizontal (añadiendo más servidores al sistema).
 - Los 3 componentes principales de la computación en la nube son el frontend, la red y el backend.
-- Un orquestador es una herramienta que gestiona y coordina automáticamente la ejecución, configuración de servicios y aplicaciones en entornos de TI.
+- Un orquestador es una herramienta que gestiona automáticamente la ejecución, configuración de servicios y aplicaciones en entornos de TI.
 
 ## ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
 ### Infraestructura como servicio (IaaS)
