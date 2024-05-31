@@ -28,7 +28,7 @@
 |  Tipo de servicio | Formas de uso |
 | :------------: | :------------: |
 | Infraestructura como servicio (IaaS)  | <p align="justify">Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades. Los usuarios tienen control sobre el sistema operativo, el almacenamiento y las aplicaciones desplegadas.</p>  |
-| Plataforma como servicio (PaaS)  | <p align="justify">Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes. Los desarrolladores pueden centrarse en el desarrollo de aplicaciones sin preocuparse por la gestión de la infraestructura subyacente.</p>  |
+| Plataforma como servicio (PaaS)  | <p align="justify">Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes. Pueden centrarse en el desarrollo de aplicaciones sin preocuparse por la gestión de la infraestructura subyacente.</p>  |
 | Software como servicio (SaaS)  | <p align="justify">Usadas por empresas y usuarios para acceder a aplicaciones y servicios listos para usarse en la web. Los usuarios acceden a las aplicaciones a través de internet sin necesidad de instalar o gestionar software y hardware.</p>  |
 
 <p align= "center">
