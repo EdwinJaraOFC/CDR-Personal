@@ -9,9 +9,9 @@
 | Informática en la nube | <p align="justify">Distribución de recursos de TI a través de Internet mediante un esquema de pago por uso.</p>|
 | Amazon Web Services (AWS) | <p align="justify">Plataforma que proporciona una amplia gama de servicios de informática en la nube.</p>|
 | Servidor | <p align="justify">Aplicación que se ejecuta en el hardware de una computadora, otorga acceso a un conjunto de servicios.</p>|
-| Infraestructura como Servicio (IaaS)  | <p align="justify">Modelo en el que se utilizan máquinas virtuales y servidores para que los clientes alojen una amplia gama de aplicaciones y para que se proporcionen servicios de TI.</p>  |
-| Plataforma como Servicio (PaaS)  | <p align="justify">Modelo que proporciona una plataforma virtual para que los clientes creen software personalizado.</p> |
-| Software como Servicio (SaaS)  | <p align="justify">Modelo que proporciona aplicaciones que utilizan Internet gestionadas por un tercero.</p> |
+| Infraestructura como Servicio (IaaS)  | <p align="justify">Ofrece infraestructura informática básica a través de la nube. Esto incluye servidores virtuales o físicos, almacenamiento, redes y sistemas operativos.</p>  |
+| Plataforma como Servicio (PaaS)  | <p align="justify">Proporciona una plataforma sobre la cual los desarrolladores pueden construir, desplegar y gestionar aplicaciones sin preocuparse por la infraestructura subyacente.</p> |
+| Software como Servicio (SaaS)  | <p align="justify">Entrega aplicaciones completas y gestionadas a través de Internet. Los usuarios acceden a estas aplicaciones mediante un navegador web.</p> |
 
 ## Características esenciales de computación en la nube
 - Acceso basado en autoservicio.
