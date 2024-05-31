@@ -8,10 +8,20 @@
 | :------------: | :------------: |
 | Informática en la nube | <p align="justify">Distribución de recursos de TI a través de Internet mediante un esquema de pago por uso.</p>|
 | Amazon Web Services (AWS) | <p align="justify">Plataforma que proporciona una amplia gama de servicios de informática en la nube.</p>|
-| Servidor | <p align="justify">Equipo diseñado para procesar solicitudes y entregar datos a otro equipo a través de Internet o de una red local. En la nube, un servidor está alojado por un proveedor externo al que se accede a través de Internet.</p>|
+| Servidor | <p align="justify">Aplicación que se ejecuta en el hardware de una computadora que otorga acceso a un conjunto de servicios.</p>|
 | Infraestructura como Servicio (IaaS)  | <p align="justify">Modelo en el que se utilizan máquinas virtuales y servidores para que los clientes alojen una amplia gama de aplicaciones y para que se proporcionen servicios de TI.</p>  |
 | Plataforma como Servicio (PaaS)  | <p align="justify">Modelo que proporciona una plataforma virtual para que los clientes creen software personalizado.</p> |
 | Software como Servicio (SaaS)  | <p align="justify">Modelo que proporciona aplicaciones que utilizan Internet gestionadas por un tercero.</p> |
+
+## Características esenciales de computación en la nube
+- Acceso basado en autoservicio.
+- Elasticidad rápida.
+- Precios de pago por uso.
+- Amplio acceso a la red.
+
+## Datos importantes
+- La escalabilidad es la capacidad de la nube para adaptarse a cargas variables, mediante el escalamiento vertical (aumentando los recursos de un único servidor) o el escalamiento horizontal (añadiendo más servidores al sistema).
+- Los 3 componentes principales de la computación en la nube son el frontend, la red y el backend.
 
 ## ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
 ### Infraestructura como servicio (IaaS)
