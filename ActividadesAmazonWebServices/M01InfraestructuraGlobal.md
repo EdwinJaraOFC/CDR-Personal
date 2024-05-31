@@ -6,7 +6,7 @@
 ## Terminología
 | Término | Concepto |
 | :------------: | :------------: |
-| Informática en la nube | <p align="justify">Distribución de recursos de TI bajo demanda a través de Internet mediante un esquema de pago por uso.</p>|
+| Informática en la nube | <p align="justify">Distribución de recursos de TI a través de Internet mediante un esquema de pago por uso.</p>|
 | Amazon Web Services (AWS) | <p align="justify">Plataforma que proporciona una amplia gama de servicios de informática en la nube.</p>|
 | Servidor | <p align="justify">Equipo diseñado para procesar solicitudes y entregar datos a otro equipo a través de Internet o de una red local. En la nube, un servidor está alojado por un proveedor externo al que se accede a través de Internet.</p>|
 | Infraestructura como Servicio (IaaS)  | <p align="justify">Modelo en el que se utilizan máquinas virtuales y servidores para que los clientes alojen una amplia gama de aplicaciones y para que se proporcionen servicios de TI.</p>  |
