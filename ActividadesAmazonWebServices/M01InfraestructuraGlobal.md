@@ -25,7 +25,7 @@
 - Un orquestador es una herramienta que gestiona automáticamente la ejecución, configuración de servicios y aplicaciones en TI.
 
 ## Formas en que las que se utilizan los tipos de servicios
-|  Tipo de servicio | Uso  |
+|  Tipo de servicio | Formas de uso |
 | :------------: | :------------: |
 | Infraestructura como servicio (IaaS)  | <p align="justify">Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades. Los usuarios tienen control sobre el sistema operativo, el almacenamiento y las aplicaciones desplegadas.</p>  |
 | Plataforma como servicio (PaaS)  | <p align="justify">Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes. Los desarrolladores pueden centrarse en el desarrollo de aplicaciones sin preocuparse por la gestión de la infraestructura subyacente.</p>  |
