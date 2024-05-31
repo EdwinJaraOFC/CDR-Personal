@@ -24,7 +24,7 @@
 - Los 3 componentes principales de la computación en la nube son el frontend, la red y el backend.
 - Un orquestador es una herramienta que gestiona automáticamente la ejecución, configuración de servicios y aplicaciones en TI.
 
-## ¿Cuáles son las principales diferencias en la forma en que las empresas utilizan los servicios?
+## Formas en que las empresas utilizan los tipos de servicios
 ### Infraestructura como servicio (IaaS)
 <p align="justify">
 Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades. Los usuarios tienen control sobre el sistema operativo, el almacenamiento y las aplicaciones desplegadas.</p>
