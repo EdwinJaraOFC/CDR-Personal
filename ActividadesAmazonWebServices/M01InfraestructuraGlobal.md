@@ -25,17 +25,11 @@
 - Un orquestador es una herramienta que gestiona automáticamente la ejecución, configuración de servicios y aplicaciones en TI.
 
 ## Formas en que las empresas utilizan los tipos de servicios
-### Infraestructura como servicio (IaaS)
-<p align="justify">
-Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades. Los usuarios tienen control sobre el sistema operativo, el almacenamiento y las aplicaciones desplegadas.</p>
-
-### Plataforma como servicio (PaaS)
-<p align="justify">
-Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes. Los desarrolladores pueden centrarse en el desarrollo de aplicaciones sin preocuparse por la gestión de la infraestructura subyacente.</p>
-
-### Software como servicio (SaaS)
-<p align="justify">
-Usadas por empresas y usuarios para acceder a aplicaciones y servicios listos para usarse en la web. Los usuarios acceden a las aplicaciones a través de internet sin necesidad de instalar, gestionar o mantener software y hardware.</p>
+|  Tipo de servicio | Uso  |
+| :------------: | :------------: |
+| Infraestructura como servicio (IaaS)  | <p align="justify">Usada por grandes empresas para crear sus propias estructuras que satisfacen sus necesidades. Los usuarios tienen control sobre el sistema operativo, el almacenamiento y las aplicaciones desplegadas.</p>  |
+| Plataforma como servicio (PaaS)  | <p align="justify">Usada por empresas y desarrolladores para construir y ofrecer aplicaciones a sus clientes. Los desarrolladores pueden centrarse en el desarrollo de aplicaciones sin preocuparse por la gestión de la infraestructura subyacente.</p>  |
+| Software como servicio (SaaS)  | <p align="justify">Usadas por empresas y usuarios para acceder a aplicaciones y servicios listos para usarse en la web. Los usuarios acceden a las aplicaciones a través de internet sin necesidad de instalar, gestionar o mantener software y hardware.</p>  |
 
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f0d35031-ecf6-42bf-b4c0-9cc5a6451447" width="600">
