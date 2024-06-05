@@ -36,14 +36,18 @@ Una unidad organizativa (OU) es un contenedor para varias cuentas. Al asociar un
 ## Laboratorio del módulo 14: Calculadora de precios de AWS
 ### Pasos del laboratorio
 1. Diríjase a la Calculadora de precios y seleccione Create estimate (Crear una estimación).
-2. Para crear la estimación de costos de Amazon EC2, configure las siguientes opciones:
-3. En la ventana Configure Amazon EC2 (Configurar Amazon EC2), configure los siguientes detalles:
-4. Para crear la estimación de costos de Amazon S3, en el área de búsqueda Find Service (Buscar servicio), escriba S3, luego, en la lista de resultados filtrados, en el cuadro Amazon Simple Storage Service (S3), elija Configure (Configurar).
-5. En la ventana Configure Amazon Simple Storage Service (S3) (Configurar Amazon Simple Storage Service [S3]), configure los siguientes detalles:
-6. Elija View summary (Ver resumen). 
-7. Para agregar el costo del plan Basic Support a la estimación, elija Add support (Agregar soporte).
-8. En la página Support estimate (Estimación de soporte), configure las siguientes opciones:
-9. Para exportar la estimación, en Export (Exportar), elija el formato que prefiera. Por ejemplo, elija PDF. 
-10. En el cuadro de diálogo que aparece, seleccione OK (Aceptar).
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/77c998e6-0fb4-4940-8786-eb17d983fdf0" width="800">
+</p>
+
+3. Para crear la estimación de costos de Amazon EC2, configure las siguientes opciones:
+4. En la ventana Configure Amazon EC2 (Configurar Amazon EC2), configure los siguientes detalles:
+5. Para crear la estimación de costos de Amazon S3, en el área de búsqueda Find Service (Buscar servicio), escriba S3, luego, en la lista de resultados filtrados, en el cuadro Amazon Simple Storage Service (S3), elija Configure (Configurar).
+6. En la ventana Configure Amazon Simple Storage Service (S3) (Configurar Amazon Simple Storage Service [S3]), configure los siguientes detalles:
+7. Elija View summary (Ver resumen). 
+8. Para agregar el costo del plan Basic Support a la estimación, elija Add support (Agregar soporte).
+9. En la página Support estimate (Estimación de soporte), configure las siguientes opciones:
+10. Para exportar la estimación, en Export (Exportar), elija el formato que prefiera. Por ejemplo, elija PDF. 
+11. En el cuadro de diálogo que aparece, seleccione OK (Aceptar).
 
 Como puede ver, la Calculadora de precios ofrece un conjunto de funciones que se pueden usar para crear una estimación del costo de los servicios de AWS cuando sabe qué servicios usará y cómo piensa usarlos.
