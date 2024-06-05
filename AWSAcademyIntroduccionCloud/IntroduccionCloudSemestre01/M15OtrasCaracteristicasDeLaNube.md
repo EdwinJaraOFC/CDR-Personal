@@ -33,6 +33,7 @@ Amazon Macie es un servicio de privacidad y seguridad de datos que utiliza machi
 ### Cadena de bloques y Amazon Managed Blockchain
 <p align="justify">
 Una cadena de bloques es una lista creciente de registros, como una base de datos, denominados bloques, que están vinculados mediante criptografía. Cada bloque contiene información sobre el bloque anterior, la fecha y la hora, y los datos de la transacción.</p>
+
 - Con ella se pueden crear aplicaciones en las que varias partes pueden ejecutar transacciones sin necesidad de contar con una autoridad central de confianza.
 
 Managed Blockchain es un servicio completamente administrado que permite a los usuarios configurar y administrar una red de cadenas de bloques escalable públicas y privadas con unos pocos clics.
