@@ -9,12 +9,9 @@ Exploraremos el kit de desarrollo de la nube de AWS (AWS CDK) y cómo se integra
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
-| Kit de desarrollo de la nube de AWS (AWS CDK)  | <p align="justify">Marco de desarrollo de software de código que modela y aprovisiona recursos de aplicaciones en la nube.</p>  |
+| Kit de desarrollo de la nube de AWS (AWS CDK)  | <p align="justify">Marco de desarrollo de software de código que modela y aprovisiona recursos de aplicaciones en la nube mediante lenguajes de programación conocidos..</p>  |
 
 ## Antecedentes
-AWS CDK
-
-AWS CDK es un marco de desarrollo de software de código abierto que modela y aprovisiona recursos de aplicaciones en la nube mediante lenguajes de programación conocidos.
 
 El aprovisionamiento de aplicaciones en la nube puede ser un proceso desafiante que requiere que los usuarios realicen acciones manuales, escriban scripts personalizados, mantengan plantillas o aprendan lenguajes específicos de dominio. AWS CDK utiliza la familiaridad y el poder expresivo de los lenguajes de programación para aplicaciones de modelado. Proporciona a los usuarios componentes de alto nivel que preconfiguran los recursos de la nube con valores predeterminados comprobados, para que puedan crear aplicaciones en la nube sin necesidad de ser expertos. AWS CDK aprovisiona los recursos de forma segura y repetible a través de AWS CloudFormation. También permite a los usuarios componer y compartir sus propios componentes personalizados que incorporan los requisitos de su organización, lo que les ayuda a comenzar nuevos proyectos más rápido. AWS CDK reduce el trabajo de definición y configuración de recursos de red en comparación con el uso de Amazon CloudFront solamente.
 
