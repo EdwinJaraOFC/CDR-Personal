@@ -3,9 +3,6 @@
   <h1 align="center">Módulo 15: Otras características de la nube</h1>
 </p>
 
-## Finalidad del módulo
-Exploraremos los servicios de Amazon Web Services (AWS) relacionados con la protección de datos y la administración de redes. También examinaremos la integración de las tecnologías de cadenas de bloques dentro de los servicios de AWS.
-
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
