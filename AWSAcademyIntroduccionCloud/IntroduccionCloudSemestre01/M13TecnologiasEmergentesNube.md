@@ -3,9 +3,6 @@
   <h1 align="center">Módulo 13: Tecnologías emergentes en la nube</h1>
 </p>
 
-## Finalidad del módulo
-Investigaremos tecnologías emergentes en la nube centrándose en el machine learning (ML) y su impacto en la sociedad, los negocios y la tecnología.
-
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
