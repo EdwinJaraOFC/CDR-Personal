@@ -3,9 +3,6 @@
   <h1 align="center">Módulo 6: Almacenamiento Virtual</h1>
 </p>
 
-## Finalidad del módulo
-Compararemos Amazon Elastic Block Store (Amazon EBS) con Amazon Simple Storage Service (Amazon S3) y aprenderemos sobre los distintos niveles de almacenamiento y cómo elegir el mejor tipo de almacenamiento para una determinada situación.
-
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
