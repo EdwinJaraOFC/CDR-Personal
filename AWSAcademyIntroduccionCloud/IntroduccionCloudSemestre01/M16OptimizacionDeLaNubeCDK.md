@@ -13,8 +13,7 @@ Exploraremos el kit de desarrollo de la nube de AWS (AWS CDK) y cómo se integra
 | Kit de desarrollo de la nube de AWS (AWS CDK)  | <p align="justify">Marco de desarrollo de software de código abierto para definir la infraestructura de la nube en el código y aprovisionarla mediante lenguajes de programación conocidos.</p>  |
 
 ## ¿Qué es el AWS CDK?
-
-AWS CDK Consta de dos partes principales:
+Consta de dos partes principales:
 
 - **AWS CDK Biblioteca de construcción:** <p align="justify">Una colección de piezas de código modulares y reutilizables preescritas, denominadas construcciones, que puede usar, modificar e integrar para desarrollar su infraestructura rápidamente. El objetivo de la biblioteca AWS CDK Construct es reducir la complejidad necesaria para definir e integrar los AWS servicios juntos a la hora de crear aplicaciones.</p>
 
