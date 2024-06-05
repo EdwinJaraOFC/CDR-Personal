@@ -15,23 +15,13 @@
 | Transparencia  |  <p align="justify">Registro transparente y abierto de las transacciones.</p> |
 
 ## Antecedentes
-Amazon Athena
+### Amazon Athena
+- Servicio de consultas interactivo y sin servidor que facilita el análisis de datos en Amazon S3 y usa el lenguaje de consulta estructurada estándar (SQL).
+- Se ha creado con motores Trino y Presto de código abierto y marcos de Apache Spark, sin necesidad de esfuerzos de aprovisionamiento ni configuración.
 
-Athena es un servicio de consultas interactivo que facilita el análisis de datos en Amazon Simple Storage Service (Amazon S3) y usa el lenguaje de consulta estructurada estándar (SQL).
+**Nota:** Trino y Presto son motores de consulta SQL distribuidos que se utilizan principalmente para realizar consultas analíticas sobre grandes volúmenes de datos en diferentes tipos de fuentes de datos. Apache Spark es un marco de procesamiento de datos de código abierto diseñado para computación en clústeres.
 
-Athena no usa servidor, por lo que no hay una infraestructura que administrar, y los usuarios pagan solo por las consultas que ejecutan. Los usuarios pueden consultar sus datos con rapidez sin tener que configurar ni administrar ningún servidor ni almacén de datos. También pueden apuntar a sus datos en Amazon S3, definir el esquema y comenzar a realizar consultas con el editor de consultas incorporado. Athena permite a los usuarios acceder a todos sus datos en S3 sin necesidad de configurar procesos complejos de extracción, transformación y carga (ETL) de los datos.
-
-Athena es fácil de usar, no es necesario realizar trabajos de ETL complejos para preparar los datos para el análisis. Esto facilita que cualquier persona con conocimientos de SQL analice rápidamente conjuntos de datos a gran escala.
-
-Athena se integra de inmediato con el catálogo de datos de AWS Glue, lo que permite a los usuarios crear un repositorio de metadatos unificado entre distintos servicios, rastrear orígenes de datos para descubrir esquemas, completar el catálogo de datos con definiciones de tablas y particiones nuevas y modificadas, y mantener el control de versiones del esquema. Los usuarios también pueden utilizar las capacidades de ETL completamente administradas de AWS Glue para transformar los datos o convertirlos en formatos de columnas a fin de optimizar el costo y mejorar el rendimiento.
-
-Con Athena, los usuarios solo pagan por las consultas que ejecutan. Los usuarios pueden ahorrar entre un 30 y un 90 por ciento en costos por consulta y obtener un mejor rendimiento al comprimir los datos, particionarlos y convertirlos en formatos de columnas. Athena consulta los datos directamente en Amazon S3. No se aplican cargos adicionales por almacenamiento más allá de S3.
-
-Athena utiliza Presto que admite ANSI SQL y trabaja con diversos formatos de datos estándar, como CSV, notación de objetos JavaScript (JSON), Apache ORC, Apache Avro y Apache Parquet. Athena es ideal para consultas rápidas y de uso único, pero también puede manejar análisis complejos, como uniones de gran tamaño, funciones de ventana y matrices. Athena tiene una alta disponibilidad y ejecuta consultas utilizando recursos informáticos en múltiples instalaciones y múltiples dispositivos en cada instalación. Athena utiliza Amazon S3 como almacén de datos subyacente, lo que hace que los datos estén siempre disponibles y sean duraderos.
-
-Con Athena, los usuarios no tienen que preocuparse por tener suficientes recursos informáticos para obtener un rendimiento de consulta rápido e interactivo. Athena ejecuta consultas de manera simultánea automáticamente, por lo que la mayoría de los resultados se obtienen en cuestión de segundos.
-
-Amazon Macie
+### Amazon Macie
 
 Macie es un servicio de seguridad que utiliza machine learning para detectar, clasificar y proteger automáticamente la información confidencial en AWS. Macie reconoce datos confidenciales, como la información de identificación personal (PII) o la propiedad intelectual, y proporciona paneles y alertas que dan visibilidad a la forma en que se mueven estos datos o se accede a ellos. El servicio completamente administrado supervisa continuamente la actividad de acceso a los datos en busca de anomalías y genera alertas detalladas cuando detecta algún riesgo de acceso no autorizado o de fuga de datos inadvertida. Macie está disponible para proteger los datos almacenados en Amazon S3, y pronto será compatible con otros almacenes de datos de AWS.
 
