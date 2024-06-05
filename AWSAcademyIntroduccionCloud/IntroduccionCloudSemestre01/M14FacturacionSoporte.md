@@ -13,9 +13,8 @@
 | Gerente técnico de cuenta (TAM)  | <p align="justify">Este asistente y asesor en la nube dedicado para cuentas de AWS de nivel empresarial responde a preguntas de soporte, monitorea su cuenta en la nube y ofrece recomendaciones para la optimización.</p>  |
 
 ## Antecedentes
-Antecedentes y conceptos erróneos
-
-AWS proporciona varios servicios útiles de facturación y soporte que ayudan a los usuarios de la nube a hacer un uso más eficiente de sus recursos. Estos servicios incluyen una calculadora para estimar los costos mensuales, paneles de facturación para visualizar los gastos y una serie de planes de soporte con precios y servicios diferentes. Para facilitar el pago de servicios a empresas grandes con muchas cuentas, Organizations permite la facturación unificada, lo que habilita a una cuenta a pagar el resto de las cuentas de la organización.
+<p align="justify">
+AWS proporciona varios servicios útiles de facturación y soporte que ayudan a los usuarios de la nube a hacer un uso más eficiente de sus recursos. Estos servicios incluyen una calculadora para estimar los costos mensuales, paneles de facturación para visualizar los gastos y una serie de planes de soporte con precios y servicios diferentes. Para facilitar el pago de servicios a empresas grandes con muchas cuentas, Organizations permite la facturación unificada, lo que habilita a una cuenta a pagar el resto de las cuentas de la organización.</p>
 
 En esta tabla se muestran las similitudes y diferencias más importantes entre los planes de AWS Support.
 
