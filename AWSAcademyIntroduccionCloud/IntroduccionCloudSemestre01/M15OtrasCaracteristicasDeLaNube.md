@@ -19,7 +19,9 @@
 - Servicio de consultas interactivo y sin servidor que facilita el análisis de datos en Amazon S3 y usa el lenguaje de consulta estructurada estándar (SQL).
 - Se ha creado con motores Trino y Presto de código abierto y marcos de Apache Spark, sin necesidad de esfuerzos de aprovisionamiento ni configuración.
 
-**Nota:** Trino y Presto son motores de consulta SQL distribuidos que se utilizan principalmente para realizar consultas analíticas sobre grandes volúmenes de datos en diferentes tipos de fuentes de datos. Apache Spark es un marco de procesamiento de datos de código abierto diseñado para computación en clústeres.
+<p align="justify">
+
+**Nota:** Trino y Presto son motores de consulta SQL distribuidos que se utilizan principalmente para realizar consultas analíticas sobre grandes volúmenes de datos en diferentes tipos de fuentes de datos. Apache Spark es un marco de procesamiento de datos de código abierto diseñado para computación en clústeres.</p>
 
 ### Amazon Macie
 
