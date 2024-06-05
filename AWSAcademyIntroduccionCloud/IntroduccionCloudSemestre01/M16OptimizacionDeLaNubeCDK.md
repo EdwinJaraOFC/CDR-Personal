@@ -3,10 +3,6 @@
   <h1 align="center">Módulo 16: Optimización de la nube con AWS CDK</h1>
 </p>
 
-## Finalidad del módulo
-<p align="justify">
-Exploraremos el kit de desarrollo de la nube de AWS (AWS CDK) y cómo se integra con los servicios de la consola de administración de AWS. Desarrollaremos un artefacto computacional que demuestre su comprensión.</p>
-
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
