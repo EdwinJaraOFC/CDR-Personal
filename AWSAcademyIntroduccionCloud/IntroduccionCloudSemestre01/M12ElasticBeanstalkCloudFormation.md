@@ -3,9 +3,6 @@
   <h1 align="center">Módulo 12: Elastic Beanstalk y CloudFormation</h1>
 </p>
 
-## Finalidad del módulo
-Comprender para qué sirven AWS Elastic Beanstalk y AWS CloudFormation y pueda utilizarlos.
-
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
