@@ -16,9 +16,9 @@ Exploraremos el kit de desarrollo de la nube de AWS (AWS CDK) y cómo se integra
 
 AWS CDK Consta de dos partes principales:
 
-- **AWS CDK Biblioteca de construcción:** <p align="justify">una colección de piezas de código modulares y reutilizables preescritas, denominadas construcciones, que puede usar, modificar e integrar para desarrollar su infraestructura rápidamente. El objetivo de la biblioteca AWS CDK Construct es reducir la complejidad necesaria para definir e integrar los AWS servicios juntos a la hora de crear aplicaciones.</p>
+- **AWS CDK Biblioteca de construcción:** <p align="justify">Una colección de piezas de código modulares y reutilizables preescritas, denominadas construcciones, que puede usar, modificar e integrar para desarrollar su infraestructura rápidamente. El objetivo de la biblioteca AWS CDK Construct es reducir la complejidad necesaria para definir e integrar los AWS servicios juntos a la hora de crear aplicaciones.</p>
 
-- **AWS CDK Kit de herramientas:** <p align="justify">una herramienta de línea de comandos para interactuar con las aplicaciones de CDK. Use el AWS CDK kit de herramientas para crear, administrar e implementar sus proyectos.</p>
+- **AWS CDK Kit de herramientas:** <p align="justify">Una herramienta de línea de comandos para interactuar con las aplicaciones de CDK. Use el AWS CDK kit de herramientas para crear, administrar e implementar sus proyectos.</p>
 
 <p align="justify">
 Los AWS CDK soportan TypeScript, JavaScript, Python, JavaC#/.Net y Go. Puede usar cualquiera de estos lenguajes de programación compatibles para definir componentes de nube reutilizables conocidos como construcciones. Los puede agrupar en pilas y aplicaciones. Luego, despliega sus aplicaciones de CDK para AWS CloudFormation aprovisionar o actualizar sus recursos.</p>
