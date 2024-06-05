@@ -3,10 +3,6 @@
   <h1 align="center">Módulo 7: Seguridad I</h1>
 </p>
 
-## Finalidad del módulo
-<p align="justify">
-Obtendremos información general sobre la seguridad en la nube en relación con AWS Identity and Access Management (IAM). Esto incluye información sobre las prácticas recomendadas, los roles, los usuarios, las políticas y los grupos de seguridad.</p>
-
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
