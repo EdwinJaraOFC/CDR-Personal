@@ -3,9 +3,6 @@
   <h1 align="center">Módulo 9: Monitoreo de la nube</h1>
 </p>
 
-## Finalidad del módulo
-Conocer las herramientas que Amazon Web Services (AWS) proporciona para monitorear los servicios en la nube. Estos incluyen AWS Config, AWS CloudTrail y Amazon CloudWatch.
-
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
