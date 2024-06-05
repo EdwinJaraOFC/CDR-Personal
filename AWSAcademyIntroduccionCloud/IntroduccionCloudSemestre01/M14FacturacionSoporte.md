@@ -52,16 +52,25 @@ Una unidad organizativa (OU) es un contenedor para varias cuentas. Al asociar un
 
 4. Para crear la estimación de costos de Amazon S3, en el área de búsqueda Find Service (Buscar servicio), escriba S3, luego, en la lista de resultados filtrados, en el cuadro Amazon Simple Storage Service (S3), elija Configure (Configurar).
 
+
 5. En la ventana Configure Amazon Simple Storage Service (S3) (Configurar Amazon Simple Storage Service [S3]), configure los siguientes detalles:
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/dc159a40-32f7-4a6d-92db-c3d968c51723" width="800">
+</p>
 
 6. Elija View summary (Ver resumen). 
 
+
 7. Para agregar el costo del plan Basic Support a la estimación, elija Add support (Agregar soporte).
+
 
 8. En la página Support estimate (Estimación de soporte), configure las siguientes opciones:
 
+
 9. Para exportar la estimación, en Export (Exportar), elija el formato que prefiera. Por ejemplo, elija PDF. 
 
+
 10. En el cuadro de diálogo que aparece, seleccione OK (Aceptar).
+
 
 Como puede ver, la Calculadora de precios ofrece un conjunto de funciones que se pueden usar para crear una estimación del costo de los servicios de AWS cuando sabe qué servicios usará y cómo piensa usarlos.
