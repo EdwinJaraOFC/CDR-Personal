@@ -37,12 +37,12 @@ Una unidad organizativa (OU) es un contenedor para varias cuentas. Al asociar un
 ### Pasos del laboratorio
 1. Diríjase a la Calculadora de precios y seleccione Create estimate (Crear una estimación).
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/77c998e6-0fb4-4940-8786-eb17d983fdf0" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/77c998e6-0fb4-4940-8786-eb17d983fdf0" width="500">
 </p>
 
 2. Para crear la estimación de costos de Amazon EC2, configure las siguientes opciones:
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9e96cb1a-f389-4b80-a25b-7b652db06c9b" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9e96cb1a-f389-4b80-a25b-7b652db06c9b" width="500">
 </p>
 
 3. En la ventana Configure Amazon EC2 (Configurar Amazon EC2), configure los siguientes detalles:
