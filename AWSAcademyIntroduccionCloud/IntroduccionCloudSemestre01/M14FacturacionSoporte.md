@@ -46,6 +46,9 @@ Una unidad organizativa (OU) es un contenedor para varias cuentas. Al asociar un
 </p>
 
 3. En la ventana Configure Amazon EC2 (Configurar Amazon EC2), configure los siguientes detalles:
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b61c7d66-5d72-4471-95dd-ecbca6480c4a" width="800">
+</p>
 
 4. Para crear la estimación de costos de Amazon S3, en el área de búsqueda Find Service (Buscar servicio), escriba S3, luego, en la lista de resultados filtrados, en el cuadro Amazon Simple Storage Service (S3), elija Configure (Configurar).
 
