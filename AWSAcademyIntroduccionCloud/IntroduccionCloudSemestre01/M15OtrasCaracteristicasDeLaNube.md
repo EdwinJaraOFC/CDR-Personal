@@ -1,4 +1,4 @@
-<p align="left">
+ <p align="left">
   <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
   <h1 align="center">Módulo 15: Otras características de la nube</h1>
 </p>
@@ -20,7 +20,7 @@
 - Se ha creado con motores Trino y Presto de código abierto y marcos de Apache Spark, sin necesidad de esfuerzos de aprovisionamiento ni configuración.
 
 <p align="justify">
-**Nota:** Trino y Presto son motores de consulta SQL distribuidos que se utilizan principalmente para realizar consultas analíticas sobre grandes volúmenes de datos en diferentes tipos de fuentes de datos. Apache Spark es un marco de procesamiento de datos de código abierto diseñado para computación en clústeres.</p>
+<b>Nota:<b> Trino y Presto son motores de consulta SQL distribuidos que se utilizan principalmente para realizar consultas analíticas sobre grandes volúmenes de datos en diferentes tipos de fuentes de datos. Apache Spark es un marco de procesamiento de datos de código abierto diseñado para computación en clústeres.</p>
 
 ### Amazon Macie
 
