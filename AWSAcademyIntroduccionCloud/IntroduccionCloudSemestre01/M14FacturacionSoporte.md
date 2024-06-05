@@ -62,19 +62,24 @@ Una unidad organizativa (OU) es un contenedor para varias cuentas. Al asociar un
 
 6. Elija View summary (Ver resumen).
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/89d3ae4b-65ca-4658-9dea-190ff037ec06" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8900e156-873d-4774-873f-f88f77aaa711" width="800">
 </p>
 
 7. Para agregar el costo del plan Basic Support a la estimación, elija Add support (Agregar soporte).
-
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/19859072-1fea-4f49-b62e-77de88b904fb" width="800">
+</p>
 
 8. En la página Support estimate (Estimación de soporte), configure las siguientes opciones:
-
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1df6001c-b17f-4fb4-9844-81e4e08c06e3" width="800">
+</p>
 
 9. Para exportar la estimación, en Export (Exportar), elija el formato que prefiera. Por ejemplo, elija PDF. 
-
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1e0abb40-dbbc-4ca3-a9ca-2493db4d1503" width="800">
+</p>
 
 10. En el cuadro de diálogo que aparece, seleccione OK (Aceptar).
-
 
 Como puede ver, la Calculadora de precios ofrece un conjunto de funciones que se pueden usar para crear una estimación del costo de los servicios de AWS cuando sabe qué servicios usará y cómo piensa usarlos.
