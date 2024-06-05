@@ -22,7 +22,7 @@ AWS CDK Consta de dos partes principales:
 Los AWS CDK soportan TypeScript, JavaScript, Python, JavaC#/.Net y Go. Puede usar cualquiera de estos lenguajes de programación compatibles para definir componentes de nube reutilizables conocidos como construcciones. Los puede agrupar en pilas y aplicaciones. Luego, despliega sus aplicaciones de CDK para AWS CloudFormation aprovisionar o actualizar sus recursos.
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7992aecb-ce66-4dcd-9678-2cc877b64a9a" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7992aecb-ce66-4dcd-9678-2cc877b64a9a" width="700">
 </p>
 
 ### Ventajas de la AWS CDK
