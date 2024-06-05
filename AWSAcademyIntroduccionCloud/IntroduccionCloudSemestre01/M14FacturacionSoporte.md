@@ -60,8 +60,10 @@ Una unidad organizativa (OU) es un contenedor para varias cuentas. Al asociar un
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/dc159a40-32f7-4a6d-92db-c3d968c51723" width="800">
 </p>
 
-6. Elija View summary (Ver resumen). 
-
+6. Elija View summary (Ver resumen).
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/89d3ae4b-65ca-4658-9dea-190ff037ec06" width="800">
+</p>
 
 7. Para agregar el costo del plan Basic Support a la estimación, elija Add support (Agregar soporte).
 
