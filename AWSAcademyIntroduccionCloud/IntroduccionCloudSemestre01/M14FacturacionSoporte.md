@@ -3,9 +3,6 @@
   <h1 align="center">Módulo 14: Facturación y soporte</h1>
 </p>
 
-## Finalidad del módulo
-Aprenderemos sobre los planes de AWS Support. También aprenderemos sobre la calculadora de costo mensual de Amazon Web Services (AWS). Por último, comprenderemos por qué AWS Organizations y la facturación unificada son beneficiosos para las empresas que utilizan la informática en la nube.
-
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
