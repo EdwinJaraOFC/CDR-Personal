@@ -23,7 +23,7 @@
 <b>Nota:</b> Trino y Presto son motores de consulta SQL distribuidos que se utilizan principalmente para realizar consultas analíticas sobre grandes volúmenes de datos en diferentes tipos de fuentes de datos. Apache Spark es un marco de procesamiento de datos de código abierto diseñado para computación en clústeres.</p>
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5f3874dd-b705-4467-aeed-13f548a0765e" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5f3874dd-b705-4467-aeed-13f548a0765e" width="700">
 </p>
 
 ### Amazon Macie
@@ -35,7 +35,7 @@ Amazon Macie es un servicio de privacidad y seguridad de datos que utiliza machi
 - Macie utiliza machine learning para automatizar el proceso de detección, clasificación y protección de los datos almacenados en AWS.
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8377f6ce-650e-4ee8-a62c-d359b546e25f" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8377f6ce-650e-4ee8-a62c-d359b546e25f" width="700">
 </p>
 
 ### Cadena de bloques y Amazon Managed Blockchain
@@ -45,7 +45,7 @@ Una cadena de bloques es una lista creciente de registros, como una base de dato
 - Con ella se pueden crear aplicaciones en las que varias partes pueden ejecutar transacciones sin necesidad de contar con una autoridad central de confianza.
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5998ca1e-f99f-4508-9276-fecb71b32d58" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5998ca1e-f99f-4508-9276-fecb71b32d58" width="700">
 </p>
 
 Managed Blockchain es un servicio completamente administrado que permite a los usuarios configurar y administrar una red de cadenas de bloques escalable públicas y privadas con unos pocos clics.
@@ -53,5 +53,5 @@ Managed Blockchain es un servicio completamente administrado que permite a los u
 - Una vez que la red está en funcionamiento, Managed Blockchain facilita la administración y el mantenimiento de la red de cadenas de bloques.
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8f2af863-9115-4c58-9cc3-ef2e91c151cb" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8f2af863-9115-4c58-9cc3-ef2e91c151cb" width="700">
 </p>
