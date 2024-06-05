@@ -3,9 +3,6 @@
   <h1 align="center">Módulo 8: Seguridad II</h1>
 </p>
 
-## Finalidad del módulo
-Continuar desarrollando la comprensión de la seguridad en la nube. El módulo cubre las diferencias entre AWS Shield y AWS WAF. Aprenderemos qué es un ataque de denegación de servicio distribuido (DDoS). También obtendremos información sobre Amazon Inspector y AWS Artifact.
-
 ## Terminología
 | Término  | Concepto  |
 | :------------: | :------------: |
