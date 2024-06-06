@@ -143,7 +143,6 @@ Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verif
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a28b206f-c53a-4c01-ae85-8195a27d72c5" width="700">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/625b263b-00e6-46bf-aca2-b32e97218d34" width="700">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/20ac3094-a59a-4fed-b9b6-78345008bef1" width="700">
 </p>
 - Authenticator app
 <p align= "center">
