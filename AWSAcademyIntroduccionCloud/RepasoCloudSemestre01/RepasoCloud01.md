@@ -141,21 +141,21 @@ Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verif
 5. En el asistente, escriba un Nombre de dispositivo, elija Aplicación del autenticador y luego, Siguiente.
 - IAM generará y mostrará la información de configuración del dispositivo MFA virtual, incluido un gráfico de código QR.
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a28b206f-c53a-4c01-ae85-8195a27d72c5" width="800">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/625b263b-00e6-46bf-aca2-b32e97218d34" width="800">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/20ac3094-a59a-4fed-b9b6-78345008bef1" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a28b206f-c53a-4c01-ae85-8195a27d72c5" width="700">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/625b263b-00e6-46bf-aca2-b32e97218d34" width="700">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/20ac3094-a59a-4fed-b9b6-78345008bef1" width="700">
 </p>
 - Authenticator app
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/20ac3094-a59a-4fed-b9b6-78345008bef1" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/20ac3094-a59a-4fed-b9b6-78345008bef1" width="700">
 </p>
 - Security Key
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7b05fa17-b7af-4498-8d0d-61723e302489" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7b05fa17-b7af-4498-8d0d-61723e302489" width="700">
 </p>
 - Hardware TOTP token
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/57a906ef-4989-4b8a-ae9d-37e160b6a927" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/57a906ef-4989-4b8a-ae9d-37e160b6a927" width="700">
 </p>
 
 6. Abra su aplicación de MFA virtual.
