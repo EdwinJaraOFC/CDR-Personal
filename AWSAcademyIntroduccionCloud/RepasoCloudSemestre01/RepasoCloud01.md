@@ -3,7 +3,6 @@
   <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Temas: IAM, S3</h1>
 </p>
 
-# Temas: IAM, S3
 ## La Cuenta Root y la implementación de MFA
 Discute la importancia de la cuenta root en AWS y las mejores prácticas para asegurarla, incluyendo la implementación de MFA (Multi-Factor Authentication).
 
