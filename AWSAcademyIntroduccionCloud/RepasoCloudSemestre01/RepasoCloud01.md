@@ -300,7 +300,7 @@ Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verif
 </p>
 <p align= "center">https://www.youtube.com/watch?v=7Gy1Ps_vC80&t=287s</p>
 <strong>Ahora el dispositivo MFA virtual ya está listo para utilizarlo con AWS.</strong>
-
+---
 <p align="left">
   <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
   <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Tema: S3</h1>
