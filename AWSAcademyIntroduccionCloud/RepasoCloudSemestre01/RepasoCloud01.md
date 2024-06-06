@@ -171,8 +171,5 @@ Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verif
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6ed3a63e-f988-4383-9652-0f4059bfe8f6" width="700">
 </p>
-<p align= "center">
-  https://www.youtube.com/watch?v=7Gy1Ps_vC80&t=287s
-</p>
-
+<p align= "center">https://www.youtube.com/watch?v=7Gy1Ps_vC80&t=287s</p>
 <strong>Ahora el dispositivo MFA virtual ya está listo para utilizarlo con AWS.</strong>
