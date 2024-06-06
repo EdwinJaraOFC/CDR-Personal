@@ -167,4 +167,9 @@ Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verif
 - Introducir manualmente la clave secreta desde el asistente.
 8. Cuando haya terminado, el dispositivo MFA virtual comenzará a generar contraseñas de uso único.
 9. En la página Configurar el dispositivo, en el cuadro Código MFA 1, escriba la contraseña de uso único que aparece actualmente en el dispositivo MFA virtual. Espere hasta 30 segundos y escriba la otra contraseña de uso único en el cuadro MFA code 2 (Código MFA 2). Elija Add MFA (Agregar MFA).
+
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6ed3a63e-f988-4383-9652-0f4059bfe8f6" width="800">
+</p>
+
 <strong>Ahora el dispositivo MFA virtual ya está listo para utilizarlo con AWS.</strong>
