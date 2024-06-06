@@ -9,18 +9,18 @@ Discute la importancia de la cuenta root en AWS y las mejores prácticas para as
 ### Cuenta root en AWS
 Cuenta principal que se crea al registrarse por primera vez en AWS.
 
-#### Usuario raíz
+### Usuario raíz
 Es la persona que creó la cuenta en AWS. Para crear la cuenta usamos un correo electrónico y una contraseña.
 
-#### Importancia de la cuenta root
+### Importancia de la cuenta root
 - Acceso completo a todos los servicios y recursos de AWS.
 - Desde la cuenta root podemos crear usuarios adicionales (usuarios IAM).
 
-#### MFA (Multi-Factor Authentication)
+### MFA (Multi-Factor Authentication)
 - Seguridad
 - Más de un método de autenticación
 
-#### Implementación en código
+### Implementación en código
 ```
 class IAMService:
     def __init__(self):
