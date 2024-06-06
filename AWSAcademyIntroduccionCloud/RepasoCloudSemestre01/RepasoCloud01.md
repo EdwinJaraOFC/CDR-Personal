@@ -86,3 +86,22 @@ Mecanismo que solicita verificar tu identidad utilizando más de un conjunto de 
 
 ### ¿Por qué es importante habilitar MFA?
 El proceso de configuración de la Autenticación Multifactor (MFA) para una cuenta root de AWS y un usuario del IAM (AWS Identity and Access Management) es importante para agregar una capa adicional de seguridad y proteger los recursos de AWS de accesos no autorizados.
+
+## 4. Laboratorio de AWS Lab Learner
+### Ejercicio 2: Configuración de MFA para usuarios IAM
+Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verificar el estado de MFA y cómo manejar la autenticación de doble factor.
+
+1. Inicie sesión en la AWS Management Console y abra la consola de IAM en https://console.aws.amazon.com/iam/.
+2. En el panel de navegación, seleccione Users (Usuarios).
+3. En la lista Users (Usuarios), elija el nombre de usuario de IAM.
+4. Elija la pestaña Security credentials (Credenciales de seguridad). En Multi-factor authentication (MFA), seleccione Assign MFA device (Asignar dispositivo MFA).
+5. En el asistente, escriba un Nombre de dispositivo, elija Aplicación del autenticador y luego, Siguiente.
+- IAM generará y mostrará la información de configuración del dispositivo MFA virtual, incluido un gráfico de código QR.
+6. Abra su aplicación de MFA virtual.
+- Si la aplicación de MFA virtual admite varios dispositivos o cuentas de MFA, elija la opción para crear un nuevo dispositivo o cuenta de MFA virtual.
+7. Verifique si la aplicación MFA admite códigos QR y, a continuación, lleve a cabo alguna de las siguientes operaciones:
+- Escanear el código QR desde el asistente.
+- Introducir manualmente la clave secreta desde el asistente.
+8. Cuando haya terminado, el dispositivo MFA virtual comenzará a generar contraseñas de uso único.
+9. En la página Configurar el dispositivo, en el cuadro Código MFA 1, escriba la contraseña de uso único que aparece actualmente en el dispositivo MFA virtual. Espere hasta 30 segundos y escriba la otra contraseña de uso único en el cuadro MFA code 2 (Código MFA 2). Elija Add MFA (Agregar MFA).
+<strong>Ahora el dispositivo MFA virtual ya está listo para utilizarlo con AWS.</strong>
