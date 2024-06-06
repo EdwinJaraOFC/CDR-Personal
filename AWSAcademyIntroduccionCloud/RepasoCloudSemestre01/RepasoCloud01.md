@@ -66,6 +66,11 @@ iam_service.mostrar(iam_service)
 ### Ejercicio 3: Definición y asignación de políticas IAM
 Crea una política personalizada que otorgue permisos específicos a un bucket de S3. Asigna esta política a un usuario o grupo y verifica que los permisos funcionen correctamente.
 
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b7ad5965-c5aa-4948-b2da-51c03b4cd5e3" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8b5c018f-1fb8-4039-bd43-db785e2ad840" width="800">
+</p>
+
 ## 3. Configuración de MFA (Multi-Factor Authentication)
 Describe el proceso de configuración de MFA para una cuenta root y un usuario IAM. ¿Por qué es importante habilitar MFA?
 
