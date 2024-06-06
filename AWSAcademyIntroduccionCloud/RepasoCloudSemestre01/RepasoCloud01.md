@@ -158,7 +158,9 @@ class IAMService:
             print("Usuario no encontrado")
 
     def generate_verification_code(self, length=6):  # Genera un código de verificación
-        code = "".join(str(random.randint(0, 9)) for _ in range(length))
+        code = ""
+        for _ in range(length):
+            code += str(random.randint(0, 9))
         return code
 
     def send_verification_code(self, user_name):  # Envía códigos de verificación
