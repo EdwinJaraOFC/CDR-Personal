@@ -61,3 +61,7 @@ iam_service.mostrar(iam_service)
 iam_service.deactivate_mfa_for_user(iam_service, "alice")
 iam_service.mostrar(iam_service)
 ```
+
+## Laboratorio de AWS Lab Learner
+### Ejercicio 3: Definición y asignación de políticas IAM
+Crea una política personalizada que otorgue permisos específicos a un bucket de S3. Asigna esta política a un usuario o grupo y verifica que los permisos funcionen correctamente.
