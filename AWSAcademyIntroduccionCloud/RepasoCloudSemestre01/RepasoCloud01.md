@@ -3,7 +3,7 @@
   <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Temas: IAM, S3</h1>
 </p>
 
-## 1. La Cuenta Root y la implementación de MFA
+## La Cuenta Root y la implementación de MFA
 Discute la importancia de la cuenta root en AWS y las mejores prácticas para asegurarla, incluyendo la implementación de MFA (Multi-Factor Authentication).
 
 ### Cuenta root en AWS
@@ -62,7 +62,7 @@ iam_service.deactivate_mfa_for_user(iam_service, "alice")
 iam_service.mostrar(iam_service)
 ```
 
-## 2. Laboratorio de AWS Lab Learner
+## Laboratorio de AWS Lab Learner
 ### Ejercicio 3: Definición y asignación de políticas IAM
 Crea una política personalizada que otorgue permisos específicos a un bucket de S3. Asigna esta política a un usuario o grupo y verifica que los permisos funcionen correctamente.
 
@@ -71,7 +71,7 @@ Crea una política personalizada que otorgue permisos específicos a un bucket d
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8b5c018f-1fb8-4039-bd43-db785e2ad840" width="800">
 </p>
 
-## 3. Configuración de MFA (Multi-Factor Authentication)
+## Configuración de MFA (Multi-Factor Authentication)
 Describe el proceso de configuración de MFA para una cuenta root y un usuario IAM. ¿Por qué es importante habilitar MFA?
 
 ### MFA (Multi-Factor Authentication)
@@ -118,7 +118,7 @@ def configuracionMFA(userName):
 configuracionMFA("Edwin Jara")
 ```
 
-## 4. Laboratorio de AWS Lab Learner
+## Laboratorio de AWS Lab Learner
 ### Ejercicio 2: Configuración de MFA para usuarios IAM
 Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verificar el estado de MFA y cómo manejar la autenticación de doble factor.
 
