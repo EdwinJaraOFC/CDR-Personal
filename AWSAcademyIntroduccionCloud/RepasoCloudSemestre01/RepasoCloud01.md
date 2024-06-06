@@ -96,26 +96,138 @@ El proceso de configuración de la Autenticación Multifactor (MFA) para una cue
 ```
 import random
 
-def generarCodigoVerificacion(length=6):
-  codigo = ""
-  for _ in range(length):
-    codigo += str(random.randint(0, 9))
-  return codigo
+class IAMService:
+    def __init__(self):  # Inicializa las estructuras de datos
+        self.users = {}
+        self.groups = {}
+        self.roles = {}
+        self.policies = {}
 
-def enviarCodigoVerificacion(userName, code):
-  print(f"Enviando código de verificación a {userName}: {code}")
+    def create_user(self, user_name):  # Crea un nuevo usuario
+        self.users[user_name] = {'groups': [], 'roles': [], 'mfa_enabled': False, 'policies': []}
+        print(f"Usuario '{user_name}' creado.")
 
-def configuracionMFA(userName):
-  if not userName:
-    print("El nombre de usuario no es válido.")
-    return
-    
-  code = generarCodigoVerificacion()
-  enviarCodigoVerificacion(userName, code)
-  print(f"MFA configurada para el usuario '{userName}'.")
-  print("El código de verificación caducará en 5 minutos.")
+    def create_group(self, group_name):  # Crea un nuevo grupo
+        self.groups[group_name] = set()
+        print(f"Grupo '{group_name}' creado.")
 
-configuracionMFA("Edwin Jara")
+    def create_role(self, role_name):  # Crea un nuevo rol
+        self.roles[role_name] = set()
+        print(f"Rol '{role_name}' creado.")
+
+    def create_policy(self, policy_name):  # Crea una nueva política
+        self.policies[policy_name] = []
+        print(f"Política '{policy_name}' creada.")
+
+    def add_user_to_group(self, user_name, group_name):  # Agrega un usuario a un grupo
+        if user_name in self.users and group_name in self.groups:
+            self.users[user_name]['groups'].append(group_name)
+            self.groups[group_name].add(user_name)
+            print(f"Usuario '{user_name}' agregado al grupo '{group_name}'.")
+        else:
+            print("Usuario o grupo no encontrado")
+
+    def add_user_to_role(self, user_name, role_name):  # Agrega un usuario a un rol
+        if user_name in self.users and role_name in self.roles:
+            self.users[user_name]['roles'].append(role_name)
+            self.roles[role_name].add(user_name)
+            print(f"Usuario '{user_name}' agregado al rol '{role_name}'.")
+        else:
+            print("Usuario o rol no encontrado")
+
+    def attach_policy_to_user(self, user_name, policy_name):  # Asigna una política a un usuario
+        if user_name in self.users and policy_name in self.policies:
+            self.users[user_name]['policies'].append(policy_name)
+            print(f"Política '{policy_name}' asignada al usuario '{user_name}'.")
+        else:
+            print("Usuario o política no encontrada")
+
+    def enable_mfa(self, user_name):  # Habilita MFA para un usuario
+        if user_name in self.users:
+            self.send_verification_code(user_name)
+            self.users[user_name]['mfa_enabled'] = True
+            print(f"MFA configurada para el usuario '{user_name}'.")
+        else:
+            print("Usuario no encontrado")
+
+    def disable_mfa(self, user_name):  # Deshabilita MFA para un usuario
+        if user_name in self.users:
+            self.users[user_name]['mfa_enabled'] = False
+            print(f"MFA desactivada para el usuario '{user_name}'.")
+        else:
+            print("Usuario no encontrado")
+
+    def generate_verification_code(self, length=6):  # Genera un código de verificación
+        code = "".join(str(random.randint(0, 9)) for _ in range(length))
+        return code
+
+    def send_verification_code(self, user_name):  # Envía códigos de verificación
+        code1 = self.generate_verification_code()
+        code2 = self.generate_verification_code()
+        print(f"Enviando códigos de verificación a {user_name}: {code1}, {code2}")
+        print("Los códigos de verificación caducarán en 1 minuto.")
+
+    def show_info(self, user_name):  # Muestra información de usuarios, grupos, roles y políticas
+        if user_name in self.users:
+            self.print_users_info()
+            self.print_groups_info()
+            self.print_roles_info()
+            self.print_policies_info()
+        else:
+            print("Usuario no encontrado")
+
+    def print_users_info(self):  # Imprime información de usuarios
+        print("Información de usuarios:")
+        print("self.users =", self.users)
+
+    def print_groups_info(self):  # Imprime información de grupos
+        print("\nInformación de grupos:")
+        print("self.groups =", {group: list(self.groups[group]) for group in self.groups})
+
+    def print_roles_info(self):  # Imprime información de roles
+        print("\nInformación de roles:")
+        print("self.roles =", {role: list(self.roles[role]) for role in self.roles})
+
+    def print_policies_info(self):  # Imprime información de políticas
+        print("\nInformación de políticas:")
+        print("self.policies =", self.policies)
+
+iam_service = IAMService()
+iam_service.create_user("Massiel")
+iam_service.create_user("Edwin")
+print("\n")
+
+iam_service.create_group("admins")
+iam_service.create_role("developer")
+iam_service.create_policy("admin_policy")
+iam_service.create_policy("developer_policy")
+print("\n")
+
+iam_service.add_user_to_group("Massiel", "admins")
+iam_service.add_user_to_role("Massiel", "developer")
+iam_service.attach_policy_to_user("Massiel", "admin_policy")
+iam_service.attach_policy_to_user("Massiel", "developer_policy")
+iam_service.enable_mfa("Massiel")
+print("\n")
+
+iam_service.show_info("Massiel")
+print("\n")
+
+iam_service.add_user_to_group("Edwin", "admins")
+iam_service.add_user_to_role("Edwin", "developer")
+iam_service.attach_policy_to_user("Edwin", "admin_policy")
+iam_service.attach_policy_to_user("Edwin", "developer_policy")
+iam_service.enable_mfa("Edwin")
+print("\n")
+
+iam_service.show_info("Edwin")
+print("\n")
+
+iam_service.disable_mfa("Massiel")
+iam_service.disable_mfa("Edwin")
+print("\n")
+
+iam_service.show_info("Edwin")
 ```
 
 ## Laboratorio de AWS Lab Learner
