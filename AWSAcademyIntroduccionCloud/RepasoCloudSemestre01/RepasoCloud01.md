@@ -98,10 +98,27 @@ Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verif
 
 1. Inicie sesión en la AWS Management Console y abra la consola de IAM.
 2. En el panel de navegación, seleccione Users (Usuarios).
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1816a8c2-e839-4d62-b110-f07a43d5d275" width="800">
+</p>
+
 3. En la lista Users (Usuarios), elija el nombre de usuario de IAM.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b5b4ef4c-696b-427d-b9a4-3e34f5469844" width="800">
+</p>
+
 4. Elija la pestaña Security credentials (Credenciales de seguridad). En Multi-factor authentication (MFA), seleccione Assign MFA device (Asignar dispositivo MFA).
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/63136d97-a158-4b19-b393-c620914d1a6a" width="800">
+</p>
+
 5. En el asistente, escriba un Nombre de dispositivo, elija Aplicación del autenticador y luego, Siguiente.
 - IAM generará y mostrará la información de configuración del dispositivo MFA virtual, incluido un gráfico de código QR.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a28b206f-c53a-4c01-ae85-8195a27d72c5" width="800">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/625b263b-00e6-46bf-aca2-b32e97218d34" width="800">
+</p>
+
 6. Abra su aplicación de MFA virtual.
 - Si la aplicación de MFA virtual admite varios dispositivos o cuentas de MFA, elija la opción para crear un nuevo dispositivo o cuenta de MFA virtual.
 7. Verifique si la aplicación MFA admite códigos QR y, a continuación, lleve a cabo alguna de las siguientes operaciones:
