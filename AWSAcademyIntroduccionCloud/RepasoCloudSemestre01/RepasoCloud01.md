@@ -92,6 +92,32 @@ Mecanismo que solicita verificar tu identidad utilizando más de un conjunto de 
 ### ¿Por qué es importante habilitar MFA?
 El proceso de configuración de la Autenticación Multifactor (MFA) para una cuenta root de AWS y un usuario del IAM (AWS Identity and Access Management) es importante para agregar una capa adicional de seguridad y proteger los recursos de AWS de accesos no autorizados.
 
+### Implementación en código
+```
+import random
+
+def generarCodigoVerificacion(length=6):
+  codigo = ""
+  for _ in range(length):
+    codigo += str(random.randint(0, 9))
+  return codigo
+
+def enviarCodigoVerificacion(userName, code):
+  print(f"Enviando código de verificación a {userName}: {code}")
+
+def configuracionMFA(userName):
+  if not userName:
+    print("El nombre de usuario no es válido.")
+    return
+    
+  code = generarCodigoVerificacion()
+  enviarCodigoVerificacion(userName, code)
+  print(f"MFA configurada para el usuario '{userName}'.")
+  print("El código de verificación caducará en 5 minutos.")
+
+configuracionMFA("Edwin Jara")
+```
+
 ## 4. Laboratorio de AWS Lab Learner
 ### Ejercicio 2: Configuración de MFA para usuarios IAM
 Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verificar el estado de MFA y cómo manejar la autenticación de doble factor.
