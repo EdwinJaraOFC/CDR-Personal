@@ -76,9 +76,13 @@ Mecanismo que solicita verificar tu identidad utilizando más de un conjunto de 
 1. Inicie sesión en la AWS Management Console.
 2. En la parte derecha de la barra de navegación, elija su nombre de cuenta y seleccione Security Credentials (Credenciales de seguridad).
 3. En la sección Multi-Factor Authentication (MFA), elija Assign MFA device (Asignar dispositivo MFA).
-4. En el asistente, escriba un Nombre de dispositivo, elija Aplicación del autenticador y luego, Siguiente.<br> - IAM generará y mostrará la información de configuración del dispositivo MFA virtual, incluido un gráfico de código QR.
-5. Abra la aplicación de MFA virtual en el dispositivo.<br> - Si la aplicación de MFA virtual admite varios dispositivos o cuentas de MFA, elija la opción para crear un nuevo dispositivo o cuenta de MFA virtual.
-6. Verifique si la aplicación MFA admite códigos QR y, a continuación, lleve a cabo alguna de las siguientes operaciones:<br> - Escanear el código QR desde el asistente.<br> - Introducir manualmente la clave secreta desde el asistente.
+4. En el asistente, escriba un Nombre de dispositivo, elija Aplicación del autenticador y luego, Siguiente.
+  - IAM generará y mostrará la información de configuración del dispositivo MFA virtual, incluido un gráfico de código QR.
+5. Abra la aplicación de MFA virtual en el dispositivo.
+  - Si la aplicación de MFA virtual admite varios dispositivos o cuentas de MFA, elija la opción para crear un nuevo dispositivo o cuenta de MFA virtual.
+6. Verifique si la aplicación MFA admite códigos QR y, a continuación, lleve a cabo alguna de las siguientes operaciones:
+  - Escanear el código QR desde el asistente.
+  - Introducir manualmente la clave secreta desde el asistente.
 7. Cuando haya terminado, el dispositivo MFA virtual comenzará a generar contraseñas de uso único.
 8. En el asistente, en el cuadro Código MFA 1, escriba la contraseña de uso único que aparece actualmente en el dispositivo MFA virtual. Espere hasta 30 segundos y escriba la otra contraseña de uso único en el cuadro MFA code 2 (Código MFA 2). Elija Add MFA (Agregar MFA).
 El dispositivo ya está listo para utilizarlo con AWS. 
