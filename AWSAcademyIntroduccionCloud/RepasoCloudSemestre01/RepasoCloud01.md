@@ -72,21 +72,18 @@ Describe el proceso de configuración de MFA para una cuenta root y un usuario I
 ### MFA (Multi-Factor Authentication)
 Mecanismo que solicita verificar tu identidad utilizando más de un conjunto de credenciales. MFA usa dos verificaciones secretas separadas para verificar tu identidad: algo que sabe y algo que tiene.
 
-### Configuración MFA para cuenta root
-1. Inicie sesión en la AWS Management Console.
-2. En la parte derecha de la barra de navegación, elija su nombre de cuenta y seleccione Security Credentials (Credenciales de seguridad).
-3. En la sección Multi-Factor Authentication (MFA), elija Assign MFA device (Asignar dispositivo MFA).
-4. En el asistente, escriba un Nombre de dispositivo, elija Aplicación del autenticador y luego, Siguiente.
-  - IAM generará y mostrará la información de configuración del dispositivo MFA virtual, incluido un gráfico de código QR.
-5. Abra la aplicación de MFA virtual en el dispositivo.
-  - Si la aplicación de MFA virtual admite varios dispositivos o cuentas de MFA, elija la opción para crear un nuevo dispositivo o cuenta de MFA virtual.
-6. Verifique si la aplicación MFA admite códigos QR y, a continuación, lleve a cabo alguna de las siguientes operaciones:
-  - Escanear el código QR desde el asistente.
-  - Introducir manualmente la clave secreta desde el asistente.
-7. Cuando haya terminado, el dispositivo MFA virtual comenzará a generar contraseñas de uso único.
-8. En el asistente, en el cuadro Código MFA 1, escriba la contraseña de uso único que aparece actualmente en el dispositivo MFA virtual. Espere hasta 30 segundos y escriba la otra contraseña de uso único en el cuadro MFA code 2 (Código MFA 2). Elija Add MFA (Agregar MFA).
-El dispositivo ya está listo para utilizarlo con AWS. 
-
+| Configuración MFA para cuenta root  | Configuración MFA para usuario IAM  |
+| :------------: | :------------: |
+| <p align="justify">1. Inicie sesión en la AWS Management Console.</p>  | <p align="justify">1. Inicie sesión en la AWS Management Console y abra la consola de IAM</p>  |
+| <p align="justify">2. En la parte derecha de la barra de navegación, elija su nombre de cuenta y seleccione Security Credentials (Credenciales de seguridad).</p>  | <p align="justify">2. En el panel de navegación, seleccione Users (Usuarios).</p>  |
+| <p align="justify">3. En la sección Multi-Factor Authentication (MFA), elija Assign MFA device (Asignar dispositivo MFA).</p>  | <p align="justify"></p>  |
+| <p align="justify">4. En el asistente, escriba un Nombre de dispositivo, elija Aplicación del autenticador y luego, Siguiente.<br>- IAM generará y mostrará la información de configuración del dispositivo MFA virtual, incluido un gráfico de código QR.</p>  | <p align="justify"></p>  |
+| <p align="justify">5. Abra la aplicación de MFA virtual en el dispositivo.<br>- Si la aplicación de MFA virtual admite varios dispositivos o cuentas de MFA, elija la opción para crear un nuevo dispositivo o cuenta de MFA virtual.</p>  | <p align="justify"></p>  |
+| <p align="justify">6. Verifique si la aplicación MFA admite códigos QR y, a continuación, lleve a cabo alguna de las siguientes operaciones:<br>- Escanear el código QR desde el asistente.<br>- Introducir manualmente la clave secreta desde el asistente.</p>  | <p align="justify"></p>  |
+| <p align="justify">7. Cuando haya terminado, el dispositivo MFA virtual comenzará a generar contraseñas de uso único.</p>  | <p align="justify"></p>  |
+| <p align="justify">8. En el asistente, en el cuadro Código MFA 1, escriba la contraseña de uso único que aparece actualmente en el dispositivo MFA virtual. Espere hasta 30 segundos y escriba la otra contraseña de uso único en el cuadro MFA code 2 (Código MFA 2). Elija Add MFA (Agregar MFA).</p>  | <p align="justify"></p>  |
+| <p align="justify"><strong>El dispositivo ya está listo para utilizarlo con AWS.</strong></p>  | <p align="justify"></p>  |
+| <p align="justify"></p>  | <p align="justify"></p>  |
 
 ### ¿Por qué es importante habilitar MFA?
 El proceso de configuración de la Autenticación Multifactor (MFA) para una cuenta root de AWS y un usuario del IAM (AWS Identity and Access Management) es importante para agregar una capa adicional de seguridad y proteger los recursos de AWS de accesos no autorizados.
