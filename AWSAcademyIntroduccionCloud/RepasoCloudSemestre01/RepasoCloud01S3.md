@@ -49,6 +49,7 @@ Los componentes dinámicos se manejan mediante:
  - AWS Lambda para ejecución de código sin servidor (lógica de back-end y funciones serverless).
  - Amazon API Gateway para crear y gestionar APIs que interactúan con Lambda y otros servicios.
  - Amazon RDS o DynamoDB para bases de datos.
+
 Amazon CloudFront actúa como una capa de entrega y aceleración:
  - Optimiza la entrega de archivos estáticos alojados en S3.
  - Acelera las API y funciones serverless (Lambda y API Gateway) mediante caché inteligente.
