@@ -29,8 +29,8 @@ S3 no es adecuado para alojar sitios web dinámicos por sí solo debido a las si
 ### ¿Qué es Jamstack?
 Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendimiento y la escalabilidad usando tecnologías modernas. Se basa en tres pilares fundamentales: JavaScript, API y Markup pre compilado.
 - En Jamstack, usamos JavaScript para manejar la lógica de la aplicación, las interacciones del usuario y la actualización del contenido sin necesidad de recargar la página completa.
-- Las API reemplazan la base de datos desde el servidor, utilizando servicios web accedidos vía HTTPS con JavaScript.
-- El Markup pre compilado promueve la precompilación de vistas, templates y marcado, evitando la generación dinámica tradicional.
+- Las API permiten que el sitio web se comunique con servicios externos o bases de datos. En lugar de tener la base de datos y la lógica de negocios en el servidor del sitio web, Jamstack usa servicios web a los que accede a través de JavaScript.
+- En Jamstack, este HTML se genera previamente (pre compilado) y se sirve como archivos estáticos. Esto significa que el servidor no tiene que generar el HTML cada vez que alguien visita la página, lo que hace que el sitio sea mucho más rápido.
 
 ### Diferencias entre Jamstack y otras arquitecturas web
 - En arquitecturas tradicionales, las solicitudes se procesan y se renderizan plantillas y contenido en HTML en cada petición.
