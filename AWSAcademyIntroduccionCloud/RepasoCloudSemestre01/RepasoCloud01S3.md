@@ -13,19 +13,39 @@ Amazon S3 puede alojar diferentes tipos de objetos, entre ellos los sitios web e
 Crea un bucket de Amazon S3 y gestionar objetos dentro de él.
 #### Instrucciones:
 1. Inicia sesión en AWS Management Console.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ac7a12d9-fc81-4a19-9084-97ba4b3518a3" width="900">
+</p>
 
 2. Navega a Amazon S3.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1125b5f0-9d55-47d9-91c4-82e8d3278eb4" width="900">
+</p>
 
 3. Crea un nuevo bucket con un nombre único.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7074df92-1305-47d2-ac88-6f96c14fe48c" width="900">
+</p>
 
 4. Sube varios archivos al bucket.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6bb0e62b-de96-49a8-b173-2576e103d43b" width="900">
+</p>
 
 5. Organiza los archivos en carpetas dentro del bucket.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ec4ec1bc-c673-4bf2-99f5-8be8cef2eead" width="900">
+</p>
 
 6. Configura permisos para que algunos archivos sean públicos y otros privados.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/521fa02f-eca8-4619-aa28-8bd6b0bfa5a8" width="900">
+</p>
 
 7. Elimina uno de los archivos del bucket.
-
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/44e18d89-41fe-4bae-a753-562c8cb16bb7" width="900">
+</p>
 
 #### Preguntas:
 ¿Qué configuraciones adicionales puedes aplicar al bucket?
