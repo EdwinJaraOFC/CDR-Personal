@@ -8,13 +8,13 @@ Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿
 
 | Característica | Sitio Web Estático | Sitio Web Dinámico |
 | :------------: | :------------: | :------------: |
-| Generación de contenido | Los archivos (HTML, CSS, JavaScript, imágenes) se sirven tal cual están almacenados en el servidor. | El contenido se genera dinámicamente en el servidor utilizando lenguajes de programación y bases de datos. |
-| Interacción con bases de datos | No hay interacción con bases de datos ni procesamiento en el servidor. | Interactúa con bases de datos y realiza procesamiento en el servidor. |
-| Personalización de contenido | El contenido es igual para todos los usuarios. | El contenido se personaliza según el usuario o la solicitud. |
-| Actualización de contenido | Los cambios en el contenido requieren actualizar manualmente los archivos. | El contenido se actualiza automáticamente mediante la lógica del servidor. |
-| Ejemplos | Sitios web simples, portafolios, blogs estáticos. | Sitios de comercio electrónico, aplicaciones web, redes sociales. |
-| Rendimiento y seguridad | Generalmente más rápidos y seguros, pero con funcionalidad limitada. | Más funcionales y dinámicos, pero requieren más recursos del servidor. |
-| Casos de uso | Adecuados para sitios con contenido estático o que no requiere actualizaciones frecuentes. | Adecuados para sitios con contenido dinámico y personalizado. |
+| Generación de contenido | <p align="justify">Los archivos (HTML, CSS, JavaScript, imágenes) se sirven tal cual están almacenados en el servidor.</p> | <p align="justify">El contenido se genera dinámicamente en el servidor utilizando lenguajes de programación y bases de datos.</p> |
+| Interacción con bases de datos | <p align="justify">No hay interacción con bases de datos ni procesamiento en el servidor.</p> | <p align="justify">Interactúa con bases de datos y realiza procesamiento en el servidor.</p> |
+| Personalización de contenido | <p align="justify">El contenido es igual para todos los usuarios.</p> | <p align="justify">El contenido se personaliza según el usuario o la solicitud.</p> |
+| Actualización de contenido | <p align="justify">Los cambios en el contenido requieren actualizar manualmente los archivos.</p> | <p align="justify">El contenido se actualiza automáticamente mediante la lógica del servidor.</p> |
+| Ejemplos | <p align="justify">Sitios web simples, portafolios, blogs estáticos.</p> | <p align="justify">Sitios de comercio electrónico, aplicaciones web, redes sociales.</p> |
+| Rendimiento y seguridad | <p align="justify">Generalmente más rápidos y seguros, pero con funcionalidad limitada.</p> | <p align="justify">Más funcionales y dinámicos, pero requieren más recursos del servidor.</p> |
+| Casos de uso | <p align="justify">Adecuados para sitios con contenido estático o que no requiere actualizaciones frecuentes.</p> | <p align="justify">Adecuados para sitios con contenido dinámico y personalizado.</p> |
 
 Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido.
 
