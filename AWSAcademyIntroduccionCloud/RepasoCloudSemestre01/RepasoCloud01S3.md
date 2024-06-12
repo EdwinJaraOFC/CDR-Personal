@@ -40,7 +40,7 @@ Código
 Introducción a Amazon S3
 Buckets y Objetos
 Simula la creación y gestión de buckets y objetos.
-
+```
 class S3Bucket:
 def __init__(self):
 self.buckets = {}
@@ -61,11 +61,11 @@ s3.create_bucket('mybucket')
 s3.put_object('mybucket', 'file1.txt', 'Hello, S3 Bucket!')
 print(s3.get_object('mybucket', 'file1.txt'))
 # Output: 'Hello, S3 Bucket!'
-
+```
 Gestión de objetos en un Bucket
 Permisos de acceso
 Simula el manejo de permisos mediante un diccionario de permisos.
-
+```
 class S3BucketWithPermissions(S3Bucket):
 def __init__(self):
 super().__init__()
@@ -85,7 +85,7 @@ s3p.create_bucket('mybucket')
 s3p.put_object('mybucket', 'file1.txt', 'Hello, S3 with Permissions!') 
 s3p.set_permission('mybucket', 'file1.txt', 'read') 
 print(s3p.check_permission('mybucket', 'file1.txt', 'read')) # Output: True
-
+```
 
 
 
