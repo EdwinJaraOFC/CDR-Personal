@@ -49,14 +49,14 @@ Crea un bucket de Amazon S3 y gestionar objetos dentro de él.
 
 #### Preguntas:
 ¿Qué configuraciones adicionales puedes aplicar al bucket?
-- Podemos habilitar el alojamiento de sitios web estáticos.
-- Podemos editar la política del bucket para agregar ciertos permisos que necesitemos.
-- Activar el control de versiones de buckets.
+- **Registro de acceso:** Registrar todas las solicitudes al bucket para análisis y auditoría.
+- **Políticas de ciclo de vida:** Reglas para administrar el ciclo de vida de los objetos (moverlos a almacenamiento más económico, eliminarlos, etc.).
+- **Replicación de objetos:** Replicar objetos en otros buckets, incluso en diferentes regiones para backup y recuperación.
+- **Control de versiones:** Mantener múltiples versiones de un objeto en el mismo bucket.
 
 ¿Cómo se gestionan los permisos para los archivos en el bucket?
-- Mediante las políticas que se le asignan al bucket.
-- Mediante roles y políticas de IAM.
-- Mediante ACL (Access Control List)
+- Políticas de bucket
+- Listas de Control de Acceso (ACL)
 
 ## Código
 ### Introducción a Amazon S3
