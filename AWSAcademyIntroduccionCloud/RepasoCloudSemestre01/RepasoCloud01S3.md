@@ -29,8 +29,8 @@ Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendim
 - Y por último, está el Markup pre compilado, el cual promueve la precompilación de las vistas, los “templates” y el marcado, evitando la generación dinámica de los mismos como se hace en el desarrollo web tradicional.
 
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2be8ebca-1b33-45c2-9fee-381f6ff79585" width="518px"/>
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/70f127ea-009f-4d3f-bc9a-795ba1d171d4" width="489px"/>
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2be8ebca-1b33-45c2-9fee-381f6ff79585" width="450px"/>
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/70f127ea-009f-4d3f-bc9a-795ba1d171d4" width="550px"/>
 </div>
 
 ## Laboratorio de AWS Lab Learner
