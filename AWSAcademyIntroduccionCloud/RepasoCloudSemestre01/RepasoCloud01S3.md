@@ -64,18 +64,18 @@ Crea un bucket de Amazon S3 y gestionar objetos dentro de él.
 Simula la creación y gestión de buckets y objetos.
 ```
 class S3Bucket:
-def __init__(self):
-  self.buckets = {}
+    def __init__(self):
+        self.buckets = {}
 
-def create_bucket(self, name):
-  self.buckets[name] = {}
+    def create_bucket(self, name):
+        self.buckets[name] = {}
 
-def put_object(self, bucket, key, data):
-  if bucket in self.buckets:
-    self.buckets[bucket][key] = data
+    def put_object(self, bucket, key, data):
+        if bucket in self.buckets:
+            self.buckets[bucket][key] = data
 
-def get_object(self, bucket, key):
-  return self.buckets.get(bucket, {}).get(key, None)
+    def get_object(self, bucket, key):
+        return self.buckets.get(bucket, {}).get(key, None)
 
 # Ejemplo de uso
 s3 = S3Bucket()
