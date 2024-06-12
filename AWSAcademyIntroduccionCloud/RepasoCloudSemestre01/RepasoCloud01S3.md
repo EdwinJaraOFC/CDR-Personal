@@ -195,4 +195,55 @@ Archivo recuperado
 ## Código
 ### 4.1. Implementación de Versionado
 Simula el versionado de objetos con una lista.
+```
+class S3Bucket:
+    def __init__(self):
+        self.buckets = {}
 
+    #Método para crear bucket
+    def create_bucket(self, name):
+        self.buckets[name] = {}
+
+    #Cargar un objeto al bucket
+    def put_object(self, bucket, key, data):
+        if bucket in self.buckets:
+            self.buckets[bucket][key] = data
+
+    #Metodo  para mostrar el objeto
+    def get_object(self, bucket, key):
+        return self.buckets.get(bucket, {}).get(key, None)
+    
+class S3BucketWithVersioning(S3Bucket):
+    def __init__(self):
+        super().__init__()
+        self.versions = {}
+
+    #Método para crear versiones del objeto
+    def put_object(self, bucket, key, data):
+        if bucket not in self.versions:
+            self.versions[bucket] = {}
+        if key not in self.versions[bucket]:
+            self.versions[bucket][key] = []
+
+        self.versions[bucket][key].append(data)
+
+    #Método para mostrar versiones del objeto
+    def get_object(self, bucket, key, version=None):
+        if version is None:
+            return self.versions.get(bucket, {}).get(key, [])[-1]
+        return self.versions.get(bucket, {}).get(key, [])[version]
+
+# Ejemplo de uso
+s3=S3Bucket()
+s3.create_bucket('mybucket')
+s3.put_object('mybucket', 'file1.txt', 'Hello, S3 Bucket!')
+print(s3.get_object('mybucket', 'file1.txt')) # Output: 'Hello, S3 Bucket!'
+
+
+s3v = S3BucketWithVersioning()
+s3v.create_bucket('mybucket')
+s3v.put_object('mybucket', 'file1.txt', 'Version 1')
+s3v.put_object('mybucket', 'file1.txt', 'Version 2')
+print(s3v.get_object('mybucket', 'file1.txt')) # Output: 'Version 2'
+print(s3v.get_object('mybucket', 'file1.txt', 0)) # Output: 'Version 1'
+```
