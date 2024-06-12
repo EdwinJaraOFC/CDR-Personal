@@ -6,36 +6,53 @@
 ## Alojamiento de Sitios Web Estáticos
 Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿Cuáles son los pasos necesarios para configurar un bucket de S3 para alojamiento web?
 
-## Sitios Web Estáticos en AWS
-Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido.
+## Sitios Web Estáticos y Arquitectura Jamstack en AWS
+
+### Sitios Web Estáticos en AWS con Amazon S3
+- Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido.
+- S3 está diseñado principalmente para almacenar y servir contenido estático, como archivos HTML, CSS, JavaScript, imágenes y videos.
 
 ### ¿Por qué Amazon S3 no aloja sitios web dinámicos?
-Amazon S3 está diseñado principalmente para almacenar y servir contenido estático, como archivos HTML, CSS, JavaScript, imágenes, videos, etc. Por esta razón, no es adecuado para alojar sitios web dinámicos por sí solo. Esto se debe a varias razones:
+- S3 no es adecuado para alojar sitios web dinámicos por sí solo debido a las siguientes razones:
 
 | Característica | Sitio Web Estático | Sitio Web Dinámico |
 | :------------: | :------------: | :------------: |
-| Generación de contenido | <p align="justify">Los archivos (HTML, CSS, JavaScript, imágenes) se sirven tal cual están almacenados en el servidor.</p> | <p align="justify">El contenido se genera dinámicamente en el servidor utilizando lenguajes de programación y bases de datos.</p> |
-| Interacción con bases de datos | <p align="justify">No hay interacción con bases de datos ni procesamiento en el servidor.</p> | <p align="justify">Interactúa con bases de datos y realiza procesamiento en el servidor.</p> |
-| Personalización de contenido | <p align="justify">El contenido es igual para todos los usuarios.</p> | <p align="justify">El contenido se personaliza según el usuario o la solicitud.</p> |
-| Actualización de contenido | <p align="justify">Los cambios en el contenido requieren actualizar manualmente los archivos.</p> | <p align="justify">El contenido se actualiza automáticamente mediante la lógica del servidor.</p> |
-| Rendimiento y seguridad | <p align="justify">Generalmente más rápidos y seguros, pero con funcionalidad limitada.</p> | <p align="justify">Más funcionales y dinámicos, pero requieren más recursos del servidor.</p> |
+| Generación de contenido | Los archivos se sirven tal cual están almacenados en el servidor. | El contenido se genera dinámicamente en el servidor utilizando lenguajes de programación y bases de datos. |
+| Interacción con bases de datos | No hay interacción con bases de datos ni procesamiento en el servidor. | Interactúa con bases de datos y realiza procesamiento en el servidor. |
+| Personalización de contenido | El contenido es igual para todos los usuarios. | El contenido se personaliza según el usuario o la solicitud. |
+| Actualización de contenido | Los cambios requieren actualizar manualmente los archivos. | El contenido se actualiza automáticamente mediante la lógica del servidor. |
+| Rendimiento y seguridad | Generalmente más rápidos y seguros, pero con funcionalidad limitada. | Más funcionales y dinámicos, pero requieren más recursos del servidor. |
 
-Sin embargo, S3 se puede combinar con otros servicios de AWS para alojar sitios web dinámicos. Por ejemplo, puedes utilizar S3 para almacenar y servir los archivos estáticos (HTML, CSS, JavaScript, imágenes), mientras que los componentes dinámicos se manejan mediante servicios como AWS Lambda (para ejecución de código sin servidor), Amazon API Gateway (para crear APIs) y Amazon RDS o Amazon DynamoDB (para bases de datos).
+### Alojar sitios web dinámicos con AWS: Arquitectura Jamstack
+- Para alojar sitios web dinámicos en AWS, se utiliza la arquitectura "Jamstack" (JavaScript, APIs y Markup).
+- En Jamstack, S3 se utiliza para almacenar y servir los archivos estáticos (HTML, CSS, JavaScript, imágenes).
+- Los componentes dinámicos se manejan mediante:
+ - AWS Lambda para ejecución de código sin servidor (lógica de back-end y funciones serverless).
+ - Amazon API Gateway para crear y gestionar APIs que interactúan con Lambda y otros servicios.
+ - Amazon RDS o DynamoDB para bases de datos.
+- Amazon CloudFront actúa como una capa de entrega y aceleración:
+ - Optimiza la entrega de archivos estáticos alojados en S3.
+ - Acelera las API y funciones serverless (Lambda y API Gateway) mediante caché inteligente.
+ - Proporciona seguridad adicional contra ataques DDoS y tráfico malicioso (integración con AWS WAF).
+ - Ofrece optimización de contenido (compresión, minimización, optimización de imágenes).
 
-### Arquitectura Jamstack
-Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendimiento y la escalabilidad usando tecnologías modernas. Se trata de una arquitectura de desarrollo basada en tres pilares fundamentales: JavaScript, API y Markup.
-- JavaScript delega la arquitectura al cliente y no al servidor, y esto lo hace por medio de frameworks de desarrollo que corren en el frontend, como es el caso de React o Angular.
-- Su segundo pilar lo conforman las API, las cuales se encargan básicamente de reemplazar la base de datos desde el servidor, utilizando en su lugar servicios web a los que se accede vía HTTPS con JavaScript.
-- Y por último, está el Markup pre compilado, el cual promueve la precompilación de las vistas, los “templates” y el marcado, evitando la generación dinámica de los mismos como se hace en el desarrollo web tradicional.
+### ¿Qué es Jamstack?
+- Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendimiento y la escalabilidad usando tecnologías modernas.
+- Se basa en tres pilares fundamentales: JavaScript, API y Markup pre compilado.
+- JavaScript delega la arquitectura al cliente, utilizando frameworks de desarrollo como React o Angular.
+- Las API reemplazan la base de datos desde el servidor, utilizando servicios web accedidos vía HTTPS con JavaScript.
+- El Markup pre compilado promueve la precompilación de vistas, templates y marcado, evitando la generación dinámica tradicional.
+
+### Diferencias entre Jamstack y otras arquitecturas web
+- En arquitecturas tradicionales, las solicitudes se procesan y se renderizan plantillas y contenido en HTML en cada petición.
+- En Jamstack, el código fuente y el contenido se alojan en un repositorio como ficheros editables.
+- Cada vez que se modifica el código o contenido, se ejecuta un proceso de pre renderización de todo el sitio web.
+- El HTML pre generado se publica en la CDN de la aplicación, disponible para el navegador.
 
 <div align="center"; style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2be8ebca-1b33-45c2-9fee-381f6ff79585" width="438px"/>
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/70f127ea-009f-4d3f-bc9a-795ba1d171d4" width="562px"/>
+ <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2be8ebca-1b33-45c2-9fee-381f6ff79585" width="438px"/>
+ <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/70f127ea-009f-4d3f-bc9a-795ba1d171d4" width="562px"/>
 </div>
-
-### ¿Cómo se diferencia Jamstack de otras arquitecturas web?
-- En otras arquitecturas, una vez se obtienen los accesos, estos son procesados y luego renderizados al estilo de las plantillas y al contenido en HTML, devolviendo el resultado al navegador y repitiendo este proceso en cada petición.
-- Con Jamstack este proceso no existe, ya que tanto el código fuente como el contenido se alojan en un repositorio como ficheros editables. Cada vez que el código o contenido es modificado, se ejecuta un proceso de pre renderización de todo el sitio web. Una vez que es pre generado el HTML, este es publicado en la CDN de la aplicación disponible del navegador. 
 
 ## Laboratorio de AWS Lab Learner
 ### Ejercicio 1: Creación y gestión de un bucket de Amazon S3
