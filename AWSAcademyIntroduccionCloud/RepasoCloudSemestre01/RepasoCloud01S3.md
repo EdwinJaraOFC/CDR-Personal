@@ -39,12 +39,12 @@ Crea un bucket de Amazon S3 y gestionar objetos dentro de él.
 
 6. Configura permisos para que algunos archivos sean públicos y otros privados.
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/521fa02f-eca8-4619-aa28-8bd6b0bfa5a8" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/521fa02f-eca8-4619-aa28-8bd6b0bfa5a8" width="800">
 </p>
 
 7. Elimina uno de los archivos del bucket.
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/44e18d89-41fe-4bae-a753-562c8cb16bb7" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/44e18d89-41fe-4bae-a753-562c8cb16bb7" width="800">
 </p>
 
 #### Preguntas:
