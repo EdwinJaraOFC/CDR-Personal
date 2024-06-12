@@ -12,9 +12,7 @@ Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿
 | Interacción con bases de datos | <p align="justify">No hay interacción con bases de datos ni procesamiento en el servidor.</p> | <p align="justify">Interactúa con bases de datos y realiza procesamiento en el servidor.</p> |
 | Personalización de contenido | <p align="justify">El contenido es igual para todos los usuarios.</p> | <p align="justify">El contenido se personaliza según el usuario o la solicitud.</p> |
 | Actualización de contenido | <p align="justify">Los cambios en el contenido requieren actualizar manualmente los archivos.</p> | <p align="justify">El contenido se actualiza automáticamente mediante la lógica del servidor.</p> |
-| Ejemplos | <p align="justify">Sitios web simples, portafolios, blogs estáticos.</p> | <p align="justify">Sitios de comercio electrónico, aplicaciones web, redes sociales.</p> |
 | Rendimiento y seguridad | <p align="justify">Generalmente más rápidos y seguros, pero con funcionalidad limitada.</p> | <p align="justify">Más funcionales y dinámicos, pero requieren más recursos del servidor.</p> |
-| Casos de uso | <p align="justify">Adecuados para sitios con contenido estático o que no requiere actualizaciones frecuentes.</p> | <p align="justify">Adecuados para sitios con contenido dinámico y personalizado.</p> |
 
 Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido.
 
