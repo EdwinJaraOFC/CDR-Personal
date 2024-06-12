@@ -6,6 +6,7 @@
 ## Alojamiento de sitios web estáticos
 Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿Cuáles son los pasos necesarios para configurar un bucket de S3 para alojamiento web?
 
+### Diferencias entre Sitio Web Estático y Sitio Web Dinámico
 | Característica | Sitio Web Estático | Sitio Web Dinámico |
 | :------------: | :------------: | :------------: |
 | Generación de contenido | <p align="justify">Los archivos (HTML, CSS, JavaScript, imágenes) se sirven tal cual están almacenados en el servidor.</p> | <p align="justify">El contenido se genera dinámicamente en el servidor utilizando lenguajes de programación y bases de datos.</p> |
