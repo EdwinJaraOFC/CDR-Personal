@@ -23,19 +23,6 @@ Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿
 | Actualización de contenido | <p align="justify">Los cambios en el contenido requieren actualizar manualmente los archivos.</p> | <p align="justify">El contenido se actualiza automáticamente mediante la lógica del servidor.</p> |
 | Rendimiento y seguridad | <p align="justify">Generalmente más rápidos y seguros, pero con funcionalidad limitada.</p> | <p align="justify">Más funcionales y dinámicos, pero requieren más recursos del servidor.</p> |
 
-### Alojar sitios web dinámicos con AWS: Arquitectura Jamstack
-- Para alojar sitios web dinámicos en AWS, se utiliza la arquitectura "Jamstack" (JavaScript, APIs y Markup).
-- En Jamstack, S3 se utiliza para almacenar y servir los archivos estáticos (HTML, CSS, JavaScript, imágenes).
-- Los componentes dinámicos se manejan mediante:
- - AWS Lambda para ejecución de código sin servidor (lógica de back-end y funciones serverless).
- - Amazon API Gateway para crear y gestionar APIs que interactúan con Lambda y otros servicios.
- - Amazon RDS o DynamoDB para bases de datos.
-- Amazon CloudFront actúa como una capa de entrega y aceleración:
- - Optimiza la entrega de archivos estáticos alojados en S3.
- - Acelera las API y funciones serverless (Lambda y API Gateway) mediante caché inteligente.
- - Proporciona seguridad adicional contra ataques DDoS y tráfico malicioso (integración con AWS WAF).
- - Ofrece optimización de contenido (compresión, minimización, optimización de imágenes).
-
 ### ¿Qué es Jamstack?
 - Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendimiento y la escalabilidad usando tecnologías modernas.
 - Se basa en tres pilares fundamentales: JavaScript, API y Markup pre compilado.
@@ -53,6 +40,19 @@ Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿
  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2be8ebca-1b33-45c2-9fee-381f6ff79585" width="438px"/>
  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/70f127ea-009f-4d3f-bc9a-795ba1d171d4" width="562px"/>
 </div>
+
+### Alojar sitios web dinámicos con AWS: Arquitectura Jamstack
+- Para alojar sitios web dinámicos en AWS, se utiliza la arquitectura "Jamstack" (JavaScript, APIs y Markup).
+- En Jamstack, S3 se utiliza para almacenar y servir los archivos estáticos (HTML, CSS, JavaScript, imágenes).
+- Los componentes dinámicos se manejan mediante:
+ - AWS Lambda para ejecución de código sin servidor (lógica de back-end y funciones serverless).
+ - Amazon API Gateway para crear y gestionar APIs que interactúan con Lambda y otros servicios.
+ - Amazon RDS o DynamoDB para bases de datos.
+- Amazon CloudFront actúa como una capa de entrega y aceleración:
+ - Optimiza la entrega de archivos estáticos alojados en S3.
+ - Acelera las API y funciones serverless (Lambda y API Gateway) mediante caché inteligente.
+ - Proporciona seguridad adicional contra ataques DDoS y tráfico malicioso (integración con AWS WAF).
+ - Ofrece optimización de contenido (compresión, minimización, optimización de imágenes).
 
 ## Laboratorio de AWS Lab Learner
 ### Ejercicio 1: Creación y gestión de un bucket de Amazon S3
