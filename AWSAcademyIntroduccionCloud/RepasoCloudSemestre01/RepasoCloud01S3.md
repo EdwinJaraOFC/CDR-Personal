@@ -130,31 +130,6 @@ s3.put_object('mybucket', 'file1.txt', 'Hello, S3 Bucket!')
 print(s3.get_object('mybucket', 'file1.txt'))
 # Output: 'Hello, S3 Bucket!'
 ```
-### Gestión de objetos en un Bucket
-#### Permisos de acceso
-Simula el manejo de permisos mediante un diccionario de permisos.
-```
-class S3BucketWithPermissions(S3Bucket):
-def __init__(self):
-  super().__init__()
-  self.permissions = {}
-
-def set_permission(self, bucket, key, permission):
-  if bucket not in self.permissions:
-    self.permissions[bucket] = {}
-  self.permissions[bucket][key] = permission
-
-def check_permission(self, bucket, key, action):
-  return self.permissions.get(bucket, {}).get(key) == action
-
-# Ejemplo de uso
-s3p = S3BucketWithPermissions()
-s3p.create_bucket('mybucket')
-s3p.put_object('mybucket', 'file1.txt', 'Hello, S3 with Permissions!') 
-s3p.set_permission('mybucket', 'file1.txt', 'read') 
-print(s3p.check_permission('mybucket', 'file1.txt', 'read')) # Output: True
-```
-
 
 ## Versionado
 Explica el concepto de versionado en Amazon S3 y cómo se configura. ¿Cuáles son las ventajas de habilitar el versionado en un bucket?
