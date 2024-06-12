@@ -3,7 +3,7 @@
   <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Tema: S3</h1>
 </p>
 
-## Alojamiento de sitios web estáticos
+## Alojamiento de Sitios Web Estáticos
 Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿Cuáles son los pasos necesarios para configurar un bucket de S3 para alojamiento web?
 
 ## Sitios Web Estáticos en AWS
