@@ -113,24 +113,47 @@ Simula la creación y gestión de buckets y objetos.
 ```
 class S3Bucket:
     def __init__(self):
-        self.buckets = {}
-
-    def create_bucket(self, name):
+        self.buckets = {} # Diccionario para almacenar los buckets
+        
+    def create_bucket(self, name): # Crea un nuevo bucket vacío con el nombre especificado
         self.buckets[name] = {}
 
-    def put_object(self, bucket, key, data):
+    def put_object(self, bucket, key, data): # Agrega un nuevo objeto al bucket
         if bucket in self.buckets:
             self.buckets[bucket][key] = data
 
-    def get_object(self, bucket, key):
-        return self.buckets.get(bucket, {}).get(key, None)
+    def get_object(self, bucket, key): # Obtiene el contenido de un objeto en un bucket específico
+        if bucket in self.buckets:
+            if key in self.buckets[bucket]:
+                return self.buckets[bucket][key]
+        return None
+
+    def list_objects(self, bucket): # Lista todos los objetos en un bucket específico
+        if bucket in self.buckets:
+            return list(self.buckets[bucket].keys())
+        return []
+
+    def delete_object(self, bucket, key): # Elimina un objeto específico de un bucket
+        if bucket in self.buckets:
+            if key in self.buckets[bucket]:
+                del self.buckets[bucket][key]
 
 # Ejemplo de uso
 s3 = S3Bucket()
-s3.create_bucket('mybucket')
-s3.put_object('mybucket', 'file1.txt', 'Hello, S3 Bucket!')
-print(s3.get_object('mybucket', 'file1.txt'))
-# Output: 'Hello, S3 Bucket!'
+s3.create_bucket('website')
+s3.put_object('website', 'index.html', '<!DOCTYPE html><html><body><h1>Mi Sitio Web</h1></body></html>')
+s3.put_object('website', 'styles.css', 'body { background-color: green; }')
+s3.put_object('website', 'script.js', 'console.log("Hola desde JavaScript");')
+
+print(s3.get_object('website', 'index.html'))
+# Output: '<!DOCTYPE html><html><body><h1>Mi Sitio Web</h1></body></html>'
+
+print(s3.list_objects('website'))
+# Output: ['index.html', 'styles.css', 'script.js']
+
+s3.delete_object('website', 'script.js')
+print(s3.list_objects('website'))
+# Output: ['index.html', 'styles.css']
 ```
 
 ## Versionado
