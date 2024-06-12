@@ -133,20 +133,36 @@ print(s3.get_object('mybucket', 'file1.txt'))
 
 ## Versionado
 Explica el concepto de versionado en Amazon S3 y cómo se configura. ¿Cuáles son las ventajas de habilitar el versionado en un bucket?
-El versionado ocurre a nivel de bucket y aplica a todos los objetos almacenados en él.
-Se puede configurar al crear el bucket
-
+- El versionado ocurre a nivel de bucket y aplica a todos los objetos almacenados en él.
+- Se puede configurar al crear el bucket
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8e04d289-ce3d-440d-9cff-35bed4d05b11)
 
 ## Laboratorio de AWS Lab Learner
 ### Ejercicio 2: Configuración de versionado en un Bucket de Amazon S3
 Configura el versionado en un bucket de Amazon S3 y observar cómo se manejan las versiones de los objetos.
 
 #### Instrucciones:
-1. Utiliza el bucket creado en el ejercicio anterior.
+1. Utiliza el bucket creado en el ejercicio anterior. <br> Servicios > S3 > Crear bucket <br> Nombre:  Único, solo minúscula, empezar por letra o número, 3-63 caracteres, no se puede modificar el nombre, descriptivo
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ff4cc7e0-3854-4326-acd2-8f9ecf000a62)
+
 2. Habilita el versionado para el bucket.
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/922778ad-b7d3-42e5-8879-f7dc69bcdce5)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8b4760e0-f51e-41f8-bc55-e4a33b1e8f3c)
+
 3. Sube un archivo con el mismo nombre varias veces y observa cómo se gestionan las versiones
-4. Elimina una versión específica del archivo.
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/13b391d1-0354-429d-b0c9-30d704dd781c)
+
+4. Elimina una versión específica del archivo.<br>
+Con versionado habilitado
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9fcafcac-c61b-428d-851e-6521e2815480)
+Con versionado deshabilitado
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f2440259-9cc7-4f22-ab8d-4678b31bfe69)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a28b5ce4-70f4-45e8-98e5-b188b355dd63)
+
 5. Restaura una versión anterior del archivo.
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/78fa34c4-3eaa-470f-aa68-56bcd6bd2a84)
+Archivo recuperado
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/985118b7-bc79-43eb-bf8c-694ad64731d0)
 
 #### Preguntas:
 ¿Qué ventajas tiene habilitar el versionado en un bucket?
