@@ -6,6 +6,7 @@
 ## Alojamiento de sitios web estáticos
 Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿Cuáles son los pasos necesarios para configurar un bucket de S3 para alojamiento web?
 
+## Sitios Web Estáticos en AWS
 Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido.
 
 ### Diferencias entre Sitio Web Estático y Sitio Web Dinámico
