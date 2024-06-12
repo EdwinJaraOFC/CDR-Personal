@@ -22,7 +22,16 @@ Amazon S3 está diseñado principalmente para almacenar y servir contenido está
 
 Sin embargo, S3 se puede combinar con otros servicios de AWS para alojar sitios web dinámicos. Por ejemplo, puedes utilizar S3 para almacenar y servir los archivos estáticos (HTML, CSS, JavaScript, imágenes), mientras que los componentes dinámicos se manejan mediante servicios como AWS Lambda (para ejecución de código sin servidor), Amazon API Gateway (para crear APIs) y Amazon RDS o Amazon DynamoDB (para bases de datos).
 
-Esta arquitectura, conocida como "Jamstack" (JavaScript, APIs y Markup), permite combinar el alojamiento estático de S3 con la funcionalidad dinámica proporcionada por otros servicios de AWS, lo que resulta en un sitio web dinámico, escalable y con un alto rendimiento.
+### Arquitectura Jamstack
+Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendimiento y la escalabilidad usando tecnologías modernas. Se trata de una arquitectura de desarrollo basada en tres pilares fundamentales: JavaScript, API y Markup.
+- JavaScript delega la arquitectura al cliente y no al servidor, y esto lo hace por medio de frameworks de desarrollo que corren en el frontend, como es el caso de React o Angular.
+- Su segundo pilar lo conforman las API, las cuales se encargan básicamente de reemplazar la base de datos desde el servidor, utilizando en su lugar servicios web a los que se accede vía HTTPS con JavaScript.
+- Y por último, está el Markup pre compilado, el cual promueve la precompilación de las vistas, los “templates” y el marcado, evitando la generación dinámica de los mismos como se hace en el desarrollo web tradicional.
+
+<div align="center"; style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2be8ebca-1b33-45c2-9fee-381f6ff79585" width="489px"/>
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/70f127ea-009f-4d3f-bc9a-795ba1d171d4" width="518px"/>
+</div>
 
 ## Laboratorio de AWS Lab Learner
 ### Ejercicio 1: Creación y gestión de un bucket de Amazon S3
