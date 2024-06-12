@@ -9,7 +9,9 @@ Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿
 ## Sitios Web Estáticos en AWS
 Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido.
 
-### Diferencias entre Sitio Web Estático y Sitio Web Dinámico
+### ¿Por qué Amazon S3 no aloja sitios web dinámicos?
+Amazon S3 está diseñado principalmente para almacenar y servir contenido estático, como archivos HTML, CSS, JavaScript, imágenes, videos, etc. Por esta razón, no es adecuado para alojar sitios web dinámicos por sí solo. Esto se debe a varias razones:
+
 | Característica | Sitio Web Estático | Sitio Web Dinámico |
 | :------------: | :------------: | :------------: |
 | Generación de contenido | <p align="justify">Los archivos (HTML, CSS, JavaScript, imágenes) se sirven tal cual están almacenados en el servidor.</p> | <p align="justify">El contenido se genera dinámicamente en el servidor utilizando lenguajes de programación y bases de datos.</p> |
@@ -17,13 +19,6 @@ Amazon S3 es una solución sencilla y económica para alojar sitios web estátic
 | Personalización de contenido | <p align="justify">El contenido es igual para todos los usuarios.</p> | <p align="justify">El contenido se personaliza según el usuario o la solicitud.</p> |
 | Actualización de contenido | <p align="justify">Los cambios en el contenido requieren actualizar manualmente los archivos.</p> | <p align="justify">El contenido se actualiza automáticamente mediante la lógica del servidor.</p> |
 | Rendimiento y seguridad | <p align="justify">Generalmente más rápidos y seguros, pero con funcionalidad limitada.</p> | <p align="justify">Más funcionales y dinámicos, pero requieren más recursos del servidor.</p> |
-
-### ¿Por qué Amazon S3 no aloja sitios web dinámicos?
-Amazon S3 está diseñado principalmente para almacenar y servir contenido estático, como archivos HTML, CSS, JavaScript, imágenes, videos, etc. Por esta razón, no es adecuado para alojar sitios web dinámicos por sí solo. Esto se debe a varias razones:
-1. Falta de ejecución de código en el servidor
-2. Sin soporte para bases de datos
-3. Limitaciones en la personalización de contenido
-4. Falta de procesamiento en el servidor
 
 Sin embargo, S3 se puede combinar con otros servicios de AWS para alojar sitios web dinámicos. Por ejemplo, puedes utilizar S3 para almacenar y servir los archivos estáticos (HTML, CSS, JavaScript, imágenes), mientras que los componentes dinámicos se manejan mediante servicios como AWS Lambda (para ejecución de código sin servidor), Amazon API Gateway (para crear APIs) y Amazon RDS o Amazon DynamoDB (para bases de datos).
 
