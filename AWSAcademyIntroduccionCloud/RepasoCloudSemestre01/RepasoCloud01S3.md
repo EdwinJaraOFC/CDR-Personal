@@ -7,7 +7,7 @@
 Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿Cuáles son los pasos necesarios para configurar un bucket de S3 para alojamiento web?
 
 | Característica | Sitio Web Estático | Sitio Web Dinámico |
-|----------------|---------------------|----------------------|
+| :------------: | :------------: | :------------: |
 | Generación de contenido | Los archivos (HTML, CSS, JavaScript, imágenes) se sirven tal cual están almacenados en el servidor. | El contenido se genera dinámicamente en el servidor utilizando lenguajes de programación y bases de datos. |
 | Interacción con bases de datos | No hay interacción con bases de datos ni procesamiento en el servidor. | Interactúa con bases de datos y realiza procesamiento en el servidor. |
 | Personalización de contenido | El contenido es igual para todos los usuarios. | El contenido se personaliza según el usuario o la solicitud. |
