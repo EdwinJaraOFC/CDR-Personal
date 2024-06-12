@@ -6,7 +6,7 @@
 ## Alojamiento de sitios web estáticos
 Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿Cuáles son los pasos necesarios para configurar un bucket de S3 para alojamiento web?
 
-Amazon S3 puede alojar diferentes tipos de objetos, entre ellos los sitios web estáticos, S3 a través de múltiples instancias o buckets puede almacenar múltiples páginas web mediante indicadores únicos. Para configurar un bucket de S3 para alojar un sitio web debemos seguir los siguientes pasos:
+Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido.
 
 ## Laboratorio de AWS Lab Learner
 ### Ejercicio 1: Creación y gestión de un bucket de Amazon S3
