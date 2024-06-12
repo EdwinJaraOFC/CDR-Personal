@@ -49,13 +49,14 @@ Crea un bucket de Amazon S3 y gestionar objetos dentro de él.
 
 #### Preguntas:
 ¿Qué configuraciones adicionales puedes aplicar al bucket?
-Podemos habilitar el alojamiento de sitios web estáticos.
-Podemos editar la política del bucket para agregar ciertos permisos que necesitemos.
-Activar el control de versiones de buckets.
+- Podemos habilitar el alojamiento de sitios web estáticos.
+- Podemos editar la política del bucket para agregar ciertos permisos que necesitemos.
+- Activar el control de versiones de buckets.
+
 ¿Cómo se gestionan los permisos para los archivos en el bucket?
-Mediante las políticas que se le asignan al bucket.
-Mediante roles y políticas de IAM.
-Mediante ACL (Access Control List)
+- Mediante las políticas que se le asignan al bucket.
+- Mediante roles y políticas de IAM.
+- Mediante ACL (Access Control List)
 
 ## Código
 ### Introducción a Amazon S3
@@ -128,11 +129,11 @@ Configura el versionado en un bucket de Amazon S3 y observar cómo se manejan la
 
 #### Preguntas:
 ¿Qué ventajas tiene habilitar el versionado en un bucket?
-Evitar sobreescribir archivos
-Nos permite recuperar versiones anteriores
+- Evitar sobreescribir archivos
+- Nos permite recuperar versiones anteriores
 
 ¿Cómo puedes recuperar una versión eliminada accidentalmente?
-Borrandolo de la carpeta de borrados
+- Borrandolo de la carpeta de borrados
 
 ## Código
 ### 4.1. Implementación de Versionado
