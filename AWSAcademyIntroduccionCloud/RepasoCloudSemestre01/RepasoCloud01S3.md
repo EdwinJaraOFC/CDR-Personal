@@ -33,6 +33,13 @@ Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendim
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/70f127ea-009f-4d3f-bc9a-795ba1d171d4" width="562px"/>
 </div>
 
+### ¿Cómo se diferencia Jamstack de otras arquitecturas web?
+Una de las principales diferencias de Jamstack con respecto a otras arquitecturas web se da con respecto a las consultas y accesos a bases de datos. 
+
+En otras arquitecturas, una vez se obtienen los accesos, estos son procesados y luego renderizados al estilo de las plantillas y al contenido en HTML, devolviendo el resultado al navegador y repitiendo este proceso en cada petición.
+
+Con Jamstack este proceso no existe, ya que tanto el código fuente como el contenido se alojan en un repositorio como ficheros editables. Cada vez que el código o contenido es modificado, se ejecuta un proceso de pre renderización de todo el sitio web. Una vez que es pre generado el HTML, este es publicado en la CDN de la aplicación disponible del navegador. 
+
 ## Laboratorio de AWS Lab Learner
 ### Ejercicio 1: Creación y gestión de un bucket de Amazon S3
 Crea un bucket de Amazon S3 y gestionar objetos dentro de él.
