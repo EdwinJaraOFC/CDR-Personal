@@ -65,17 +65,17 @@ Simula la creación y gestión de buckets y objetos.
 ```
 class S3Bucket:
 def __init__(self):
-self.buckets = {}
+  self.buckets = {}
 
 def create_bucket(self, name):
-self.buckets[name] = {}
+  self.buckets[name] = {}
 
 def put_object(self, bucket, key, data):
-if bucket in self.buckets:
-self.buckets[bucket][key] = data
+  if bucket in self.buckets:
+    self.buckets[bucket][key] = data
 
 def get_object(self, bucket, key):
-return self.buckets.get(bucket, {}).get(key, None)
+  return self.buckets.get(bucket, {}).get(key, None)
 
 # Ejemplo de uso
 s3 = S3Bucket()
@@ -90,16 +90,16 @@ Simula el manejo de permisos mediante un diccionario de permisos.
 ```
 class S3BucketWithPermissions(S3Bucket):
 def __init__(self):
-super().__init__()
-self.permissions = {}
+  super().__init__()
+  self.permissions = {}
 
 def set_permission(self, bucket, key, permission):
-if bucket not in self.permissions:
-self.permissions[bucket] = {}
-self.permissions[bucket][key] = permission
+  if bucket not in self.permissions:
+    self.permissions[bucket] = {}
+  self.permissions[bucket][key] = permission
 
 def check_permission(self, bucket, key, action):
-return self.permissions.get(bucket, {}).get(key) == action
+  return self.permissions.get(bucket, {}).get(key) == action
 
 # Ejemplo de uso
 s3p = S3BucketWithPermissions()
