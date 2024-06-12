@@ -9,11 +9,10 @@ Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿
 ## Sitios Web Estáticos y Arquitectura Jamstack en AWS
 
 ### Sitios Web Estáticos en AWS con Amazon S3
-- Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido.
-- S3 está diseñado principalmente para almacenar y servir contenido estático, como archivos HTML, CSS, JavaScript, imágenes y videos.
+Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido. S3 está diseñado principalmente para almacenar y servir contenido estático, como archivos HTML, CSS, JavaScript, imágenes y videos.
 
 ### ¿Por qué Amazon S3 no aloja sitios web dinámicos?
-- S3 no es adecuado para alojar sitios web dinámicos por sí solo debido a las siguientes razones:
+S3 no es adecuado para alojar sitios web dinámicos por sí solo debido a las siguientes razones:
 
 | Característica | Sitio Web Estático | Sitio Web Dinámico |
 | :------------: | :------------: | :------------: |
@@ -24,8 +23,7 @@ Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿
 | Rendimiento y seguridad | <p align="justify">Generalmente más rápidos y seguros, pero con funcionalidad limitada.</p> | <p align="justify">Más funcionales y dinámicos, pero requieren más recursos del servidor.</p> |
 
 ### ¿Qué es Jamstack?
-- Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendimiento y la escalabilidad usando tecnologías modernas.
-- Se basa en tres pilares fundamentales: JavaScript, API y Markup pre compilado.
+Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendimiento y la escalabilidad usando tecnologías modernas. Se basa en tres pilares fundamentales: JavaScript, API y Markup pre compilado.
 - JavaScript delega la arquitectura al cliente, utilizando frameworks de desarrollo como React o Angular.
 - Las API reemplazan la base de datos desde el servidor, utilizando servicios web accedidos vía HTTPS con JavaScript.
 - El Markup pre compilado promueve la precompilación de vistas, templates y marcado, evitando la generación dinámica tradicional.
