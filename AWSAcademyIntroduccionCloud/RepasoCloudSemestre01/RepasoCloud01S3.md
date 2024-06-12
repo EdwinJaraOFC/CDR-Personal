@@ -88,8 +88,7 @@ print(s3p.check_permission('mybucket', 'file1.txt', 'read')) # Output: True
 ```
 
 
-
-Versionado
+## Versionado
 Pregunta: Explica el concepto de versionado en Amazon S3 y cómo se configura. ¿Cuáles son las ventajas de habilitar el versionado en un bucket?
 El versionado ocurre a nivel de bucket y aplica a todos los objetos almacenados en él.
 Se puede configurar al crear el bucket
