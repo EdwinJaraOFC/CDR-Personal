@@ -7,9 +7,13 @@
 Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿Cuáles son los pasos necesarios para configurar un bucket de S3 para alojamiento web?
 
 ## Sitios Web Estáticos y Arquitectura Jamstack en AWS
-
 ### Sitios Web Estáticos en AWS con Amazon S3
-Amazon S3 es una solución sencilla y económica para alojar sitios web estáticos en AWS, gracias a su capacidad de almacenamiento escalable y a la facilidad para configurar el alojamiento web y la distribución de contenido. S3 está diseñado principalmente para almacenar y servir contenido estático, como archivos HTML, CSS, JavaScript, imágenes y videos.
+S3 está diseñado principalmente para almacenar y servir contenido estático, como archivos HTML, CSS, JavaScript, imágenes y videos.
+
+### Ventajas de usar Amazon S3
+- **Escalabilidad:** S3 maneja automáticamente el aumento de tráfico sin necesidad de intervención manual.
+- **Costo-efectividad:** Solo pagas por el almacenamiento y la transferencia de datos que realmente utilizas.
+- **Alta Disponibilidad y Durabilidad:** Los datos en S3 son altamente disponibles y duraderos.
 
 ### ¿Por qué Amazon S3 no aloja sitios web dinámicos?
 S3 no es adecuado para alojar sitios web dinámicos por sí solo debido a las siguientes razones:
