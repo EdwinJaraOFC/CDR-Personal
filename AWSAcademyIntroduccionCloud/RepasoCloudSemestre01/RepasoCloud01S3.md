@@ -44,13 +44,12 @@ Jamstack es un modelo de desarrollo web que se enfoca en la velocidad, el rendim
 </div>
 
 ### Alojar sitios web dinámicos con AWS: Arquitectura Jamstack
-- Para alojar sitios web dinámicos en AWS, se utiliza la arquitectura "Jamstack" (JavaScript, APIs y Markup).
-- En Jamstack, S3 se utiliza para almacenar y servir los archivos estáticos (HTML, CSS, JavaScript, imágenes).
-- Los componentes dinámicos se manejan mediante:
+Para alojar sitios web dinámicos en AWS, podemos utilizar la arquitectura "Jamstack" (JavaScript, APIs y Markup). En Jamstack, S3 se utiliza para almacenar y servir los archivos estáticos (HTML, CSS, JavaScript, imágenes).
+Los componentes dinámicos se manejan mediante:
  - AWS Lambda para ejecución de código sin servidor (lógica de back-end y funciones serverless).
  - Amazon API Gateway para crear y gestionar APIs que interactúan con Lambda y otros servicios.
  - Amazon RDS o DynamoDB para bases de datos.
-- Amazon CloudFront actúa como una capa de entrega y aceleración:
+Amazon CloudFront actúa como una capa de entrega y aceleración:
  - Optimiza la entrega de archivos estáticos alojados en S3.
  - Acelera las API y funciones serverless (Lambda y API Gateway) mediante caché inteligente.
  - Proporciona seguridad adicional contra ataques DDoS y tráfico malicioso (integración con AWS WAF).
