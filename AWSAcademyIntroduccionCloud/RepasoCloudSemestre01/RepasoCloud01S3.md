@@ -143,26 +143,46 @@ Configura el versionado en un bucket de Amazon S3 y observar cómo se manejan la
 
 #### Instrucciones:
 1. Utiliza el bucket creado en el ejercicio anterior. <br> Servicios > S3 > Crear bucket <br> Nombre:  Único, solo minúscula, empezar por letra o número, 3-63 caracteres, no se puede modificar el nombre, descriptivo
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ff4cc7e0-3854-4326-acd2-8f9ecf000a62)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ff4cc7e0-3854-4326-acd2-8f9ecf000a62" width="900">
+</p>
 
 2. Habilita el versionado para el bucket.
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/922778ad-b7d3-42e5-8879-f7dc69bcdce5)
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8b4760e0-f51e-41f8-bc55-e4a33b1e8f3c)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/922778ad-b7d3-42e5-8879-f7dc69bcdce5" width="900">
+</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/8b4760e0-f51e-41f8-bc55-e4a33b1e8f3c" width="900">
+</p>
 
 3. Sube un archivo con el mismo nombre varias veces y observa cómo se gestionan las versiones
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/13b391d1-0354-429d-b0c9-30d704dd781c)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/13b391d1-0354-429d-b0c9-30d704dd781c" width="900">
+</p>
 
 4. Elimina una versión específica del archivo.<br>
 Con versionado habilitado
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9fcafcac-c61b-428d-851e-6521e2815480)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/9fcafcac-c61b-428d-851e-6521e2815480" width="900">
+</p>
+
 Con versionado deshabilitado
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f2440259-9cc7-4f22-ab8d-4678b31bfe69)
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a28b5ce4-70f4-45e8-98e5-b188b355dd63)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f2440259-9cc7-4f22-ab8d-4678b31bfe69" width="900">
+</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a28b5ce4-70f4-45e8-98e5-b188b355dd63" width="900">
+</p>
 
 5. Restaura una versión anterior del archivo.
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/78fa34c4-3eaa-470f-aa68-56bcd6bd2a84)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/78fa34c4-3eaa-470f-aa68-56bcd6bd2a84" width="900">
+</p>
+
 Archivo recuperado
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/985118b7-bc79-43eb-bf8c-694ad64731d0)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/985118b7-bc79-43eb-bf8c-694ad64731d0" width="900">
+</p>
 
 #### Preguntas:
 ¿Qué ventajas tiene habilitar el versionado en un bucket?
