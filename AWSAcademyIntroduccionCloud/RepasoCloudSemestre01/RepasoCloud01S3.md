@@ -8,25 +8,26 @@ Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿
 
 Amazon S3 puede alojar diferentes tipos de objetos, entre ellos los sitios web estáticos, S3 a través de múltiples instancias o buckets puede almacenar múltiples páginas web mediante indicadores únicos. Para configurar un bucket de S3 para alojar un sitio web debemos seguir los siguientes pasos:
 
+## Laboratorio de AWS Lab Learner
+### Ejercicio 1: Creación y gestión de un bucket de Amazon S3
+Crea un bucket de Amazon S3 y gestionar objetos dentro de él.
+#### Instrucciones:
+1. Inicia sesión en AWS Management Console.
 
-Ejercicio 1: Creación y gestión de un bucket de Amazon S3
-Objetivo: Crear un bucket de Amazon S3 y gestionar objetos dentro de él. Instrucciones:
-Inicia sesión en AWS Management Console.
+2. Navega a Amazon S3.
 
-Navega a Amazon S3.
+3. Crea un nuevo bucket con un nombre único.
 
-Crea un nuevo bucket con un nombre único.
+4. Sube varios archivos al bucket.
 
-Sube varios archivos al bucket.
+5. Organiza los archivos en carpetas dentro del bucket.
 
-Organiza los archivos en carpetas dentro del bucket.
+6. Configura permisos para que algunos archivos sean públicos y otros privados.
 
-Configura permisos para que algunos archivos sean públicos y otros privados.
-
-Elimina uno de los archivos del bucket.
+7. Elimina uno de los archivos del bucket.
 
 
-Preguntas:
+#### Preguntas:
 ¿Qué configuraciones adicionales puedes aplicar al bucket?
 Podemos habilitar el alojamiento de sitios web estáticos.
 Podemos editar la política del bucket para agregar ciertos permisos que necesitemos.
@@ -36,9 +37,9 @@ Mediante las políticas que se le asignan al bucket.
 Mediante roles y políticas de IAM.
 Mediante ACL (Access Control List)
 
-Código
-Introducción a Amazon S3
-Buckets y Objetos
+## Código
+### Introducción a Amazon S3
+#### Buckets y Objetos
 Simula la creación y gestión de buckets y objetos.
 ```
 class S3Bucket:
@@ -62,8 +63,8 @@ s3.put_object('mybucket', 'file1.txt', 'Hello, S3 Bucket!')
 print(s3.get_object('mybucket', 'file1.txt'))
 # Output: 'Hello, S3 Bucket!'
 ```
-Gestión de objetos en un Bucket
-Permisos de acceso
+### Gestión de objetos en un Bucket
+#### Permisos de acceso
 Simula el manejo de permisos mediante un diccionario de permisos.
 ```
 class S3BucketWithPermissions(S3Bucket):
@@ -89,23 +90,23 @@ print(s3p.check_permission('mybucket', 'file1.txt', 'read')) # Output: True
 
 
 ## Versionado
-Pregunta: Explica el concepto de versionado en Amazon S3 y cómo se configura. ¿Cuáles son las ventajas de habilitar el versionado en un bucket?
+Explica el concepto de versionado en Amazon S3 y cómo se configura. ¿Cuáles son las ventajas de habilitar el versionado en un bucket?
 El versionado ocurre a nivel de bucket y aplica a todos los objetos almacenados en él.
 Se puede configurar al crear el bucket
 
 
-Lab Learner
-Ejercicio 2: Configuración de versionado en un Bucket de Amazon S3
-Objetivo: Configurar el versionado en un bucket de Amazon S3 y observar cómo se manejan las versiones de los objetos.
-Instrucciones:
-Utiliza el bucket creado en el ejercicio anterior.
-Habilita el versionado para el bucket.
-Sube un archivo con el mismo nombre varias veces y observa cómo se gestionan las versiones
-Elimina una versión específica del archivo.
-Restaura una versión anterior del archivo.
+## Laboratorio de AWS Lab Learner
+### Ejercicio 2: Configuración de versionado en un Bucket de Amazon S3
+Configura el versionado en un bucket de Amazon S3 y observar cómo se manejan las versiones de los objetos.
 
+#### Instrucciones:
+1. Utiliza el bucket creado en el ejercicio anterior.
+2. Habilita el versionado para el bucket.
+3. Sube un archivo con el mismo nombre varias veces y observa cómo se gestionan las versiones
+4. Elimina una versión específica del archivo.
+5. Restaura una versión anterior del archivo.
 
-Preguntas:
+#### Preguntas:
 ¿Qué ventajas tiene habilitar el versionado en un bucket?
 Evitar sobreescribir archivos
 Nos permite recuperar versiones anteriores
@@ -113,6 +114,7 @@ Nos permite recuperar versiones anteriores
 ¿Cómo puedes recuperar una versión eliminada accidentalmente?
 Borrandolo de la carpeta de borrados
 
-4.1. Implementación de Versionado
+## Código
+### 4.1. Implementación de Versionado
 Simula el versionado de objetos con una lista.
 
