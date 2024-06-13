@@ -1,6 +1,6 @@
 <p align="left">
   <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
-  <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Temas: IAM, S3</h1>
+  <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Tema: IAM</h1>
 </p>
 
 ## La Cuenta Root y la implementación de MFA
@@ -301,6 +301,10 @@ Configura MFA para un usuario IAM y documenta el proceso, incluyendo cómo verif
 <p align= "center">https://www.youtube.com/watch?v=7Gy1Ps_vC80&t=287s</p>
 <strong>Ahora el dispositivo MFA virtual ya está listo para utilizarlo con AWS.</strong>
 
+<p align="left">
+  <img src="https://semanadelcannabis.cayetano.edu.pe/assets/img/logo-upch.png" width="150">
+  <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Tema: S3</h1>
+</p>
 
 ## Alojamiento de Sitios Web Estáticos
 Describe cómo se puede utilizar Amazon S3 para alojar sitios web estáticos. ¿Cuáles son los pasos necesarios para configurar un bucket de S3 para alojamiento web?
