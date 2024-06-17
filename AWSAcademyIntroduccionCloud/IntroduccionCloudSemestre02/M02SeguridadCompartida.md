@@ -20,7 +20,7 @@
 Trusted Advisor es una herramienta en línea que escanea su infraestructura de AWS, la compara con las prácticas recomendadas de AWS en cinco categorías, y brinda orientación en tiempo real para ayudar a los clientes a proporcionar recursos a la vez que siguen las prácticas recomendadas de AWS. Destaca los problemas potenciales con la forma en que el cliente utiliza AWS.</p>
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/54fdcd3a-9d4a-4548-83f9-10a8544563ba" width="700">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/54fdcd3a-9d4a-4548-83f9-10a8544563ba" width="600">
 </p>
 
 <p align="justify">
