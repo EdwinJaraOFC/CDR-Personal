@@ -10,7 +10,7 @@
 | Amazon Inspector  | <p align="justify"></p>  |
 | AWS Trusted Advisor  | <p align="justify"></p>  |
 | Amazon Simple Storage Service  | <p align="justify"></p>  |
-| Autenticación Multifactor (MFA)  | <p align="justify"></p>  |
+| Autenticación Multifactor (MFA)  | <p align="justify">Añade una capa extra de seguridad al tener más de un método de autenticación a fin de verificar la identidad del usuario para un inicio de sesión u otra transacción.</p>  |
 | AWS Identity and Access Management (IAM)  | <p align="justify">Implica la aplicación de controles a los usuarios que necesitan acceder a los recursos informáticos.</p>  |
 | Amazon Elastic Block Store (Amazon EBS)  | <p align="justify"></p>  |
 | Amazon Relational Database Service (Amazon RDS)  | <p align="justify"></p>  |
