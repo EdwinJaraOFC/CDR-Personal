@@ -47,3 +47,6 @@ Los resultados del análisis deben presentarse de una manera que transmita la in
 
 <p align="justify">
 Las soluciones de big data pueden incluir el uso de IA o ML. Ambas tecnologías se basan en grandes cantidades de datos de alta calidad para aprender y generar predicciones.</p>
+
+### ¿Qué significa ETL en relación con el procesamiento de Big Data?
+- Extracción, transformación y carga.
