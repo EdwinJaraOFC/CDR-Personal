@@ -4,3 +4,13 @@
 </p>
 
 ## Terminología
+
+| Término  | Concepto  |
+| :------------: | :------------: |
+| Amazon Inspector  | <p align="justify"></p>  |
+| AWS Trusted Advisor  | <p align="justify"></p>  |
+| Amazon Simple Storage Service  | <p align="justify"></p>  |
+| Autenticación Multifactor (MFA)  | <p align="justify"></p>  |
+| AWS Identity and Access Management (IAM)  | <p align="justify"></p>  |
+| Amazon Elastic Block Store (Amazon EBS)  | <p align="justify"></p>  |
+| Amazon Relational Database Service (Amazon RDS)  | <p align="justify"></p>  |
