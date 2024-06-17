@@ -14,3 +14,15 @@
 | AWS Identity and Access Management (IAM)  | <p align="justify">Implica la aplicación de controles a los usuarios que necesitan acceder a los recursos informáticos.</p>  |
 | Amazon Elastic Block Store (Amazon EBS)  | <p align="justify">Almacenamiento para instancias EC2 específicas.</p>  |
 | Amazon Relational Database Service (Amazon RDS)  | <p align="justify">Permite a los desarrolladores crear y administrar bases de datos relacionales en la nube. Piense en una base de datos relacional como un conjunto de datos con relaciones 1 a 1.</p>  |
+
+## Conceptos
+<p align="justify">
+Trusted Advisor es una herramienta en línea que escanea su infraestructura de AWS, la compara con las prácticas recomendadas de AWS en cinco categorías, y brinda orientación en tiempo real para ayudar a los clientes a proporcionar recursos a la vez que siguen las prácticas recomendadas de AWS. Destaca los problemas potenciales con la forma en que el cliente utiliza AWS.</p>
+
+<p align="justify">
+Amazon Inspector prueba la accesibilidad a la red de las instancias EC2 de los clientes y el estado de seguridad de las aplicaciones que se ejecutan en esas instancias. Amazon Inspector produce una lista detallada de hallazgos de seguridad, priorizados por nivel de severidad. Estos hallazgos se pueden revisar directamente o como parte de informes de evaluación detallados que están disponibles a través de la consola Amazon Inspector o la interfaz de programa de aplicación (API). La automatización es un principio central de las prácticas de seguridad modernas; los clientes de AWS pueden automatizar las pruebas de seguridad con Amazon Inspector.</p>
+
+Esta es la principal diferencia entre estos servicios:
+
+- Trusted Advisor se aplica a la cuenta de AWS y a las administraciones de AWS.
+- Amazon Inspector se aplica al contenido de varias instancias EC2.
