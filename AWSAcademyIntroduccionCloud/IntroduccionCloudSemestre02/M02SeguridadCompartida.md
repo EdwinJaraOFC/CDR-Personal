@@ -19,6 +19,10 @@
 <p align="justify">
 Trusted Advisor es una herramienta en línea que escanea su infraestructura de AWS, la compara con las prácticas recomendadas de AWS en cinco categorías, y brinda orientación en tiempo real para ayudar a los clientes a proporcionar recursos a la vez que siguen las prácticas recomendadas de AWS. Destaca los problemas potenciales con la forma en que el cliente utiliza AWS.</p>
 
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/54fdcd3a-9d4a-4548-83f9-10a8544563ba" width="900">
+</p>
+
 <p align="justify">
 Amazon Inspector prueba la accesibilidad a la red de las instancias EC2 de los clientes y el estado de seguridad de las aplicaciones que se ejecutan en esas instancias. Amazon Inspector produce una lista detallada de hallazgos de seguridad, priorizados por nivel de severidad. Estos hallazgos se pueden revisar directamente o como parte de informes de evaluación detallados que están disponibles a través de la consola Amazon Inspector o la interfaz de programa de aplicación (API). La automatización es un principio central de las prácticas de seguridad modernas; los clientes de AWS pueden automatizar las pruebas de seguridad con Amazon Inspector.</p>
 
