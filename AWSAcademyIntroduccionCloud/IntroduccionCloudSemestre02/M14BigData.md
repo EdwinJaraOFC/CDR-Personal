@@ -14,3 +14,6 @@
 | Inteligencia artificial (IA)  | <p align="justify">Sistema informático capaz de realizar tareas que normalmente requieren de inteligencia humana.</p>  |
 | Apache Hadoop  | <p align="justify">Tecnología para administrar grandes volúmenes de datos en un entorno distribuido. Disponible para ejecutarse en clústeres de servidores virtuales en una nube de AWS.</p>  |
 | Clúster  | <p align="justify">Conjunto de computadoras o servidores interconectados que trabajan juntos y se comportan como un único sistema más potente.</p>  |
+
+## Conceptos
+<p align="justify">El big data es más que un gran grupo de datos. El big data tiene ciertas características que requiere el uso de herramientas especiales para procesarlo y analizarlo. El big data se distingue por su enorme tamaño (volumen), su amplia gama de tipos de datos (variedad) y la rapidísima velocidad a la que se recopilan y procesan los datos (velocidad). Estas tres V son la base de lo que se considera big data. La veracidad (la exactitud o fiabilidad de los datos) y el valor (la utilidad de los datos) también se utilizan para describir al big data.</p>
