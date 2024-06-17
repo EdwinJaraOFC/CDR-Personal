@@ -4,3 +4,13 @@
 </p>
 
 ## Terminología
+
+| Término  | Concepto  |
+| :------------: | :------------: |
+| Datos  | <p align="justify">Cualquier parte de información almacenada o procesada por una computadora o dispositivo móvil.</p>  |
+| Big Data  | <p align="justify">Se puede describir en términos de desafíos de administración de datos que, debido al aumento de su volumen, velocidad y variedad, no se pueden resolver con bases de datos tradicionales. Las 3 "V" del big data: Volumen, variedad y velocidad.</p>  |
+| Internet de las cosas (IoT)  | <p align="justify">Red de dispositivos cotidianos integrados con sensores y tecnologías de comunicación que les permiten enviar y recibir datos a través de internet.</p>  |
+| Procesamiento de datos  | <p align="justify">El paso en el que los datos se transforman de su estado sin procesar a un formato consumible, generalmente mediante la eliminación, clasificación, unión y ejecución de funciones y algoritmos más avanzados.</p>  |
+| Inteligencia artificial (IA)  | <p align="justify">Sistema informático capaz de realizar tareas que normalmente requieren de inteligencia humana.</p>  |
+| Apache Hadoop  | <p align="justify">Tecnología para administrar grandes volúmenes de datos en un entorno distribuido. Disponible para ejecutarse en clústeres de servidores virtuales en una nube de AWS.</p>  |
+| Clúster  | <p align="justify">Conjunto de computadoras o servidores interconectados que trabajan juntos y se comportan como un único sistema más potente.</p>  |
