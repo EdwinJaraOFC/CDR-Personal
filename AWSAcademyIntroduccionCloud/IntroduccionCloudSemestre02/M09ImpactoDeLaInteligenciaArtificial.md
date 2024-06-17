@@ -21,3 +21,6 @@ Algunos ejemplos de dilemas éticos específicos de IA son:
 - Sesgos en reconocimiento facial y de voz de la IA
 - Sesgos en algoritmos como aprendizaje de idiomas
 - Responsabilidad de vehículos automáticos
+
+### ¿Qué es el efecto ELIZA?
+Es la tendencia a percibir que los sistemas informáticos tienen más cualidades humanas que las que realmente tienen.
