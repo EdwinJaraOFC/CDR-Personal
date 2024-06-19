@@ -24,3 +24,14 @@ Los servicios de IA de AWS incluyen:
 - **Amazon Transcribe:** Traduzca archivos de audio a texto.
 
 <p align="justify">AWS DeepLens permite a los desarrolladores empezar con el aprendizaje profundo en menos de 10 minutos mediante proyectos de muestra listos para ejecutar. Soporta marcos como TensorFlow y Caffe, y viene con Apache MXNet preinstalado para inferencia optimizada. Se integra con Amazon Rekognition, SageMaker y Polly, y se conecta a servicios como SQS, SNS, S3 y DynamoDB. Es personalizable y programable con AWS Lambda, permitiendo ejecutar modelos de aprendizaje profundo como funciones Lambda para experimentar.</p>
+
+## Laboratorio del módulo 8: utilización de IA para el análisis de texto
+### Tarea 1: Análisis de sentimiento de la reseña del primer libro
+
+### Tarea 2: Análisis de sentimiento de la reseña del segundo libro
+
+### Tarea 3: Ver entidades detectadas en la reseña
+
+### Tarea 4: Ver las frases clave detectadas en la reseña
+
+### Tarea 5: Analizar la tercera reseña
