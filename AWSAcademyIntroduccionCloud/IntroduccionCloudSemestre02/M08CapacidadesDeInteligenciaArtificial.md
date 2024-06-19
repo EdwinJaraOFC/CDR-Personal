@@ -13,7 +13,14 @@
 
 ## Conceptos
 Los servicios de IA de AWS incluyen:
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1c6c6152-f840-4557-8717-119626aa2a7b" width="600">
-</p>
+- **Amazon Comprehend:** Descubra información y relaciones en texto.
+- **Amazon Forecast:** Aumente la precisión de los pronósticos con ML.
+- **Amazon Lex:** Cree chatbots de voz y texto.
+- **Amazon Personalize:** Cree recomendaciones en tiempo real en su aplicaciones.
+- **Amazon Polly:** Convierta texto en voz realista.
+- **Amazon Rekognition:** Analice imagen y video.
+- **Amazon Textract:** Extraiga texto y datos de documentos.
+- **Amazon Translate:** Traduzca textos con mayor precisión.
+- **Amazon Transcribe:** Traduzca archivos de audio a texto.
 
+<p align="justify">AWS DeepLens permite a los desarrolladores empezar con el aprendizaje profundo en menos de 10 minutos mediante proyectos de muestra listos para ejecutar. Soporta marcos como TensorFlow y Caffe, y viene con Apache MXNet preinstalado para inferencia optimizada. Se integra con Amazon Rekognition, SageMaker y Polly, y se conecta a servicios como SQS, SNS, S3 y DynamoDB. Es personalizable y programable con AWS Lambda, permitiendo ejecutar modelos de aprendizaje profundo como funciones Lambda para experimentar.</p>
