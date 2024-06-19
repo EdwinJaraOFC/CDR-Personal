@@ -57,9 +57,12 @@ Puede utilizar el diseñador para probar su función.
 - Para ejecutar la prueba, elija Test (Probar).
 - Los resultados de la prueba aparecen en la sección Code source (Fuente del código). En el estado debería aparecer Succeeded (Realizado correctamente). En la sección Function logs (Registros de la función) de los resultados, puede ver la Duration (Duración), que es el tiempo que ha tardado en completarse la función. También se muestra otra información sobre la prueba.
 
+#### Nota
+- Un evento de prueba es un objeto JSON que imita la estructura de las solicitudes emitidas por los servicios AWS para invocar una función de Lambda. Se utiliza para ver el resultado de la invocación de la función.
+- Para invocar la función sin guardar un evento, configure el evento JSON y luego elija probar.
+  
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/604f81cd-d8b0-4a6a-8804-62d4b84dce2a" width="900">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/801e81fd-e3b1-458c-b5d8-832098372e99" width="700">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b88e7807-4078-43d2-9352-50d3c08284fc" width="900">
 </p>
 
