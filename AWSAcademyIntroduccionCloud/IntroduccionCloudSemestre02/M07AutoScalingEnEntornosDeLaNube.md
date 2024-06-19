@@ -43,3 +43,10 @@ Amazon EC2 Auto Scaling realizará tres funciones principales a fin de automatiz
 
 ### Plantillas de lanzamiento
 <p align="justify">Una plantilla de lanzamiento, al igual que una configuración de lanzamiento, especifica la configuración de una instancia EC2, incluyendo el ID de AMI, tipo de instancia, par de claves, grupos de seguridad, entre otros parámetros. La diferencia principal es que una plantilla de lanzamiento permite tener diferentes versiones, facilitando la reutilización de un subconjunto de parámetros para crear nuevas plantillas o versiones. Por ejemplo, se puede crear una plantilla predeterminada con parámetros comunes y definir el resto en versiones posteriores de la misma plantilla.</p>
+
+## Laboratorio del módulo 7: Creación de plantillas de lanzamiento y grupos de Auto Scaling
+### Tarea 1: Crear una plantilla de lanzamiento
+
+### Tarea 2: Crear un grupo de Auto Scaling
+
+### Tarea 3: Verificar el grupo de Auto Scaling
