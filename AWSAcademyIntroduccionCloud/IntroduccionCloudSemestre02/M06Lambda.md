@@ -37,6 +37,15 @@ Amazon EC2 ofrece las siguientes opciones de compra en función de sus necesidad
 
 ## Laboratorio del módulo 6: Creación de una función de Lambda
 ### Tarea 1: Crear una función de Lambda
+Seleccione Create a function (Crear función) y configure lo siguiente:
+- En Function name (Nombre de la función), ingrese my-function.
+- En la sección Permissions (Permisos), expanda la opción Change default execution role (Cambiar el rol de ejecución predeterminado).
+- En Execution role (Rol de ejecución): elija Use an existing role (Utilizar un rol existente).
+- En Existing role (Rol existente), elija LambdaAccessToCloudWatch.
+- Seleccione Create function (Crear función).
+
+Lambda crea una función Node.js que escribe el texto "Hello from Lambda!". <br>
+**Nota:** En este laboratorio se utiliza Node.js, pero Lambda es capaz de utilizar varios lenguajes, incluidos Python y C#.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c7e48cb0-644b-48fd-8ddf-5ff891ad2872" width="900">
 </p>
