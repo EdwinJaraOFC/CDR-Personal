@@ -12,3 +12,12 @@
 | Plantilla de lanzamiento  | <p align="justify">Especifica la información de configuración de la instancia.</p>  |
 | Escalar horizontalmente  | <p align="justify">Agregue instancias de Amazon EC2 según sea necesario, para responder a la demanda.</p>  |
 | Reducir horizontalmente  | <p align="justify">Elimine las instancias de Amazon EC2 cuando haya una reducción en la demanda.</p>  |
+
+## Conceptos
+
+<p align="justify">
+El escalado dinámico y el escalado predictivo se pueden usar juntos para escalar con más rapidez.
+- Amazon EC2 Auto Scaling puede detectar cuando una instancia está en mal estado, terminarla y reemplazarla con una nueva.
+- Amazon EC2 Auto Scaling ayuda a garantizar que su aplicación siempre tenga la cantidad correcta de potencia de cómputo y aprovisione la capacidad de forma proactiva con escalado predictivo.
+- Amazon EC2 Auto Scaling agrega instancias solo cuando es necesario y puede escalar a través de opciones de compra para optimizar el rendimiento y el costo.
+</p>
