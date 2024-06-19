@@ -28,11 +28,18 @@ Amazon EC2 Auto Scaling realizará tres funciones principales a fin de automatiz
 - Equilibra la capacidad entre las zonas de disponibilidad.
 
 ### Escalado programado
+<p align="justify">Cuando el escalado se basa en la programación, los usuarios pueden escalar su aplicación con anticipación de los cambios de carga conocidos. Por ejemplo, cada semana, el tráfico de la aplicación web comienza a aumentar los miércoles, permanece alto el jueves y disminuye el viernes. Los usuarios pueden planificar sus actividades de escalado en función de los patrones conocidos de tráfico de la aplicación web.</p>
 
 ### Escalado dinámico
+<p align="justify">Con Amazon EC2 Auto Scaling, los usuarios pueden seguir de cerca la curva de demanda para sus aplicaciones, lo que reduce la necesidad de aprovisionar de forma manual la capacidad de Amazon EC2 con anticipación. Un ejemplo de cuándo sería útil un escalado dinámico es cuando una canción o un video se vuelven virales. El escalado dinámico detectaría el aumento de tráfico y sincronizaría instancias nuevas para seguir el ritmo del aumento de demanda.</p>
 
 ### Escalado predictivo
+<p align="justify">El escalado predictivo de Amazon EC2 Auto Scaling utiliza machine learning para anticipar y programar el número adecuado de instancias EC2 antes de cambios de tráfico. Predice el tráfico futuro, incluidos picos regulares, y ajusta automáticamente sus pronósticos basándose en patrones diarios y semanales. Esto simplifica la configuración de Auto Scaling al eliminar la necesidad de ajustes manuales, proporcionando un aprovisionamiento de capacidad más rápido, preciso y económico, resultando en aplicaciones más receptivas.</p>
 
 ### Características de AWS Auto Scaling
+- Descubrimiento automático de recursos
+- Estrategias de escalado integradas
+- Políticas de escalado inteligente
 
 ### Plantillas de lanzamiento
+<p align="justify">Una plantilla de lanzamiento, al igual que una configuración de lanzamiento, especifica la configuración de una instancia EC2, incluyendo el ID de AMI, tipo de instancia, par de claves, grupos de seguridad, entre otros parámetros. La diferencia principal es que una plantilla de lanzamiento permite tener diferentes versiones, facilitando la reutilización de un subconjunto de parámetros para crear nuevas plantillas o versiones. Por ejemplo, se puede crear una plantilla predeterminada con parámetros comunes y definir el resto en versiones posteriores de la misma plantilla.</p>
