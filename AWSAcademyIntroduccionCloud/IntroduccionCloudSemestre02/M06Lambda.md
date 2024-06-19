@@ -33,3 +33,10 @@ Amazon EC2 ofrece las siguientes opciones de compra en función de sus necesidad
 <p align="justify">Si necesita una reservación de capacidad, compre instancias reservadas o reservaciones de capacidad para una zona de disponibilidad específica o bien compre instancias programadas. Las instancias de spot son una opción rentable si usted es flexible en relación al momento en que se ejecutan sus aplicaciones y si estas se pueden interrumpir. Los alojamientos dedicados o las instancias dedicadas pueden ayudarlo a abordar los requisitos de conformidad y reducir costos mediante sus licencias de software vinculadas al servidor existentes.</p>
 
 <p align="justify">Lambda es un entorno informático sin servidor que facilita la ejecución de código en respuesta a eventos como cambios en buckets de Amazon Simple Storage Service (Amazon S3), actualizaciones a una tabla de Amazon DynamoDB o eventos personalizados generados por sus aplicaciones o dispositivos. Con Lambda, no tiene que aprovisionar sus propias instancias. Lambda realiza todas las actividades operativas y administrativas en su nombre, entre ellas, el aprovisionamiento de capacidad, el monitoreo del estado de la flota, la aplicación de parches de seguridad a los recursos de cómputo subyacentes, la implementación de código, la ejecución de frontend de servicio web y el monitoreo y registro de código. Lambda proporciona escalado y alta disponibilidad a su código sin esfuerzo adicional de su parte.</p>
+
+## Laboratorio del módulo 6: Creación de una función de Lambda
+### Tarea 1: Crear una función de Lambda
+
+### Tarea 2: Probar la función
+
+### Tarea 3: Ver las métricas y registros de CloudWatch
