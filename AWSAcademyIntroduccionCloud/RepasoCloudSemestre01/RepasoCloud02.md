@@ -3,8 +3,7 @@
   <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Temas: VPC, Route53, CloudFront</h1>
 </p>
 
-## Código
-### Ejercicio 8: Simulación de un CDN con control de caché avanzado
+## Código: Ejercicio 8: Simulación de un CDN con control de caché avanzado
 Implementar una CDN que almacene en caché contenido y soporte políticas de caché avanzadas como expiración basada en tiempo y tamaño máximo de caché.
 
 #### Define la clase CDN:
