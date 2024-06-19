@@ -18,5 +18,5 @@
 <p align="justify">CloudFront es un servicio de CDN rápido que entrega de manera segura datos, videos, aplicaciones e interfaces de programación de aplicaciones (API) a clientes en todo el mundo con latencia baja y altas velocidades de transferencia, todo dentro de un entorno fácil de usar para los desarrolladores. CloudFront está integrado con Amazon Web Services (AWS), ubicaciones físicas que se conectan directamente con la infraestructura global de AWS y otros servicios de AWS. CloudFront funciona sin interrupciones con servicios tales como AWS Shield para la mitigación de ataques de denegación de servicio distribuidos (DDoS), Amazon Simple Storage Service (Amazon S3), Elastic Load Balancing (ELB) o Amazon Elastic Compute Cloud (Amazon EC2) como orígenes de sus aplicaciones y Lambda@Edge para ejecutar código personalizado más próximo a usuarios de clientes y personalizar la experiencia del usuario.</p>
 
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/dad23ca8-b533-44f1-8f09-4a9871a42fe7" width="700">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/dad23ca8-b533-44f1-8f09-4a9871a42fe7" width="650">
 </p>
