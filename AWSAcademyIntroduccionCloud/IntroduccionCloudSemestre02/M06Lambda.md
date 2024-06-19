@@ -56,7 +56,6 @@ Puede utilizar el diseñador para probar su función.
 - En Event name (Nombre del evento), escriba mytestevent y, a continuación, elija Save (Guardar).
 - Para ejecutar la prueba, elija Test (Probar).
 - Los resultados de la prueba aparecen en la sección Code source (Fuente del código). En el estado debería aparecer Succeeded (Realizado correctamente). En la sección Function logs (Registros de la función) de los resultados, puede ver la Duration (Duración), que es el tiempo que ha tardado en completarse la función. También se muestra otra información sobre la prueba.
-
 #### Nota
 - Un evento de prueba es un objeto JSON que imita la estructura de las solicitudes emitidas por los servicios AWS para invocar una función de Lambda. Se utiliza para ver el resultado de la invocación de la función.
 - Para invocar la función sin guardar un evento, configure el evento JSON y luego elija probar.
