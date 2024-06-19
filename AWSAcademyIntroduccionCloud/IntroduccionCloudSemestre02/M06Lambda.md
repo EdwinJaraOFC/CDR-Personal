@@ -5,3 +5,7 @@
 
 ## Terminología
 
+| Término  | Concepto  |
+| :------------: | :------------: |
+| AWS Lambda  | <p align="justify">Permite ejecutar código sin necesidad de administrar servidores.</p>  |
+| Amazon Elastic Compute Cloud (Amazon EC2)  | <p align="justify">Servicio web que proporciona capacidad de cómputo de tamaño modificable y segura en la nube.</p>  |
