@@ -14,6 +14,6 @@
 ## Conceptos
 Los servicios de IA de AWS incluyen:
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1c6c6152-f840-4557-8717-119626aa2a7b" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1c6c6152-f840-4557-8717-119626aa2a7b" width="600">
 </p>
 
