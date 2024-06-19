@@ -14,6 +14,7 @@
 ## Conceptos
 Los servicios de IA de AWS incluyen:
 
+<center>
 | Servicio  | ¿Qué ofrece?  |
 | :------------: | :------------: |
 | Amazon Comprehend  | Descubra información y relaciones en texto.  |
@@ -25,3 +26,4 @@ Los servicios de IA de AWS incluyen:
 | Amazon Textract  | Extraiga texto y datos de documentos.  |
 | Amazon Translate  | Traduzca textos con mayor precisión.  |
 | Amazon Transcribe  | Traduzca archivos de audio a texto.  |
+</center>
