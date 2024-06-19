@@ -21,9 +21,9 @@ Explica qué es Amazon Aurora y cómo difiere de otros motores de base de datos 
 
 ### Diferencias con Otros Motores de Base de Datos Compatibles con MySQL y PostgreSQL
 
-| Característica  | Amazon Aurora  | MySQL/PostgreSQL en EC2 o RDS estándar  |
+| Característica  | Amazon Aurora  | MySQL/PostgreSQL en RDS estándar  |
 | :------------: | :------------: | :------------: |
-| Arquitectura de Almacenamiento  | <p align="justify">Almacenamiento SSD distribuido y replicado en múltiples AZs.</p>  | <p align="justify">Almacenamiento adjunto a la instancia (EBS) y replicación a nivel de base de datos o almacenamiento.</p>  |
+| Arquitectura de Almacenamiento  | <p align="justify">Almacenamiento SSD distribuido y replicado en múltiples AZs.</p>  | <p align="justify">Replicación a nivel de base de datos o almacenamiento.</p>  |
 | Rendimiento y Latencia  | <p align="justify">Replicación de datos optimizada y gestión de buffer caché que mejora rendimiento y reduce latencia.</p>  | <p align="justify">Mayores latencias y menor rendimiento debido a una arquitectura de almacenamiento y replicación más tradicionales.</p>  |
 | Escalabilidad de Lectura  | <p align="justify">Añadir réplicas de lectura con latencia muy baja y carga balanceada automáticamente entre las réplicas.</p>  | <p align="justify">Configuración de réplicas de lectura más compleja y menos eficiente.</p>  |
 | Resiliencia y Recuperación  | <p align="justify">Recuperación en segundos y múltiples copias de los datos asegurando alta durabilidad.</p>  | <p align="justify">Recuperación más lenta y menor durabilidad sin configuraciones adicionales.</p>  |
