@@ -21,10 +21,14 @@ Los siguientes diagramas ilustran cómo funcionan los sitios web estáticos y di
 
 ## Laboratorio del módulo 4: configuración de un sitio web estático
 ### Tarea 1: Crear y configurar un bucket como sitio web
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7bc23f5a-5c85-44bd-8b68-2392a5b6cc54)
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7bc23f5a-5c85-44bd-8b68-2392a5b6cc54" width="900">
+</p>
 
 ### Tarea 2: Editar la configuración del bloqueo del acceso público
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/0ceef286-f506-4cc0-8e3b-3b71d4052473)
+<p align= "center">
+  <img src=https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/0ceef286-f506-4cc0-8e3b-3b71d4052473"" width="900">
+</p>
 
 ### Tarea 3: Agregar una política de buckets para el acceso público
 ```
@@ -47,8 +51,11 @@ Los siguientes diagramas ilustran cómo funcionan los sitios web estáticos y di
 ```
 
 ### Tarea 4: Cargar un documento índice
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e9eff574-7848-4c9a-b21d-ccbc3503c07f)
+<p align= "center">
+  <img src=https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e9eff574-7848-4c9a-b21d-ccbc3503c07f"" width="900">
+</p>
 
 ### Tarea 5: Probar el sitio web
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3aea68c0-3bd5-40b1-89f5-28f31193212c)
-
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3aea68c0-3bd5-40b1-89f5-28f31193212c" width="900">
+</p>
