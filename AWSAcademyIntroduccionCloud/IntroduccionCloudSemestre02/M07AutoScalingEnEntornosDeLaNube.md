@@ -34,3 +34,5 @@ Amazon EC2 Auto Scaling realizará tres funciones principales a fin de automatiz
 ### Escalado predictivo
 
 ### Características de AWS Auto Scaling
+
+### Plantillas de lanzamiento
