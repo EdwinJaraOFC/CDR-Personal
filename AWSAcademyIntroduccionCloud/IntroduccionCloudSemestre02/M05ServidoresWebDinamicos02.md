@@ -20,3 +20,40 @@
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/dad23ca8-b533-44f1-8f09-4a9871a42fe7" width="650">
 </p>
+
+## Laboratorio del módulo 5: Creación de una distribución de CloudFront
+### Tarea 1: Crear un bucket
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5c41c85a-4ad9-45ed-9dca-0f6b897b063a)
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c09bc5e7-85d8-4134-b5d0-77b420563b76)
+
+### Tarea 2: Añadir una política de buckets para el acceso público
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PublicReadForGetBucketObjects",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": [
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::<EXAMPLE-BUCKET>/*"
+            ]
+        }
+    ]
+}
+```
+
+### Tarea 3: Crear una distribución con CloudFront
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ba495723-5ce7-4b73-8bac-b5a59936628b)
+
+### Tarea 4: Probar la distribución
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/580e8778-f67c-4ded-acee-7f37e2e7bcac)
+
+### Tarea 5: Modificar la distribución
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/54d17096-c86f-4dab-8898-d20a7a6ade09)
+
+### Tarea 6: Desactivar la distribución
+![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/f95da63d-0bc3-44d4-86d5-49c342ae025b)
