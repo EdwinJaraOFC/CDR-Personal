@@ -13,19 +13,7 @@
 
 ## Conceptos
 Los servicios de IA de AWS incluyen:
-
-<p align="center">
-  
-| Servicio  | ¿Qué ofrece?  |
-| :------------: | :------------: |
-| Amazon Comprehend  | Descubra información y relaciones en texto.  |
-| Amazon Forecast  | Aumente la precisión de los pronósticos con ML.  |
-| Amazon Lex  | Cree chatbots de voz y texto.  |
-| Amazon Personalize  | Cree recomendaciones en tiempo real en su aplicaciones.  |
-| Amazon Polly  | Convierta texto en voz realista.  |
-| Amazon Rekognition  | Analice imagen y video.  |
-| Amazon Textract  | Extraiga texto y datos de documentos.  |
-| Amazon Translate  | Traduzca textos con mayor precisión.  |
-| Amazon Transcribe  | Traduzca archivos de audio a texto.  |
-
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1c6c6152-f840-4557-8717-119626aa2a7b" width="900">
 </p>
+
