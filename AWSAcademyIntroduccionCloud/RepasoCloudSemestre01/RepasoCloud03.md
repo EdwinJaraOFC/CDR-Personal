@@ -19,6 +19,10 @@
 | Seguridad  | <p align="justify">Incluye características de seguridad avanzadas, como cifrado de datos en reposo, en tránsito e integración con AWS Identity and Access Management (IAM)</p>  |
 | Automatización y Gestión  | <p align="justify">Aurora se integra con otros servicios de AWS para proporcionar un entorno de gestión automatizado, que incluye actualizaciones automáticas de software, monitoreo y copias de seguridad.</p>  |
 
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2850d782-80b1-400c-8088-5d401b4bffcf" width="900">
+</p>
+
 Discute las características que hacen a Amazon Aurora una opción preferida para aplicaciones de alta disponibilidad y rendimiento.
 
 ### Diferencias con Otros Motores de Base de Datos Compatibles con MySQL y PostgreSQL y ventajas de Amazon Aurora sobre estas
