@@ -14,8 +14,8 @@
 - Solo se puede implementar una única instancia maestra de base de datos → operaciones de lectura y escritura
 
 #### Amazon ofrece Multi-AZ
-Implementa una copia principal (maestra) de tu base de datos en una zona de disponibilidad y una copia secundaria (en espera) se implementa en otra zona de disponibilidad
-			Replicación síncrona
+Implementa una copia principal (maestra) de tu base de datos en una zona de disponibilidad y una copia secundaria (en espera) se implementa en otra zona de disponibilidad<br>
+			Replicación síncrona<br>
 Copia maestra -----------------------------------------------------> Copia en espera
 
 #### Conmutación por error
