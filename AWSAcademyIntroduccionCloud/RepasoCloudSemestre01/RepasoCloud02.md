@@ -3,16 +3,6 @@
   <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Temas: VPC, Route53, CloudFront</h1>
 </p>
 
-## Terminología
-
-| Término  | Concepto  |
-| :------------: | :------------: |
-| Red de entrega de contenido (CDN)  | <p align="justify">Red de servicios distribuidos que proporciona páginas web y otro contenido web de forma segura en función de la ubicación geográfica del usuario.</p>  |
-| Memoria Caché  | <p align="justify">Forma de almacenamiento temporal de alta velocidad que guarda copias de datos o contenidos para que futuras solicitudes de esos datos se puedan satisfacer más rápidamente.</p>  |
-| Control de Caché Avanzado  | <p align="justify">Técnicas y políticas empleadas para gestionar el almacenamiento y la expiración de datos en la caché de manera eficiente. Esto incluye determinar qué datos deben almacenarse, durante cuánto tiempo, y cuándo deben eliminarse.</p>  |
-| Técnicas de control de caché  | <p align="justify">LRU (Least Recently Used), FIFO (First In, First Out), LFU (Least Frequently Used).</p>  |
-| Políticas de caché  | <p align="justify">Definen las reglas y estrategias para gestionar cómo se almacena y se elimina el contenido en la caché.</p>  |
-
 ## Código
 ### Ejercicio 8: Simulación de un CDN con control de caché avanzado
 Implementar una CDN que almacene en caché contenido y soporte políticas de caché avanzadas como expiración basada en tiempo y tamaño máximo de caché.
@@ -27,6 +17,16 @@ Implementar una CDN que almacene en caché contenido y soporte políticas de cac
 
 #### Simular solicitudes de contenido:
 - Implementa un método para simular solicitudes de contenido que respete las políticas de caché.
+
+## Terminología
+
+| Término  | Concepto  |
+| :------------: | :------------: |
+| Red de entrega de contenido (CDN)  | <p align="justify">Red de servicios distribuidos que proporciona páginas web y otro contenido web de forma segura en función de la ubicación geográfica del usuario.</p>  |
+| Memoria Caché  | <p align="justify">Forma de almacenamiento temporal de alta velocidad que guarda copias de datos o contenidos para que futuras solicitudes de esos datos se puedan satisfacer más rápidamente.</p>  |
+| Control de Caché Avanzado  | <p align="justify">Técnicas y políticas empleadas para gestionar el almacenamiento y la expiración de datos en la caché de manera eficiente. Esto incluye determinar qué datos deben almacenarse, durante cuánto tiempo, y cuándo deben eliminarse.</p>  |
+| Técnicas de control de caché  | <p align="justify">LRU (Least Recently Used), FIFO (First In, First Out), LFU (Least Frequently Used).</p>  |
+| Políticas de caché  | <p align="justify">Definen las reglas y estrategias para gestionar cómo se almacena y se elimina el contenido en la caché.</p>  |
 
 ```
 import os
