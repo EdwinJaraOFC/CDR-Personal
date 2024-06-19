@@ -18,8 +18,9 @@
 <p align="justify">Trabajar con Amazon EC2 para administrar sus instancias desde el momento que las lanza hasta su terminación, garantiza que los clientes tengan el mejor rendimiento posible y la experiencia resultante con las aplicaciones o sitios que aloja en sus instancias.</p>
 
 La siguiente ilustración representa las transiciones entre los estados de las instancias:
-
-![image](https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6146f707-3b7b-4716-939d-5fb7f67a16e8)
+<p align= "center">
+  <img src=https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6146f707-3b7b-4716-939d-5fb7f67a16e8"" width="900">
+</p>
 
 Amazon EC2 ofrece las siguientes opciones de compra en función de sus necesidades:
 - Instancias bajo demanda
