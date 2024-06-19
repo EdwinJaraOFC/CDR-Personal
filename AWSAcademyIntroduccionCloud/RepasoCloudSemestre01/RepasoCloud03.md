@@ -23,7 +23,7 @@
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/2850d782-80b1-400c-8088-5d401b4bffcf" width="900">
 </p>
 
-Discute las características que hacen a Amazon Aurora una opción preferida para aplicaciones de alta disponibilidad y rendimiento.
+**Pregunta 2:** Discute las características que hacen a Amazon Aurora una opción preferida para aplicaciones de alta disponibilidad y rendimiento.
 
 ### Diferencias con Otros Motores de Base de Datos Compatibles con MySQL y PostgreSQL y ventajas de Amazon Aurora sobre estas
 
