@@ -4,7 +4,7 @@
 </p>
 
 ## Ejercicio 8: Introducción a Amazon Aurora
-Explica qué es Amazon Aurora y cómo difiere de otros motores de base de datos compatibles con MySQL y PostgreSQL.
+**Pregunta 1:** Explica qué es Amazon Aurora y cómo difiere de otros motores de base de datos compatibles con MySQL y PostgreSQL.
 
 <p align="justify">Amazon Aurora es un servicio de base de datos relacional desarrollado por AWS que está diseñado para ser compatible con MySQL y PostgreSQL. Aurora combina la disponibilidad y el rendimiento de bases de datos comerciales de alto nivel con la simplicidad y el coste de bases de datos de código abierto.</p>
 
