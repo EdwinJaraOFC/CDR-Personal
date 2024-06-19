@@ -54,9 +54,8 @@ Lambda crea una función Node.js que escribe el texto "Hello from Lambda!". <br>
 Puede utilizar el diseñador para probar su función.
 - Vaya a la sección Code source (Fuente de código) y elija la pestaña Test (Prueba). Aquí puede crear nuevos scripts de prueba o modificar los existentes.
 - En Event name (Nombre del evento), escriba mytestevent y, a continuación, elija Save (Guardar).
-#### Nota
-- Un evento de prueba es un objeto JSON que imita la estructura de las solicitudes emitidas por los servicios AWS para invocar una función de Lambda. Se utiliza para ver el resultado de la invocación de la función.
-- Para invocar la función sin guardar un evento, configure el evento JSON y luego elija probar.
+
+**Nota:** Un evento de prueba es un objeto JSON que imita la estructura de las solicitudes emitidas por los servicios AWS para invocar una función de Lambda. Se utiliza para ver el resultado de la invocación de la función. Para invocar la función sin guardar un evento, configure el evento JSON y luego elija probar.
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/604f81cd-d8b0-4a6a-8804-62d4b84dce2a" width="900">
 </p>
