@@ -46,7 +46,16 @@ Amazon EC2 Auto Scaling realizará tres funciones principales a fin de automatiz
 
 ## Laboratorio del módulo 7: Creación de plantillas de lanzamiento y grupos de Auto Scaling
 ### Tarea 1: Crear una plantilla de lanzamiento
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/196212c3-327c-4314-b2c6-277822d0dadc" width="900">
+</p>
 
 ### Tarea 2: Crear un grupo de Auto Scaling
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/1829153e-0a52-466a-87ff-91987114c4ee" width="900">
+</p>
 
 ### Tarea 3: Verificar el grupo de Auto Scaling
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/281d3942-6a1d-43d0-a87c-932adf6e8b9e" width="900">
+</p>
