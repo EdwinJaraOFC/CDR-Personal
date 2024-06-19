@@ -27,11 +27,26 @@ Los servicios de IA de AWS incluyen:
 
 ## Laboratorio del módulo 8: utilización de IA para el análisis de texto
 ### Tarea 1: Análisis de sentimiento de la reseña del primer libro
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/39b711a8-2425-4327-bdd4-81cc6b51cde0" width="800">
+</p>
 
 ### Tarea 2: Análisis de sentimiento de la reseña del segundo libro
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3ad93981-c50e-4253-9611-38149eaadb01" width="800">
+</p>
 
 ### Tarea 3: Ver entidades detectadas en la reseña
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e0138501-0f10-498f-9e52-71d654133fa9" width="800">
+</p>
 
 ### Tarea 4: Ver las frases clave detectadas en la reseña
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/7dc276b2-a767-4b54-ae82-92f48a6ed633" width="800">
+</p>
 
 ### Tarea 5: Analizar la tercera reseña
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d32b07fc-2afd-4d33-b207-0fa6f8783a9e" width="800">
+</p>
