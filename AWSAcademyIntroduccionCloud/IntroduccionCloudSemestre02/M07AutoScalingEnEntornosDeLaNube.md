@@ -22,3 +22,15 @@ El escalado dinámico y el escalado predictivo se pueden usar juntos para escala
 - Amazon EC2 Auto Scaling ayuda a garantizar que su aplicación siempre tenga la cantidad correcta de potencia de cómputo y aprovisione la capacidad de forma proactiva con escalado predictivo.
 - Amazon EC2 Auto Scaling agrega instancias solo cuando es necesario y puede escalar a través de opciones de compra para optimizar el rendimiento y el costo.
 
+Amazon EC2 Auto Scaling realizará tres funciones principales a fin de automatizar la administración de flota para instancias EC2:
+- Monitorea el estado de instancias en ejecución.
+- Reemplaza de forma automática instancias deterioradas.
+- Equilibra la capacidad entre las zonas de disponibilidad.
+
+### Escalado programado
+
+### Escalado dinámico
+
+### Escalado predictivo
+
+### Características de AWS Auto Scaling
