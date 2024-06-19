@@ -44,7 +44,7 @@ Amazon EC2 ofrece las siguientes opciones de compra en función de sus necesidad
 ### Tarea 2: Probar la función
 <p align= "center">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/604f81cd-d8b0-4a6a-8804-62d4b84dce2a" width="900">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/801e81fd-e3b1-458c-b5d8-832098372e99" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/801e81fd-e3b1-458c-b5d8-832098372e99" width="700">
   <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b88e7807-4078-43d2-9352-50d3c08284fc" width="900">
 </p>
 
