@@ -3,6 +3,37 @@
   <h1 align="center">Repaso de computación en la Nube y servicios AWS<br>Temas: Base de datos en AWS</h1>
 </p>
 
+## Ejercicio 7: Escalabilidad horizontal con réplicas de lectura
+- Describe cómo se configuran y utilizan las réplicas de lectura en Amazon RDS.
+- Proporciona un ejemplo de un caso de uso en el que las réplicas de lectura mejorarían significativamente el rendimiento
+
+### Amazon Relational Database Service (Amazon RDS)
+- Bases de datos relacionales
+- RDBMS: Sistema de gestión de bases de datos relacionales, ejemplo: Mysql, postgreSQL, MariaDB, Oracle, Amazon Aurora
+- CRUD: crear, leer, actualizar, eliminar 
+- Solo se puede implementar una única instancia maestra de base de datos → operaciones de lectura y escritura
+
+#### Amazon ofrece Multi-AZ
+Implementa una copia principal (maestra) de tu base de datos en una zona de disponibilidad y una copia secundaria (en espera) se implementa en otra zona de disponibilidad
+			Replicación síncrona
+Copia maestra -----------------------------------------------------> Copia en espera
+
+#### Conmutación por error
+Copia maestra (X) —->    Copia en espera => Copia maestra
+
+### Réplicas de lectura
+- Se replican desde la base de datos de origen
+- Facilitan el escalamiento horizontal 
+- Redirigir consultas de solo lectura de datos
+
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/ec61a7e9-da16-42fe-9237-06ad996b9955" width="500">
+</p>
+
+#### Caso de uso → mejora de rendimiento
+Podemos redirigir las consultas de lectura a nuestras réplicas de lectura y nuestra copia maestra se puede concentrar en las consultas de escritura
+
+
 ## Ejercicio 8: Introducción a Amazon Aurora
 **Pregunta 1:** Explica qué es Amazon Aurora y cómo difiere de otros motores de base de datos compatibles con MySQL y PostgreSQL.
 
