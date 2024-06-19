@@ -27,6 +27,8 @@ Implementar una CDN que almacene en caché contenido y soporte políticas de cac
 | Técnicas de control de caché  | <p align="justify">LRU (Least Recently Used), FIFO (First In, First Out), LFU (Least Frequently Used).</p>  |
 | Políticas de caché  | <p align="justify">Definen las reglas y estrategias para gestionar cómo se almacena y se elimina el contenido en la caché.</p>  |
 
+## Código
+
 ```
 import os
 import random
