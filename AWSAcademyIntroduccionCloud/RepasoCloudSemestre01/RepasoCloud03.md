@@ -15,8 +15,9 @@
 
 #### Amazon ofrece Multi-AZ
 Implementa una copia principal (maestra) de tu base de datos en una zona de disponibilidad y una copia secundaria (en espera) se implementa en otra zona de disponibilidad<br>
-			Replicación síncrona<br>
-Copia maestra -----------------------------------------------------> Copia en espera
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/6bd2e3a7-4619-4839-bb46-bab6e87b287e" width="600">
+</p>
 
 #### Conmutación por error
 Copia maestra (X) —->    Copia en espera => Copia maestra
