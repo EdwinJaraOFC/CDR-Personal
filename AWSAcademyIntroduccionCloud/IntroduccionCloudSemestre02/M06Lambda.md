@@ -37,7 +37,19 @@ Amazon EC2 ofrece las siguientes opciones de compra en función de sus necesidad
 
 ## Laboratorio del módulo 6: Creación de una función de Lambda
 ### Tarea 1: Crear una función de Lambda
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/c7e48cb0-644b-48fd-8ddf-5ff891ad2872" width="900">
+</p>
 
 ### Tarea 2: Probar la función
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/604f81cd-d8b0-4a6a-8804-62d4b84dce2a" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/801e81fd-e3b1-458c-b5d8-832098372e99" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/b88e7807-4078-43d2-9352-50d3c08284fc" width="900">
+</p>
 
 ### Tarea 3: Ver las métricas y registros de CloudWatch
+<p align= "center">
+  <img src=https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d3ac8634-ed4e-4be6-8a04-9e87101ca226"" width="900">
+  <img src=https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/5e68357d-ae14-4a63-8180-957d8025a4fe"" width="900">
+</p>
