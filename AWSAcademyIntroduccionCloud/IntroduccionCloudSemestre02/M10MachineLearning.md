@@ -35,14 +35,14 @@ Puede tener algunos conceptos erróneos sobre el ML. Corrijamos estos errores de
 - En la sección Training details (Detalles del entrenamiento), en la opción Model name (Nombre del modelo), ingrese un nombre para el modelo.
 - En la sección Environment simulation (Simulación de entorno), elija la pista re:Invent 2018.
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cdc01d95-05a7-4fb7-9cb3-a1ca939e453f" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cdc01d95-05a7-4fb7-9cb3-a1ca939e453f" width="700">
 </p>
 
 #### Paso 2
 - Race type (Tipo de carrera): elija Time trial (Prueba contrarreloj), que es la opción predeterminada.
 - Training algorithm and hyperparameters (Hiperparámetros y algoritmo de entrenamiento): elija PPO, que es la opción predeterminada.
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a126d6b6-54b0-4d4f-8819-45e699ee36fe" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a126d6b6-54b0-4d4f-8819-45e699ee36fe" width="700">
 </p>
 
 | ¿Por qué es importante el espacio de acción?  | Imagen  |
@@ -55,7 +55,7 @@ Puede tener algunos conceptos erróneos sobre el ML. Corrijamos estos errores de
 #### Paso 4
 - Acepte el vehículo predeterminado (The Original DeepRacer) y elija Next (Siguiente).
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3d9d5f7a-c8db-45eb-b0d3-a36476285bb9" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3d9d5f7a-c8db-45eb-b0d3-a36476285bb9" width="700">
 </p>
 
 #### Paso 5
@@ -64,7 +64,7 @@ Puede tener algunos conceptos erróneos sobre el ML. Corrijamos estos errores de
 - Seleccione su país de residencia.
 - Seleccione Create model (Crear modelo).
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/dea145aa-cb56-46be-b21d-83468a641f49" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/dea145aa-cb56-46be-b21d-83468a641f49" width="700">
 </p>
 
 ### Tarea 2: Evaluar la simulación
