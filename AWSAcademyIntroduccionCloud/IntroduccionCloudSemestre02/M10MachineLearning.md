@@ -69,5 +69,5 @@ Puede tener algunos conceptos erróneos sobre el ML. Corrijamos estos errores de
 
 ### Tarea 2: Evaluar la simulación
 <p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e8511eb8-6afd-4784-b044-c3978c66799c" width="900">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/e8511eb8-6afd-4784-b044-c3978c66799c" width="700">
 </p>
