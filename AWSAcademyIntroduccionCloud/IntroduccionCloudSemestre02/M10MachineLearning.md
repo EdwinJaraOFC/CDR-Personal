@@ -31,5 +31,40 @@ Puede tener algunos conceptos erróneos sobre el ML. Corrijamos estos errores de
 | :------------: | :------------: |
 | <p align="justify">En el aprendizaje por refuerzo para AWS DeepRacer, un agente (vehículo) aprende de un entorno (una pista) al interactuar con él y recibir recompensas por realizar acciones específicas.</p> <p align="justify">El proceso de entrenamiento del modelo simulará múltiples experiencias del vehículo en la pista en un intento de encontrar una política (una función que asigna el estado actual del agente a una decisión de conducción) que maximice la recompensa total promedio que experimenta el agente </p> <p align="justify">Después del entrenamiento, podrá evaluar el rendimiento del modelo en un nuevo entorno, implementar el modelo en un vehículo físico o enviar el modelo a un circuito virtual.</p>  | <p align= "center"><img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4507f1b7-611a-4e51-9bfb-2e5e3f4b0ab1" width="500"></p>  |
 
+#### Paso 1
+- En la sección Training details (Detalles del entrenamiento), en la opción Model name (Nombre del modelo), ingrese un nombre para el modelo.
+- En la sección Environment simulation (Simulación de entorno), elija la pista re:Invent 2018.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/cdc01d95-05a7-4fb7-9cb3-a1ca939e453f" width="900">
+</p>
+
+#### Paso 2
+- Race type (Tipo de carrera): elija Time trial (Prueba contrarreloj), que es la opción predeterminada.
+- Training algorithm and hyperparameters (Hiperparámetros y algoritmo de entrenamiento): elija PPO, que es la opción predeterminada.
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/a126d6b6-54b0-4d4f-8819-45e699ee36fe" width="900">
+</p>
+
+| ¿Por qué es importante el espacio de acción?  | Imagen  |
+| :------------: | :------------: |
+| <p align="justify">En el aprendizaje por refuerzo, el conjunto de todas las acciones válidas u opciones disponibles para un agente cuando interactúa con un entorno se denomina espacio de acción. En la consola de AWS DeepRacer, puede entrenar agentes en un espacio de acción discreto o continuo.</p><p align="justify">Al entrenar un modelo de AWS DeepRacer, el espacio de acción define qué combinaciones de velocidad y ángulo de dirección están disponibles para el agente. Una acción es una única combinación o opción de velocidad y ángulo de dirección que puede realizar un agente.</p>  | <p align= "center"><img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/d788eb4a-d59c-499c-93eb-879962dfe143" width="900"></p>  |
+
+#### Paso 3
+- En la sección Select action space (Seleccionar espacio de acción), en la opción Action spaces (Espacios de acción), elija Continuous action space (Espacio de acción continuo), que es la opción predeterminada.
+
+#### Paso 4
+- Acepte el vehículo predeterminado (The Original DeepRacer) y elija Next (Siguiente).
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/3d9d5f7a-c8db-45eb-b0d3-a36476285bb9" width="900">
+</p>
+
+#### Paso 5
+- En la sección Automatically submit... (Enviar automáticamente...), desactive la opción Submit this model... (Enviar este modelo...).
+- Lea y acepte la sección Terms and conditions (Términos y condiciones).
+- Seleccione su país de residencia.
+- Seleccione Create model (Crear modelo).
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/dea145aa-cb56-46be-b21d-83468a641f49" width="900">
+</p>
 
 ### Tarea 2: Evaluar la simulación
