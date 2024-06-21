@@ -27,13 +27,9 @@ Puede tener algunos conceptos erróneos sobre el ML. Corrijamos estos errores de
 
 ## Laboratorio del módulo 10: Aprendizaje por refuerzo con AWS DeepRacer
 ### Tarea 1: Crear un modelo
-<p align="justify">En el aprendizaje por refuerzo para AWS DeepRacer, un agente (vehículo) aprende de un entorno (una pista) al interactuar con él y recibir recompensas por realizar acciones específicas.</p>
-<p align="justify">
-El proceso de entrenamiento del modelo simulará múltiples experiencias del vehículo en la pista en un intento de encontrar una política (una función que asigna el estado actual del agente a una decisión de conducción) que maximice la recompensa total promedio que experimenta el agente.</p>
-<p align="justify">
-Después del entrenamiento, podrá evaluar el rendimiento del modelo en un nuevo entorno, implementar el modelo en un vehículo físico o enviar el modelo a un circuito virtual.</p>
-<p align= "center">
-  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4507f1b7-611a-4e51-9bfb-2e5e3f4b0ab1" width="500">
-</p>
+| Descripción General  | Imagen  |
+| :------------: | :------------: |
+| <p align="justify">En el aprendizaje por refuerzo para AWS DeepRacer, un agente (vehículo) aprende de un entorno (una pista) al interactuar con él y recibir recompensas por realizar acciones específicas.</p> <p align="justify">El proceso de entrenamiento del modelo simulará múltiples experiencias del vehículo en la pista en un intento de encontrar una política (una función que asigna el estado actual del agente a una decisión de conducción) que maximice la recompensa total promedio que experimenta el agente </p> <p align="justify">Después del entrenamiento, podrá evaluar el rendimiento del modelo en un nuevo entorno, implementar el modelo en un vehículo físico o enviar el modelo a un circuito virtual.</p>  | <p align= "center"><img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4507f1b7-611a-4e51-9bfb-2e5e3f4b0ab1" width="500"></p>  |
+
 
 ### Tarea 2: Evaluar la simulación
