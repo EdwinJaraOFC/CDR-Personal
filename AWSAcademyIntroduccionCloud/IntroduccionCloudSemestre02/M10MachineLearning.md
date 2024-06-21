@@ -24,3 +24,16 @@ Puede tener algunos conceptos erróneos sobre el ML. Corrijamos estos errores de
 
 <p align="justify">La AI y el ML pueden confundirse con seres vivos o conscientes. Sin embargo, puede reforzar el concepto de que el ML es un esfuerzo por conseguir que las computadoras funcionen de manera similar a la mente humana; de hecho, los sistemas de ML a veces se denominan redes neuronales debido a la similitud. No obstante, el núcleo del ML es digital y no se encuentra vivo.</p>
 <p align="justify">A veces, los sistemas informáticos se consideran aprendices o pensadores superiores a las personas. Aunque esto quizás sea verdad en el caso de la velocidad de procesamiento, los errores humanos más comunes también pueden estar presentes en el ML. Aquí, el principio de basura entra, basura sale es importante. El sistema de ML aún se basa en algoritmos y datos que se ven afectados por errores subyacentes. Por ejemplo, un banco puede intentar enseñar a una máquina a reconocer el fraude. Si los clientes realizan un mal trabajo al denunciar el fraude o presentan informes falsos, los datos harán que el sistema informático identifique el fraude de forma incorrecta.</p>
+
+## Laboratorio del módulo 10: Aprendizaje por refuerzo con AWS DeepRacer
+### Tarea 1: Crear un modelo
+<p align="justify">En el aprendizaje por refuerzo para AWS DeepRacer, un agente (vehículo) aprende de un entorno (una pista) al interactuar con él y recibir recompensas por realizar acciones específicas.</p>
+<p align="justify">
+El proceso de entrenamiento del modelo simulará múltiples experiencias del vehículo en la pista en un intento de encontrar una política (una función que asigna el estado actual del agente a una decisión de conducción) que maximice la recompensa total promedio que experimenta el agente.</p>
+<p align="justify">
+Después del entrenamiento, podrá evaluar el rendimiento del modelo en un nuevo entorno, implementar el modelo en un vehículo físico o enviar el modelo a un circuito virtual.</p>
+<p align= "center">
+  <img src="https://github.com/EdwinJaraOFC/CDRPersonal/assets/150296803/4507f1b7-611a-4e51-9bfb-2e5e3f4b0ab1" width="500">
+</p>
+
+### Tarea 2: Evaluar la simulación
