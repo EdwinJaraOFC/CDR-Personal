@@ -239,12 +239,11 @@ def enable_mfa_for_user(iam_service, user_name):
     except ValueError as e:
         print(f"Error: {e}")
 
-
+import uuid
 def generate_temporary_credentials():
     """
     Genera credenciales temporales (clave de acceso, clave secreta y token de sesión).
     """
-    import uuid
     access_key = str(uuid.uuid4())
     secret_key = str(uuid.uuid4())
     session_token = str(uuid.uuid4())
